@@ -1,112 +1,71 @@
 [
   {
-    "pregunta": "¿Qué diferencia existe entre un recurso y una capacidad en el diagnóstico interno empresarial?",
-    "opciones": [
-      "Los recursos son activos disponibles (equipo, personal, capital); las capacidades son habilidades coordinadas que la organización sabe ejecutar.",
-      "Los recursos son intangibles y las capacidades son únicamente financieras.",
-      "Los recursos pertenecen al macroentorno y las capacidades a los proveedores.",
-      "Son sinónimos exactos sin distinción metodológica."
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué diferencia existe entre un recurso y una capacidad en el análisis interno?",
+    "options": [
+      "Los recursos son activos disponibles, como equipo, personal y dinero; las capacidades son actividades que la organización sabe ejecutar, como coordinar proveedores o resolver incidencias.",
+      "Los recursos son condiciones del entorno que la empresa no controla; las capacidades son los activos financieros.",
+      "Los recursos pertenecen a los proveedores y las capacidades a los clientes.",
+      "No hay diferencia: ambos términos se usan como sinónimos en el diagnóstico."
     ],
-    "respuesta_correcta": "Los recursos son activos disponibles (equipo, personal, capital); las capacidades son habilidades coordinadas que la organización sabe ejecutar.",
-    "explicacion": "Disponer de un guía es tener un recurso; saber interpretar el patrimonio y resolver incidencias de los visitantes es una capacidad."
+    "answer": "Los recursos son activos disponibles, como equipo, personal y dinero; las capacidades son actividades que la organización sabe ejecutar, como coordinar proveedores o resolver incidencias.",
+    "explicacion": "Contar con un guía es un recurso; interpretar el patrimonio y resolver incidencias es una capacidad. El enfoque VRIO evalúa si aportan valor, son raros, difíciles de imitar y si la organización está preparada para aprovecharlos (Bright & Cortes, 2019, sección 8.5)."
   },
   {
-    "pregunta": "¿Qué evalúa el enfoque VRIO en una operadora turística según Bright & Cortes (2019)?",
-    "opciones": [
-      "Si un recurso o capacidad es Valioso, Raro, difícil de Imitar y está Organizado para explotar una ventaja competitiva sostenible.",
-      "La Velocidad, Rentabilidad, Inversión y Operatividad del transporte turístico.",
-      "El Volumen de reservas, Rendimiento de pauta, Ingreso neto y Ocupación hotelera.",
-      "La Variabilidad, Rigidez, Inseparabilidad y Oportunidad del producto."
-    ],
-    "respuesta_correcta": "Si un recurso o capacidad es Valioso, Raro, difícil de Imitar y está Organizado para explotar una ventaja competitiva sostenible.",
-    "explicacion": "Tener un sitio web no confiere ventaja VRIO si cualquier competidor puede adquirir uno idéntico en el mercado."
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "La frase “la atención es mala” es una evidencia adecuada para el diagnóstico, porque describe un resultado medible.",
+    "answer": false,
+    "explicacion": "Es una valoración que no especifica qué debe corregirse. En cambio, “la empresa tarda doce horas en confirmar reservas” describe un resultado medible. Deben separarse hechos observados, interpretaciones e hipótesis."
   },
   {
-    "pregunta": "¿Qué dimensiones del macroentorno externo examina el marco analítico PESTEL?",
-    "opciones": [
-      "Políticas, económicas, socioculturales, tecnológicas, ambientales y legales.",
-      "Precios, estándares, tarifas, estacionalidad y logística.",
-      "Publicidad, empaque, segmentación, transporte y liderazgo.",
-      "Ponderaciones, escalas, tendencias, enlaces y lealtad."
+    "id": 3,
+    "type": "completar_oracion",
+    "question": "PESTEL organiza el análisis del _____ en dimensiones políticas, económicas, socioculturales, tecnológicas, ambientales y legales; su clasificación como oportunidad o _____ depende de sus efectos sobre la organización.",
+    "wordBank": [
+      "macroentorno",
+      "amenaza",
+      "microentorno",
+      "fortaleza"
     ],
-    "respuesta_correcta": "Políticas, económicas, socioculturales, tecnológicas, ambientales y legales.",
-    "explicacion": "PESTEL estructura las fuerzas no controladas que impactan a la empresa turística."
+    "answer": [
+      "macroentorno",
+      "amenaza"
+    ],
+    "explicacion": "Las categorías PESTEL ayudan a identificar cambios externos; si son oportunidad o amenaza depende de su efecto y de la capacidad de respuesta de la empresa (Bright & Cortes, 2019, sección 8.3)."
   },
   {
-    "pregunta": "En el modelo de las cinco fuerzas de Porter, ¿cuál es la diferencia entre un competidor rival y un producto sustituto?",
-    "opciones": [
-      "Un rival compite con una oferta comparable de la misma categoría; un sustituto satisface la misma necesidad recreativa mediante una alternativa diferente.",
-      "El rival pertenece al gobierno y el sustituto a la iniciativa privada.",
-      "El rival vende más barato y el sustituto ofrece crédito a meses.",
-      "No existe diferencia; ambos términos describen a las empresas del mismo clúster."
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Según el modelo de las cinco fuerzas, para Rutas del Centro una actividad recreativa distinta que podría reemplazar la salida de fin de semana es:",
+    "options": [
+      "Un sustituto",
+      "Un rival",
+      "Un nuevo entrante",
+      "Un proveedor"
     ],
-    "respuesta_correcta": "Un rival compite con una oferta comparable de la misma categoría; un sustituto satisface la misma necesidad recreativa mediante una alternativa diferente.",
-    "explicacion": "Para Rutas del Centro, otra operadora cultural es un rival; una actividad deportiva o un centro comercial es un sustituto de ocio."
+    "answer": "Un sustituto",
+    "explicacion": "Un sustituto satisface una necesidad similar mediante una oferta diferente; un rival, como otra operadora cultural, compite con una propuesta comparable (Bright & Cortes, 2019, sección 8.4)."
   },
   {
-    "pregunta": "¿Por qué es riesgoso utilizar cifras de visitantes totales de un destino como si fueran clientes potenciales inmediatos?",
-    "opciones": [
-      "Porque sobreestima de forma irreal el mercado disponible al no filtrar por perfil, presupuesto, intereses ni duración de estancia.",
-      "Porque los datos de afluencia turística son confidenciales.",
-      "Porque las estadísticas oficiales están prohibidas en planes de marketing.",
-      "Porque la Secretaría de Turismo solo registra turistas internacionales."
+    "id": 5,
+    "type": "ordenar_oracion",
+    "question": "Ordena los elementos de la ficha por factor que se propone para construir evidencia.",
+    "segments": [
+      "Descripción,",
+      "origen del dato,",
+      "periodo,",
+      "efecto esperado",
+      "y nivel de confianza."
     ],
-    "respuesta_correcta": "Porque sobreestima de forma irreal el mercado disponible al no filtrar por perfil, presupuesto, intereses ni duración de estancia.",
-    "explicacion": "Un millón de visitantes no significa un millón de compradores de un tour de un día; el mercado meta debe delimitarse con rigor."
-  },
-  {
-    "pregunta": "¿Qué información debe contener una ficha de factor de entorno para considerarse evidencia sólida?",
-    "opciones": [
-      "Descripción del hecho medible, origen del dato, periodo observado, efecto esperado y nivel de confianza.",
-      "Únicamente una opinión general de agrado o desagrado sobre el destino.",
-      "La biografía de los directores generales de los hoteles competidores.",
-      "El presupuesto anual de la Secretaría de Hacienda y Crédito Público."
+    "answer": [
+      "Descripción,",
+      "origen del dato,",
+      "periodo,",
+      "efecto esperado",
+      "y nivel de confianza."
     ],
-    "respuesta_correcta": "Descripción del hecho medible, origen del dato, periodo observado, efecto esperado y nivel de confianza.",
-    "explicacion": "Separar hechos objetivos de juicios de valor garantiza que el diagnóstico estratégico se base en datos comprobables."
-  },
-  {
-    "pregunta": "¿En qué consiste el poder de negociación de los proveedores en una operadora de turismo de naturaleza?",
-    "opciones": [
-      "En la capacidad de transportistas locales exclusivos o propietarios de reservas para imponer tarifas o condiciones por falta de sustitutos.",
-      "En la facultad de los clientes de pagar después de concluida la excursión.",
-      "En el derecho de los guías de fijar las tarifas de los hoteles vecinos.",
-      "En la intervención de la policía turística durante los recorridos."
-    ],
-    "respuesta_correcta": "En la capacidad de transportistas locales exclusivos o propietarios de reservas para imponer tarifas o condiciones por falta de sustitutos.",
-    "explicacion": "Si pocos proveedores pueden prestar el servicio requerido en la región, su poder de negociación es elevado."
-  },
-  {
-    "pregunta": "¿Por qué el diagnóstico estratégico debe delimitar claramente producto, geografía y periodo?",
-    "opciones": [
-      "Porque analizar el 'turismo en general' es demasiado ambiguo para fundamentar decisiones comerciales viables.",
-      "Porque el programa de estudios solo permite analizar un periodo de 30 días.",
-      "Porque las matrices no funcionan con más de una variable demográfica.",
-      "Porque la OMT sanciona a las empresas que operan en más de un estado."
-    ],
-    "respuesta_correcta": "Porque analizar el 'turismo en general' es demasiado ambiguo para fundamentar decisiones comerciales viables.",
-    "explicacion": "Delimitar empresa, público y periodo permite seleccionar datos relevantes y competidores realmente comparables."
-  },
-  {
-    "pregunta": "¿Qué aspecto de la cadena de valor turística evalúa la logística de entrada y operaciones?",
-    "opciones": [
-      "La coordinación de horarios de encuentro, puntualidad de transportes y disponibilidad de anfitriones locales.",
-      "El diseño gráfico de los anuncios en redes sociales.",
-      "La contratación de despachos de auditoría contable externa.",
-      "La presentación de declaraciones de impuestos anuales."
-    ],
-    "respuesta_correcta": "La coordinación de horarios de encuentro, puntualidad de transportes y disponibilidad de anfitriones locales.",
-    "explicacion": "Las operaciones internas abarcan el flujo de servicio, cumplimiento de cupos y resolución inmediata de incidencias."
-  },
-  {
-    "pregunta": "¿Qué pregunta PESTEL corresponde a la dimensión sociocultural en turismo?",
-    "opciones": [
-      "¿Qué intereses, hábitos de consumo y expectativas culturales emergen en el segmento elegido?",
-      "¿Cuáles son los impuestos ecológicos aplicables a las unidades de transporte?",
-      "¿Qué velocidad de conexión a internet ofrecen las carreteras federales?",
-      "¿Cuál es la tasa de inflación interanual del Banco de México?"
-    ],
-    "respuesta_correcta": "¿Qué intereses, hábitos de consumo y expectativas culturales emergen en el segmento elegido?",
-    "explicacion": "La dimensión sociocultural estudia los cambios en valores, composición de grupos de viaje y motivaciones de ocio."
+    "explicacion": "La ficha por factor permite respaldar cada fortaleza, debilidad, oportunidad o amenaza que después entrará en las matrices."
   }
 ]

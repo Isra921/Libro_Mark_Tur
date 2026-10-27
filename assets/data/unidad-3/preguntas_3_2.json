@@ -1,112 +1,58 @@
 [
   {
-    "pregunta": "¿Qué sintetizan respectivamente la Matriz MEFE y la Matriz MEFI según Fred R. David (2011)?",
-    "opciones": [
-      "La MEFE sintetiza oportunidades y amenazas externas; la MEFI resume fortalezas y debilidades internas de la empresa.",
-      "La MEFE evalúa exclusivamente finanzas y la MEFI campañas publicitarias.",
-      "La MEFE analiza competidores internacionales y la MEFI competidores locales.",
-      "Son matrices equivalentes que utilizan los mismos factores sin distinción."
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "En la MEFE, ¿qué indica una calificación de 1?",
+    "options": [
+      "Respuesta deficiente de la empresa ante el factor",
+      "Debilidad mayor",
+      "Respuesta superior",
+      "Fortaleza menor"
     ],
-    "respuesta_correcta": "La MEFE sintetiza oportunidades y amenazas externas; la MEFI resume fortalezas y debilidades internas de la empresa.",
-    "explicacion": "MEFE evalúa la eficacia de respuesta al entorno externo y MEFI audita las capacidades y deficiencias internas."
+    "answer": "Respuesta deficiente de la empresa ante el factor",
+    "explicacion": "En la MEFE: 1 respuesta deficiente, 2 promedio, 3 superior al promedio y 4 superior. La escala de debilidades y fortalezas corresponde a la MEFI (David, 2011, pp. 80–81)."
   },
   {
-    "pregunta": "En ambas matrices (MEFE y MEFI), ¿cuál es la regla metodológica sobre los pesos asignados a los factores?",
-    "opciones": [
-      "Cada peso va de 0.0 (sin importancia) a 1.0 (muy importante) y la suma total de todos los pesos debe ser obligatoriamente 1.00.",
-      "Los pesos pueden sumar cualquier cifra siempre que los factores sean más de diez.",
-      "Todos los factores deben tener exactamente el mismo peso aritmético.",
-      "Los factores externos tienen pesos positivos y los internos pesos negativos."
+    "id": 2,
+    "type": "completar_oracion",
+    "question": "En la MEFE y la MEFI los pesos deben sumar _____ y el punto medio de referencia del total ponderado es _____.",
+    "wordBank": [
+      "1",
+      "2.5",
+      "100",
+      "4"
     ],
-    "respuesta_correcta": "Cada peso va de 0.0 (sin importancia) a 1.0 (muy importante) y la suma total de todos los pesos debe ser obligatoriamente 1.00.",
-    "explicacion": "Los pesos indican la importancia relativa del factor para el éxito en la industria turística y suman 1.00."
+    "answer": [
+      "1",
+      "2.5"
+    ],
+    "explicacion": "Cada peso se multiplica por su calificación y se suman los productos; los totales van de 1 a 4 (David, 2011, pp. 80–81, 122)."
   },
   {
-    "pregunta": "¿Qué escala de calificación de 1 a 4 se utiliza en la Matriz MEFE y qué representa el punto medio de 2.5?",
-    "opciones": [
-      "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior. El 2.5 indica la respuesta promedio del sector.",
-      "1: fortaleza mayor, 2: fortaleza menor, 3: debilidad menor, 4: debilidad mayor. El 2.5 indica equilibrio de mercado.",
-      "1: pésimo, 2: regular, 3: bueno, 4: excelente. El 2.5 indica que la empresa quebrará en 6 meses.",
-      "1: riesgo mínimo, 2: riesgo medio, 3: riesgo alto, 4: riesgo crítico. El 2.5 es la meta mínima."
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "En la MEFI de Rutas del Centro (total 2.50), si D1 “Reservas manuales con confirmación tardía” (peso 0.20) pasa de calificación 1 a 2, ¿cuál sería el nuevo total?",
+    "options": [
+      "2.70",
+      "2.60",
+      "2.50",
+      "3.00"
     ],
-    "respuesta_correcta": "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior. El 2.5 indica la respuesta promedio del sector.",
-    "explicacion": "En la MEFE la calificación mide la respuesta de la empresa ante el factor externo, con 2.5 como referencia neutra."
+    "answer": "2.70",
+    "explicacion": "El ponderado de D1 pasa de 0.20 × 1 = 0.20 a 0.20 × 2 = 0.40; el total sube 0.20, de 2.50 a 2.70."
   },
   {
-    "pregunta": "¿Qué escala de calificación de 1 a 4 aplica la Matriz MEFI?",
-    "opciones": [
-      "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
-      "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior.",
-      "1: amenaza mayor, 2: amenaza menor, 3: oportunidad menor, 4: oportunidad mayor.",
-      "1: costo muy bajo, 2: costo bajo, 3: costo alto, 4: costo crítico."
-    ],
-    "respuesta_correcta": "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
-    "explicacion": "En la MEFI las calificaciones caracterizan la fuerza o debilidad interna, no la respuesta al entorno."
+    "id": 4,
+    "type": "verdadero_falso",
+    "statement": "Una amenaza puede recibir una calificación de 4 en la MEFE si la respuesta de la empresa ante ella es sólida.",
+    "answer": true,
+    "explicacion": "La MEFE califica la respuesta de la empresa, no lo favorable del factor. A la inversa, una oportunidad desaprovechada puede recibir 1."
   },
   {
-    "pregunta": "¿Puede una amenaza externa en la MEFE recibir una calificación de 4?",
-    "opciones": [
-      "Sí, si la empresa cuenta con una respuesta estratégica y operativa extraordinariamente sólida ante dicha amenaza.",
-      "No, las amenazas solo pueden recibir calificaciones de 1 o 2.",
-      "No, la escala de la MEFE solo admite números impares.",
-      "Solo si el competidor líder renuncia a esa cuota de mercado."
-    ],
-    "respuesta_correcta": "Sí, si la empresa cuenta con una respuesta estratégica y operativa extraordinariamente sólida ante dicha amenaza.",
-    "explicacion": "La MEFE evalúa la respuesta de la empresa: una respuesta sobresaliente ante una amenaza amerita calificación 4."
-  },
-  {
-    "pregunta": "En el caso didáctico de Rutas del Centro, la MEFE arrojó un puntaje total ponderado de 2.35. ¿Cuál es su interpretación correcta?",
-    "opciones": [
-      "La respuesta global de la empresa ante el entorno deja espacio para mejorar y se sitúa ligeramente por debajo del promedio (2.50).",
-      "La empresa tiene un 23.5% de probabilidad de tener éxito en el destino.",
-      "El entorno turístico es 76.5% desfavorable para la operadora.",
-      "La empresa debe cerrar operaciones de inmediato por insolvencia."
-    ],
-    "respuesta_correcta": "La respuesta global de la empresa ante el entorno deja espacio para mejorar y se sitúa ligeramente por debajo del promedio (2.50).",
-    "explicacion": "El total ponderado de 2.35 frente al 2.50 de referencia refleja que la operadora no está aprovechando con solidez las oportunidades ni mitigando amenazas."
-  },
-  {
-    "pregunta": "En la MEFI de Rutas del Centro, el total es exactamente 2.50. Aunque coincide con el promedio, ¿qué debilidad crítica interna destaca con calificación 1 (debilidad mayor)?",
-    "opciones": [
-      "D1: Procesos de reserva manuales con confirmación tardía (aporta solo 0.20 ponderado con peso 0.20).",
-      "F1: Guías con conocimiento local especializado.",
-      "D2: Liquidez limitada para contingencias.",
-      "F2: Acuerdos operativos con anfitriones."
-    ],
-    "respuesta_correcta": "D1: Procesos de reserva manuales con confirmación tardía (aporta solo 0.20 ponderado con peso 0.20).",
-    "explicacion": "La reserva manual con demoras de 12 horas impide convertir el interés en ventas efectivas, representando una debilidad mayor."
-  },
-  {
-    "pregunta": "Si mediante un sistema web de reservas la debilidad D1 de Rutas del Centro pasa de calificación 1 a 2, ¿cuál es el nuevo total ponderado de la MEFI (peso 0.20)?",
-    "opciones": [
-      "Sube de 2.50 a 2.70",
-      "Baja a 2.30",
-      "Permanece en 2.50",
-      "Se incrementa a 3.50"
-    ],
-    "respuesta_correcta": "Sube de 2.50 a 2.70",
-    "explicacion": "Variación: 0.20 * (2 - 1) = +0.20. Nuevo puntaje MEFI = 2.50 + 0.20 = 2.70."
-  },
-  {
-    "pregunta": "¿Por qué nunca deben sumarse las puntuaciones totales de la MEFE y la MEFI para obtener una 'calificación única'?",
-    "opciones": [
-      "Porque miden dimensiones completamente distintas: la MEFE evalúa la respuesta al macroentorno y la MEFI califica recursos internos.",
-      "Porque las fórmulas matemáticas de Prentice Hall impiden promediar matrices.",
-      "Porque la Secretaría de Turismo prohíbe calificaciones mayores a 5 puntos.",
-      "Porque la suma alteraría los pagos de impuestos de la empresa."
-    ],
-    "respuesta_correcta": "Porque miden dimensiones completamente distintas: la MEFE evalúa la respuesta al macroentorno y la MEFI califica recursos internos.",
-    "explicacion": "Sumar ambas matrices generaría un número carente de significado conceptual al mezclar entorno y capacidades."
-  },
-  {
-    "pregunta": "¿Qué criterio metodológico se recomienda al redactar factores en ambas matrices?",
-    "opciones": [
-      "Conservar una justificación documentada por cada peso y calificación y evitar duplicar el mismo problema con distinta redacción.",
-      "Asignar la calificación máxima de 4 a todos los factores positivos para motivar al personal.",
-      "Incluir al menos 50 factores en cada matriz sin importar la disponibilidad de datos.",
-      "Calificar únicamente los aspectos que no generen debate interno."
-    ],
-    "respuesta_correcta": "Conservar una justificación documentada por cada peso y calificación y evitar duplicar el mismo problema con distinta redacción.",
-    "explicacion": "La transparencia y el registro de la evidencia respaldan la validez de los resultados matriciales."
+    "id": 5,
+    "type": "verdadero_falso",
+    "statement": "El 2.35 de la MEFE y el 2.50 de la MEFI de Rutas del Centro pueden sumarse para obtener una calificación final de la empresa.",
+    "answer": false,
+    "explicacion": "Las dos matrices responden a preguntas diferentes: la MEFE mide la respuesta al entorno y la MEFI caracteriza la situación interna."
   }
 ]

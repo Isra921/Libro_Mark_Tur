@@ -1,112 +1,64 @@
 [
   {
-    "pregunta": "¿En qué consiste la matriz TOWS propuesta por Heinz Weihrich (1982) para el análisis FODA?",
-    "opciones": [
-      "En cruzar sistemáticamente fortalezas y debilidades internas con oportunidades y amenazas externas para generar 4 tipos de estrategias.",
-      "En ordenar las fortalezas de mayor a menor según el número de empleados.",
-      "En calcular el valor presente neto de los atractivos turísticos del destino.",
-      "En eliminar las debilidades mediante transferencias bancarias de capital."
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué propone la matriz TOWS de Weihrich (1982)?",
+    "options": [
+      "Cruzar sistemáticamente fortalezas, oportunidades, debilidades y amenazas para generar estrategias FO, DO, FA y DA.",
+      "Sumar los totales de la MEFE y la MEFI para obtener la posición estratégica.",
+      "Clasificar los productos según crecimiento del mercado y participación relativa.",
+      "Comparar a la empresa con sus rivales mediante factores críticos de éxito."
     ],
-    "respuesta_correcta": "En cruzar sistemáticamente fortalezas y debilidades internas con oportunidades y amenazas externas para generar 4 tipos de estrategias.",
-    "explicacion": "El FODA tradicional solo lista factores; el cruce TOWS genera alternativas estratégicas de acción: FO, DO, FA y DA."
+    "answer": "Cruzar sistemáticamente fortalezas, oportunidades, debilidades y amenazas para generar estrategias FO, DO, FA y DA.",
+    "explicacion": "El uso estratégico del FODA requiere relacionar los grupos de factores, no solo listarlos (Weihrich, 1982)."
   },
   {
-    "pregunta": "¿Qué persiguen las estrategias de tipo DO (Debilidades - Oportunidades)?",
-    "opciones": [
-      "Superar debilidades internas aprovechando las oportunidades que ofrece el entorno externo.",
-      "Utilizar las fortalezas de la empresa para destruir a los competidores rivales.",
-      "Disminuir la inversión en publicidad para acumular efectivo en caja.",
-      "Aceptar pasivamente las amenazas del clima sin modificar itinerarios."
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "En Rutas del Centro, “Integrar reserva y pago para aprovechar la captación digital” (D1 + O3) es una estrategia de tipo:",
+    "options": [
+      "DO",
+      "FO",
+      "FA",
+      "DA"
     ],
-    "respuesta_correcta": "Superar debilidades internas aprovechando las oportunidades que ofrece el entorno externo.",
-    "explicacion": "Las estrategias DO buscan reorientar recursos internos defectuosos para no perder oportunidades de mercado atractivas."
+    "answer": "DO",
+    "explicacion": "Las estrategias DO corrigen debilidades para aprovechar oportunidades: la reserva manual (D1) limita el aprovechamiento de los canales digitales (O3)."
   },
   {
-    "pregunta": "En el caso Rutas del Centro, ¿cuál es el cruce estratégico DO propuesto?",
-    "opciones": [
-      "D1 (Reservas manuales) + O3 (Canales digitales): Integrar un sistema de reserva y pago web para aprovechar la captación digital.",
-      "F1 + O1: Diseñar salidas culturales especializadas para público interesado.",
-      "F2 + A2: Acordar con anfitriones una experiencia cubierta ante lluvia.",
-      "D2 + A3: Negociar cotizaciones y anticipos antes de comprometer salidas."
+    "id": 3,
+    "type": "completar_oracion",
+    "question": "Las estrategias FA emplean _____ ante amenazas, mientras que las DA buscan reducir la _____ cuando coinciden debilidades y amenazas.",
+    "wordBank": [
+      "fortalezas",
+      "exposición",
+      "oportunidades",
+      "inversión"
     ],
-    "respuesta_correcta": "D1 (Reservas manuales) + O3 (Canales digitales): Integrar un sistema de reserva y pago web para aprovechar la captación digital.",
-    "explicacion": "Resolver la confirmación tardía manual mediante tecnología digital permite captar el interés de compradores que abandonaban el proceso."
+    "answer": [
+      "fortalezas",
+      "exposición"
+    ],
+    "explicacion": "En el caso, la FA acuerda con anfitriones una experiencia cubierta ante el clima (F2 + A2) y la DA negocia cotizaciones y anticipos antes de comprometer nuevas salidas (D2 + A3)."
   },
   {
-    "pregunta": "¿Qué persiguen las estrategias de tipo FA (Fortalezas - Amenazas)?",
-    "opciones": [
-      "Emplear las fortalezas internas de la empresa para mitigar, neutralizar o eludir el impacto de amenazas externas.",
-      "Despedir al personal de contacto cuando bajan las ventas.",
-      "Cobrar tarifas más altas exclusivamente en temporada de tormentas.",
-      "Esperar a que los competidores quiebren para reducir precios."
-    ],
-    "respuesta_correcta": "Emplear las fortalezas internas de la empresa para mitigar, neutralizar o eludir el impacto de amenazas externas.",
-    "explicacion": "Las estrategias FA usan ventajas propias consolidadas como escudo protector ante riesgos del entorno."
+    "id": 4,
+    "type": "verdadero_falso",
+    "statement": "El FODA demuestra por sí mismo cuál es la mejor estrategia para la empresa.",
+    "answer": false,
+    "explicacion": "El FODA produce alternativas. Para valorarlas se comparan beneficio esperado, costo, tiempo, recursos y dependencia de terceros."
   },
   {
-    "pregunta": "En Rutas del Centro, ¿qué acción concreta ilustra la estrategia FA (F2 acuerdos operativos + A2 interrupciones por clima)?",
-    "opciones": [
-      "Pactar con los anfitriones locales un taller o degustación cubierta bajo techo que sustituya el recorrido exterior en caso de lluvia.",
-      "Suspender el tour sin reembolso para los pasajeros en el punto de encuentro.",
-      "Comprar un autobús blindado con calefacción de alta tecnología.",
-      "Cambiar el giro de la empresa hacia la venta de alimentos congelados."
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Por qué se conservan en el FODA los mismos factores utilizados en la MEFE y la MEFI?",
+    "options": [
+      "Para que exista continuidad entre diagnóstico y propuesta y se pueda explicar por qué aparece cada estrategia.",
+      "Porque la matriz TOWS no admite más de seis factores.",
+      "Para obtener una calificación ponderada idéntica a la de la MEFE.",
+      "Porque los factores externos no pueden cambiar durante un año."
     ],
-    "respuesta_correcta": "Pactar con los anfitriones locales un taller o degustación cubierta bajo techo que sustituya el recorrido exterior en caso de lluvia.",
-    "explicacion": "Aprovechar la sólida relación con anfitriones permite ofrecer un itinerario alternativo de valor equivalente ante contingencias climáticas."
-  },
-  {
-    "pregunta": "¿Qué objetivo persiguen las estrategias DA (Debilidades - Amenazas)?",
-    "opciones": [
-      "Minimizar debilidades internas y eludir o blindarse ante amenazas externas para reducir la vulnerabilidad extrema de la empresa.",
-      "Aumentar el endeudamiento bancario a corto plazo.",
-      "Lanzar tres productos turísticos nuevos en ciudades lejanas.",
-      "Contratar publicidad masiva en televisión nacional."
-    ],
-    "respuesta_correcta": "Minimizar debilidades internas y eludir o blindarse ante amenazas externas para reducir la vulnerabilidad extrema de la empresa.",
-    "explicacion": "Las estrategias DA son defensivas y buscan la supervivencia o contención de riesgos cuando coinciden fallas internas con amenazas."
-  },
-  {
-    "pregunta": "En el caso Rutas del Centro, ¿qué cruce DA se propone frente a D2 (liquidez limitada) y A3 (aumento de cotizaciones de transporte)?",
-    "opciones": [
-      "Negociar con transportistas tarifas por volumen y solicitar anticipos a clientes antes de comprometer nuevas salidas.",
-      "Contratar choferes particulares sin seguro de viajero.",
-      "Pedir a los pasajeros que caminen los 40 kilómetros del itinerario.",
-      "Bajar el precio del boleto a la mitad para atraer más volumen."
-    ],
-    "respuesta_correcta": "Negociar con transportistas tarifas por volumen y solicitar anticipos a clientes antes de comprometer nuevas salidas.",
-    "explicacion": "Asegurar anticipos y contratos previos protege la liquidez de la empresa ante alzas de costos de proveedores."
-  },
-  {
-    "pregunta": "¿Por qué es crucial mantener los mismos factores de la MEFE y MEFI al construir los cruces FODA?",
-    "opciones": [
-      "Para garantizar la trazabilidad y coherencia lógica entre el diagnóstico inicial y las alternativas estratégicas propuestas.",
-      "Porque la ley mercantil exige registrar los mismos 10 factores en actas públicas.",
-      "Porque de lo contrario se anulan las fórmulas de cálculo de Excel.",
-      "Para impedir que los competidores copien las estrategias."
-    ],
-    "respuesta_correcta": "Para garantizar la trazabilidad y coherencia lógica entre el diagnóstico inicial y las alternativas estratégicas propuestas.",
-    "explicacion": "Cambiar arbitrariamente los factores rompería la relación causal entre el diagnóstico situacional y las propuestas."
-  },
-  {
-    "pregunta": "¿Demuestra la matriz FODA por sí sola cuál estrategia es la mejor para la empresa?",
-    "opciones": [
-      "No; el FODA genera alternativas estratégicas que luego deben evaluarse según beneficio esperado, costo, viabilidad y riesgo.",
-      "Sí; la matriz calcula automáticamente la rentabilidad neta en pesos.",
-      "Sí; la estrategia con la celda más grande es la ganadora indiscutible.",
-      "No; el FODA solo sirve para evaluar destinos de sol y playa."
-    ],
-    "respuesta_correcta": "No; el FODA genera alternativas estratégicas que luego deben evaluarse según beneficio esperado, costo, viabilidad y riesgo.",
-    "explicacion": "El FODA produce opciones viables; la dirección debe jerarquizarlas según recursos y prioridades operativas."
-  },
-  {
-    "pregunta": "¿Qué error cometería Rutas del Centro si contrata publicidad masiva para solucionar D3 (bajo reconocimiento de marca) sin resolver antes D1 (reserva manual tardía)?",
-    "opciones": [
-      "Atraería más consultas que su equipo no puede atender a tiempo, elevando la frustración del cliente sin aumentar ventas.",
-      "Reduciría automáticamente el precio de los hoteles de la región.",
-      "Perdería de inmediato su registro fiscal ante el SAT.",
-      "Generaría una sobreventa garantizada del 500%."
-    ],
-    "respuesta_correcta": "Atraería más consultas que su equipo no puede atender a tiempo, elevando la frustración del cliente sin aumentar ventas.",
-    "explicacion": "Generar demanda publicitaria con un proceso operativo colapsado solo amplifica la insatisfacción de los prospectos."
+    "answer": "Para que exista continuidad entre diagnóstico y propuesta y se pueda explicar por qué aparece cada estrategia.",
+    "explicacion": "Cambiar de factores sin explicación haría difícil rastrear el origen de una estrategia; además, cada cruce debe tener una relación causal razonable entre el problema y la acción."
   }
 ]

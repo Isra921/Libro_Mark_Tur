@@ -1,112 +1,64 @@
 [
   {
-    "pregunta": "¿Qué dos variables utiliza la matriz del Boston Consulting Group (BCG) para clasificar una cartera de productos turísticos?",
-    "opciones": [
-      "Tasa de crecimiento del mercado relevante y participación de mercado relativa frente al mayor competidor.",
-      "Número de empleados y presupuesto publicitario anual.",
-      "Precio de venta y costo variable unitario.",
-      "Calificación en Google Maps y antigüedad de la marca."
+    "id": 1,
+    "type": "completar_oracion",
+    "question": "La participación relativa se calcula dividiendo la participación _____ entre la participación del mayor _____.",
+    "wordBank": [
+      "propia",
+      "competidor",
+      "total",
+      "proveedor"
     ],
-    "respuesta_correcta": "Tasa de crecimiento del mercado relevante y participación de mercado relativa frente al mayor competidor.",
-    "explicacion": "BCG relaciona el atractivo del mercado (crecimiento) con la fuerza competitiva relativa (cuota frente al líder)."
+    "answer": [
+      "propia",
+      "competidor"
+    ],
+    "explicacion": "Una razón mayor que 1 indica liderazgo relativo. El crecimiento, en cambio, corresponde al mercado relevante y no a las ventas de la empresa."
   },
   {
-    "pregunta": "¿Cómo se calcula aritméticamente la participación de mercado relativa en la matriz BCG?",
-    "opciones": [
-      "Dividiendo la cuota de mercado de la empresa entre la cuota de mercado del competidor líder en esa categoría.",
-      "Restando la cuota del rival a la cuota propia.",
-      "Multiplicando el porcentaje de ocupación por la tarifa promedio.",
-      "Dividiendo las ventas totales entre el número de empleados."
-    ],
-    "respuesta_correcta": "Dividiendo la cuota de mercado de la empresa entre la cuota de mercado del competidor líder en esa categoría.",
-    "explicacion": "Una razón mayor a 1.0 indica liderazgo relativo en ese mercado turístico específico."
-  },
-  {
-    "pregunta": "En el caso didáctico de Rutas del Centro, el 'Recorrido cultural' tiene 12% de crecimiento de mercado y cuota de 30% frente a 20% del rival (razón 1.50). ¿En qué cuadrante BCG se ubica?",
-    "opciones": [
-      "Estrella",
-      "Vaca de efectivo",
-      "Interrogante",
-      "Perro"
-    ],
-    "respuesta_correcta": "Estrella",
-    "explicacion": "Con crecimiento alto (>10%) y liderazgo relativo (>1.0), el producto es una Estrella que requiere inversión para sostener posición."
-  },
-  {
-    "pregunta": "El 'Paseo gastronómico' de Rutas del Centro opera en un mercado con crecimiento del 4% y tiene cuota del 24% frente al 20% del líder (razón 1.20). ¿Qué cuadrante BCG le corresponde?",
-    "opciones": [
-      "Vaca de efectivo",
-      "Estrella",
-      "Interrogante",
-      "Perro"
-    ],
-    "respuesta_correcta": "Vaca de efectivo",
-    "explicacion": "Bajo crecimiento del mercado (<10%) y alta cuota relativa (>1.0) definen a una Vaca de efectivo que genera flujo neto de caja."
-  },
-  {
-    "pregunta": "La 'Experiencia nocturna' opera en un mercado con crecimiento del 15% pero la empresa solo tiene 8% de cuota frente a 20% del rival (razón 0.40). ¿Qué categoría BCG representa?",
-    "opciones": [
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "La “Experiencia nocturna” crece 15 % en su mercado, pero tiene 8 % de cuota frente a 20 % del mayor rival (razón 0.40). ¿Qué categoría BCG le corresponde?",
+    "options": [
       "Interrogante",
       "Estrella",
       "Vaca de efectivo",
-      "Perro"
+      "Perro o mascota"
     ],
-    "respuesta_correcta": "Interrogante",
-    "explicacion": "Alto crecimiento con baja cuota relativa constituye una Interrogante que requiere pruebas limitadas antes de invertir más."
+    "answer": "Interrogante",
+    "explicacion": "Crecimiento alto (mayor que 10 %) con participación relativa baja (menor que 1). Requeriría una prueba limitada antes de ampliar recursos."
   },
   {
-    "pregunta": "El 'Recorrido genérico' tiene crecimiento del mercado del 2% y cuota de 5% frente a 25% del líder (razón 0.20). ¿En qué categoría se ubica?",
-    "opciones": [
-      "Perro",
-      "Vaca de efectivo",
-      "Estrella",
-      "Interrogante"
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "El “Recorrido cultural” tiene 30 % de cuota y el mayor rival 20 %. ¿Cuál es su participación relativa?",
+    "options": [
+      "1.50",
+      "0.67",
+      "10 %",
+      "50 %"
     ],
-    "respuesta_correcta": "Perro",
-    "explicacion": "Bajo crecimiento y baja cuota relativa configuran un Perro que debe evaluarse para reposicionamiento o desinversión."
+    "answer": "1.50",
+    "explicacion": "30 % ÷ 20 % = 1.50. Con un crecimiento del mercado de 12 %, la línea se clasifica como estrella en el ejercicio."
   },
   {
-    "pregunta": "¿Por qué un producto clasificado como 'Perro' en BCG no necesariamente debe eliminarse de inmediato?",
-    "opciones": [
-      "Porque puede aportar margen positivo, atender a un nicho leal o complementar la venta de otros productos de la cartera.",
-      "Porque la ley turística prohíbe dar de baja productos turísticos registrados.",
-      "Porque todos los productos Perro se convierten automáticamente en Estrellas al año siguiente.",
-      "Porque los productos Perro tienen garantizado el 50% de subsidio estatal."
-    ],
-    "respuesta_correcta": "Porque puede aportar margen positivo, atender a un nicho leal o complementar la venta de otros productos de la cartera.",
-    "explicacion": "Las decisiones no son automáticas; debe analizarse la contribución marginal neta y el rol sinérgico en la cartera."
+    "id": 4,
+    "type": "verdadero_falso",
+    "statement": "Una línea clasificada como perro debe retirarse siempre de la cartera.",
+    "answer": false,
+    "explicacion": "Las decisiones no se desprenden automáticamente de las etiquetas: un recorrido con baja cuota puede aportar margen, atender un nicho o complementar otro producto."
   },
   {
-    "pregunta": "¿Cuál es la principal dificultad metodológica al aplicar la matriz BCG a empresas turísticas pequeñas?",
-    "opciones": [
-      "Delimitar el mercado relevante con precisión y obtener cifras confiables y comparables de ventas de los competidores.",
-      "Que no existen calculadoras digitales para promediar participaciones de mercado.",
-      "Que el modelo BCG solo puede aplicarse a aerolíneas comerciales transoceánicas.",
-      "Que los hoteles boutique tienen prohibido comercializar más de una experiencia."
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la principal dificultad práctica al aplicar la matriz BCG en una operadora turística pequeña?",
+    "options": [
+      "Medir el mercado relevante y contar con ventas comparables de los competidores.",
+      "Que las participaciones de todas las líneas deben sumar 100 %.",
+      "Que la matriz solo admite productos con crecimiento mayor que 10 %.",
+      "Que no puede usarse en empresas de servicios."
     ],
-    "respuesta_correcta": "Delimitar el mercado relevante con precisión y obtener cifras confiables y comparables de ventas de los competidores.",
-    "explicacion": "Medir cuotas de mercado locales exige prudencia cuando la información de ventas privadas de rivales no es pública."
-  },
-  {
-    "pregunta": "¿Cuál es la función financiera de una 'Vaca de efectivo' en la gestión de cartera de una operadora turística?",
-    "opciones": [
-      "Generar excedentes estables de liquidez que financien el sostenimiento de las Estrellas y la experimentación en Interrogantes.",
-      "Absorber todo el presupuesto de publicidad sin generar reservas.",
-      "Cubrir los impuestos de importación de equipo extranjero.",
-      "Financiar créditos hipotecarios para los accionistas."
-    ],
-    "respuesta_correcta": "Generar excedentes estables de liquidez que financien el sostenimiento de las Estrellas y la experimentación en Interrogantes.",
-    "explicacion": "Bruce Henderson postuló que las unidades consolidadas financian el desarrollo y crecimiento de las líneas emergentes."
-  },
-  {
-    "pregunta": "¿Qué umbral de crecimiento de mercado anual se adopta convencionalmente en el caso didáctico para separar crecimiento alto de bajo?",
-    "opciones": [
-      "10% anual",
-      "25% anual",
-      "50% anual",
-      "2% anual"
-    ],
-    "respuesta_correcta": "10% anual",
-    "explicacion": "En el caso se adopta 10% como línea divisoria ilustrativa; en una aplicación real este umbral debe justificarse según la economía del destino."
+    "answer": "Medir el mercado relevante y contar con ventas comparables de los competidores.",
+    "explicacion": "Comparar un recorrido local con todo el turismo nacional produciría una cuota poco útil; sin datos comparables, debe reconocerse la limitación (Boston Consulting Group, s. f.; Henderson, 1970)."
   }
 ]

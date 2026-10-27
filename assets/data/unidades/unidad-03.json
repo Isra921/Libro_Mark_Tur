@@ -2,27 +2,24 @@
   "id": "unidad-03",
   "numero": 3,
   "titulo": "Elaboración e implementación de estrategias",
-  "descripcion": "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno.",
-  "lema": "Transformando el análisis del entorno en decisiones comprobables y ventajas competitivas.",
+  "descripcion": "Analiza el entorno interno y externo de una empresa turística y elabora las matrices MEFE, MEFI, FODA, BCG, Ansoff y del perfil competitivo para transformar el diagnóstico en decisiones comprobables.",
+  "lema": "Las matrices deben producir decisiones comprobables, no solo puntuaciones.",
   "duracion_horas": 16,
-
   "introduccion": [
-    "La elaboración de estrategias vincula el diagnóstico de una empresa con decisiones sobre dónde competir, qué capacidades desarrollar y cómo asignar recursos. En turismo, estas decisiones deben considerar tanto las necesidades del visitante como las condiciones de operación del destino.",
-    "Una matriz ayuda a ordenar información, pero su resultado solo es defendible cuando los factores, datos y criterios pueden explicarse. A través del análisis del entorno, la MEFE, MEFI, FODA/TOWS, BCG, Ansoff y la Matriz del Perfil Competitivo, esta unidad demuestra cómo estructurar decisiones comprobables para mejorar la competitividad turística."
+    "La elaboración de estrategias vincula el diagnóstico de una empresa con decisiones sobre dónde competir, qué capacidades desarrollar y cómo asignar recursos. En turismo, estas decisiones deben considerar tanto las necesidades del visitante como las condiciones de operación del destino. Una matriz ayuda a ordenar información, pero su resultado solo es defendible cuando los factores, datos y criterios pueden explicarse.",
+    "Esta unidad desarrolla los apartados 3.1 a 3.6 del programa de Plan de marketing: entorno interno y externo, MEFE, MEFI, FODA, BCG, Ansoff y matriz del perfil competitivo. El programa plantea la elaboración de matrices a partir de su clasificación y del análisis del entorno (IPN, 2022, p. 4). El objetivo es comprender qué pregunta responde cada herramienta, cómo construirla y cuáles son sus límites.",
+    "Como aplicación se utiliza Rutas del Centro, una operadora turística ficticia de recorridos culturales. Sus factores, puntuaciones y competidores son hipotéticos. El caso ilustra procedimientos y no constituye una investigación de campo. La principal conclusión es que las matrices deben producir decisiones comprobables: mejorar una reserva, desarrollar una experiencia, corregir una dependencia o abandonar una inversión sin sustento."
   ],
-
   "video": {
     "titulo": "Video introductorio: Elaboración e implementación de estrategias",
     "url": "https://www.youtube-nocookie.com/embed/o4HujQwFBWw"
   },
-
-  "recorrido": "Analiza las herramientas de diagnóstico estratégico y su aplicación práctica, completando las actividades formativas por matriz y el simulador de decisiones estratégicas.",
-
+  "recorrido": "Recorre los seis temas en orden: primero se analiza el entorno interno y externo para obtener evidencia; después se ordenan los factores en la MEFE y la MEFI; con esos mismos factores se construyen los cruces FODA; luego se revisa la cartera con la matriz BCG, las vías de crecimiento con Ansoff y la posición frente a rivales con la matriz del perfil competitivo, que cierra con la integración e implementación a 90 días. El caso Rutas del Centro conecta todos los temas y cada uno cierra con su actividad de aprendizaje.",
   "temas": [
     {
       "numero": "3.1",
-      "nombre": "Análisis del entorno (Interno y Externo)",
-      "sintesis": "Recursos y capacidades, VRIO, cadena de valor turística, PESTEL y modelo de las cinco fuerzas de Porter.",
+      "nombre": "Análisis del entorno (interno y externo)",
+      "sintesis": "Delimitación del diagnóstico, ficha por factor, recursos y capacidades, cadena de valor, VRIO, PESTEL y cinco fuerzas aplicados a Rutas del Centro.",
       "url": "unidades/unidad-03/temas/tema-03-01.html",
       "icono": "fa-magnifying-glass-chart",
       "actividad": {
@@ -32,9 +29,9 @@
     },
     {
       "numero": "3.2",
-      "nombre": "Matriz de Evaluación de Factores Externos (MEFE) y Factores Internos (MEFI)",
-      "sintesis": "Metodología de ponderación, escalas de respuesta y evaluación diagnóstica de la posición estratégica.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "nombre": "Matriz de Evaluación de Factores Externos (MEFE) y de Factores Internos (MEFI)",
+      "sintesis": "Pesos, escalas de calificación de 1 a 4, cálculo del total ponderado e interpretación frente al punto medio de 2.5.",
+      "url": "unidades/unidad-03/temas/tema-03-02.html",
       "icono": "fa-table-cells",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.2",
@@ -44,8 +41,8 @@
     {
       "numero": "3.3",
       "nombre": "Matriz de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA)",
-      "sintesis": "Formulación sistemática de cruces estratégicos TOWS: estrategias FO, DO, FA y DA.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "sintesis": "Cruces TOWS (FO, DO, FA y DA) construidos con los factores de la MEFE y la MEFI, y criterios para valorarlos.",
+      "url": "unidades/unidad-03/temas/tema-03-03.html",
       "icono": "fa-arrows-split-up-and-left",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.3",
@@ -55,8 +52,8 @@
     {
       "numero": "3.4",
       "nombre": "Matriz de Boston Consulting Group (BCG)",
-      "sintesis": "Crecimiento del mercado, participación relativa y gestión de cartera de productos turísticos.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "sintesis": "Crecimiento del mercado, participación relativa, cuadrantes de la cartera y límites para medir el mercado turístico.",
+      "url": "unidades/unidad-03/temas/tema-03-04.html",
       "icono": "fa-chart-pie",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.4",
@@ -65,9 +62,9 @@
     },
     {
       "numero": "3.5",
-      "nombre": "Matriz Producto/Mercado o Vector de Crecimiento (ANSOFF)",
-      "sintesis": "Vías de expansión: penetración de mercado, desarrollo de productos, desarrollo de mercados y diversificación.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "nombre": "Matriz Producto/Mercado o Vector de Crecimiento (Ansoff)",
+      "sintesis": "Penetración de mercado, desarrollo de mercados, desarrollo de productos y diversificación aplicados al caso.",
+      "url": "unidades/unidad-03/temas/tema-03-05.html",
       "icono": "fa-up-right-and-down-left-from-center",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.5",
@@ -76,9 +73,9 @@
     },
     {
       "numero": "3.6",
-      "nombre": "Matriz del Perfil Competitivo (MPC) e Integración Estratégica",
-      "sintesis": "Factores críticos de éxito, benchmarking frente a rivales directos e implementación en 90 días.",
-      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "nombre": "Matriz del Perfil Competitivo (MPC)",
+      "sintesis": "Factores críticos de éxito, comparación ponderada frente a rivales e integración de las matrices en un plan de 90 días.",
+      "url": "unidades/unidad-03/temas/tema-03-06.html",
       "icono": "fa-trophy",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.6",
@@ -86,20 +83,23 @@
       }
     }
   ],
-
   "actividad_final": {
     "nombre": "Simulador de Matrices Estratégicas y Competitividad: Caso Rutas del Centro",
     "descripcion": "Aplica diagnósticos MEFE, MEFI, cruces TOWS, cartera BCG, Ansoff y perfil competitivo MPC para la toma de decisiones estratégicas.",
     "url": "unidades/unidad-03/actividades/actividad-final.html"
   },
-
-  "objetivo": "Elaborar matrices estratégicas a partir de su clasificación y análisis del entorno para definir la postura competitiva de empresas turísticas.",
-
+  "objetivo": "Elaborar matrices estratégicas a partir de su clasificación y del análisis del entorno, comprendiendo qué pregunta responde cada herramienta, cómo construirla y cuáles son sus límites, para transformar el diagnóstico de una empresa turística en decisiones comprobables.",
   "competencias": [
-    "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno."
+    "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno.",
+    "Analiza el entorno interno y externo de una empresa turística con evidencia verificable (VRIO, cadena de valor, PESTEL y cinco fuerzas).",
+    "Construye e interpreta las matrices MEFE, MEFI y del perfil competitivo mediante pesos y calificaciones justificados.",
+    "Formula cruces FODA y evalúa la cartera y las vías de crecimiento con las matrices BCG y Ansoff.",
+    "Traduce las decisiones estratégicas en acciones con responsables, plazos e indicadores de seguimiento."
   ],
-
   "material_apoyo": [
-    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-03/referencias.html" }
+    {
+      "nombre": "Referencias bibliográficas de la unidad",
+      "url": "unidades/unidad-03/referencias.html"
+    }
   ]
 }
