@@ -1,17 +1,8 @@
 /* ==========================================================================
    ESTILOS COMUNES · Punto de entrada único para TODAS las páginas
+   Polilibro: Marketing en Turismo (EST - IPN)
    --------------------------------------------------------------------------
-   Cada HTML enlaza solo este archivo (más el CSS propio de su tipo de página:
-   unidad.css, tema.css, actividad.css, referencias.css, actividad-final.css).
-
-   Para agregar un componente global (ej. una nueva ventana emergente):
-   1. Crea su archivo en assets/css/.
-   2. Agrega su @import al final de esta lista. No hay que tocar ningún HTML.
-
-   Reglas de @import:
-   - Deben ir al inicio del archivo, antes de cualquier otra regla.
-   - Las rutas son relativas a ESTE archivo, no a la página que lo carga.
-   - El orden importa: variables primero, porque los demás usan sus tokens.
+   Cada HTML enlaza este archivo (más el CSS propio de su tipo de página).
    ========================================================================== */
 
 @import url("variables.css");     /* Paleta, radios y sombras (tokens) */
@@ -21,3 +12,32 @@
 @import url("glosario-modal.css");/* Contenido de la ventana de Glosario */
 @import url("actividades-modal.css");/* Contenido de la ventana de Actividades */
 @import url("plan-estudios-modal.css");/* Contenido de la ventana de Plan de Estudios */
+
+/* Logo EST institucional */
+.brand-logo--est, .brand-logo--esit {
+  width: 44px !important;
+  height: 44px !important;
+  object-fit: contain;
+  background: transparent !important;
+  padding: 0;
+  border-radius: 6px;
+  opacity: 1 !important;
+  filter: none !important;
+  flex-shrink: 0;
+}
+.site-nav .brand .brand-logo--est, .site-nav .brand .brand-logo--esit {
+  background: transparent !important;
+  padding: 0;
+  border-radius: 4px;
+  filter: none !important;
+}
+
+html {
+  color-scheme: dark;
+}
+.brand-logo--ipn {
+  filter: brightness(0) invert(1);
+}
+.site-nav .nav-toggle {
+  color: var(--text-light);
+}
