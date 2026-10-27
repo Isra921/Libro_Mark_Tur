@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5.2 Ruta crítica | Marketing en Turismo</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/tema.css">
+
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-05" data-tema="5.2">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="t-layout">
+      <!-- Índice lateral de la unidad: generado dinámicamente -->
+      <aside class="t-index" aria-label="Contenido de la unidad">
+        <div class="t-index__card">
+          <div id="temaIndice">
+            <div class="t-index__fallback">
+              <span class="t-index__eyebrow">Unidad V</span>
+              <a href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+            </div>
+          </div>
+          <div class="t-progress">
+            <p class="t-progress__label" id="progresoEtiqueta">Progreso de lectura <span class="t-progress__value" id="progresoValor">0 %</span></p>
+            <div class="t-progress__track" role="progressbar" aria-labelledby="progresoEtiqueta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span class="t-progress__bar" id="progresoBarra"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <article class="t-article">
+        <p class="u-eyebrow">Unidad V · Tema 5.2</p>
+        <h1 class="t-title">Ruta crítica</h1>
+
+        <p class="t-lead" id="idea-central" data-toc="Idea central">La ruta crítica es la secuencia de actividades dependientes que determina la duración mínima de un proyecto, dadas las duraciones y relaciones entre tareas.</p>
+
+        <div class="t-prose">
+
+          <section id="ruta-critica" data-toc="5.2 Ruta crítica">
+            <p>En el método de la ruta crítica, o CPM (<em>Critical Path Method</em>), las actividades que integran esa secuencia no cuentan con holgura total para retrasarse sin afectar la fecha final del proyecto. Por esta razón, necesitan seguimiento prioritario (<a href="../referencias.html#ref-kramer-2006">Kramer &amp; Jenkins, 2006</a>).</p>
+            <p>En un plan de marketing turístico, la ruta crítica ordena el trabajo anterior al lanzamiento: estudio del mercado, diseño de propuesta, acuerdos con prestadores, creación de materiales, configuración de reservaciones y publicación de campañas. Su utilidad aumenta cuando varias personas o proveedores trabajan en paralelo y una entrega condiciona a otra.</p>
+          </section>
+
+          <!-- 5.2.1 -->
+          <section id="procedimiento" data-toc="5.2.1 Procedimiento para construirla">
+            <h2><span class="t-section__num">5.2.1</span>Procedimiento para construirla</h2>
+            <ol>
+              <li><strong>Descomponer el proyecto.</strong> Listar actividades concretas, productos entregables y responsables. Deben ser tareas medibles, no expresiones vagas como «hacer marketing».</li>
+              <li><strong>Estimar duraciones.</strong> Asignar días u otra unidad homogénea, considerando revisiones, permisos y tiempo de respuesta de terceros. Conviene documentar la fuente de cada estimación.</li>
+              <li><strong>Identificar dependencias.</strong> Definir qué tarea debe terminar antes de iniciar otra. Algunas pueden desarrollarse de forma paralela, como negociar alianzas y diseñar una página web.</li>
+              <li><strong>Construir la red de actividades.</strong> Representar precedencias, calcular fechas de inicio y terminación tempranas y tardías, y obtener la holgura de cada tarea.</li>
+              <li><strong>Localizar la ruta crítica y actualizarla.</strong> Comparar las secuencias posibles; la de mayor duración determina la fecha mínima de finalización. Si cambian plazos, dependencias o recursos, debe recalcularse la red.</li>
+            </ol>
+          </section>
+
+          <!-- 5.2.2 -->
+          <section id="ejemplo-secuenciacion" data-toc="5.2.2 Ejemplo de secuenciación">
+            <h2><span class="t-section__num">5.2.2</span>Ejemplo de secuenciación</h2>
+            <p>Para lanzar una campaña de recorridos de naturaleza se definen las siguientes tareas y duraciones en días laborales. Las tareas C y D comienzan después de B, pero pueden avanzar de manera paralela.</p>
+
+            <p class="t-table-title" id="tabla-2"><strong>Tabla 2</strong><em>Red de actividades hipotética</em></p>
+            <div class="t-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Clave</th>
+                    <th>Actividad</th>
+                    <th>Días</th>
+                    <th>Predecesora</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>A</td><td>Estudio breve de visitantes</td><td>3</td><td>—</td></tr>
+                  <tr><td>B</td><td>Propuesta de valor y oferta</td><td>2</td><td>A</td></tr>
+                  <tr><td>C</td><td>Fotografía y página de reservas</td><td>4</td><td>B</td></tr>
+                  <tr><td>D</td><td>Acuerdos con prestadores</td><td>3</td><td>B</td></tr>
+                  <tr><td>E</td><td>Validación y lanzamiento</td><td>2</td><td>C y D</td></tr>
+                  <tr><td>F</td><td>Monitoreo inicial de campaña</td><td>3</td><td>E</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="t-table-note"><em>Nota.</em> Elaboración propia.</p>
+
+            <p>Una representación simplificada es A → B → {C, D} → E → F. La existencia de dos ramas después de B obliga a comparar su duración antes de decidir cuál requiere mayor vigilancia.</p>
+          </section>
+
+          <!-- 5.2.3 -->
+          <section id="calculo-seguimiento" data-toc="5.2.3 Cálculo de la ruta crítica y seguimiento">
+            <h2><span class="t-section__num">5.2.3</span>Cálculo de la ruta crítica y seguimiento</h2>
+            <p>En el ejemplo, la secuencia A–B–C–E–F suma 3 + 2 + 4 + 2 + 3 = 14 días laborales. La alternativa A–B–D–E–F suma 13 días. En condiciones normales y sin restricciones adicionales de recursos, la primera constituye la ruta crítica: un retraso de un día en C aplazaría el lanzamiento y la medición inicial, salvo que se recuperara tiempo en otra tarea crítica. La actividad D dispone de una holgura total de un día respecto a este cronograma.</p>
+            <p>Formalmente, el pase hacia adelante calcula el inicio temprano (IT) y el fin temprano (FT); el pase hacia atrás determina el inicio tardío (ITr) y el fin tardío (FTr). La holgura total puede expresarse como ITr − IT o FTr − FT. Cuando es cero, la tarea es crítica para el plazo de terminación calculado (<a href="../referencias.html#ref-kramer-2006">Kramer &amp; Jenkins, 2006</a>).</p>
+          </section>
+
+          <!-- 5.2.4 -->
+          <section id="ruta-critica-gantt" data-toc="5.2.4 Ruta crítica y diagrama de Gantt">
+            <h2><span class="t-section__num">5.2.4</span>Ruta crítica y diagrama de Gantt</h2>
+            <p>No deben confundirse ambos conceptos: el diagrama de Gantt muestra visualmente actividades y fechas, mientras que la ruta crítica identifica las dependencias que gobiernan la terminación. Pueden utilizarse de manera complementaria. Para una campaña turística resulta conveniente revisar el cronograma al menos en los hitos de aprobación de materiales, apertura de reservas y lanzamiento de anuncios.</p>
+          </section>
+
+          <section id="referencias-del-tema" data-toc="Referencias del tema">
+            <h2>Referencias del tema</h2>
+            <ul class="t-ref-list">
+              <li><a href="../referencias.html#ref-kramer-2006">Kramer, S. W., &amp; Jenkins, J. L. (2006). <em>Understanding the basics of CPM calculations: What is scheduling software really telling you?</em> [Ponencia de congreso]. Project Management Institute.</a></li>
+            </ul>
+          </section>
+
+        </div>
+
+        <nav class="t-pager" id="temaNavegacion" aria-label="Navegación entre temas">
+          <a class="t-pager__prev" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+        </nav>
+      </article>
+
+      <aside class="t-toc" aria-labelledby="tocTitulo">
+        <p class="t-toc__title" id="tocTitulo">En esta página</p>
+        <ol class="t-toc__list" id="temaTabla"></ol>
+        <div class="t-refs">
+          <p class="t-refs__title">Referencias del tema</p>
+          <a href="../referencias.html#ref-kramer-2006">Kramer &amp; Jenkins (2006)</a>
+          <a href="../referencias.html">Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Marketing en Turismo · Unidad 5 · Escuela Superior de Turismo (EST - IPN)</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+  <script src="../../../assets/js/visor-figuras.js"></script>
+</body>
+
+</html>
