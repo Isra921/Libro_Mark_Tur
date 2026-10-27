@@ -337,7 +337,7 @@
             const numeral = UI.romano(unidad.numero);
             const primerTema = UI.lista(unidad.temas).find(t => t.url);
 
-            document.title = `Unidad ${numeral}: ${unidad.titulo} | Aplicaciones para Comunicaciones en Red`;
+            document.title = `Unidad ${numeral}: ${unidad.titulo} | Marketing`;
 
             app.innerHTML = `
                 ${hero(unidad, numeral, primerTema)}

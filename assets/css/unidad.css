@@ -97,6 +97,8 @@
   line-height: 1.7;
 }
 .u-intro__text:last-child { margin-bottom: 0; }
+.u-intro__text,
+.u-topics-head .u-muted { text-align: justify; hyphens: auto; }
 
 /* ---------- Temas (protagonistas de la vista) ---------- */
 .u-topics-head {

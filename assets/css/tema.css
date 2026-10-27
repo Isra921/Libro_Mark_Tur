@@ -198,6 +198,18 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 }
 .t-prose ul,
 .t-prose ol { padding-left: 1.3em; }
+
+/* Texto corrido justificado; la división silábica (lang="es") evita huecos amplios */
+.t-lead,
+.t-prose p,
+.t-prose li,
+.t-callout p {
+  text-align: justify;
+  hyphens: auto;
+}
+/* Títulos/notas de tabla y lista de referencias conservan alineación izquierda (APA) */
+.t-prose .t-table-title,
+.t-prose .t-ref-list li { text-align: left; hyphens: manual; }
 .t-prose li + li { margin-top: 4px; }
 .t-prose li::marker { color: var(--accent); }
 .t-prose strong { color: var(--text-light); }
@@ -261,6 +273,15 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
   color: var(--accent);
 }
 .t-table tr:last-child td { border-bottom: 0; }
+
+/* Título y nota de tabla en formato APA (antes y después de .t-table) */
+.t-prose .t-table-title { margin: 28px 0 -12px; font-size: .92rem; line-height: 1.5; color: var(--text-light); }
+.t-table-title em { display: block; font-weight: 400; }
+.t-prose .t-table-note { margin-top: -12px; font-size: .82rem; line-height: 1.6; color: var(--text-muted); }
+
+/* Lista de referencias al final del tema */
+.t-prose .t-ref-list { padding-left: 0; list-style: none; }
+.t-ref-list li { padding-left: 2em; text-indent: -2em; }
 
 /* Figura, diagrama o simulador */
 .t-figure {
@@ -437,7 +458,8 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
   box-shadow: var(--u-shadow);
 }
 .t-refs__title { margin: 0 0 4px; font-size: .82rem; font-weight: 600; color: var(--text-light); }
-.t-refs a { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; }
+.t-refs a { display: flex; align-items: center; gap: 6px; font-size: .8rem; }
+.t-refs a + a { margin-top: 6px; }
 
 /* ---------- Responsivo ---------- */
 

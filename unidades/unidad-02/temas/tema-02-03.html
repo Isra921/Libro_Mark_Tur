@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2.3 Pronósticos de ventas para el primer año de operación | Marketing</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css?v=20260930">
+  <link rel="stylesheet" href="../../../assets/css/tema.css">
+
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-02" data-tema="2.3">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+
+    <div class="t-layout">
+      <!-- Índice de la unidad generado dinámicamente -->
+      <aside class="t-index" aria-label="Contenido de la unidad">
+        <div class="t-index__card">
+          <div id="temaIndice">
+            <div class="t-index__fallback">
+              <span class="t-index__eyebrow">Unidad II</span>
+              <a href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+            </div>
+          </div>
+          <div class="t-progress">
+            <p class="t-progress__label" id="progresoEtiqueta">Progreso de lectura <span class="t-progress__value" id="progresoValor">0 %</span></p>
+            <div class="t-progress__track" role="progressbar" aria-labelledby="progresoEtiqueta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span class="t-progress__bar" id="progresoBarra"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <article class="t-article">
+        <p class="u-eyebrow">Unidad II · Tema 2.3</p>
+        <h1 class="t-title">Pronósticos de ventas para el primer año de operación</h1>
+
+        <p class="t-lead" id="idea-central" data-toc="Idea central">Un pronóstico estima lo que probablemente sucederá; una meta expresa lo que se desea alcanzar. En productos nuevos, la ausencia de historial obliga a recurrir a juicio estructurado, analogías, intención de compra y escenarios. Documentar los supuestos y contrastarlos cuando aparecen ventas reales reduce el riesgo de confundir entusiasmo con evidencia (<a href="../referencias.html#ref-hyndman-2021">Hyndman &amp; Athanasopoulos, 2021</a>, cap. 6).</p>
+
+        <div class="t-prose">
+
+          <section id="estimacion-inicial" data-toc="2.3 Cómo construir una estimación inicial">
+            <p>En turismo mexicano, el monitoreo hotelero de DataTur ofrece series de ocupación, llegada de turistas y otras variables para estudiar comportamiento temporal. Sus datos pueden servir de contexto, pero la ocupación de hoteles de un destino no se transforma directamente en ventas de una excursión: cambian la unidad de medida, el segmento y la cobertura (<a href="../referencias.html#ref-sectur-datatur">Secretaría de Turismo, s. f.</a>).</p>
+            <p>Para construir una estimación inicial se propone definir la unidad de venta, calcular capacidad, observar experiencias comparables, realizar una prueba comercial y distribuir las ventas mensualmente. Un cálculo desde el embudo podría multiplicar visitas calificadas por conversión a reservas pagadas y por pasajeros por reserva. Después se descuentan cancelaciones y se verifica que las ventas realizadas no excedan los lugares disponibles. Cada supuesto debe tener responsable y fecha de revisión.</p>
+          </section>
+
+          <!-- 2.3.1 -->
+          <section id="ejemplo-anual" data-toc="2.3.1 Ejemplo anual de ventas">
+            <h2><span class="t-section__num">2.3.1</span>Ejemplo anual de ventas</h2>
+            <p>En Rutas del Centro se supone capacidad de 100 pasajeros por mes, tarifa constante de $1,200 y las mismas condiciones de costos del ejercicio anterior. El patrón mensual representa una hipótesis didáctica de estacionalidad y crecimiento; no reproduce un calendario observado ni atribuye esos porcentajes al turismo mexicano.</p>
+
+            <p class="t-table-title" id="tabla-5"><strong>Tabla 5</strong><em>Pronóstico mensual del primer año</em></p>
+            <div class="t-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Mes</th>
+                    <th>Pasajeros</th>
+                    <th>Ingresos MXN</th>
+                    <th>Resultado operativo simplificado MXN</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Enero</td><td>35</td><td>42,000</td><td>−7,200</td></tr>
+                  <tr><td>Febrero</td><td>40</td><td>48,000</td><td>−4,800</td></tr>
+                  <tr><td>Marzo</td><td>45</td><td>54,000</td><td>−2,400</td></tr>
+                  <tr><td>Abril</td><td>70</td><td>84,000</td><td>9,600</td></tr>
+                  <tr><td>Mayo</td><td>50</td><td>60,000</td><td>0</td></tr>
+                  <tr><td>Junio</td><td>55</td><td>66,000</td><td>2,400</td></tr>
+                  <tr><td>Julio</td><td>75</td><td>90,000</td><td>12,000</td></tr>
+                  <tr><td>Agosto</td><td>70</td><td>84,000</td><td>9,600</td></tr>
+                  <tr><td>Septiembre</td><td>45</td><td>54,000</td><td>−2,400</td></tr>
+                  <tr><td>Octubre</td><td>60</td><td>72,000</td><td>4,800</td></tr>
+                  <tr><td>Noviembre</td><td>65</td><td>78,000</td><td>7,200</td></tr>
+                  <tr><td>Diciembre</td><td>85</td><td>102,000</td><td>16,800</td></tr>
+                  <tr><td><strong>Total anual</strong></td><td><strong>695</strong></td><td><strong>834,000</strong></td><td><strong>45,600</strong></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="t-table-note"><em>Nota.</em> Elaboración propia. Ingresos = pasajeros × $1,200. Resultado mensual = pasajeros × $480 − $24,000. Se mantienen las exclusiones del modelo de costos.</p>
+
+            <p>El costo variable anual sería $500,400 y los costos fijos sumarían $288,000. El volumen de equilibrio anual es 600 pasajeros, de modo que el escenario base lo supera en 95. La ocupación anual de capacidad es 695 ÷ 1,200 = 57.9 %. Aunque el saldo anual resulte positivo, los primeros tres meses acumulan un resultado negativo de $14,400. Esto señala una necesidad de revisar el capital de trabajo y los tiempos de cobro y pago; no constituye un flujo de efectivo completo.</p>
+            <p>Un escenario conservador de 556 pasajeros, 20 % por debajo del base, produciría ingresos de $667,200 y un resultado de −$21,120. Uno favorable de 800 pasajeros produciría $960,000 y $96,000, respectivamente. El segundo también debe distribuirse por mes: un total anual compatible con la capacidad puede esconder meses saturados. Los escenarios expresan sensibilidad a supuestos, no probabilidades calculadas.</p>
+          </section>
+
+          <section id="referencias-del-tema" data-toc="Referencias del tema">
+            <h2>Referencias del tema</h2>
+            <ul class="t-ref-list">
+              <li><a href="../referencias.html#ref-hyndman-2021">Hyndman, R. J., &amp; Athanasopoulos, G. (2021). <em>Forecasting: Principles and practice</em> (3.ª ed.). OTexts.</a></li>
+              <li><a href="../referencias.html#ref-sectur-datatur">Secretaría de Turismo. (s. f.). <em>Reportes del monitoreo hotelero</em>. DataTur.</a></li>
+            </ul>
+          </section>
+
+        </div>
+
+        <nav class="t-pager" id="temaNavegacion" aria-label="Navegación entre temas">
+          <a class="t-pager__prev" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+        </nav>
+      </article>
+
+      <aside class="t-toc" aria-labelledby="tocTitulo">
+        <p class="t-toc__title" id="tocTitulo">En esta página</p>
+        <ol class="t-toc__list" id="temaTabla"></ol>
+        <div class="t-refs">
+          <p class="t-refs__title">Referencias del tema</p>
+          <a href="../referencias.html#ref-hyndman-2021">Hyndman &amp; Athanasopoulos (2021)</a>
+          <a href="../referencias.html#ref-sectur-datatur">Secretaría de Turismo (s. f.)</a>
+          <a href="../referencias.html">Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Marketing · Unidad 2: Perfil del consumidor y mezcla de mercadotecnia · Escuela Superior de Turismo (EST - IPN)</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/nav-global.js"></script>
+  <script src="../../../assets/js/data-manager.js?v=20260930"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js?v=20260930"></script>
+  <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+</body>
+
+</html>

@@ -1,112 +1,56 @@
 [
   {
-    "pregunta": "Según ONU Turismo, ¿qué integra un producto turístico?",
-    "opciones": [
-      "Una combinación de componentes tangibles e intangibles (recursos, servicios y actividades) que produce una experiencia para el visitante.",
-      "Únicamente un recurso natural o monumento histórico aislado sin requerir prestación de servicios.",
-      "Exclusivamente el boleto físico de transporte contratado por el pasajero.",
-      "Un contrato bancario para diferir pagos en agencias de viajes."
-    ],
-    "respuesta_correcta": "Una combinación de componentes tangibles e intangibles (recursos, servicios y actividades) que produce una experiencia para el visitante.",
-    "explicacion": "Un atractivo por sí solo no es producto turístico; requiere organización, acceso, información y prestación efectiva."
-  },
-  {
-    "pregunta": "¿Cuáles son las cuatro características distintivas de los servicios turísticos según Gomez Albrecht et al. (2023)?",
-    "opciones": [
-      "Intangibilidad, variabilidad, inseparabilidad (producción-consumo simultáneos) y caducidad.",
-      "Tangibilidad, durabilidad, almacenamiento en inventario y homogeneidad absoluta.",
-      "Rigidez, estandarización técnica, permanencia temporal e intercambiabilidad.",
-      "Gratuidad, universalidad, accesibilidad irrestricta y neutralidad comercial."
-    ],
-    "respuesta_correcta": "Intangibilidad, variabilidad, inseparabilidad (producción-consumo simultáneos) y caducidad.",
-    "explicacion": "Los servicios no se pueden tocar previamente, varían con el personal, se consumen al producirse y expiran si no se venden."
-  },
-  {
-    "pregunta": "En el caso Rutas del Centro, si los costos fijos mensuales son $24,000, el precio $1,200 y el costo variable $720, ¿cuál es el punto de equilibrio?",
-    "opciones": [
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "Con un precio de $1,200 por pasajero, un costo variable de $720 y costos fijos de $24,000 mensuales, ¿cuál es el punto de equilibrio?",
+    "options": [
       "50 pasajeros mensuales",
-      "65 pasajeros mensuales",
-      "100 pasajeros mensuales",
-      "33 pasajeros mensuales"
+      "20 pasajeros mensuales",
+      "33 pasajeros mensuales",
+      "67 pasajeros mensuales"
     ],
-    "respuesta_correcta": "50 pasajeros mensuales",
-    "explicacion": "Margen de contribución = $1,200 - $720 = $480. Punto de equilibrio = $24,000 / $480 = 50 pasajeros mensuales."
+    "answer": "50 pasajeros mensuales",
+    "explicacion": "Margen de contribución unitario = $1,200 − $720 = $480; punto de equilibrio = $24,000 ÷ $480 = 50 pasajeros (ingresos de equilibrio de $60,000)."
   },
   {
-    "pregunta": "¿Cuál es la diferencia aritmética entre recargo (markup) y margen sobre ventas?",
-    "opciones": [
-      "El recargo se calcula sumando un porcentaje sobre el costo; el margen expresa la ganancia como porcentaje del precio de venta final.",
-      "El recargo siempre se aplica a los impuestos y el margen a los costos variables.",
-      "Son exactamente el mismo concepto expresado con distinto nombre contable.",
-      "El margen sobre ventas siempre produce precios inferiores al costo variable."
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Con un costo total unitario de $900, ¿qué precio permite obtener un margen de 25 % sobre ventas?",
+    "options": [
+      "$1,200",
+      "$1,125",
+      "$1,080",
+      "$925"
     ],
-    "respuesta_correcta": "El recargo se calcula sumando un porcentaje sobre el costo; el margen expresa la ganancia como porcentaje del precio de venta final.",
-    "explicacion": "Sobre un costo de $900, un recargo del 25% da $1,125; para obtener un margen del 25% sobre venta, el precio es $900 / 0.75 = $1,200."
+    "answer": "$1,200",
+    "explicacion": "El margen sobre ventas se calcula como $900 ÷ 0.75 = $1,200. Un recargo de 25 % sobre el costo daría $1,125; confundir ambas bases reduce el resultado esperado."
   },
   {
-    "pregunta": "Si Rutas del Centro aplica una rebaja de precio del 10% (de $1,200 a $1,080) manteniendo los costos fijos en $24,000 y costo variable en $720, ¿cuántos pasajeros necesita para el punto de equilibrio?",
-    "opciones": [
-      "67 pasajeros mensuales",
-      "50 pasajeros mensuales",
-      "55 pasajeros mensuales",
-      "80 pasajeros mensuales"
-    ],
-    "respuesta_correcta": "67 pasajeros mensuales",
-    "explicacion": "Nuevo margen de contribución = $1,080 - $720 = $360. Nuevo equilibrio = $24,000 / $360 = 66.67, redondeado a 67 pasajeros (+34% de volumen)."
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "Según ONU Turismo, un atractivo aislado equivale automáticamente a un producto turístico comercializable.",
+    "answer": false,
+    "explicacion": "El producto turístico combina componentes tangibles e intangibles; para comercializar un atractivo es necesario resolver acceso, organización, información y prestación efectiva (ONU Turismo, s. f.)."
   },
   {
-    "pregunta": "¿Qué define la American Marketing Association sobre el posicionamiento de una marca?",
-    "opciones": [
-      "El lugar distintivo que se busca ocupar en la mente del consumidor objetivo frente a las alternativas de los competidores.",
-      "El eslogan publicitario que aparece en los uniformes del personal de recepción.",
-      "La ubicación física geográfica de la oficina matriz de la empresa.",
-      "El número total de seguidores que posee la marca en redes sociales."
-    ],
-    "respuesta_correcta": "El lugar distintivo que se busca ocupar en la mente del consumidor objetivo frente a las alternativas de los competidores.",
-    "explicacion": "El posicionamiento exige elegir atributos que el comprador valore y que la organización demuestre operativamente."
+    "id": 4,
+    "type": "completar_oracion",
+    "question": "El _____ gestiona la identidad de la marca y las asociaciones que genera; el _____ define el lugar que se busca ocupar frente a alternativas relevantes para un público concreto.",
+    "wordBank": ["branding", "posicionamiento", "precio", "canal"],
+    "answer": ["branding", "posicionamiento"],
+    "explicacion": "La marca identifica y diferencia una oferta; el branding gestiona su identidad y el posicionamiento elige el lugar frente a la competencia (American Marketing Association, s. f.)."
   },
   {
-    "pregunta": "¿Qué representa un mapa perceptual en mercadotecnia turística?",
-    "opciones": [
-      "Un diagrama bidimensional que ubica ofertas turísticas según la percepción real de los consumidores en dimensiones clave de elección.",
-      "Un plano topográfico del destino con rutas de senderismo y curvas de nivel.",
-      "Un organigrama jerárquico del personal de ventas y operaciones.",
-      "Un mapa geográfico con la ubicación física de los hoteles de 5 estrellas."
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "Una campaña de $6,000 obtiene 20 clientes nuevos que compran un lugar cada uno con contribución de $480. ¿Cuánto queda por cliente para cubrir costos fijos y otros conceptos?",
+    "options": [
+      "$180",
+      "$300",
+      "$480",
+      "$780"
     ],
-    "respuesta_correcta": "Un diagrama bidimensional que ubica ofertas turísticas según la percepción real de los consumidores en dimensiones clave de elección.",
-    "explicacion": "El mapa perceptual sintetiza cómo el mercado percibe a los rivales; no debe basarse solo en la opinión del propio vendedor."
-  },
-  {
-    "pregunta": "¿Cuáles son las tres capas del producto turístico propuestas en el caso Rutas del Centro?",
-    "opciones": [
-      "Beneficio buscado, servicios contratados y apoyos que reducen la incertidumbre de la experiencia.",
-      "Boleto físico, folleto publicitario y factura electrónica.",
-      "Autobús, habitación y menú de degustación.",
-      "Página web, red social y anuncio en radio."
-    ],
-    "respuesta_correcta": "Beneficio buscado, servicios contratados y apoyos que reducen la incertidumbre de la experiencia.",
-    "explicacion": "El producto reúne lo que el cliente busca vivir, los servicios formales incluidos y los apoyos de orientación y confianza."
-  },
-  {
-    "pregunta": "En la comunicación integral de marketing, ¿por qué es indispensable coordinar anuncios, página web y atención en mostrador?",
-    "opciones": [
-      "Para evitar contradicciones entre la promesa comercial publicada y lo que el personal ofrece o cobra en ventanilla.",
-      "Porque la ley obliga a usar las mismas frases literales en todos los canales.",
-      "Para reducir el costo de los servidores y el consumo de ancho de banda.",
-      "Porque los medios impresos no admiten logotipos institucionales."
-    ],
-    "respuesta_correcta": "Para evitar contradicciones entre la promesa comercial publicada y lo que el personal ofrece o cobra en ventanilla.",
-    "explicacion": "La integración garantiza que las condiciones pactadas en publicidad sean respetadas en la prestación operativa."
-  },
-  {
-    "pregunta": "Si una campaña publicitaria cuesta $6,000 MXN y genera 20 clientes nuevos que compran un lugar con contribución unitaria de $480, ¿cuál es el costo de adquisición (CAC) por cliente?",
-    "opciones": [
-      "$300 MXN por cliente",
-      "$480 MXN por cliente",
-      "$180 MXN por cliente",
-      "$600 MXN por cliente"
-    ],
-    "respuesta_correcta": "$300 MXN por cliente",
-    "explicacion": "CAC = Inversión / Clientes adquiridos = $6,000 / 20 = $300 MXN. Tras cubrir la captación, cada cliente aporta $180 netos ($480 - $300) a los costos fijos."
+    "answer": "$180",
+    "explicacion": "El costo de adquisición es $6,000 ÷ 20 = $300 por cliente; $480 − $300 = $180. Si el gasto ya estuviera incluido en los costos del modelo, volver a descontarlo duplicaría el registro."
   }
 ]

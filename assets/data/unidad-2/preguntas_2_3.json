@@ -1,112 +1,51 @@
 [
   {
-    "pregunta": "De acuerdo con Hyndman & Athanasopoulos (2021), ¿cuál es la diferencia clave entre un pronóstico de ventas y una meta comercial?",
-    "opciones": [
-      "El pronóstico estima lo que probablemente ocurrirá basándose en supuestos razonados; la meta expresa lo que la organización desea alcanzar.",
-      "El pronóstico es un compromiso legal con accionistas y la meta una sugerencia informal.",
-      "El pronóstico siempre es menor que los costos variables y la meta siempre es igual al punto de equilibrio.",
-      "No existe ninguna diferencia técnica entre ambos conceptos."
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la diferencia entre un pronóstico y una meta de ventas?",
+    "options": [
+      "El pronóstico estima lo que probablemente sucederá; la meta expresa lo que se desea alcanzar.",
+      "El pronóstico expresa lo que se desea alcanzar; la meta estima lo que probablemente sucederá.",
+      "Son sinónimos: ambos indican el volumen de ventas que la empresa necesita.",
+      "El pronóstico solo puede hacerse con al menos cinco años de historial de ventas."
     ],
-    "respuesta_correcta": "El pronóstico estima lo que probablemente ocurrirá basándose en supuestos razonados; la meta expresa lo que la organización desea alcanzar.",
-    "explicacion": "Confundir entusiasmo con evidencia empírica es el principal riesgo al planificar ventas sin datos históricos."
+    "answer": "El pronóstico estima lo que probablemente sucederá; la meta expresa lo que se desea alcanzar.",
+    "explicacion": "Confundir ambos conceptos lleva a tomar entusiasmo por evidencia; los supuestos deben documentarse y contrastarse con ventas reales (Hyndman & Athanasopoulos, 2021, cap. 6)."
   },
   {
-    "pregunta": "¿Por qué las estadísticas de ocupación hotelera de DataTur no se traducen automáticamente en ventas de una excursión de un día?",
-    "opciones": [
-      "Porque difieren en unidad de medida, público objetivo, propósito de viaje y cobertura de servicios (pernocta vs sin pernocta).",
-      "Porque DataTur no contiene información verificada sobre el turismo mexicano.",
-      "Porque los hoteles tienen prohibido vender recorridos a los visitantes.",
-      "Porque los excursionistas solo compran boletos a través de aerolíneas."
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "En el escenario base de Rutas del Centro (695 pasajeros al año y capacidad de 100 por mes), ¿cuál es la ocupación anual de capacidad?",
+    "options": [
+      "57.9 %",
+      "69.5 %",
+      "50.0 %",
+      "65.0 %"
     ],
-    "respuesta_correcta": "Porque difieren en unidad de medida, público objetivo, propósito de viaje y cobertura de servicios (pernocta vs sin pernocta).",
-    "explicacion": "La ocupación hotelera contextualiza el destino, pero no equivale a la demanda de tours de un día sin alojamiento."
+    "answer": "57.9 %",
+    "explicacion": "La capacidad anual es 100 × 12 = 1,200 lugares; 695 ÷ 1,200 = 57.9 %."
   },
   {
-    "pregunta": "En el pronóstico del primer año de Rutas del Centro (capacidad: 100 pasajeros/mes, tarifa: $1,200), se estiman 695 pasajeros anuales. Si el equilibrio anual es 600 pasajeros, ¿por qué los primeros 3 meses acumulan resultado negativo?",
-    "opciones": [
-      "Por la estacionalidad baja inicial (35, 40 y 45 pasajeros), lo que exige prever capital de trabajo para cubrir costos fijos antes del repunte de abril.",
-      "Porque el costo variable aumentó un 50% en los meses de invierno.",
-      "Porque las agencias de viajes en línea retuvieron todos los ingresos de enero a marzo.",
-      "Porque la empresa operó por encima del 100% de su capacidad instalada."
-    ],
-    "respuesta_correcta": "Por la estacionalidad baja inicial (35, 40 y 45 pasajeros), lo que exige prever capital de trabajo para cubrir costos fijos antes del repunte de abril.",
-    "explicacion": "Aunque el saldo anual sea positivo ($45,600 MXN), la estacionalidad genera desfases de liquidez temporal que deben financiarse."
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "La ocupación hotelera de un destino reportada por DataTur puede transformarse directamente en ventas de una excursión.",
+    "answer": false,
+    "explicacion": "DataTur sirve de contexto, pero cambian la unidad de medida, el segmento y la cobertura, por lo que no se traduce directamente en ventas de una excursión (Secretaría de Turismo, s. f.)."
   },
   {
-    "pregunta": "¿Cuál es la tasa de ocupación de capacidad anual para Rutas del Centro con 695 pasajeros sobre una capacidad de 1,200 lugares anuales?",
-    "opciones": [
-      "57.9%",
-      "65.0%",
-      "50.0%",
-      "75.5%"
-    ],
-    "respuesta_correcta": "57.9%",
-    "explicacion": "Ocupación = 695 pasajeros / 1,200 lugares disponibles anuales = 0.5791 (57.9%)."
+    "id": 4,
+    "type": "completar_oracion",
+    "question": "En productos nuevos, la ausencia de historial obliga a recurrir a juicio estructurado, _____, intención de compra y _____.",
+    "wordBank": ["analogías", "escenarios", "metas", "descuentos"],
+    "answer": ["analogías", "escenarios"],
+    "explicacion": "Sin datos históricos, el pronóstico se apoya en juicio estructurado, analogías, intención de compra y escenarios (Hyndman & Athanasopoulos, 2021, cap. 6)."
   },
   {
-    "pregunta": "En un escenario conservador 20% por debajo de la base (556 pasajeros anuales frente a un equilibrio de 600), ¿cuál es el resultado operativo simplificado?",
-    "opciones": [
-      "-$21,120 MXN (pérdida operativa)",
-      "+$45,600 MXN",
-      "$0 MXN (equilibrio exacto)",
-      "+$12,000 MXN"
-    ],
-    "respuesta_correcta": "-$21,120 MXN (pérdida operativa)",
-    "explicacion": "Contribución = 556 * $480 = $266,880. Costos fijos anuales = $288,000. Resultado = $266,880 - $288,000 = -$21,120 MXN."
-  },
-  {
-    "pregunta": "¿Qué distingue a un canal directo de uno indirecto en la venta turística?",
-    "opciones": [
-      "En el canal directo la empresa vende al consumidor sin intermediarios comerciales; en el indirecto participan agencias o plataformas OTA.",
-      "El canal directo solo funciona en efectivo y el indirecto únicamente con tarjeta.",
-      "El canal directo requiere el pago del 15% de comisión por boleto.",
-      "El canal directo se destina exclusivamente a grupos escolares."
-    ],
-    "respuesta_correcta": "En el canal directo la empresa vende al consumidor sin intermediarios comerciales; en el indirecto participan agencias o plataformas OTA.",
-    "explicacion": "La venta directa otorga control total del cliente y precio; la indirecta amplía visibilidad pero cobra comisiones sobre tarifa."
-  },
-  {
-    "pregunta": "Si un intermediario cobra una comisión del 15% sobre la tarifa de $1,200 ($180 de comisión) y el costo operativo es $650, ¿cuál es la contribución de esa venta indirecta?",
-    "opciones": [
-      "$370 MXN por pasajero",
-      "$480 MXN por pasajero",
-      "$550 MXN por pasajero",
-      "$250 MXN por pasajero"
-    ],
-    "respuesta_correcta": "$370 MXN por pasajero",
-    "explicacion": "Contribución canal indirecto = $1,200 - $650 (operativo) - $180 (comisión) = $370 MXN (frente a $480 de la venta directa)."
-  },
-  {
-    "pregunta": "Si las ventas se componen de 60% directas ($480 contribución) y 40% indirectas ($370 contribución), la contribución ponderada baja a $436. ¿Qué ocurre con el punto de equilibrio mensual ($24,000 de costos fijos)?",
-    "opciones": [
-      "Aumenta de 50 a 56 pasajeros mensuales para compensar la menor contribución media.",
-      "Disminuye a 42 pasajeros mensuales.",
-      "Se mantiene exactamente en 50 pasajeros.",
-      "Se duplica a 100 pasajeros mensuales."
-    ],
-    "respuesta_correcta": "Aumenta de 50 a 56 pasajeros mensuales para compensar la menor contribución media.",
-    "explicacion": "Equilibrio = $24,000 / $436 = 55.04 (56 pasajeros). Al ceder comisiones, se requiere vender más lugares para cubrir los costos fijos."
-  },
-  {
-    "pregunta": "¿Qué práctica tecnológica es indispensable en el comercio electrónico turístico para evitar la sobreventa (overbooking)?",
-    "opciones": [
-      "Sincronizar inventarios y cupos en tiempo real entre todos los canales de venta.",
-      "Ocultar los precios de los recorridos hasta después de recibir los datos bancarios.",
-      "Permitir que los clientes reserven sin confirmar disponibilidad de plazas.",
-      "Deshabilitar las compras desde teléfonos móviles durante los fines de semana."
-    ],
-    "respuesta_correcta": "Sincronizar inventarios y cupos en tiempo real entre todos los canales de venta.",
-    "explicacion": "La sincronización en tiempo real garantiza que un cupo vendido en la web no se duplique en mostrador ni en agencias intermediarias."
-  },
-  {
-    "pregunta": "¿Cómo se calcula la estimación de demanda desde el embudo de conversión digital?",
-    "opciones": [
-      "Multiplicando visitas calificadas por la tasa de conversión a reservas pagadas y por el promedio de pasajeros por reserva.",
-      "Sumando el número de impresiones en redes con los clics en banners.",
-      "Dividiendo el total de seguidores entre la tarifa de temporada baja.",
-      "Restando los impuestos locales del número de consultas telefónicas."
-    ],
-    "respuesta_correcta": "Multiplicando visitas calificadas por la tasa de conversión a reservas pagadas y por el promedio de pasajeros por reserva.",
-    "explicacion": "El cálculo del embudo relaciona tráfico calificado, tasa de conversión efectiva y tamaño medio de la reserva contratada."
+    "id": 5,
+    "type": "ordenar_oracion",
+    "question": "Ordena el cálculo del pronóstico desde el embudo de ventas.",
+    "segments": ["Multiplicar visitas calificadas", "por conversión a reservas pagadas", "y por pasajeros por reserva;", "después descontar cancelaciones", "y verificar que no se excedan los lugares disponibles."],
+    "answer": ["Multiplicar visitas calificadas", "por conversión a reservas pagadas", "y por pasajeros por reserva;", "después descontar cancelaciones", "y verificar que no se excedan los lugares disponibles."],
+    "explicacion": "Cada supuesto del embudo debe tener responsable y fecha de revisión."
   }
 ]

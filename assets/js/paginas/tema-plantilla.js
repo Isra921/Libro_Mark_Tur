@@ -229,7 +229,7 @@
             if (!tema) throw new Error(`El tema ${numeroTema} no aparece en la lista "temas" de ${idUnidad}.json.`);
 
             const numeral = UI.romano(unidad.numero);
-            document.title = `${tema.numero} ${tema.nombre} | Unidad ${numeral} | Aplicaciones para Comunicaciones en Red`;
+            document.title = `${tema.numero} ${tema.nombre} | Unidad ${numeral} | Marketing`;
 
             if (contenedorIndice) {
                 contenedorIndice.innerHTML = indice(unidad, numeral, tema);

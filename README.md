@@ -16,6 +16,12 @@ Polilibro académico interactivo desarrollado para la **Unidad de Aprendizaje de
   - 1.5 El enfoque industrial del turismo
   - Actividades de aprendizaje por tema y evaluación integradora interactiva.
   - Acervo y referencias bibliográficas del programa oficial.
+- **Unidad 2: Identificación del perfil del consumidor y desarrollo de la mezcla de mercadotecnia**:
+  - 2.1 Segmento de mercado meta y perfil del consumidor
+  - 2.2 Elementos de la mezcla de mercadotecnia (producto, precio, branding y comunicación)
+  - 2.3 Pronósticos de ventas para el primer año de operación
+  - 2.4 Canales de distribución directos e indirectos y comercio electrónico
+  - Caso didáctico Rutas del Centro, actividades de aprendizaje por tema (5 preguntas cada una) y referencias APA vinculadas a cada tema.
 
 ---
 

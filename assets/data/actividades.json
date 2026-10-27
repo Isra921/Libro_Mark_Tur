@@ -101,6 +101,15 @@
           "url": "unidades/unidad-02/actividades/actividad-2-3.html"
         },
         {
+          "tag": "Tema 2.4",
+          "titulo": "Actividad 2.4: Canales de distribución y comercio electrónico",
+          "descripcion": "Venta directa e intermediada, impacto de comisiones en la contribución y prácticas de e-commerce.",
+          "icono": "fa-cart-shopping",
+          "reactivos": "5 reactivos",
+          "tiempo": "5 min",
+          "url": "unidades/unidad-02/actividades/actividad-2-4.html"
+        },
+        {
           "tag": "Simulador Integrador",
           "destacada": true,
           "titulo": "Simulador de Precios y Punto de Equilibrio: Rutas del Centro",

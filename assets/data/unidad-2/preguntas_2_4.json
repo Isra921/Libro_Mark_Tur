@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "type": "completar_oracion",
+    "question": "En un canal _____ el proveedor vende al consumidor sin un intermediario comercial; en uno _____ participan agentes o distribuidores.",
+    "wordBank": ["directo", "indirecto", "digital", "mixto"],
+    "answer": ["directo", "indirecto"],
+    "explicacion": "La elección del canal modifica alcance, control, responsabilidades y costos (Gomez Albrecht et al., 2023, sección 17.2)."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "Vender por internet convierte automáticamente un canal en directo.",
+    "answer": false,
+    "explicacion": "La presencia de internet no determina por sí sola el tipo de canal: tanto un sitio propio como una plataforma intermediaria permiten comprar en línea."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "Si el costo operativo es $650 por pasajero y un intermediario cobra 15 % de la tarifa de $1,200, ¿cuál es la contribución por pasajero en el canal indirecto?",
+    "options": [
+      "$370",
+      "$480",
+      "$550",
+      "$180"
+    ],
+    "answer": "$370",
+    "explicacion": "La comisión es 15 % × $1,200 = $180; la contribución es $1,200 − $650 − $180 = $370, frente a $480 en venta directa."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Con 60 % de ventas directas ($480 de contribución) y 40 % indirectas ($370), ¿cuál es el equilibrio mensual con costos fijos de $24,000?",
+    "options": [
+      "56 pasajeros",
+      "50 pasajeros",
+      "65 pasajeros",
+      "67 pasajeros"
+    ],
+    "answer": "56 pasajeros",
+    "explicacion": "La contribución media es 0.6 × $480 + 0.4 × $370 = $436; 24,000 ÷ 436 = 55.05, que se redondea a 56 pasajeros. El pronóstico base debe ajustarse cuando cambia la composición de canales."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Qué prácticas se proponen para el comercio electrónico de la operadora?",
+    "options": [
+      "Sincronizar cupos, mostrar condiciones antes del pago y registrar la procedencia de cada reserva.",
+      "Vender solo a través de agencias en línea para evitar gestionar el cobro.",
+      "Ocultar las condiciones de cancelación hasta después del pago para no frenar la compra.",
+      "Aceptar más reservas que lugares disponibles para compensar cancelaciones."
+    ],
+    "answer": "Sincronizar cupos, mostrar condiciones antes del pago y registrar la procedencia de cada reserva.",
+    "explicacion": "Estas prácticas evitan sobreventas y permiten evaluar los resultados de cada canal."
+  }
+]

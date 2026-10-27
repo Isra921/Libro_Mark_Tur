@@ -258,6 +258,9 @@
   font-style: italic;
 }
 
+.r-hero__lead,
+.r-card__desc { text-align: justify; hyphens: auto; }
+
 .r-card__desc {
   margin: 0;
   font-size: 0.85rem;
@@ -282,6 +285,17 @@
   border: 1px solid var(--border-color);
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+/* Etiqueta que enlaza de regreso al tema donde se cita la fuente */
+a.r-meta-tag { text-decoration: none; transition: color 0.2s ease, border-color 0.2s ease; }
+a.r-meta-tag:hover { color: var(--primary); border-color: color-mix(in srgb, var(--primary) 45%, transparent); }
+
+/* Tarjeta destino al llegar desde una cita del tema (referencias.html#ref-...) */
+.r-card { scroll-margin-top: calc(var(--u-nav-offset) + 16px); }
+.r-card:target {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 45%, transparent), var(--shadow-card);
 }
 
 .r-card__actions {

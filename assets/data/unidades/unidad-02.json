@@ -2,29 +2,26 @@
   "id": "unidad-02",
   "numero": 2,
   "titulo": "Identificación del perfil del consumidor y desarrollo de la mezcla de mercadotecnia",
-  "descripcion": "Aplica la mezcla de mercadotecnia con base en sus elementos, perfil del consumidor y pronósticos de ventas.",
-  "lema": "Relacionando las necesidades del visitante con experiencias turísticas sostenibles.",
-  "duracion_horas": 18,
-
+  "descripcion": "Construye el perfil del consumidor, diseña una mezcla comercial coherente y estima las ventas del primer año de operación de una empresa turística.",
+  "lema": "Una propuesta atractiva requiere evidencia sobre el mercado y un margen de contribución suficiente.",
+  "duracion_horas": 27,
   "introduccion": [
     "Un plan de marketing turístico debe relacionar las necesidades del visitante con una experiencia que la empresa pueda entregar y sostener económicamente. Elegir a quién atender determina qué servicios ofrecer, cuánto cobrar, cómo comunicar sus beneficios y mediante qué canales venderlos. El pronóstico de ventas permite comprobar si esas decisiones son compatibles con la capacidad disponible y los costos de operación.",
-    "Esta unidad desarrolla la construcción del perfil del consumidor, el diseño de una mezcla comercial coherente (producto, precio, punto de equilibrio, branding y comunicación integral) y la estimación de ventas del primer año de operación, analizando el impacto de los canales directos e indirectos en la rentabilidad turística."
+    "Esta investigación desarrolla los apartados 2.1, 2.2 y sus cuatro subtemas, 2.3 y 2.3.1 del programa de Plan de marketing de la Escuela Superior de Turismo del Instituto Politécnico Nacional (IPN, 2022, p. 3). Su objetivo es explicar cómo construir un perfil del consumidor, diseñar una mezcla comercial coherente y estimar las ventas del primer año. La conclusión central es que una propuesta atractiva requiere evidencia sobre el mercado y un margen de contribución suficiente; las preferencias supuestas y las metas de venta, por sí solas, no prueban su viabilidad.",
+    "El desarrollo combina fuentes académicas y organismos especializados con un caso didáctico propio: Rutas del Centro, una operadora ficticia de experiencias culturales de un día. Todos los precios, volúmenes, porcentajes y resultados de esta empresa son supuestos ilustrativos, no estadísticas de una empresa real. Las fuentes se citan mediante paráfrasis y se presentan en formato APA séptima edición."
   ],
-
   "video": {
     "titulo": "Video introductorio: Perfil del consumidor y mezcla de mercadotecnia",
     "url": "https://www.youtube-nocookie.com/embed/6-sWj0emFik"
   },
-
-  "recorrido": "Recorre los temas de la unidad para dominar la segmentación, la mezcla de mercadotecnia turística y los pronósticos de ventas, completando sus actividades formativas y el simulador de decisiones comerciales.",
-
+  "recorrido": "Recorre los cuatro temas en orden: primero se define el segmento meta y el perfil del visitante; después se diseña la mezcla de mercadotecnia (producto, precio, marca y comunicación); luego se estima el pronóstico de ventas del primer año y, por último, se comparan los canales de distribución directos e indirectos. El caso Rutas del Centro conecta todos los temas y cada uno cierra con su actividad de aprendizaje.",
   "temas": [
     {
       "numero": "2.1",
       "nombre": "Segmento de mercado meta y perfil del consumidor",
-      "sintesis": "Variables de segmentación, definición de mercado meta, buyer persona e investigación del comportamiento del viajero.",
+      "sintesis": "Variables de segmentación, mercado meta, buyer persona, criterios de un segmento útil y aplicación al perfil del visitante de Rutas del Centro.",
       "url": "unidades/unidad-02/temas/tema-02-01.html",
-      "icono": "fa-user-tag",
+      "icono": "fa-users-viewfinder",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.1",
         "url": "unidades/unidad-02/actividades/actividad-2-1.html"
@@ -33,9 +30,9 @@
     {
       "numero": "2.2",
       "nombre": "Elementos de la mezcla de mercadotecnia",
-      "sintesis": "Producto turístico según OMT, fijación de precios, punto de equilibrio, branding, posicionamiento y comunicación integral.",
-      "url": "unidades/unidad-02/temas/tema-02-01.html",
-      "icono": "fa-bullseye",
+      "sintesis": "Producto turístico, precio y punto de equilibrio, branding y posicionamiento, y estrategias de comunicación integral aplicadas al caso.",
+      "url": "unidades/unidad-02/temas/tema-02-02.html",
+      "icono": "fa-layer-group",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.2",
         "url": "unidades/unidad-02/actividades/actividad-2-2.html"
@@ -44,29 +41,42 @@
     {
       "numero": "2.3",
       "nombre": "Pronósticos de ventas para el primer año de operación",
-      "sintesis": "Métodos de proyección, estacionalidad turística, canales directos vs indirectos y comercio electrónico.",
-      "url": "unidades/unidad-02/temas/tema-02-01.html",
-      "icono": "fa-chart-pie",
+      "sintesis": "Diferencia entre pronóstico y meta, estimación sin historial, ejemplo mensual del primer año y escenarios conservador y favorable.",
+      "url": "unidades/unidad-02/temas/tema-02-03.html",
+      "icono": "fa-chart-column",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.3",
         "url": "unidades/unidad-02/actividades/actividad-2-3.html"
       }
+    },
+    {
+      "numero": "2.4",
+      "nombre": "Canales de distribución directos e indirectos y comercio electrónico",
+      "sintesis": "Venta directa e intermediada, efecto de las comisiones en la contribución y el equilibrio, y prácticas de comercio electrónico.",
+      "url": "unidades/unidad-02/temas/tema-02-04.html",
+      "icono": "fa-cart-shopping",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.4",
+        "url": "unidades/unidad-02/actividades/actividad-2-4.html"
+      }
     }
   ],
-
   "actividad_final": {
-    "nombre": "Simulador de Fijación de Precios, Mezcla de Marketing y Punto de Equilibrio",
+    "nombre": "Simulador de Fijación de Precios, Mezcla de Marketing y Punto de Equilibrio: Caso Rutas del Centro",
     "descripcion": "Modela el perfil del consumidor, diseña la mezcla de mercadotecnia, calcula el punto de equilibrio y proyecta ventas para la operadora turística Rutas del Centro.",
     "url": "unidades/unidad-02/actividades/actividad-final.html"
   },
-
-  "objetivo": "Aplicar la mezcla de mercadotecnia con base en sus elementos, perfil del consumidor y pronósticos de ventas en empresas y productos turísticos.",
-
+  "objetivo": "Explicar cómo construir un perfil del consumidor, diseñar una mezcla comercial coherente y estimar las ventas del primer año de operación de una empresa turística, con base en evidencia sobre el mercado y en el margen de contribución.",
   "competencias": [
-    "Aplica la mezcla de mercadotecnia con base en sus elementos, perfil del consumidor y pronósticos de ventas."
+    "Identifica el segmento de mercado meta y construye el perfil del consumidor a partir de evidencia de investigación.",
+    "Diseña los elementos de la mezcla de mercadotecnia (producto, precio, marca y comunicación) de forma coherente con el perfil del visitante.",
+    "Calcula el punto de equilibrio y estima el pronóstico de ventas del primer año considerando capacidad, estacionalidad y escenarios.",
+    "Compara canales de distribución directos e indirectos según su contribución y su efecto en la viabilidad del plan."
   ],
-
   "material_apoyo": [
-    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-02/referencias.html" }
+    {
+      "nombre": "Referencias bibliográficas de la unidad",
+      "url": "unidades/unidad-02/referencias.html"
+    }
   ]
 }
