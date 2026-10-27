@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad-final.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad final: Simulador de Ruta Crítica y Control Gerencial | EST</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+  <link rel="shortcut icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+<body class="final-evaluation-page">
+    <header class="site-nav" data-componente="navegacion"></header>
+    <div class="reading-progress" aria-hidden="true">
+        <div class="reading-progress-bar" id="readingProgressBar"></div>
+    </div>
+
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Volver al inicio">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <div class="evaluation-shell">
+        <header class="evaluation-header" id="inicio">
+            <div class="header-title-content">
+                <p class="eyebrow">UNIDAD 5 · EVALUACIÓN INTEGRADORA</p>
+                <h1>Actividad final: Simulador de Ruta Crítica (CPM) y Tablero de Control Gerencial</h1>
+                <div class="header-badges">
+                    <span class="header-badge header-badge-upcoming"><i class="fas fa-tree" aria-hidden="true"></i> Caso: Complejo Ecoturístico "Senda Los Pinos"</span>
+                    <span class="header-badge"><i class="fas fa-diagram-project" aria-hidden="true"></i> Red CPM, Holguras &amp; Semáforo de KPIs</span>
+                    <span class="header-badge header-badge-accent"><i class="fas fa-award" aria-hidden="true"></i> Ponderación: 100%</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="activity-grid">
+                <div class="activity-main-col">
+                    <div class="network-legend-banner" role="status">
+                        <div class="legend-icon">
+                            <i class="fas fa-diagram-project" aria-hidden="true"></i>
+                        </div>
+                        <div class="legend-content">
+                            <h3>
+                                <span>Caso de Estudio Integrador · Complejo Ecoturístico "Senda Los Pinos"</span>
+                                <span class="legend-tag">Lanzamiento de Temporada &amp; Control CPM</span>
+                            </h3>
+                            <p>
+                                Como director general de <strong>Senda Los Pinos</strong>, coordinas el proyecto de lanzamiento de la nueva temporada de avistamiento y aventura. Cuentas con un presupuesto asignado por el <strong>Método de Objetivos y Tareas ($215,000 MXN)</strong> y una red de 6 actividades críticas interdependientes. Deberás calcular la <strong>Ruta Crítica (Método CPM)</strong>, evaluar las holguras totales y supervisar el tablero de control de KPIs para activar medidas correctivas oportunas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tablero de Ruta Crítica y Control -->
+                    <section class="workbench-card" aria-labelledby="workbenchTitle">
+                        <div class="workbench-header">
+                            <div class="workbench-title-group">
+                                <h2 id="workbenchTitle"><i class="fas fa-sliders" style="color:var(--accent);"></i> Tablero Interactivo: Red CPM y Tablero de Control Gerencial</h2>
+                                <p>Modela la duración de las actividades de la red CPM, visualiza la ruta crítica inamovible e interpreta las alertas del cuadro de mando.</p>
+                            </div>
+                            <div class="workbench-status-badge" id="workbenchStatusBadge">
+                                <span class="status-dot"></span>
+                                <span id="workbenchStatusText">Listo para auditar</span>
+                            </div>
+                        </div>
+
+                        <!-- Diagrama de Red CPM Simplificado -->
+                        <div class="topology-diagram">
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-flag-checkered"></i>
+                                </div>
+                                <h4>Inicio del Proyecto</h4>
+                                <p class="node-ip">Semana 0</p>
+                                <span class="node-badge"><i class="fas fa-play"></i> Hito Inicial</span>
+                            </div>
+
+                            <div class="net-channel-card">
+                                <div class="channel-info" id="u5CpmInfo">RUTA CRÍTICA: A -> C -> E -> F (14 Semanas)</div>
+                                <div class="channel-line">
+                                    <div class="channel-packet" id="netPacketAnim">CPM</div>
+                                </div>
+                                <small style="color:var(--text-muted); font-size:0.75rem;">Holgura en B y D = 2 Semanas</small>
+                            </div>
+
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-champagne-glasses"></i>
+                                </div>
+                                <h4>Inauguración</h4>
+                                <p class="node-ip" id="u5NodeDuration">Semana 14</p>
+                                <span class="node-badge" id="u5BadgeCpm" style="background:color-mix(in srgb, #10b981 20%, transparent); border-color:#10b981; color:#34d399;"><i class="fas fa-check"></i> En Tiempo</span>
+                            </div>
+                        </div>
+
+                        <!-- Selector de Modo de Control -->
+                        <div class="workbench-controls">
+                            <div class="control-field">
+                                <span class="control-label">1. Módulo Gerencial Activo</span>
+                                <div class="btn-group-toggle">
+                                    <button type="button" class="toggle-btn active" id="btnU5Cpm" onclick="setU5Module('cpm')">
+                                        <i class="fas fa-diagram-project"></i> 1. Red y Holguras CPM
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnU5Kpi" onclick="setU5Module('kpi')">
+                                        <i class="fas fa-chart-line"></i> 2. Tablero de Control de KPIs
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnU5Presupuesto" onclick="setU5Module('presupuesto')">
+                                        <i class="fas fa-coins"></i> 3. Desglose Presupuestal
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Panel dinámico -->
+                            <div id="u5ModulePanel" style="margin-top:1.25rem; background:rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:1.25rem;">
+                                <!-- Llenado por JS -->
+                            </div>
+
+                            <div class="action-button-group" style="margin-top:1.5rem;">
+                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularAuditoriaU5()">
+                                    <i class="fas fa-gauge-high"></i> Ejecutar Auditoría Operativa y Generar Dictamen
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Consola en tiempo real -->
+                        <div class="net-console" style="margin-top:1.5rem;">
+                            <div class="console-topbar">
+                                <div class="console-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="console-title">terminal://senda-los-pinos-sim-cpm</span>
+                                <button type="button" onclick="clearConsoleU5()" style="background:transparent; border:none; color:var(--text-muted); cursor:pointer; font-size:0.75rem;" title="Limpiar consola">
+                                    <i class="fas fa-eraser"></i> Limpiar
+                                </button>
+                            </div>
+                            <div class="console-body" id="netConsoleBody">
+                                <div><span class="log-info">[INIT]</span> Sistema de control de proyectos y ruta crítica inicializado.</div>
+                                <div><span class="log-info">[BASE]</span> Duración del proyecto: 14 semanas · Ruta crítica activa: A-C-E-F · Holgura total en rama B-D: 2 semanas.</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Retos de Decisión Gerencial -->
+                    <section class="challenges-card" aria-labelledby="challengesTitle">
+                        <div class="challenges-header">
+                            <h2 id="challengesTitle"><i class="fas fa-vial-circle-check" style="color:var(--accent);"></i> Retos Prácticos de Decisión · Unidad 5</h2>
+                            <p>Resuelve cada dilema gerencial fundamentando tu análisis en la presupuestación, el método CPM y los mecanismos de control.</p>
+                        </div>
+
+                        <!-- Reto 1 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-coins"></i> Reto 1 · Métodos de Presupuestación</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 5.1</span>
+                            </div>
+                            <h3 class="challenge-title">Defensa Técnica del Método de Objetivos y Tareas</h3>
+                            <p class="challenge-desc">
+                                El director financiero propone recortar el presupuesto de marketing asignando simplemente un 4% histórico de las ventas del año anterior ($140,000 MXN en lugar de los $215,000 requeridos). ¿Cuál es el argumento técnico para defender el <strong>Método de Objetivos y Tareas</strong> frente al consejo de administración?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 1, false, 'El método de porcentaje de ventas trata a las ventas como causa y a la publicidad como efecto, lo que recorta fondos precisamente cuando el destino necesita crecer.')">
+                                    <span><strong>A)</strong> El método de porcentaje de ventas es el más científico y siempre debe adoptarse a ciegas.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 1, true, 'El método de objetivos y tareas define metas concretas (meta de ocupación del 75%), desglosa cada actividad necesaria con sus costos reales e incluye una reserva de contingencia del 10%, evitando la trampa circular del método de porcentaje de ventas que asfixia proyectos de expansión.')">
+                                    <span><strong>B)</strong> El método de objetivos y tareas desglosa con exactitud las actividades necesarias para lograr la meta de ocupación del 75% y justifica cada peso invertido, mientras que el porcentaje de ventas recorta recursos arbitrariamente en temporadas de expansión cuando más se requiere inversión.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 1, false, 'Aceptar el recorte sin justificación técnica causará el fracaso de la temporada y el incumplimiento de metas.')">
+                                    <span><strong>C)</strong> Aceptar el recorte presupuestal y cancelar todas las actividades de relaciones públicas y guías certificados.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 1, false, 'Gastar sin control viola la responsabilidad gerencial.')">
+                                    <span><strong>D)</strong> Afirmar que el marketing no requiere presupuesto porque los viajeros llegan por sí solos gracias a la naturaleza.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 2 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-diagram-project"></i> Reto 2 · Ruta Crítica (Método CPM)</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 5.2</span>
+                            </div>
+                            <h3 class="challenge-title">Gestión de Desviaciones en Actividades con Holgura</h3>
+                            <p class="challenge-desc">
+                                Durante la ejecución, la <strong>Actividad D (Desarrollo del motor de reservas web)</strong> sufre un retraso imprevisto de <strong>1 semana</strong> por ajustes del proveedor bancario. Sabiendo que la Actividad D tiene una <strong>Holgura Total (Slack) de 2 semanas</strong>, ¿qué impacto tiene este retraso en la fecha final de inauguración del complejo?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 2, false, 'Un retraso dentro de la holgura no aplaza el proyecto total.')">
+                                    <span><strong>A)</strong> La fecha de inauguración se retrasa automáticamente una semana y se deben pagar penalizaciones a los medios.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 2, true, 'Principio CPM: Como el retraso de 1 semana es menor que la holgura total disponible (2 semanas), la fecha final del proyecto no sufre ninguna alteración. La holgura restante se reduce a 1 semana sin afectar la ruta crítica.')">
+                                    <span><strong>B)</strong> Ningún impacto en la fecha de inauguración. Como la holgura disponible era de 2 semanas, el retraso de 1 semana es absorbido por el margen de seguridad de la rama no crítica, quedando 1 semana de holgura remanente.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 2, false, 'La ruta crítica está conformada por las actividades A-C-E-F; la actividad D sigue teniendo holgura.')">
+                                    <span><strong>C)</strong> Todo el proyecto se cancela porque las actividades con holgura no pueden tener retrasos bajo ninguna circunstancia.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 2, false, 'Acelerar sin necesidad genera sobrecostos.')">
+                                    <span><strong>D)</strong> Despedir al equipo web y pagar el triple a otra empresa para recuperar el día perdido.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 3 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-chart-line"></i> Reto 3 · Medidas y Mecanismos de Control</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 5.3</span>
+                            </div>
+                            <h3 class="challenge-title">Acción Correctiva ante Desviación de KPI en el Tablero de Control</h3>
+                            <p class="challenge-desc">
+                                Al corte del primer mes de operación, el tablero de control marca el indicador <strong>"Costo de Adquisición de Clientes (CAC)" en color ROJO</strong>: la meta era de $350 MXN pero el costo real se disparó a $490 MXN (+40% de desviación desfavorable). ¿Cuál es la medida correctiva técnicamente fundada?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 3, false, 'Ignorar la alerta roja hasta el fin de año agota el presupuesto publicitario sin control.')">
+                                    <span><strong>A)</strong> Ignorar la señal del semáforo hasta el cierre anual para ver si el mercado se corrige solo.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 3, true, 'Acción correctiva precisa: auditar las campañas de medios, pausar palabras clave y audiencias con bajo índice de conversión, reasignar presupuesto a los canales de mejor desempeño (boca a boca y alianzas locales) y optimizar la página de aterrizaje para reducir el CAC a la banda de tolerancia.')">
+                                    <span><strong>B)</strong> Auditar de inmediato el desglose de pauta publicitaria, pausar los anuncios de bajo rendimiento con costo por clic excesivo, reasignar inversión a canales de alta conversión (marketing simbiótico y SEO local) y optimizar la página de captura para retornar al umbral meta.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 3, false, 'Duplicar el presupuesto de un canal ineficiente solo multiplicará las pérdidas.')">
+                                    <span><strong>C)</strong> Duplicar el presupuesto en los mismos anuncios ineficientes para forzar que la métrica baje matemáticamente.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 3, false, 'Cambiar la meta para maquillar el resultado viola el principio de integridad gerencial.')">
+                                    <span><strong>D)</strong> Subir la meta artificialmente a $600 MXN para que el indicador aparezca en verde en el informe.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 4 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-file-lines"></i> Reto 4 · Reporte Ejecutivo Gerencial</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 5.4</span>
+                            </div>
+                            <h3 class="challenge-title">Estructura del Informe de Cierre para el Consejo Directivo</h3>
+                            <p class="challenge-desc">
+                                Al concluir la temporada, la dirección de marketing debe presentar el <strong>Reporte Ejecutivo</strong> a los accionistas y autoridades de la comunidad. Para garantizar transparencia y valor estratégico, ¿qué estructura debe respetar el informe?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 4, false, 'Un reporte sin datos ni justificación financiera es inaceptable a nivel directivo.')">
+                                    <span><strong>A)</strong> Presentar únicamente una galería fotográfica de los paisajes sin balances financieros ni indicadores de desempeño.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 4, true, 'Estructura ejecutiva completa: 1. Resumen ejecutivo de metas vs resultados reales, 2. Análisis detallado de variaciones presupuestales y KPIs del embudo, 3. Evaluación de cumplimiento de la ruta crítica y lecciones aprendidas, 4. Plan de contingencia y recomendaciones estratégicas para el siguiente ciclo.')">
+                                    <span><strong>B)</strong> 1. Resumen ejecutivo con contraste objetivo de metas vs resultados; 2. Estado financiero de presupuesto ejercido vs proyectado; 3. Análisis de variaciones en KPIs clave (ocupación, CAC, satisfacción CSAT); 4. Cumplimiento de la ruta crítica CPM; 5. Dictamen gerencial con acciones correctivas y recomendaciones para la siguiente temporada.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 4, false, 'Ocultar desviaciones destruye la credibilidad de la dirección y encubre problemas operativos.')">
+                                    <span><strong>C)</strong> Ocultar las desviaciones negativas y reportar solo los aspectos que superaron las expectativas iniciales.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU5(this, 4, false, 'Entregar cientos de facturas desordenadas impide la toma de decisiones estratégicas.')">
+                                    <span><strong>D)</strong> Entregar una caja con todos los comprobantes fiscales y recibos de pago sin procesar ni resumir.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <aside class="activity-sidebar-col">
+                    <div class="activity-card summary-card">
+                        <div class="summary-card-header">
+                            <span class="badge badge-primary"><i class="fas fa-tree" aria-hidden="true"></i> EVALUACIÓN</span>
+                            <span class="activity-id">U5 · FINAL</span>
+                        </div>
+                        <h2 class="sidebar-title">Métricas del Proyecto</h2>
+                        <ul class="summary-list">
+                            <li><span class="summary-label">Empresa</span> <strong class="summary-val">Senda Los Pinos</strong></li>
+                            <li><span class="summary-label">Presupuesto</span> <strong class="summary-val">$215,000 MXN</strong></li>
+                            <li><span class="summary-label">Duración CPM</span> <strong class="summary-val">14 semanas</strong></li>
+                            <li><span class="summary-label">Progreso Retos</span> <strong class="summary-val" id="u5RetosCompletados">0 / 4</strong></li>
+                            <li><span class="summary-label">Calificación</span> <strong class="summary-val" id="u5PuntajeFinal" style="color:var(--accent);">0%</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card sidebar-card">
+                        <h3 class="sidebar-heading">TEMAS DE LA UNIDAD 5</h3>
+                        <ul class="support-links">
+                            <li><a href="../temas/tema-05-01.html" class="support-link-item"><i class="fas fa-coins" aria-hidden="true"></i> 5.1 Presupuesto de marketing</a></li>
+                            <li><a href="../temas/tema-05-01.html" class="support-link-item"><i class="fas fa-diagram-project" aria-hidden="true"></i> 5.2 Ruta crítica (Método CPM)</a></li>
+                            <li><a href="../temas/tema-05-01.html" class="support-link-item"><i class="fas fa-chart-line" aria-hidden="true"></i> 5.3 Mecanismos de evaluación y control</a></li>
+                            <li><a href="../temas/tema-05-01.html" class="support-link-item"><i class="fas fa-file-lines" aria-hidden="true"></i> 5.4 Reporte ejecutivo</a></li>
+                            <li><a href="../referencias.html" class="support-link-item"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias Bibliográficas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card dark-alert-card">
+                        <h3 class="dark-card-heading">CONTROL GERENCIAL ACTIVO</h3>
+                        <p class="dark-card-text">
+                            La planeación sin control es una expresión de buenos deseos. La ruta crítica garantiza la coordinación temporal de actividades previas al lanzamiento, mientras que el tablero de control de KPIs asegura la rentabilidad y la sostenibilidad económica del destino turístico.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <nav class="bottom-navigation" aria-label="Navegación de la actividad">
+            <a href="actividad-5-4.html" class="btn btn-nav"><i class="fas fa-arrow-left" aria-hidden="true"></i> Actividad 5.4</a>
+            <a href="../index.html" class="btn btn-nav">Volver a Unidad 5 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+
+        <footer>
+            <p>Marketing · Unidad 5: Presupuesto, ruta crítica, evaluación y control del plan de marketing</p>
+            <p>Escuela Superior de Turismo · Instituto Politécnico Nacional · © 2026</p>
+        </footer>
+    </div>
+
+    <script src="../../../assets/js/paginas/unidades_unidad-05_actividades_actividad-final.js"></script>
+    <script src="../../../assets/js/data-manager.js"></script>
+    <script src="../../../assets/js/componentes.js"></script>
+</body>
+</html>

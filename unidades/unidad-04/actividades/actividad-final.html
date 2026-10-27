@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../../assets/css/variables.css">
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad-final.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad final: Simulador de Tácticas y Plan de Medios | EST</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+  <link rel="shortcut icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+</head>
+<body class="final-evaluation-page">
+    <header class="site-nav" data-componente="navegacion"></header>
+    <div class="reading-progress" aria-hidden="true">
+        <div class="reading-progress-bar" id="readingProgressBar"></div>
+    </div>
+
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Volver al inicio">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <div class="evaluation-shell">
+        <header class="evaluation-header" id="inicio">
+            <div class="header-title-content">
+                <p class="eyebrow">UNIDAD 4 · EVALUACIÓN INTEGRADORA</p>
+                <h1>Actividad final: Simulador de Tácticas de Marketing, CIM y Plan de Medios</h1>
+                <div class="header-badges">
+                    <span class="header-badge header-badge-upcoming"><i class="fas fa-hotel" aria-hidden="true"></i> Caso: Hotel Boutique "Villa del Marqués"</span>
+                    <span class="header-badge"><i class="fas fa-bullhorn" aria-hidden="true"></i> Plan de Medios &amp; Reducción de CPA</span>
+                    <span class="header-badge header-badge-accent"><i class="fas fa-award" aria-hidden="true"></i> Ponderación: 100%</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="activity-grid">
+                <div class="activity-main-col">
+                    <div class="network-legend-banner" role="status">
+                        <div class="legend-icon">
+                            <i class="fas fa-comments-dollar" aria-hidden="true"></i>
+                        </div>
+                        <div class="legend-content">
+                            <h3>
+                                <span>Caso de Estudio Integrador · Hotel Boutique "Villa del Marqués" (24 Suites)</span>
+                                <span class="legend-tag">Optimización de Medios &amp; Tácticas 4P</span>
+                            </h3>
+                            <p>
+                                Como director de marketing del hotel patrimonial <strong>Villa del Marqués</strong>, enfrentas una tasa de abandono de reservas web del <strong>68%</strong> y una dependencia excesiva de OTAs que cobran el <strong>18% de comisión</strong> ($60 USD por estancia promedio). Cuentas con un presupuesto publicitario de <strong>$10,000 USD</strong>. Deberás asignar el presupuesto en el plan de medios, diseñar tácticas 4P con indicadores de desempeño y reducir el Costo por Adquisición (CPA) a $33.33 USD para generar un ahorro sustancial en comisiones.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tablero de Plan de Medios y Tácticas -->
+                    <section class="workbench-card" aria-labelledby="workbenchTitle">
+                        <div class="workbench-header">
+                            <div class="workbench-title-group">
+                                <h2 id="workbenchTitle"><i class="fas fa-sliders" style="color:var(--accent);"></i> Tablero Interactivo: Optimización del Plan de Medios ($10,000 USD)</h2>
+                                <p>Distribuye la inversión entre los cuatro canales del plan de medios y observa el recálculo dinámico de clics, reservas directas y ahorro de comisiones.</p>
+                            </div>
+                            <div class="workbench-status-badge" id="workbenchStatusBadge">
+                                <span class="status-dot"></span>
+                                <span id="workbenchStatusText">Listo para optimizar</span>
+                            </div>
+                        </div>
+
+                        <!-- Diagrama de Conversión de Medios -->
+                        <div class="topology-diagram">
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                                <h4>Presupuesto de Medios</h4>
+                                <p class="node-ip" id="u4BudgetDisplay">$10,000 USD Total</p>
+                                <span class="node-badge" id="u4BadgeBudget"><i class="fas fa-check"></i> Asignación: 100%</span>
+                            </div>
+
+                            <div class="net-channel-card">
+                                <div class="channel-info" id="u4ChannelMixInfo">CIM: 40% Search / 30% Meta / 20% Simbiótico / 10% Email</div>
+                                <div class="channel-line">
+                                    <div class="channel-packet" id="netPacketAnim">CIM</div>
+                                </div>
+                                <small style="color:var(--text-muted); font-size:0.75rem;">Embudo de Conversión de Reservas</small>
+                            </div>
+
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <h4>Reservas Directas</h4>
+                                <p class="node-ip" id="u4NodeReservas">300 Reservas Estimadas</p>
+                                <span class="node-badge" id="u4BadgeCpa" style="background:color-mix(in srgb, #10b981 20%, transparent); border-color:#10b981; color:#34d399;"><i class="fas fa-piggy-bank"></i> CPA: $33.33 USD</span>
+                            </div>
+                        </div>
+
+                        <!-- Sliders de Asignación Presupuestal -->
+                        <div class="workbench-controls">
+                            <span class="control-label">Asignación Presupuestal de Medios (Total debe sumar 100% / $10,000 USD)</span>
+                            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1.25rem; margin-top:1rem;">
+                                <div class="control-field">
+                                    <label class="control-label" for="u4SliderGoogle">Google Ads Search (Intención alta): <strong id="u4ValGoogle" style="color:var(--accent);">40% ($4,000)</strong></label>
+                                    <input type="range" id="u4SliderGoogle" min="10" max="60" step="5" value="40" oninput="actualizarMediosU4()" style="width:100%; accent-color:var(--accent);">
+                                </div>
+
+                                <div class="control-field">
+                                    <label class="control-label" for="u4SliderMeta">Meta Ads Instagram (Visual/Aspiracional): <strong id="u4ValMeta" style="color:var(--accent);">30% ($3,000)</strong></label>
+                                    <input type="range" id="u4SliderMeta" min="10" max="50" step="5" value="30" oninput="actualizarMediosU4()" style="width:100%; accent-color:var(--accent);">
+                                </div>
+
+                                <div class="control-field">
+                                    <label class="control-label" for="u4SliderSimb">Mkt Simbiótico (Alianzas viñedos/rest.): <strong id="u4ValSimb" style="color:var(--accent);">20% ($2,000)</strong></label>
+                                    <input type="range" id="u4SliderSimb" min="5" max="40" step="5" value="20" oninput="actualizarMediosU4()" style="width:100%; accent-color:var(--accent);">
+                                </div>
+
+                                <div class="control-field">
+                                    <label class="control-label" for="u4SliderEmail">Email Mkt &amp; Fidelización Club: <strong id="u4ValEmail" style="color:var(--accent);">10% ($1,000)</strong></label>
+                                    <input type="range" id="u4SliderEmail" min="5" max="30" step="5" value="10" oninput="actualizarMediosU4()" style="width:100%; accent-color:var(--accent);">
+                                </div>
+                            </div>
+
+                            <div class="action-button-group" style="margin-top:1.5rem;">
+                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularPlanMediosU4()">
+                                    <i class="fas fa-bullhorn"></i> Simular Desempeño del Plan de Medios
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Métricas del Plan de Medios -->
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1rem; margin-top:1.5rem; background:rgba(0,0,0,0.2); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.08);">
+                            <div>
+                                <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Clics / Tráfico Calificado</span>
+                                <p id="mU4Clics" style="font-size:1.25rem; font-weight:800; color:#fff; margin:0.25rem 0 0;">6,800 visitas</p>
+                            </div>
+                            <div>
+                                <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Reservas Directas</span>
+                                <p id="mU4Reservas" style="font-size:1.25rem; font-weight:800; color:#34d399; margin:0.25rem 0 0;">300 reservas</p>
+                            </div>
+                            <div>
+                                <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Costo por Reserva (CPA)</span>
+                                <p id="mU4Cpa" style="font-size:1.25rem; font-weight:800; color:#38bdf8; margin:0.25rem 0 0;">$33.33 USD</p>
+                            </div>
+                            <div>
+                                <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Ahorro vs Comisión OTA</span>
+                                <p id="mU4Ahorro" style="font-size:1.25rem; font-weight:800; color:#a78bfa; margin:0.25rem 0 0;">$8,001 USD netos</p>
+                            </div>
+                        </div>
+
+                        <!-- Consola en tiempo real -->
+                        <div class="net-console" style="margin-top:1.5rem;">
+                            <div class="console-topbar">
+                                <div class="console-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="console-title">terminal://villa-del-marques-sim-medios</span>
+                                <button type="button" onclick="clearConsoleU4()" style="background:transparent; border:none; color:var(--text-muted); cursor:pointer; font-size:0.75rem;" title="Limpiar consola">
+                                    <i class="fas fa-eraser"></i> Limpiar
+                                </button>
+                            </div>
+                            <div class="console-body" id="netConsoleBody">
+                                <div><span class="log-info">[INIT]</span> Plan de medios cargado. Presupuesto asignable: $10,000 USD.</div>
+                                <div><span class="log-info">[DATOS BASE]</span> Abandono web actual: 68% · Comisión media OTA: $60 USD por estancia · Meta de CPA: ≤ $35 USD.</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Retos de Decisión Táctica -->
+                    <section class="challenges-card" aria-labelledby="challengesTitle">
+                        <div class="challenges-header">
+                            <h2 id="challengesTitle"><i class="fas fa-vial-circle-check" style="color:var(--accent);"></i> Retos Prácticos de Decisión · Unidad 4</h2>
+                            <p>Resuelve cada dilema táctico fundamentando tus respuestas en la investigación de mercados, la mejora continua de las 4P y la CIM.</p>
+                        </div>
+
+                        <!-- Reto 1 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-magnifying-glass"></i> Reto 1 · Investigación de Mercados</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 4.1</span>
+                            </div>
+                            <h3 class="challenge-title">Diagnóstico de Barreras de Reserva Web en el Hotel Boutique</h3>
+                            <p class="challenge-desc">
+                                La tasa de rebote en el carrito de compras del hotel es del 68%. Para averiguar con rigor científico por qué los visitantes abandonan el proceso de pago sin reservar, ¿qué diseño de investigación de mercados primario es el más adecuado?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 1, false, 'Preguntar únicamente al personal de recepción genera un sesgo severo, ya que el personal solo atiende a quienes sí reservaron y llegaron al mostrador.')">
+                                    <span><strong>A)</strong> Realizar una reunión informal con el personal de recepción preguntándoles su opinión sobre el sitio web.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 1, true, 'Metodología rigurosa: combina mapas de calor e inspección de usabilidad web (UX) con encuestas de salida automatizadas a una muestra de usuarios que abandonaron el proceso, identificando fricciones objetivas.')">
+                                    <span><strong>B)</strong> Aplicar pruebas de usabilidad web (mapas de calor y grabaciones de sesión anónimas) complementadas con encuestas breves de salida a usuarios que abandonaron el carrito, identificando fricciones técnicas y de precio.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 1, false, 'Los datos estadísticos del INEGI o SECTUR son fuentes secundarias agregadas a nivel nacional; no explican por qué un usuario abandona un sitio web en particular.')">
+                                    <span><strong>C)</strong> Descargar el censo económico nacional del INEGI para revisar cuántos hoteles hay en el estado.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 1, false, 'Asumir sin investigar puede llevar a rediseños costosos que no resuelven la causa real del problema.')">
+                                    <span><strong>D)</strong> Asumir que el color del logotipo es el culpable y cambiar la identidad visual completa sin consultar datos.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 2 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-bullseye"></i> Reto 2 · Mejora Continua y Brechas de Servicio</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 4.2</span>
+                            </div>
+                            <h3 class="challenge-title">Cierre de la Brecha 3 de Entrega del Servicio (Modelo Gap)</h3>
+                            <p class="challenge-desc">
+                                El hotel promete en su publicidad suites silenciosas para descanso reparador. Sin embargo, los huéspedes reportan ruido nocturno por eventos en el patio contiguo debido a falta de coordinación interna entre banquetes y recepción. ¿Qué estrategia de mejora continua resuelve la Brecha 3 (discrepancia entre especificaciones del servicio y entrega real)?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 2, true, 'Cierre de la Brecha 3: estandarización operativa mediante manuales de insonorización, límites estrictos de decibeles, asignación preferencial de habitaciones lejanas a eventos y empoderamiento del personal para compensar inmediatamente al huésped.')">
+                                    <span><strong>A)</strong> Establecer protocolos operativos vinculantes con límites de decibeles a las 22:00 h, asignar habitaciones acústicamente aisladas a huéspedes de descanso y capacitar al personal para resolver quejas en tiempo real.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 2, false, 'Borrar los comentarios negativos no soluciona el problema de fondo y daña gravemente la reputación online cuando los huéspedes lo denuncian.')">
+                                    <span><strong>B)</strong> Borrar sistemáticamente las reseñas negativas en TripAdvisor y Google Maps para ocultar el ruido.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 2, false, 'Ofrecer tapones de oídos no sustituye el cumplimiento de la promesa publicitaria de descanso.')">
+                                    <span><strong>C)</strong> Colocar tapones de oídos baratos en el buró y colocar letreros advirtiendo que el hotel no se hace responsable por el descanso.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 2, false, 'Prohibir todos los eventos cancela una línea de ingresos sin resolver la falta de protocolos de convivencia entre áreas.')">
+                                    <span><strong>D)</strong> Despedir al gerente de banquetes sin cambiar los procesos operativos de la empresa.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 3 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-list-check"></i> Reto 3 · Aplicación de Tácticas con Indicadores</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 4.3</span>
+                            </div>
+                            <h3 class="challenge-title">Estructuración Operativa de una Ficha Táctica</h3>
+                            <p class="challenge-desc">
+                                Para reducir la tasa de abandono en el sitio web del 68% al 32%, se diseña una táctica de Plaza/Distribución. Según los estándares académicos del plan de marketing, ¿cuál ficha táctica está estructurada correctamente?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 3, false, 'Decir "mejorar la página web" es un deseo vago; carece de responsable designado, fechas límite, presupuesto desglosado e indicador verificable.')">
+                                    <span><strong>A)</strong> "Mejorar la página web lo antes posible con ayuda del sobrino del dueño para que se vea más bonita."</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 3, true, 'Ficha táctica ejemplar: especifica acción concreta (motor móvil en 2 pasos), responsable directo (Coordinador TI/Mkt), plazo (45 días), presupuesto ($2,500 USD) y KPI verificable (tasa de abandono <35%).')">
+                                    <span><strong>B)</strong> <strong>Acción:</strong> Implementar motor de reserva responsivo en dos clics con Apple Pay y tarjeta. <strong>Responsable:</strong> Coordinador de Marketing Digital. <strong>Plazo:</strong> 45 días naturales. <strong>Presupuesto:</strong> $2,500 USD. <strong>KPI:</strong> Reducción del abandono del checkout al ≤32% y aumento del 25% en reservas móviles.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 3, false, 'No se puede formular una táctica sin presupuesto ni fechas; imposibilita el control gerencial.')">
+                                    <span><strong>C)</strong> "Gastar $50,000 USD en programar una aplicación móvil propia para iOS sin definir funciones ni calendario."</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 3, false, 'Delegar todo el proceso en agencias externas sin supervisión interna ni métricas genera sobrecostos.')">
+                                    <span><strong>D)</strong> "Esperar a que la plataforma OTA rediseñe su propio sitio web para beneficiarse indirectamente."</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 4 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-comments"></i> Reto 4 · Comunicación Integral (CIM) y Medios</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 4.4 &amp; 4.5</span>
+                            </div>
+                            <h3 class="challenge-title">Diseño del Mix Sinérgico de Medios para Desestacionalizar</h3>
+                            <p class="challenge-desc">
+                                El hotel busca atraer turistas entre semana (lunes a jueves). ¿Qué combinación de medios digitales, marketing simbiótico y de contacto logra la mayor sinergia promocional al menor costo por adquisición?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 4, false, 'La publicidad en televisión abierta generalista es sumamente costosa e ineficiente para un hotel boutique de solo 24 habitaciones; genera desperdicio de cobertura.')">
+                                    <span><strong>A)</strong> Contratar anuncios de 30 segundos en televisión abierta nacional en horario estelar de fútbol.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 4, true, 'Sinergia CIM óptima: campaña de Search geolocalizada para capturar viajeros de trabajo remoto/bleisure, marketing simbiótico con restaurantes de alta cocina (paquetes maridaje) y remarketing por email a huéspedes anteriores.')">
+                                    <span><strong>B)</strong> Campaña digital segmentada de Search & Meta Ads (anuncios de paquetes "Home Office con Encanto" entre semana), combinada con marketing simbiótico con los 3 mejores restaurantes locales (cena degustación incluida) y email marketing a la base de clientes fidelizados.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 4, false, 'Colocar vallas en carreteras sin llamada a la acción digital tiene un costo elevado y nula capacidad de medición de conversiones.')">
+                                    <span><strong>C)</strong> Instalar 10 anuncios espectaculares en autopistas lejanas con números telefónicos fijos.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU4(this, 4, false, 'Enviar correos no solicitados (spam) destruye la imagen de marca y viola normativas de protección de datos personales.')">
+                                    <span><strong>D)</strong> Comprar bases de datos clandestinas de correos electrónicos y enviar mensajes masivos diarios sin autorización.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <aside class="activity-sidebar-col">
+                    <div class="activity-card summary-card">
+                        <div class="summary-card-header">
+                            <span class="badge badge-primary"><i class="fas fa-hotel" aria-hidden="true"></i> EVALUACIÓN</span>
+                            <span class="activity-id">U4 · FINAL</span>
+                        </div>
+                        <h2 class="sidebar-title">Métricas de Medios</h2>
+                        <ul class="summary-list">
+                            <li><span class="summary-label">Empresa</span> <strong class="summary-val">Villa del Marqués</strong></li>
+                            <li><span class="summary-label">Presupuesto</span> <strong class="summary-val">$10,000 USD</strong></li>
+                            <li><span class="summary-label">Meta de CPA</span> <strong class="summary-val">&le; $35 USD / pax</strong></li>
+                            <li><span class="summary-label">Progreso Retos</span> <strong class="summary-val" id="u4RetosCompletados">0 / 4</strong></li>
+                            <li><span class="summary-label">Calificación</span> <strong class="summary-val" id="u4PuntajeFinal" style="color:var(--accent);">0%</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card sidebar-card">
+                        <h3 class="sidebar-heading">TEMAS DE LA UNIDAD 4</h3>
+                        <ul class="support-links">
+                            <li><a href="../temas/tema-04-01.html" class="support-link-item"><i class="fas fa-magnifying-glass" aria-hidden="true"></i> 4.1 Investigación de mercados</a></li>
+                            <li><a href="../temas/tema-04-02.html" class="support-link-item"><i class="fas fa-bullseye" aria-hidden="true"></i> 4.2 Estrategias del Plan de Mkt</a></li>
+                            <li><a href="../temas/tema-04-03.html" class="support-link-item"><i class="fas fa-list-check" aria-hidden="true"></i> 4.3 Aplicación de tácticas y KPIs</a></li>
+                            <li><a href="../temas/tema-04-04.html" class="support-link-item"><i class="fas fa-comments" aria-hidden="true"></i> 4.4 Comunicación integral (CIM)</a></li>
+                            <li><a href="../temas/tema-04-05.html" class="support-link-item"><i class="fas fa-calendar-days" aria-hidden="true"></i> 4.5 Plan de medios</a></li>
+                            <li><a href="../referencias.html" class="support-link-item"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias Bibliográficas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card dark-alert-card">
+                        <h3 class="dark-card-heading">REGLA DEL PLAN DE MEDIOS</h3>
+                        <p class="dark-card-text">
+                            La efectividad publicitaria en hotelería boutique depende de la precisión de la segmentación. Invertir en medios con alta intención de búsqueda (Search) y alianzas simbióticas locales permite desintermediar a las OTAs y retener el margen operativo.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <nav class="bottom-navigation" aria-label="Navegación de la actividad">
+            <a href="actividad-4-5.html" class="btn btn-nav"><i class="fas fa-arrow-left" aria-hidden="true"></i> Actividad 4.5</a>
+            <a href="../index.html" class="btn btn-nav">Volver a Unidad 4 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+
+        <footer>
+            <p>Marketing · Unidad 4: Selección de estrategias y aplicación de tácticas del plan</p>
+            <p>Escuela Superior de Turismo · Instituto Politécnico Nacional · © 2026</p>
+        </footer>
+    </div>
+
+    <script src="../../../assets/js/paginas/unidades_unidad-04_actividades_actividad-final.js"></script>
+    <script src="../../../assets/js/data-manager.js"></script>
+    <script src="../../../assets/js/componentes.js"></script>
+</body>
+</html>

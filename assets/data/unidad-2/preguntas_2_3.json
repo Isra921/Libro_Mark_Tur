@@ -1,272 +1,112 @@
 [
   {
-    "id": 1,
-    "type": "opcion_multiple",
-    "question": "¿Cómo se define una lista en algoritmia?",
-    "options": [
-      "Una estructura de datos lineal que permite almacenar un conjunto de elementos de manera ordenada",
-      "Una estructura que solo admite un único elemento",
-      "Un conjunto de datos sin ningún orden posible"
+    "pregunta": "De acuerdo con Hyndman & Athanasopoulos (2021), ¿cuál es la diferencia clave entre un pronóstico de ventas y una meta comercial?",
+    "opciones": [
+      "El pronóstico estima lo que probablemente ocurrirá basándose en supuestos razonados; la meta expresa lo que la organización desea alcanzar.",
+      "El pronóstico es un compromiso legal con accionistas y la meta una sugerencia informal.",
+      "El pronóstico siempre es menor que los costos variables y la meta siempre es igual al punto de equilibrio.",
+      "No existe ninguna diferencia técnica entre ambos conceptos."
     ],
-    "answer": "Una estructura de datos lineal que permite almacenar un conjunto de elementos de manera ordenada"
+    "respuesta_correcta": "El pronóstico estima lo que probablemente ocurrirá basándose en supuestos razonados; la meta expresa lo que la organización desea alcanzar.",
+    "explicacion": "Confundir entusiasmo con evidencia empírica es el principal riesgo al planificar ventas sin datos históricos."
   },
   {
-    "id": 2,
-    "type": "opcion_multiple",
-    "question": "¿Qué partes principales componen cada nodo en una lista simple enlazada?",
-    "options": [
-      "Un dato y un enlace o puntero al siguiente nodo",
-      "Solamente un dato, sin ningún puntero",
-      "Un dato y dos punteros, uno anterior y otro siguiente"
+    "pregunta": "¿Por qué las estadísticas de ocupación hotelera de DataTur no se traducen automáticamente en ventas de una excursión de un día?",
+    "opciones": [
+      "Porque difieren en unidad de medida, público objetivo, propósito de viaje y cobertura de servicios (pernocta vs sin pernocta).",
+      "Porque DataTur no contiene información verificada sobre el turismo mexicano.",
+      "Porque los hoteles tienen prohibido vender recorridos a los visitantes.",
+      "Porque los excursionistas solo compran boletos a través de aerolíneas."
     ],
-    "answer": "Un dato y un enlace o puntero al siguiente nodo"
+    "respuesta_correcta": "Porque difieren en unidad de medida, público objetivo, propósito de viaje y cobertura de servicios (pernocta vs sin pernocta).",
+    "explicacion": "La ocupación hotelera contextualiza el destino, pero no equivale a la demanda de tours de un día sin alojamiento."
   },
   {
-    "id": 3,
-    "type": "opcion_multiple",
-    "question": "En una lista simple enlazada, ¿a qué apunta el enlace del último nodo?",
-    "options": [
-      "A un valor nulo (NULL)",
-      "Al primer nodo de la lista",
-      "A un nodo vacío especial"
+    "pregunta": "En el pronóstico del primer año de Rutas del Centro (capacidad: 100 pasajeros/mes, tarifa: $1,200), se estiman 695 pasajeros anuales. Si el equilibrio anual es 600 pasajeros, ¿por qué los primeros 3 meses acumulan resultado negativo?",
+    "opciones": [
+      "Por la estacionalidad baja inicial (35, 40 y 45 pasajeros), lo que exige prever capital de trabajo para cubrir costos fijos antes del repunte de abril.",
+      "Porque el costo variable aumentó un 50% en los meses de invierno.",
+      "Porque las agencias de viajes en línea retuvieron todos los ingresos de enero a marzo.",
+      "Porque la empresa operó por encima del 100% de su capacidad instalada."
     ],
-    "answer": "A un valor nulo (NULL)"
+    "respuesta_correcta": "Por la estacionalidad baja inicial (35, 40 y 45 pasajeros), lo que exige prever capital de trabajo para cubrir costos fijos antes del repunte de abril.",
+    "explicacion": "Aunque el saldo anual sea positivo ($45,600 MXN), la estacionalidad genera desfases de liquidez temporal que deben financiarse."
   },
   {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "¿Cuál es una desventaja de las listas simples enlazadas frente a los arreglos?",
-    "options": [
-      "No permiten el acceso directo a un elemento; hay que recorrer la lista desde el inicio",
-      "Ocupan más memoria que cualquier arreglo",
-      "No permiten insertar nuevos elementos"
+    "pregunta": "¿Cuál es la tasa de ocupación de capacidad anual para Rutas del Centro con 695 pasajeros sobre una capacidad de 1,200 lugares anuales?",
+    "opciones": [
+      "57.9%",
+      "65.0%",
+      "50.0%",
+      "75.5%"
     ],
-    "answer": "No permiten el acceso directo a un elemento; hay que recorrer la lista desde el inicio"
+    "respuesta_correcta": "57.9%",
+    "explicacion": "Ocupación = 695 pasajeros / 1,200 lugares disponibles anuales = 0.5791 (57.9%)."
   },
   {
-    "id": 5,
-    "type": "opcion_multiple",
-    "question": "¿Cuántas partes principales contiene un nodo en una lista doblemente enlazada?",
-    "options": [
-      "Tres: un dato, un puntero al nodo anterior y un puntero al nodo siguiente",
-      "Dos: solo un dato y un puntero al siguiente",
-      "Una: únicamente el dato almacenado"
+    "pregunta": "En un escenario conservador 20% por debajo de la base (556 pasajeros anuales frente a un equilibrio de 600), ¿cuál es el resultado operativo simplificado?",
+    "opciones": [
+      "-$21,120 MXN (pérdida operativa)",
+      "+$45,600 MXN",
+      "$0 MXN (equilibrio exacto)",
+      "+$12,000 MXN"
     ],
-    "answer": "Tres: un dato, un puntero al nodo anterior y un puntero al nodo siguiente"
+    "respuesta_correcta": "-$21,120 MXN (pérdida operativa)",
+    "explicacion": "Contribución = 556 * $480 = $266,880. Costos fijos anuales = $288,000. Resultado = $266,880 - $288,000 = -$21,120 MXN."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Qué tipo de recorrido facilita una lista doblemente enlazada?",
-    "options": [
-      "Recorrido en ambos sentidos (hacia adelante y hacia atrás)",
-      "nicamente recorrido hacia adelante",
-      "nicamente recorrido aleatorio"
+    "pregunta": "¿Qué distingue a un canal directo de uno indirecto en la venta turística?",
+    "opciones": [
+      "En el canal directo la empresa vende al consumidor sin intermediarios comerciales; en el indirecto participan agencias o plataformas OTA.",
+      "El canal directo solo funciona en efectivo y el indirecto únicamente con tarjeta.",
+      "El canal directo requiere el pago del 15% de comisión por boleto.",
+      "El canal directo se destina exclusivamente a grupos escolares."
     ],
-    "answer": "Recorrido en ambos sentidos (hacia adelante y hacia atrás)"
+    "respuesta_correcta": "En el canal directo la empresa vende al consumidor sin intermediarios comerciales; en el indirecto participan agencias o plataformas OTA.",
+    "explicacion": "La venta directa otorga control total del cliente y precio; la indirecta amplía visibilidad pero cobra comisiones sobre tarifa."
   },
   {
-    "id": 7,
-    "type": "opcion_multiple",
-    "question": "¿Qué característica define principalmente a una lista circular?",
-    "options": [
-      "El último nodo se enlaza con el primero, formando un ciclo cerrado",
-      "El último nodo siempre apunta a NULL",
-      "Cada nodo tiene tres punteros distintos"
+    "pregunta": "Si un intermediario cobra una comisión del 15% sobre la tarifa de $1,200 ($180 de comisión) y el costo operativo es $650, ¿cuál es la contribución de esa venta indirecta?",
+    "opciones": [
+      "$370 MXN por pasajero",
+      "$480 MXN por pasajero",
+      "$550 MXN por pasajero",
+      "$250 MXN por pasajero"
     ],
-    "answer": "El último nodo se enlaza con el primero, formando un ciclo cerrado"
+    "respuesta_correcta": "$370 MXN por pasajero",
+    "explicacion": "Contribución canal indirecto = $1,200 - $650 (operativo) - $180 (comisión) = $370 MXN (frente a $480 de la venta directa)."
   },
   {
-    "id": 8,
-    "type": "opcion_multiple",
-    "question": "¿Para qué tipo de escenarios resulta ideal el uso de listas circulares?",
-    "options": [
-      "Procesos donde se requiere rotar entre elementos repetitivamente, como turnos o buffers circulares",
-      "Búsquedas que requieren orden alfabético estricto",
-      "Almacenamiento de una única constante fija"
+    "pregunta": "Si las ventas se componen de 60% directas ($480 contribución) y 40% indirectas ($370 contribución), la contribución ponderada baja a $436. ¿Qué ocurre con el punto de equilibrio mensual ($24,000 de costos fijos)?",
+    "opciones": [
+      "Aumenta de 50 a 56 pasajeros mensuales para compensar la menor contribución media.",
+      "Disminuye a 42 pasajeros mensuales.",
+      "Se mantiene exactamente en 50 pasajeros.",
+      "Se duplica a 100 pasajeros mensuales."
     ],
-    "answer": "Procesos donde se requiere rotar entre elementos repetitivamente, como turnos o buffers circulares"
+    "respuesta_correcta": "Aumenta de 50 a 56 pasajeros mensuales para compensar la menor contribución media.",
+    "explicacion": "Equilibrio = $24,000 / $436 = 55.04 (56 pasajeros). Al ceder comisiones, se requiere vender más lugares para cubrir los costos fijos."
   },
   {
-    "id": 9,
-    "type": "opcion_multiple",
-    "question": "¿Cuál es la organizaci?n temporal de acceder a un elemento en un arreglo?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n²)"
+    "pregunta": "¿Qué práctica tecnológica es indispensable en el comercio electrónico turístico para evitar la sobreventa (overbooking)?",
+    "opciones": [
+      "Sincronizar inventarios y cupos en tiempo real entre todos los canales de venta.",
+      "Ocultar los precios de los recorridos hasta después de recibir los datos bancarios.",
+      "Permitir que los clientes reserven sin confirmar disponibilidad de plazas.",
+      "Deshabilitar las compras desde teléfonos móviles durante los fines de semana."
     ],
-    "answer": "O(1)"
+    "respuesta_correcta": "Sincronizar inventarios y cupos en tiempo real entre todos los canales de venta.",
+    "explicacion": "La sincronización en tiempo real garantiza que un cupo vendido en la web no se duplique en mostrador ni en agencias intermediarias."
   },
   {
-    "id": 10,
-    "type": "verdadero_falso",
-    "statement": "Los arreglos almacenan sus elementos en posiciones contiguas de memoria.",
-    "answer": true
-  },
-  {
-    "id": 11,
-    "type": "verdadero_falso",
-    "statement": "Insertar o eliminar un elemento en una lista enlazada requiere desplazar todos los demás elementos, igual que en un arreglo.",
-    "answer": false
-  },
-  {
-    "id": 12,
-    "type": "verdadero_falso",
-    "statement": "La organizaci?n de buscar un elemento en una lista simple enlazada es O(n).",
-    "answer": true
-  },
-  {
-    "id": 13,
-    "type": "verdadero_falso",
-    "statement": "La lista doblemente enlazada usa menos memoria que la lista simple porque no requiere punteros adicionales.",
-    "answer": false
-  },
-  {
-    "id": 14,
-    "type": "verdadero_falso",
-    "statement": "Las listas enlazadas se utilizan comúnmente en la gestión dinámica de memoria.",
-    "answer": true
-  },
-  {
-    "id": 15,
-    "type": "opcion_multiple",
-    "question": "¿Qué desventaja principal tiene la lista doblemente enlazada frente a la lista simple?",
-    "options": [
-      "Usa más memoria porque cada nodo requiere dos punteros",
-      "No permite recorrerse en ningún sentido",
-      "No puede almacenar más de un dato por nodo"
+    "pregunta": "¿Cómo se calcula la estimación de demanda desde el embudo de conversión digital?",
+    "opciones": [
+      "Multiplicando visitas calificadas por la tasa de conversión a reservas pagadas y por el promedio de pasajeros por reserva.",
+      "Sumando el número de impresiones en redes con los clics en banners.",
+      "Dividiendo el total de seguidores entre la tarifa de temporada baja.",
+      "Restando los impuestos locales del número de consultas telefónicas."
     ],
-    "answer": "Usa más memoria porque cada nodo requiere dos punteros"
-  },
-  {
-    "id": 16,
-    "type": "completar_oracion",
-    "question": "Cada nodo de una lista simple enlazada contiene un _____ y un _____ al siguiente nodo.",
-    "wordBank": [
-      "dato",
-      "puntero",
-      "índice",
-      "hash",
-      "arreglo"
-    ],
-    "answer": [
-      "dato",
-      "puntero"
-    ]
-  },
-  {
-    "id": 17,
-    "type": "completar_oracion",
-    "question": "En una lista doblemente enlazada, cada nodo tiene un puntero al nodo _____ y otro al nodo _____.",
-    "wordBank": [
-      "anterior",
-      "siguiente",
-      "circular",
-      "raíz",
-      "hash"
-    ],
-    "answer": [
-      "anterior",
-      "siguiente"
-    ]
-  },
-  {
-    "id": 18,
-    "type": "completar_oracion",
-    "question": "En una lista circular, el último nodo se enlaza con el _____ nodo, en lugar de apuntar a _____.",
-    "wordBank": [
-      "primer",
-      "NULL",
-      "último",
-      "un hash"
-    ],
-    "answer": [
-      "primer",
-      "NULL"
-    ]
-  },
-  {
-    "id": 19,
-    "type": "completar_oracion",
-    "question": "Acceder a un elemento en un arreglo tiene organizaci?n _____, mientras que buscarlo en una lista simple enlazada tiene organizaci?n _____.",
-    "wordBank": [
-      "O(1)",
-      "O(n)",
-      "O(n²)",
-      "O(log n)"
-    ],
-    "answer": [
-      "O(1)",
-      "O(n)"
-    ]
-  },
-  {
-    "id": 20,
-    "type": "completar_oracion",
-    "question": "Los arreglos almacenan sus datos en posiciones _____ de memoria, lo que permite un acceso _____ mediante un índice.",
-    "wordBank": [
-      "contiguas",
-      "directo",
-      "dispersas",
-      "aleatorio",
-      "indirecto"
-    ],
-    "answer": [
-      "contiguas",
-      "directo"
-    ]
-  },
-  {
-    "id": 21,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "Una lista enlazada",
-      "almacena sus elementos",
-      "de manera ordenada",
-      "mediante nodos conectados entre sí."
-    ],
-    "answer": [
-      "Una lista enlazada",
-      "almacena sus elementos",
-      "de manera ordenada",
-      "mediante nodos conectados entre sí."
-    ]
-  },
-  {
-    "id": 22,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "A diferencia de un arreglo,",
-      "una lista enlazada",
-      "no permite el acceso directo",
-      "a un elemento específico."
-    ],
-    "answer": [
-      "A diferencia de un arreglo,",
-      "una lista enlazada",
-      "no permite el acceso directo",
-      "a un elemento específico."
-    ]
-  },
-  {
-    "id": 23,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "En una lista circular,",
-      "el último nodo",
-      "se conecta nuevamente",
-      "con el primer nodo de la lista."
-    ],
-    "answer": [
-      "En una lista circular,",
-      "el último nodo",
-      "se conecta nuevamente",
-      "con el primer nodo de la lista."
-    ]
+    "respuesta_correcta": "Multiplicando visitas calificadas por la tasa de conversión a reservas pagadas y por el promedio de pasajeros por reserva.",
+    "explicacion": "El cálculo del embudo relaciona tráfico calificado, tasa de conversión efectiva y tamaño medio de la reserva contratada."
   }
 ]
-

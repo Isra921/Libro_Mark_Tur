@@ -1,536 +1,328 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../../../assets/css/variables.css">
   <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
   <link rel="stylesheet" href="../../../assets/css/actividad-final.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actividad final de la Unidad 3</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    
-  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
-  <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad final: Simulador de Matrices Estratégicas y Competitividad | EST</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
+  <link rel="shortcut icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
 </head>
-  <body
-    class="final-evaluation-page"
-    data-case-url="../../../assets/data/unidad-3/caso_unidad3.json"
-    data-questions-url="../../../assets/data/unidad-3/preguntas_evaluacion_unidad3.json"
-    data-time-minutes="45"
-  >
-    <header class="site-nav">
-        <a class="brand" href="../../../index.html">ESCOM · Polilibro académico<small>Aplicaciones para Comunicaciones en Red</small></a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" onclick="const nav=document.getElementById('main-navigation'); nav.classList.toggle('is-open'); this.setAttribute('aria-expanded', nav.classList.contains('is-open'));">
-            <span class="sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
-        </button>
-        <nav id="main-navigation" aria-label="Navegación principal">
-            <a href="../../../index.html"><i class="fas fa-home" aria-hidden="true"></i> Inicio</a>
-            <a class="active" href="../../../unidades.html"><i class="fas fa-book-open" aria-hidden="true"></i> Unidades</a>
-            <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
-        </nav>
-    </header>
+<body class="final-evaluation-page">
+    <header class="site-nav" data-componente="navegacion"></header>
     <div class="reading-progress" aria-hidden="true">
-      <div class="reading-progress-bar" id="readingProgressBar"></div>
+        <div class="reading-progress-bar" id="readingProgressBar"></div>
     </div>
 
-    <button
-      class="menu-toggle"
-      id="menuToggle"
-      type="button"
-      aria-label="Abrir menú de navegación"
-      aria-controls="sidebarNav"
-      aria-expanded="false"
-    >
-      <i class="fas fa-bars" aria-hidden="true"></i>
-    </button>
-    <a
-      href="../../../index.html"
-      class="floating-home-btn"
-      title="Ir a Unidad 3"
-      aria-label="Ir a Unidad 3"
-    >
-      <i class="fas fa-book-open" aria-hidden="true"></i>
-    </a>
-    <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
-    <nav
-      class="sidebar-nav"
-      id="sidebarNav"
-      aria-label="Navegación lateral"
-      aria-hidden="true"
-    >
-      <div class="sidebar-header">
-        <div class="sidebar-title">Actividad final</div>
-        <div class="sidebar-subtitle">Unidad 3</div>
-      </div>
-      <div class="nav-sections">
-        <div class="nav-section">
-          <div class="nav-section-title">Libro virtual</div>
-          <a href="../../../index.html" class="nav-item"
-            ><i class="fas fa-home" aria-hidden="true"></i> Inicio</a
-          >
-          <a href="../../../Unidades.html" class="nav-item"
-            ><i class="fas fa-layer-group" aria-hidden="true"></i> Unidades</a
-          >
-          <a href="../../../index.html" class="nav-item"
-            ><i class="fas fa-book-open" aria-hidden="true"></i> Unidad 3</a
-          >
-        </div>
-        <div class="nav-section">
-          <div class="nav-section-title">Contenido de la unidad</div>
-          <a href="../temas/tema-03-01.html" class="nav-item"
-            ><i class="fas fa-sitemap" aria-hidden="true"></i> 3.1 Árboles
-            binarios</a
-          >
-          <a href="../temas/tema-03-01.html" class="nav-item"
-            ><i class="fas fa-code-branch" aria-hidden="true"></i> 3.1
-            Tema provisional</a
-          >
-          <a
-            href="actividad-final.html"
-            class="nav-item active"
-            aria-current="page"
-            ><i class="fas fa-clipboard-check" aria-hidden="true"></i> Actividad
-            final de la Unidad 3</a
-          >
-          <a href="../referencias.html" class="nav-item"
-            ><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a
-          >
-        </div>
-      </div>
-    </nav>
-    <button
-      class="scroll-to-top"
-      id="scrollToTop"
-      type="button"
-      aria-label="Volver al inicio"
-    >
-      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Volver al inicio">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
     </button>
 
     <div class="evaluation-shell">
-      <header class="evaluation-header" id="inicio">
-        <nav class="breadcrumb" aria-label="Ruta de navegación">
-          <a href="../../../index.html"
-            ><i class="fas fa-home" aria-hidden="true"></i> Inicio</a
-          >
-          <span aria-hidden="true">/</span>
-          <a href="../../../Unidades.html">Unidades</a>
-          <span aria-hidden="true">/</span>
-          <a href="../../../index.html">Unidad 3</a>
-          <span aria-hidden="true">/</span>
-          <span>Actividad final</span>
+        <header class="evaluation-header" id="inicio">
+            <div class="header-title-content">
+                <p class="eyebrow">UNIDAD 3 · EVALUACIÓN INTEGRADORA</p>
+                <h1>Actividad final: Simulador de Matrices Estratégicas y Competitividad</h1>
+                <div class="header-badges">
+                    <span class="header-badge header-badge-upcoming"><i class="fas fa-chess" aria-hidden="true"></i> Caso: Matriz Estratégica Rutas del Centro</span>
+                    <span class="header-badge"><i class="fas fa-cubes" aria-hidden="true"></i> MEFE, MEFI, BCG &amp; MPC</span>
+                    <span class="header-badge header-badge-accent"><i class="fas fa-award" aria-hidden="true"></i> Ponderación: 100%</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="activity-grid">
+                <div class="activity-main-col">
+                    <div class="network-legend-banner" role="status">
+                        <div class="legend-icon">
+                            <i class="fas fa-network-wired" aria-hidden="true"></i>
+                        </div>
+                        <div class="legend-content">
+                            <h3>
+                                <span>Caso Estratégico · Posicionamiento Competitivo de "Rutas del Centro"</span>
+                                <span class="legend-tag">Auditoría &amp; Formulación Matricial</span>
+                            </h3>
+                            <p>
+                                Rutas del Centro compite frente a operadoras tradicionales y plataformas digitales transnacionales. La dirección general requiere formular la postura estratégica de la empresa mediante el cruce de las matrices <strong>MEFE</strong>, <strong>MEFI</strong>, análisis de cartera <strong>BCG</strong> y la <strong>Matriz del Perfil Competitivo (MPC)</strong>. Deberás calibrar los factores críticos de éxito y seleccionar las decisiones que maximicen la cuota de mercado en 90 días.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tablero Matricial -->
+                    <section class="workbench-card" aria-labelledby="workbenchTitle">
+                        <div class="workbench-header">
+                            <div class="workbench-title-group">
+                                <h2 id="workbenchTitle"><i class="fas fa-table-cells-large" style="color:var(--accent);"></i> Tablero Interactivo: Modelado de Matrices Estratégicas</h2>
+                                <p>Selecciona una matriz estratégica para auditar factores, modelar cruces TOWS y simular el impacto en la cuota de mercado.</p>
+                            </div>
+                            <div class="workbench-status-badge" id="workbenchStatusBadge">
+                                <span class="status-dot"></span>
+                                <span id="workbenchStatusText">Listo para auditar</span>
+                            </div>
+                        </div>
+
+                        <!-- Diagrama de Posición Estratégica -->
+                        <div class="topology-diagram">
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-magnifying-glass-chart"></i>
+                                </div>
+                                <h4 id="u3AuditTitle">Auditoría Interna MEFI</h4>
+                                <p class="node-ip" id="u3AuditScore">Score: 2.85 / 4.00</p>
+                                <span class="node-badge" id="u3BadgeInternal" style="background:color-mix(in srgb, #10b981 20%, transparent); border-color:#10b981; color:#34d399;"><i class="fas fa-check"></i> Fuerte Internamente</span>
+                            </div>
+
+                            <div class="net-channel-card">
+                                <div class="channel-info" id="u3MatrixStatus">CRUCE TOWS: Cuadrante FO</div>
+                                <div class="channel-line">
+                                    <div class="channel-packet" id="netPacketAnim">TOWS</div>
+                                </div>
+                                <small style="color:var(--text-muted); font-size:0.75rem;">Vector de Expansión Estratégica</small>
+                            </div>
+
+                            <div class="net-node-card">
+                                <div class="node-icon-box">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <h4>Perfil Competitivo (MPC)</h4>
+                                <p class="node-ip" id="u3MpcScore">Rutas: 3.25 vs Rival: 3.10</p>
+                                <span class="node-badge" id="u3BadgeMpc" style="background:color-mix(in srgb, #38bdf8 20%, transparent); border-color:#38bdf8; color:#38bdf8;"><i class="fas fa-award"></i> Líder Regional</span>
+                            </div>
+                        </div>
+
+                        <!-- Selector de Herramienta Matricial -->
+                        <div class="workbench-controls">
+                            <div class="control-field">
+                                <span class="control-label">1. Herramienta de Diagnóstico Matricial</span>
+                                <div class="btn-group-toggle">
+                                    <button type="button" class="toggle-btn active" id="btnU3Mefe" onclick="setU3Tool('mefe_mefi')">
+                                        <i class="fas fa-table-cells"></i> 1. MEFE &amp; MEFI
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnU3Bcg" onclick="setU3Tool('bcg')">
+                                        <i class="fas fa-chart-pie"></i> 2. Cartera BCG
+                                    </button>
+                                    <button type="button" class="toggle-btn" id="btnU3Mpc" onclick="setU3Tool('mpc')">
+                                        <i class="fas fa-trophy"></i> 3. Perfil Competitivo (MPC)
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Panel dinámico de la herramienta seleccionada -->
+                            <div id="u3ToolPanel" style="margin-top:1.25rem; background:rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:1.25rem;">
+                                <!-- Se llena dinámicamente con JS -->
+                            </div>
+
+                            <div class="action-button-group" style="margin-top:1.5rem;">
+                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategiaU3()">
+                                    <i class="fas fa-chess-knight"></i> Ejecutar Cruce Estratégico y Proyectar Impacto
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Consola en tiempo real -->
+                        <div class="net-console" style="margin-top:1.5rem;">
+                            <div class="console-topbar">
+                                <div class="console-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="console-title">terminal://rutas-del-centro-sim-estrategia</span>
+                                <button type="button" onclick="clearConsoleU3()" style="background:transparent; border:none; color:var(--text-muted); cursor:pointer; font-size:0.75rem;" title="Limpiar consola">
+                                    <i class="fas fa-eraser"></i> Limpiar
+                                </button>
+                            </div>
+                            <div class="console-body" id="netConsoleBody">
+                                <div><span class="log-info">[INIT]</span> Tablero de formulación estratégica cargado.</div>
+                                <div><span class="log-info">[AUDITORÍA]</span> MEFE: 2.75 (Respuesta favorable a oportunidades) · MEFI: 2.85 (Posición interna sólida).</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Retos Prácticos de Decisión -->
+                    <section class="challenges-card" aria-labelledby="challengesTitle">
+                        <div class="challenges-header">
+                            <h2 id="challengesTitle"><i class="fas fa-vial-circle-check" style="color:var(--accent);"></i> Retos Prácticos de Decisión · Unidad 3</h2>
+                            <p>Demuestra tu dominio en la formulación de estrategias matriciales respondiendo a cada escenario gerencial.</p>
+                        </div>
+
+                        <!-- Reto 1 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-table-cells"></i> Reto 1 · Diagnóstico MEFE y MEFI</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 3.2</span>
+                            </div>
+                            <h3 class="challenge-title">Interpretación de la Posición en la Matriz Interna-Externa (IE)</h3>
+                            <p class="challenge-desc">
+                                Tras concluir las matrices de evaluación, Rutas del Centro obtiene un puntaje ponderado de <strong>MEFI = 2.85</strong> (fuerza interna media-alta) y <strong>MEFE = 2.75</strong> (respuesta externa media-alta). Al ubicar a la empresa en la Matriz Interna-Externa (IE) de 9 cuadrantes, ¿cuál es la prescripción estratégica metodológica?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 1, false, 'Cosechar o desinvertir corresponde a cuadrantes con puntajes inferiores a 2.0 en ambas matrices.')">
+                                    <span><strong>A)</strong> Cosechar o desinvertir de inmediato vendiendo los activos de transporte y cancelando operaciones.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 1, true, 'Con MEFI 2.85 y MEFE 2.75 la empresa se sitúa en la región de Retener y Mantener o Crecer / Construir mediante penetración de mercado y desarrollo de productos.')">
+                                    <span><strong>B)</strong> Postura de Crecer y Construir / Retener y Mantener: penetración en el mercado meta actual y desarrollo de nuevos productos experienciales que refuercen las fortalezas distintivas.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 1, false, 'La diversificación no relacionada (conglomerada) es de alto riesgo y se desaconseja cuando el negocio central cuenta con ventajas competitivas sólidas.')">
+                                    <span><strong>C)</strong> Diversificación conglomerada no relacionada hacia el sector de la minería pesada y la construcción industrial.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 1, false, 'Una puntuación superior a 2.5 indica solidez y capacidad de respuesta frente al entorno; no justifica liquidación.')">
+                                    <span><strong>D)</strong> Declararse en quiebra técnica porque cualquier valor inferior a 3.9 se considera reprobatorio según la OMT.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 2 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-arrows-split-up-and-left"></i> Reto 2 · Cruces TOWS / FODA</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 3.3</span>
+                            </div>
+                            <h3 class="challenge-title">Formulación de una Estrategia FO de Ataque</h3>
+                            <p class="challenge-desc">
+                                El diagnóstico identifica la <strong>Fortaleza F1</strong> (flota moderna de camionetas ejecutivas Mercedes-Benz Sprinter con guías acreditados) y la <strong>Oportunidad O2</strong> (crecimiento del 34% en el turismo enológico y gastronómico en la Ruta del Vino). ¿Qué cruce estratégico FO explota directamente ambas condiciones?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 2, true, 'Estrategia FO ejemplar: vincula la capacidad distintiva de la flota y el personal calificado (F1) con la tendencia de mercado en crecimiento (O2) para captar demanda de alto valor.')">
+                                    <span><strong>A)</strong> Lanzar el paquete exclusivo "Ruta Enológica VIP" con catas privadas y transporte premium, comercializado de forma directa a viajeros de fin de semana para capturar la creciente demanda del enoturismo.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 2, false, 'Vender unidades no aprovecha la oportunidad del mercado enoturístico en expansión; contradice la estrategia.')">
+                                    <span><strong>B)</strong> Vender las unidades ejecutivas y comprar camionetas de carga para transportar mercancía agrícola.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 2, false, 'Esperar sin actuar pierde la ventana de oportunidad frente a otros competidores que están ingresando a la zona de viñedos.')">
+                                    <span><strong>C)</strong> No realizar ninguna acción comercial y esperar a que los viñedos organicen sus propios servicios de traslado.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 2, false, 'Ofrecer traslados gratuitos sin generar ingresos destruye el flujo de caja de la empresa.')">
+                                    <span><strong>D)</strong> Trasladar pasajeros gratis a los viñedos sin cobrar comisión ni tarifa de pasaje.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 3 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-chart-pie"></i> Reto 3 · Matriz BCG y Gestión de Cartera</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 3.4</span>
+                            </div>
+                            <h3 class="challenge-title">Asignación de Flujo de Efectivo entre Productos Turísticos</h3>
+                            <p class="challenge-desc">
+                                En la cartera de Rutas del Centro, el <strong>Tour Histórico Colonial</strong> es una "Vaca Lechera" (alta cuota, bajo crecimiento del destino) que genera $450,000 MXN en excedentes anuales. Por su parte, el <strong>Tour de Ciclismo de Montaña y Aventura</strong> es un "Interrogante" en un mercado de alto crecimiento pero con baja cuota inicial. ¿Cuál es la decisión financiera recomendada según la metodología del Boston Consulting Group?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 3, false, 'Invertir todo el excedente en la Vaca Lechera es un error clásico de sobreinversión; el mercado colonial no crece y el capital queda estancado.')">
+                                    <span><strong>A)</strong> Reinvertir el 100% del efectivo en el Tour Histórico Colonial comprando más camionetas que quedarán ociosas.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 3, true, 'Regla de oro de la BCG: ordeñar la Vaca Lechera para canalizar fondos al producto Interrogante prometedor, financiando marketing y equipamiento para transformarlo en una Estrella.')">
+                                    <span><strong>B)</strong> Ordeñar los flujos de caja de la "Vaca Lechera" para invertirlos en el "Interrogante" (marketing digital, bicicletas de alta gama y certificación de guías), transformándolo en una "Estrella" de alta participación.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 3, false, 'Cerrar el producto interrogante sin evaluarlo priva a la empresa de su futuro motor de crecimiento cuando la Vaca decaiga.')">
+                                    <span><strong>C)</strong> Cancelar de inmediato el tour de aventura porque no genera utilidades récord en su primer mes de prueba.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 3, false, 'El City Tour nocturno de baja demanda es un Perro; no debe absorber fondos de la Vaca.')">
+                                    <span><strong>D)</strong> Trasladar los $450,000 MXN a pagar multas de un City Tour nocturno sin pasaje (Perro) que opera a pérdida constante.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+
+                        <!-- Reto 4 -->
+                        <article class="challenge-item">
+                            <div class="challenge-item-header">
+                                <span class="challenge-tag"><i class="fas fa-trophy"></i> Reto 4 · Matriz del Perfil Competitivo (MPC)</span>
+                                <span style="font-size:0.8rem; color:var(--accent); font-weight:700;">Tema 3.6</span>
+                            </div>
+                            <h3 class="challenge-title">Cierre de Brechas Frente al Competidor Líder en la MPC</h3>
+                            <p class="challenge-desc">
+                                En la Matriz del Perfil Competitivo (MPC), el rival principal "Transportes del Bajío" supera a Rutas del Centro en el factor crítico <strong>"Canal de Reserva Inmediata y Comercio Electrónico"</strong> (Calificación 4 vs 2 de Rutas). ¿Qué iniciativa de choque debe implementarse en un plan a 90 días para revertir esta desventaja?
+                            </p>
+                            <div class="challenge-options">
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 4, false, 'Contratar más recepcionistas telefónicos incrementa costos fijos y no resuelve la necesidad del viajero moderno de comprar en línea 24/7.')">
+                                    <span><strong>A)</strong> Contratar a cinco telefonistas adicionales para responder llamadas de cotización exclusivamente en horario de oficina.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 4, true, 'Acción directa al factor crítico: integrar un motor de reservas web con confirmación instantánea por WhatsApp y pasarela de pago segura en 2 pasos, igualando o superando al competidor en el factor decisorio.')">
+                                    <span><strong>B)</strong> Implementar un motor de reservas web y móvil con disponibilidad en tiempo real, pasarela de pago integrada en dos clics y confirmación automática por WhatsApp y wallet digital.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 4, false, 'Imprimir folletos no impacta el factor de digitalización ni compite contra plataformas de reserva electrónica.')">
+                                    <span><strong>C)</strong> Imprimir 50,000 trípticos en papel satinado y repartirlos en cruceros vehiculares de la ciudad.</span>
+                                </button>
+                                <button type="button" class="option-btn" onclick="responderRetoU3(this, 4, false, 'Denigrar competidores viola principios éticos y no mejora las capacidades técnicas de la empresa.')">
+                                    <span><strong>D)</strong> Publicar reseñas anónimas falsas en redes sociales criticando el sistema web del competidor.</span>
+                                </button>
+                            </div>
+                            <div class="feedback-banner" hidden>
+                                <div class="feedback-icon"><i class="fas fa-info-circle"></i></div>
+                                <div class="feedback-text"></div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <aside class="activity-sidebar-col">
+                    <div class="activity-card summary-card">
+                        <div class="summary-card-header">
+                            <span class="badge badge-primary"><i class="fas fa-chess" aria-hidden="true"></i> EVALUACIÓN</span>
+                            <span class="activity-id">U3 · FINAL</span>
+                        </div>
+                        <h2 class="sidebar-title">Métricas Estratégicas</h2>
+                        <ul class="summary-list">
+                            <li><span class="summary-label">Empresa</span> <strong class="summary-val">Rutas del Centro</strong></li>
+                            <li><span class="summary-label">Índice MEFI</span> <strong class="summary-val">2.85 (Fuerza media)</strong></li>
+                            <li><span class="summary-label">Índice MEFE</span> <strong class="summary-val">2.75 (Respuesta media)</strong></li>
+                            <li><span class="summary-label">Progreso Retos</span> <strong class="summary-val" id="u3RetosCompletados">0 / 4</strong></li>
+                            <li><span class="summary-label">Calificación</span> <strong class="summary-val" id="u3PuntajeFinal" style="color:var(--accent);">0%</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card sidebar-card">
+                        <h3 class="sidebar-heading">TEMAS DE LA UNIDAD 3</h3>
+                        <ul class="support-links">
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i> 3.1 Análisis del entorno</a></li>
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-table-cells" aria-hidden="true"></i> 3.2 Matrices MEFE &amp; MEFI</a></li>
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-arrows-split-up-and-left" aria-hidden="true"></i> 3.3 Matriz FODA y TOWS</a></li>
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-chart-pie" aria-hidden="true"></i> 3.4 Matriz BCG</a></li>
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-up-right-and-down-left-from-center" aria-hidden="true"></i> 3.5 Matriz de Ansoff</a></li>
+                            <li><a href="../temas/tema-03-01.html" class="support-link-item"><i class="fas fa-trophy" aria-hidden="true"></i> 3.6 Matriz MPC</a></li>
+                            <li><a href="../referencias.html" class="support-link-item"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias Bibliográficas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card dark-alert-card">
+                        <h3 class="dark-card-heading">GUÍA DE FORMULACIÓN MATRICIAL</h3>
+                        <p class="dark-card-text">
+                            Una matriz no toma decisiones por sí misma; organiza la evidencia para sustentar cursos de acción defendibles. En turismo, las estrategias FO y la asignación inteligente de flujos de la cartera BCG permiten construir ventajas competitivas duraderas.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <nav class="bottom-navigation" aria-label="Navegación de la actividad">
+            <a href="actividad-3-6.html" class="btn btn-nav"><i class="fas fa-arrow-left" aria-hidden="true"></i> Actividad 3.6</a>
+            <a href="../index.html" class="btn btn-nav">Volver a Unidad 3 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </nav>
-        <div class="header-title-content">
-          <p class="eyebrow">Actividad final · Unidad 3</p>
-          <h1>Operación Enlace</h1>
-          <p class="header-subtitle">
-            Caso hipotético: árboles, montículos y grafos aplicados a la
-            respuesta urbana
-          </p>
-        </div>
-      </header>
 
-      <main>
-        <section id="loadingState" class="state-card" aria-live="polite">
-          <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
-          <p>Preparando el caso y la actividad</p>
-        </section>
-
-        <section
-          id="loadError"
-          class="state-card error-state is-hidden"
-          role="alert"
-        >
-          <i class="fas fa-triangle-exclamation" aria-hidden="true"></i>
-          <h2>No fue posible cargar la actividad</h2>
-          <p id="loadErrorMessage">
-            Verifica los archivos de datos e intenta nuevamente.
-          </p>
-          <button class="btn btn-secondary" id="retryLoadBtn" type="button">
-            <i class="fas fa-rotate-right" aria-hidden="true"></i> Reintentar
-          </button>
-        </section>
-
-        <section
-          id="introScreen"
-          class="is-hidden"
-          aria-labelledby="introTitle"
-        >
-          <div class="intro-card">
-            <div class="intro-copy">
-              <p class="eyebrow">Caso hipotético de recursos digitales</p>
-              <h2 id="introTitle">
-                Aplica los conocimientos de toda la unidad
-              </h2>
-              <p>
-                Analiza el caso, sus datos y sus limitaciones. Después, tomarás
-                decisiones sobre árboles, montículos, recorridos, grafos y
-                organizaci?n algorítmica. La retroalimentación y las respuestas
-                correctas se mostrarán al finalizar la actividad.
-              </p>
-            </div>
-            <div
-              class="evaluation-facts"
-              role="list"
-              aria-label="Datos de la actividad"
-            >
-              <div class="fact" role="listitem">
-                <i class="fas fa-list-ol" aria-hidden="true"></i
-                ><strong>20</strong><span>preguntas</span>
-              </div>
-              <div class="fact" role="listitem">
-                <i class="fas fa-clock" aria-hidden="true"></i
-                ><strong>45</strong><span>minutos</span>
-              </div>
-              <div class="fact" role="listitem">
-                <i class="fas fa-layer-group" aria-hidden="true"></i
-                ><strong>6</strong><span>tipos de reactivo</span>
-              </div>
-            </div>
-            <div class="intro-instructions" aria-labelledby="instructionsTitle">
-              <h3 id="instructionsTitle">
-                <i class="fas fa-list-check" aria-hidden="true"></i>
-                Indicaciones de la actividad
-              </h3>
-              <p>
-                Responde de acuerdo con la dinámica indicada. La
-                retroalimentación aparecerá solamente al finalizar la actividad.
-              </p>
-              <ul class="instruction-types">
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i class="fas fa-circle-dot" aria-hidden="true"></i></span
-                  ><span
-                    ><strong>Opción múltiple:</strong> elige una
-                    respuesta.</span
-                  >
-                </li>
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i class="fas fa-list-check" aria-hidden="true"></i></span
-                  ><span
-                    ><strong>Selección múltiple:</strong> marca todas las
-                    correctas.</span
-                  >
-                </li>
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i class="fas fa-layer-group" aria-hidden="true"></i></span
-                  ><span
-                    ><strong>Clasificación:</strong> asigna cada elemento a su
-                    categoría.</span
-                  >
-                </li>
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i
-                      class="fas fa-chart-column"
-                      aria-hidden="true"
-                    ></i></span
-                  ><span
-                    ><strong>Interpretación:</strong> analiza tablas y
-                    gráficas.</span
-                  >
-                </li>
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i
-                      class="fas fa-triangle-exclamation"
-                      aria-hidden="true"
-                    ></i></span
-                  ><span
-                    ><strong>Identificación de errores:</strong> localiza el
-                    problema principal.</span
-                  >
-                </li>
-                <li>
-                  <span class="instruction-type-icon"
-                    ><i
-                      class="fas fa-arrow-down-1-9"
-                      aria-hidden="true"
-                    ></i></span
-                  ><span
-                    ><strong>Organizaci?n de informaci?n:</strong> organiza correctamente el
-                    proceso.</span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <section class="case-card" aria-labelledby="casePresentationTitle">
-            <div class="section-heading">
-              <div>
-                <h2 id="casePresentationTitle">Presentación del caso</h2>
-              </div>
-            </div>
-            <div id="casePresentation" class="case-content"></div>
-          </section>
-
-          <div class="start-panel">
-            <div>
-              <h2>Cuando hayas revisado el caso, inicia la actividad.</h2>
-              <p>
-                Durante el intento podrás consultar nuevamente toda la
-                información sin perder tus respuestas.
-              </p>
-            </div>
-            <div class="start-actions">
-              <button
-                class="btn btn-pdf btn-large"
-                id="downloadCasePdfBtn"
-                type="button"
-                disabled
-              >
-                <i class="fas fa-file-pdf" aria-hidden="true"></i> Descargar
-                caso en PDF
-              </button>
-              <button
-                class="btn btn-primary btn-large"
-                id="startEvaluationBtn"
-                type="button"
-              >
-                <i class="fas fa-play" aria-hidden="true"></i> Iniciar
-                actividad
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section
-          id="evaluationScreen"
-          class="is-hidden"
-          aria-labelledby="evaluationTitle"
-        >
-          <div class="evaluation-toolbar">
-            <div>
-              <h2 id="evaluationTitle">Desarrollo de la actividad</h2>
-            </div>
-            <div class="toolbar-actions">
-              <button
-                class="btn btn-secondary"
-                id="consultCaseBtn"
-                type="button"
-              >
-                <i class="fas fa-folder-open" aria-hidden="true"></i> Consultar
-                caso
-              </button>
-              <div class="timer" id="timer" role="timer" aria-live="polite">
-                <i class="fas fa-stopwatch" aria-hidden="true"></i>
-                <span>Tiempo</span>
-                <strong id="timerValue">45:00</strong>
-              </div>
-            </div>
-          </div>
-
-          <div class="progress-panel">
-            <div class="progress-copy">
-              <strong id="questionCounter">Pregunta 1 de 20</strong>
-              <span id="answeredCounter">0 respondidas</span>
-            </div>
-            <div
-              class="question-progress"
-              role="progressbar"
-              aria-label="Progreso de la actividad"
-              aria-valuemin="0"
-              aria-valuemax="20"
-              aria-valuenow="0"
-            >
-              <div id="questionProgressBar"></div>
-            </div>
-          </div>
-
-          <article
-            class="question-card"
-            id="questionCard"
-            aria-live="polite"
-          ></article>
-
-          <div class="question-navigation">
-            <button
-              class="btn btn-secondary"
-              id="previousQuestionBtn"
-              type="button"
-            >
-              <i class="fas fa-arrow-left" aria-hidden="true"></i> Anterior
-            </button>
-            <div
-              class="question-dots"
-              id="questionDots"
-              aria-label="Ir a una pregunta"
-            ></div>
-            <button class="btn btn-primary" id="nextQuestionBtn" type="button">
-              Siguiente <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </button>
-            <button
-              class="btn btn-evaluate is-hidden"
-              id="evaluateFinalBtn"
-              type="button"
-            >
-              <i class="fas fa-check-circle" aria-hidden="true"></i> Finalizar
-              actividad
-            </button>
-          </div>
-        </section>
-
-        <section
-          id="resultsScreen"
-          class="is-hidden"
-          aria-labelledby="resultsTitle"
-        >
-          <div class="results-hero">
-            <span class="results-icon" aria-hidden="true"
-              ><i class="fas fa-chart-line"></i
-            ></span>
-            <div>
-              <p class="eyebrow">Actividad finalizada</p>
-              <h2 id="resultsTitle">Resultado de la actividad</h2>
-              <p id="resultsMessage"></p>
-            </div>
-            <div class="grade-ring" id="gradeRing">
-              <strong id="gradeValue">0.0</strong><span>puntuación</span>
-            </div>
-          </div>
-          <div class="results-summary" id="resultsSummary"></div>
-          <section class="performance-card" aria-labelledby="performanceTitle">
-            <h3 id="performanceTitle">Desempeño por categoría</h3>
-            <div id="categoryPerformance" class="category-performance"></div>
-          </section>
-          <section class="review-section" aria-labelledby="reviewTitle">
-            <div class="section-heading">
-              <div>
-                <p class="eyebrow">Retroalimentación</p>
-                <h3 id="reviewTitle">Revisión por pregunta</h3>
-              </div>
-            </div>
-            <div id="questionReview" class="question-review"></div>
-          </section>
-          <div class="results-actions">
-            <button
-              class="btn btn-pdf btn-large"
-              id="downloadResultsPdfBtn"
-              type="button"
-              disabled
-            >
-              <i class="fas fa-file-pdf" aria-hidden="true"></i> Descargar
-              resultados PDF
-            </button>
-            <button
-              class="btn btn-primary btn-large"
-              id="retryEvaluationBtn"
-              type="button"
-            >
-              <i class="fas fa-rotate-right" aria-hidden="true"></i> Intentar de
-              nuevo
-            </button>
-            <a class="btn btn-secondary btn-large" href="../../../index.html">
-              <i class="fas fa-book-open" aria-hidden="true"></i> Volver a la
-              Unidad 3
-            </a>
-          </div>
-        </section>
-      </main>
-
-      <nav class="bottom-navigation" aria-label="Navegación de la actividad">
-        <a href="actividad-3-1.html" class="btn btn-nav"
-          ><i class="fas fa-arrow-left" aria-hidden="true"></i> Actividad 3.1 Tema provisional</a
-        >
-        <a href="../../../index.html" class="btn btn-nav"
-          >Volver a Unidad 3
-          <i class="fas fa-arrow-right" aria-hidden="true"></i
-        ></a>
-      </nav>
-
-      <footer>
-        <p>Contenidos y Estructuras de Datos - Unidad 3</p>
-        <p>Desarrollado para fines educativos - © 2026</p>
-      </footer>
+        <footer>
+            <p>Marketing · Unidad 3: Elaboración e implementación de estrategias</p>
+            <p>Escuela Superior de Turismo · Instituto Politécnico Nacional · © 2026</p>
+        </footer>
     </div>
 
-    <div
-      class="drawer-overlay is-hidden"
-      id="caseDrawerOverlay"
-      aria-hidden="true"
-    >
-      <aside
-        class="case-drawer"
-        id="caseDrawer"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="caseDrawerTitle"
-        tabindex="-1"
-      >
-        <div class="drawer-header">
-          <div>
-            <p class="eyebrow">Consulta permanente</p>
-            <h2 id="caseDrawerTitle">Caso de Ciudad Nova</h2>
-          </div>
-          <button
-            class="icon-button"
-            id="closeCaseDrawerBtn"
-            type="button"
-            aria-label="Cerrar caso"
-          >
-            <i class="fas fa-times" aria-hidden="true"></i>
-          </button>
-        </div>
-        <nav class="drawer-tabs" aria-label="Apartados del caso">
-          <button type="button" data-case-target="case-summary">Resumen</button>
-          <button type="button" data-case-target="case-procedure">
-            Procedimiento
-          </button>
-          <button type="button" data-case-target="case-results">
-            Resultados
-          </button>
-          <button type="button" data-case-target="case-visuals">
-            Tablas y gráficas
-          </button>
-          <button type="button" data-case-target="case-limitations">
-            Limitaciones
-          </button>
-        </nav>
-        <div class="drawer-body case-content" id="caseDrawerContent"></div>
-      </aside>
-    </div>
-
-    <div class="dialog-overlay is-hidden" id="pendingDialog" aria-hidden="true">
-      <div
-        class="confirm-dialog"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="pendingDialogTitle"
-        aria-describedby="pendingDialogText"
-        tabindex="-1"
-      >
-        <span class="dialog-icon" aria-hidden="true"
-          ><i class="fas fa-circle-question"></i
-        ></span>
-        <h2 id="pendingDialogTitle">Hay preguntas sin responder</h2>
-        <p id="pendingDialogText"></p>
-        <div class="dialog-actions">
-          <button
-            class="btn btn-secondary"
-            id="continueEvaluationBtn"
-            type="button"
-          >
-            Seguir respondiendo
-          </button>
-          <button class="btn btn-evaluate" id="confirmSubmitBtn" type="button">
-            Finalizar actividad
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <script src="../../../assets/js/original/UNIDAD_3_js_evaluacion-final.js"></script>
-    <script src="../../../assets/js/original/UNIDAD_3_generar-pdf-resultados.js"></script>
-    <script src="../../../assets/js/original/UNIDAD_3_js_copiar-texto-plano.js"></script>
-  <script src="../../../assets/js/nav-global.js"></script>
+    <script src="../../../assets/js/paginas/unidades_unidad-03_actividades_actividad-final.js"></script>
+    <script src="../../../assets/js/data-manager.js"></script>
+    <script src="../../../assets/js/componentes.js"></script>
 </body>
 </html>
-
-

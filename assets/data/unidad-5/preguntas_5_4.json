@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿A quién se dirige primordialmente el reporte ejecutivo del plan de marketing según Albrecht et al. (2023)?",
+    "opciones": [
+      "A la alta dirección, inversionistas y responsables que deben aprobar presupuestos, evaluar desempeño o autorizar cambios estratégicos.",
+      "Al público general que consulta las redes sociales de la empresa.",
+      "A los proveedores de gasolina y mantenimiento mecánico de los vehículos.",
+      "A los estudiantes de nuevo ingreso de la preparatoria."
+    ],
+    "respuesta_correcta": "A la alta dirección, inversionistas y responsables que deben aprobar presupuestos, evaluar desempeño o autorizar cambios estratégicos.",
+    "explicacion": "El reporte ejecutivo sintetiza decisiones estratégicas, implicaciones financieras y resultados clave para facilitar la toma de decisiones gerenciales."
+  },
+  {
+    "pregunta": "¿Qué características debe tener la redacción y presentación de un reporte ejecutivo eficaz?",
+    "opciones": [
+      "Brevedad, datos cuantitativos con unidades y plazos claros, tablas comparativas de meta vs resultado y recomendaciones directivas.",
+      "Un documento de 500 páginas repleto de tecnicismos informáticos y jerga legal.",
+      "Un listado informal de impresiones personales sin sustento en cifras.",
+      "Un álbum fotográfico sin análisis financiero ni mención de costos."
+    ],
+    "respuesta_correcta": "Brevedad, datos cuantitativos con unidades y plazos claros, tablas comparativas de meta vs resultado y recomendaciones directivas.",
+    "explicacion": "La dirección requiere claridad y capacidad de síntesis para entender con rapidez el desempeño comercial y financiero."
+  },
+  {
+    "pregunta": "En la síntesis ejecutiva de la campaña ecoturística, ¿cuál es la principal desviación financiera reportada?",
+    "opciones": [
+      "El cumplimiento del 85% de las reservas meta (68 de 80) elevó el costo por reserva a $550 MXN (frente al máximo objetivo de $470).",
+      "La empresa quebró por gastar el triple del presupuesto autorizado.",
+      "El costo por reserva disminuyó a $100 MXN generando ganancias imprevistas.",
+      "No hubo ninguna desviación; todos los indicadores coincidieron con la meta al centavo."
+    ],
+    "respuesta_correcta": "El cumplimiento del 85% de las reservas meta (68 de 80) elevó el costo por reserva a $550 MXN (frente al máximo objetivo de $470).",
+    "explicacion": "La síntesis ejecutiva transparenta de inmediato el desfase entre las reservas alcanzadas y la eficiencia del gasto publicitario."
+  },
+  {
+    "pregunta": "Frente a los resultados de la campaña ecoturística (satisfacción 4.6/5 pero costo por reserva $550), ¿cuál es la recomendación ejecutiva prioritaria?",
+    "opciones": [
+      "Mantener los atributos de servicio que generan alta satisfacción y optimizar la usabilidad web y precisión de anuncios antes de aumentar la publicidad.",
+      "Duplicar de inmediato la inversión publicitaria en redes sociales sin cambiar la página web.",
+      "Despedir a los guías locales para reducir el costo por reserva a $400.",
+      "Aumentar el precio del boleto un 100% para cubrir la ineficiencia publicitaria."
+    ],
+    "respuesta_correcta": "Mantener los atributos de servicio que generan alta satisfacción y optimizar la usabilidad web y precisión de anuncios antes de aumentar la publicidad.",
+    "explicacion": "La dirección debe corregir la fricción en la captación y conversión digital antes de incrementar el gasto publicitario."
+  },
+  {
+    "pregunta": "¿Por qué los componentes del plan (presupuesto, ruta crítica, evaluación y reporte) funcionan como un sistema integrado?",
+    "opciones": [
+      "Porque modificar una actividad altera simultáneamente el cronograma de ruta crítica, los desembolsos de gasto y las metas de los indicadores.",
+      "Porque están registrados bajo la misma marca registrada en el Instituto Mexicano de la Propiedad Industrial.",
+      "Porque los cuatro se imprimen con la misma tinta en el departamento de contabilidad.",
+      "Porque la ley de turismo prohíbe evaluar un proyecto sin presentar los cuatro documentos el mismo día."
+    ],
+    "respuesta_correcta": "Porque modificar una actividad altera simultáneamente el cronograma de ruta crítica, los desembolsos de gasto y las metas de los indicadores.",
+    "explicacion": "Un cambio en plazos afecta costos y entregables; la planeación comercial opera como un engranaje interdependiente."
+  },
+  {
+    "pregunta": "¿Cómo debe estructurarse la presentación ejecutiva ante un comité directivo de turismo?",
+    "opciones": [
+      "Producto y necesidad de mercado → Objetivo y público → Estrategias y presupuesto → Ruta crítica y KPIs → Resultados, desviaciones y decisiones.",
+      "Biografía del expositor → Fotos del destino → Reseñas de comida → Lista de quejas de clientes.",
+      "Presupuesto gastado → Justificación de pérdidas → Solicitud de rescate financiero.",
+      "Historia del municipio → Leyes aplicables → Salarios del personal → Clima del fin de semana."
+    ],
+    "respuesta_correcta": "Producto y necesidad de mercado → Objetivo y público → Estrategias y presupuesto → Ruta crítica y KPIs → Resultados, desviaciones y decisiones.",
+    "explicacion": "Esta estructura conduce al evaluador desde la justificación del mercado hasta las decisiones prácticas finales."
+  },
+  {
+    "pregunta": "¿Qué papel cumplen las conclusiones en el cierre de un plan de marketing?",
+    "opciones": [
+      "Sintetizar los aprendizajes clave, evaluar la viabilidad de sostener el producto y establecer los compromisos para el siguiente ciclo de operación.",
+      "Agradecer a los patrocinadores y despedir al equipo de trabajo.",
+      "Copiar textualmente las conclusiones del plan de marketing del año anterior.",
+      "Prohibir futuras modificaciones al producto turístico."
+    ],
+    "respuesta_correcta": "Sintetizar los aprendizajes clave, evaluar la viabilidad de sostener el producto y establecer los compromisos para el siguiente ciclo de operación.",
+    "explicacion": "Las conclusiones cierran la auditoría gerencial y fijan las bases de mejora continua para el siguiente periodo comercial."
+  },
+  {
+    "pregunta": "¿Por qué un reporte ejecutivo debe incluir unidades de medida y periodos en todas sus cifras?",
+    "opciones": [
+      "Para evitar interpretaciones erróneas y garantizar que directores e inversionistas entiendan el alcance temporal y económico exacto del dato.",
+      "Porque las computadoras no pueden leer cifras sin signos de pesos.",
+      "Porque la tipografía del polilibro exige símbolos obligatorios.",
+      "Para alargar artificialmente la extensión del texto del informe."
+    ],
+    "respuesta_correcta": "Para evitar interpretaciones erróneas y garantizar que directores e inversionistas entiendan el alcance temporal y económico exacto del dato.",
+    "explicacion": "Una cifra como '68' carece de sentido si no se especifica si son reservas, personas, noches o miles de pesos en el periodo evaluado."
+  },
+  {
+    "pregunta": "Si un indicador comercial no alcanza la meta, ¿qué actitud profesional debe reflejar el reporte ejecutivo?",
+    "opciones": [
+      "Transparencia analítica: reportar la desviación con objetividad, explicar las causas de raíz y proponer una solución correctiva viable.",
+      "Ocultar los números que no favorezcan al equipo de mercadotecnia.",
+      "Culpar a los clientes por no entender la calidad del producto.",
+      "Modificar retroactivamente las metas originales para aparentar un cumplimiento del 100%."
+    ],
+    "respuesta_correcta": "Transparencia analítica: reportar la desviación con objetividad, explicar las causas de raíz y proponer una solución correctiva viable.",
+    "explicacion": "La integridad en el reporte de resultados es la base de la toma de decisiones informada y la confianza gerencial."
+  },
+  {
+    "pregunta": "¿Cuál es la lección final que aporta la Unidad 5 sobre la gestión comercial del turismo?",
+    "opciones": [
+      "Un plan de marketing sólido no concluye con la creatividad de los anuncios: exige disciplina financiera, rigor en los tiempos y control constante de resultados.",
+      "La mercadotecnia turística solo consiste en tomar fotografías atractivas de paisajes.",
+      "Los proyectos turísticos nunca necesitan auditoría porque la demanda siempre es predecible.",
+      "El éxito comercial depende exclusivamente de gastar el presupuesto lo más rápido posible."
+    ],
+    "respuesta_correcta": "Un plan de marketing sólido no concluye con la creatividad de los anuncios: exige disciplina financiera, rigor en los tiempos y control constante de resultados.",
+    "explicacion": "El marketing exitoso es un sistema que integra creatividad con planeación financiera, secuenciación de proyectos y control de calidad."
+  }
+]

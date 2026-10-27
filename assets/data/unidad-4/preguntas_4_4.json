@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué persigue la Comunicación Integral del Marketing (CIM) según OpenStax (2023d)?",
+    "opciones": [
+      "Coordinar mensajes, herramientas y medios para transmitir una propuesta coherente y sin contradicciones en todos los puntos de contacto.",
+      "Invertir el 100% del presupuesto de comunicación en un solo canal televisivo.",
+      "Publicar el mismo texto idéntico y sin adaptación en radio, folletos y buscadores.",
+      "Eliminar toda comunicación personalizada para ahorrar en sueldos de ventas."
+    ],
+    "respuesta_correcta": "Coordinar mensajes, herramientas y medios para transmitir una propuesta coherente y sin contradicciones en todos los puntos de contacto.",
+    "explicacion": "La CIM busca consistencia integral: lo prometido en publicidad debe coincidir con la información web y la atención presencial."
+  },
+  {
+    "pregunta": "¿Cuál es la ventaja primordial de los medios digitales sobre los medios analógicos en turismo?",
+    "opciones": [
+      "Permiten interacción inmediata (enlaces y reservas directas) y medición de eventos en tiempo real con capacidad de ajuste rápido.",
+      "Son completamente gratuitos y no requieren ningún tipo de inversión económica.",
+      "Llegan exclusivamente a personas que no usan teléfonos inteligentes.",
+      "Tienen garantizada una tasa de conversión del 100% de los visitantes."
+    ],
+    "respuesta_correcta": "Permiten interacción inmediata (enlaces y reservas directas) y medición de eventos en tiempo real con capacidad de ajuste rápido.",
+    "explicacion": "Los medios digitales facilitan respuestas inmediatas y ajustes sobre la marcha según el rendimiento."
+  },
+  {
+    "pregunta": "¿En qué situación resulta altamente conveniente el uso de medios analógicos o tradicionales (ej. folletería en módulos)?",
+    "opciones": [
+      "Para orientar y captar a visitantes que ya se encuentran físicamente en el destino y reforzar la presencia territorial local.",
+      "Para vender boletos de avión con seis meses de anticipación a turistas europeos.",
+      "Para medir las tasas de rebote de los motores de búsqueda web.",
+      "Para modificar tarifas de última hora en cuestión de minutos."
+    ],
+    "respuesta_correcta": "Para orientar y captar a visitantes que ya se encuentran físicamente en el destino y reforzar la presencia territorial local.",
+    "explicacion": "El material impreso en puntos clave del destino atiende la toma de decisiones in situ del viajero ya desplazado."
+  },
+  {
+    "pregunta": "¿Qué define al 'Marketing de contacto' en la investigación de mercadotecnia turística?",
+    "opciones": [
+      "La interacción directa, personalizada y empática con clientes o prospectos para resolver dudas y cerrar reservas formalmente.",
+      "El envío masivo de correos no solicitados (spam) a bases de datos compradas.",
+      "La colocación de espectaculares luminosos en autopistas federales.",
+      "El cobro de penalizaciones por no contestar encuestas de salida."
+    ],
+    "respuesta_correcta": "La interacción directa, personalizada y empática con clientes o prospectos para resolver dudas y cerrar reservas formalmente.",
+    "explicacion": "Se vincula con la venta personal y la atención consultiva transparente (por teléfono, chat directo o mostrador)."
+  },
+  {
+    "pregunta": "¿Cuáles son las tres etapas fundamentales del Inbound Marketing según HubSpot (s. f.)?",
+    "opciones": [
+      "Atraer, interactuar y deleitar",
+      "Interrumpir, vender y cobrar",
+      "Prospectar, cotizar y demandar",
+      "Publicar, descontar y liquidar"
+    ],
+    "respuesta_correcta": "Atraer, interactuar y deleitar",
+    "explicacion": "Inbound atrae con contenidos de valor, interactúa resolviendo inquietudes y deleita con experiencias memorables posventa."
+  },
+  {
+    "pregunta": "En el hotel boutique, ¿qué acción concreta representa Inbound Marketing?",
+    "opciones": [
+      "Publicar en su blog una guía de actividades y talleres culturales entre semana, enlazándola con la reserva del paquete de hospedaje.",
+      "Repartir volantes en los semáforos de la ciudad con un megáfono.",
+      "Llamar por teléfono a las 3 de la mañana a números residenciales al azar.",
+      "Comprar menciones falsas en perfiles de celebridades de espectáculos."
+    ],
+    "respuesta_correcta": "Publicar en su blog una guía de actividades y talleres culturales entre semana, enlazándola con la reserva del paquete de hospedaje.",
+    "explicacion": "El contenido ayuda al viajero a planear su viaje y lo guía de manera orgánica hacia la reserva del servicio."
+  },
+  {
+    "pregunta": "¿Qué es el Marketing Simbiótico (Symbiotic Marketing) según Varadarajan & Rajaratnam (1986)?",
+    "opciones": [
+      "La colaboración entre organizaciones independientes que combinan recursos y capacidades para obtener beneficios comerciales compartidos.",
+      "La absorción forzosa de pequeñas cooperativas por grandes corporativos hoteleros.",
+      "La publicidad que utiliza imágenes de animales y plantas de la región.",
+      "El intercambio de personal operativo sin contratos laborales vigentes."
+    ],
+    "respuesta_correcta": "La colaboración entre organizaciones independientes que combinan recursos y capacidades para obtener beneficios comerciales compartidos.",
+    "explicacion": "La alianza simbiótica suma fortalezas complementarias para enriquecer la experiencia turística y ampliar canales."
+  },
+  {
+    "pregunta": "¿Qué distingue al Marketing Social según The Open University (s. f.) del simple marketing comercial?",
+    "opciones": [
+      "Busca influir en un cambio voluntario de comportamiento que beneficie a las personas, la comunidad y el medio ambiente.",
+      "Vende productos exclusivamente a través de redes sociales como TikTok o Instagram.",
+      "Consiste en organizar fiestas y eventos recreativos para los empleados.",
+      "Es un subsidio gubernamental a fondo perdido para empresas con pérdidas."
+    ],
+    "respuesta_correcta": "Busca influir en un cambio voluntario de comportamiento que beneficie a las personas, la comunidad y el medio ambiente.",
+    "explicacion": "Su objetivo central no es una venta comercial inmediata, sino la adopción de prácticas sustentables o de bienestar colectivo."
+  },
+  {
+    "pregunta": "En el caso del hotel boutique, ¿cuál es un ejemplo pertinente de Marketing Social?",
+    "opciones": [
+      "Incentivar que los huéspedes rellenen botellas de agua reutilizables en estaciones purificadoras, reduciendo desechos plásticos.",
+      "Ofrecer un descuento en la tarifa a cambio de una calificación de cinco estrellas en Google.",
+      "Publicar fotos de los dueños del hotel entregando reconocimientos.",
+      "Vender botellas de agua desechables al doble de su precio regular."
+    ],
+    "respuesta_correcta": "Incentivar que los huéspedes rellenen botellas de agua reutilizables en estaciones purificadoras, reduciendo desechos plásticos.",
+    "explicacion": "Fomenta un hábito ambiental responsable en el visitante y mide la reducción real de plásticos generados por estancia."
+  },
+  {
+    "pregunta": "¿Cómo interactúan de forma sinérgica los cuatro enfoques de marketing analizados?",
+    "opciones": [
+      "La guía útil (inbound) atrae; la atención consultiva (contacto) resuelve dudas; la alianza (simbiótico) mejora la experiencia; y la iniciativa sustentable (social) promueve la responsabilidad.",
+      "Cada enfoque debe aplicarse en años distintos sin relacionarse entre sí.",
+      "Solo puede utilizarse uno de los cuatro por mandato de la OMT.",
+      "Los cuatro enfoques persiguen exclusivamente la venta de habitaciones de lujo en fin de semana."
+    ],
+    "respuesta_correcta": "La guía útil (inbound) atrae; la atención consultiva (contacto) resuelve dudas; la alianza (simbiótico) mejora la experiencia; y la iniciativa sustentable (social) promueve la responsabilidad.",
+    "explicacion": "La sinergia de los enfoques potencia la percepción integral de valor y la lealtad del visitante hacia el destino y la marca."
+  }
+]

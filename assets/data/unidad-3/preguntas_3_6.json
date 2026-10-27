@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Cuál es el propósito fundamental de la Matriz del Perfil Competitivo (MPC) según Fred R. David (2011)?",
+    "opciones": [
+      "Comparar a la empresa frente a sus principales rivales directos utilizando factores críticos de éxito comunes ponderados.",
+      "Determinar el salario de los guías y recepcionistas del sector hotelero.",
+      "Establecer la cuota de mercado del turismo receptivo nacional.",
+      "Calcular el impuesto al hospedaje en los estados de la república."
+    ],
+    "respuesta_correcta": "Comparar a la empresa frente a sus principales rivales directos utilizando factores críticos de éxito comunes ponderados.",
+    "explicacion": "La MPC permite identificar fortalezas relativas y brechas competitivas frente a los competidores más cercanos."
+  },
+  {
+    "pregunta": "En la MPC, ¿qué escala de 1 a 4 se asigna a cada empresa en los factores críticos de éxito?",
+    "opciones": [
+      "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
+      "1: respuesta deficiente, 2: promedio, 3: buena, 4: sobresaliente.",
+      "1: precio bajo, 2: precio medio, 3: precio alto, 4: precio de lujo.",
+      "1: nacional, 2: estatal, 3: regional, 4: internacional."
+    ],
+    "respuesta_correcta": "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
+    "explicacion": "Las calificaciones indican el desempeño relativo de cada empresa en ese factor específico."
+  },
+  {
+    "pregunta": "En el caso didáctico de Rutas del Centro, la MPC arrojó 2.65 para Rutas, 3.25 para el Competidor A y 3.00 para el Competidor B. ¿Dónde radica la principal brecha de Rutas frente al líder A?",
+    "opciones": [
+      "En facilidad de reserva (calificación 1 vs 4) y reputación de marca (2 vs 4).",
+      "En calidad de interpretación patrimonial.",
+      "En la atención posventa.",
+      "En la relación valor-precio."
+    ],
+    "respuesta_correcta": "En facilidad de reserva (calificación 1 vs 4) y reputación de marca (2 vs 4).",
+    "explicacion": "Rutas aventaja en calidad de interpretación (4 vs 3), pero pierde competitividad por su proceso manual de reserva (1 frente a 4 de A)."
+  },
+  {
+    "pregunta": "Si Rutas del Centro implementa un sistema digital de reservas que eleva su calificación en 'Facilidad de reserva' de 1 a 3 (peso 0.20), ¿cuál es su nuevo puntaje en la MPC?",
+    "opciones": [
+      "Sube de 2.65 a 3.05",
+      "Se mantiene en 2.65",
+      "Baja a 2.45",
+      "Se eleva a 3.45 superando a A"
+    ],
+    "respuesta_correcta": "Sube de 2.65 a 3.05",
+    "explicacion": "Impacto: 0.20 * (3 - 1) = +0.40. Nuevo puntaje = 2.65 + 0.40 = 3.05, superando al Competidor B (3.00) y acortando la brecha con A (3.25)."
+  },
+  {
+    "pregunta": "¿Por qué un puntaje total más alto en la MPC no prueba automáticamente que una empresa sea más rentable?",
+    "opciones": [
+      "Porque la MPC mide posición competitiva relativa en factores seleccionados, pero la rentabilidad depende de costos, márgenes y eficiencia financiera.",
+      "Porque las fórmulas de David (2011) solo aplican a empresas en quiebra.",
+      "Porque el líder de la MPC siempre opera con pérdidas fiscales.",
+      "Porque los factores críticos de éxito no tienen relación con el mercado."
+    ],
+    "respuesta_correcta": "Porque la MPC mide posición competitiva relativa en factores seleccionados, pero la rentabilidad depende de costos, márgenes y eficiencia financiera.",
+    "explicacion": "Tener mejor reputación o servicio no garantiza utilidades si los costos de prestación superan a los ingresos."
+  },
+  {
+    "pregunta": "¿Por qué un precio más bajo no recibe automáticamente una mejor calificación en el factor 'Relación valor-precio'?",
+    "opciones": [
+      "Porque la evaluación compara el beneficio recibido frente al precio pagado: una tarifa barata con pésimo servicio tiene mala relación valor-precio.",
+      "Porque los turistas siempre prefieren pagar las tarifas más caras.",
+      "Porque las agencias de viajes sancionan a las empresas económicas.",
+      "Porque el valor se mide exclusivamente en dólares estadounidenses."
+    ],
+    "respuesta_correcta": "Porque la evaluación compara el beneficio recibido frente al precio pagado: una tarifa barata con pésimo servicio tiene mala relación valor-precio.",
+    "explicacion": "El valor percibido combina calidad, inclusiones y atención; un precio bajo no compensa un servicio deficiente o engañoso."
+  },
+  {
+    "pregunta": "En la propuesta de implementación a 90 días para Rutas del Centro, ¿cuál es la primera acción de los días 1 a 15?",
+    "opciones": [
+      "Medir fallas actuales y tiempos de confirmación de reservas para establecer una línea base verificable.",
+      "Gastar $50,000 MXN en anuncios de televisión abierta.",
+      "Comprar tres camionetas nuevas para la flotilla.",
+      "Despedir a los guías que no dominen tres idiomas extranjeros."
+    ],
+    "respuesta_correcta": "Medir fallas actuales y tiempos de confirmación de reservas para establecer una línea base verificable.",
+    "explicacion": "Antes de gastar en tecnología o campañas, se debe medir con precisión el problema operativo para contrastar mejoras."
+  },
+  {
+    "pregunta": "¿Cuál es la meta piloto cuantitativa propuesta para el proceso de reservas de Rutas del Centro?",
+    "opciones": [
+      "Reducir el tiempo medio de confirmación de reservas de 12 a 2 horas en un plazo de 90 días.",
+      "Aumentar los precios un 80% en los primeros 10 días.",
+      "Eliminar todas las opciones de pago con tarjeta de crédito.",
+      "Contratar a 15 recepcionistas telefónicos nocturnos."
+    ],
+    "respuesta_correcta": "Reducir el tiempo medio de confirmación de reservas de 12 a 2 horas en un plazo de 90 días.",
+    "explicacion": "Una meta SMART precisa indicador (horas), magnitud del cambio (de 12 a 2 h) y plazo definido (90 días)."
+  },
+  {
+    "pregunta": "¿Cómo se define de forma consistente la tasa de conversión en la implementación comercial de una operadora?",
+    "opciones": [
+      "Reservas confirmadas y pagadas divididas entre el número de consultas calificadas recibidas.",
+      "Número de visitas a la página multiplicado por los seguidores de Instagram.",
+      "Total de folletos impresos divididos entre los pasajeros del autobús.",
+      "Ingresos brutos divididos entre los kilómetros recorridos."
+    ],
+    "respuesta_correcta": "Reservas confirmadas y pagadas divididas entre el número de consultas calificadas recibidas.",
+    "explicacion": "La conversión relaciona consultas de personas con intención real de compra frente a ventas efectivamente cerradas."
+  },
+  {
+    "pregunta": "¿Qué conclusión metodológica resume la integración de todas las matrices estratégicas en turismo?",
+    "opciones": [
+      "Las herramientas son complementarias: MEFE/MEFI ordenan factores, FODA genera cruces, BCG analiza cartera, Ansoff marca el crecimiento y MPC contrasta rivales.",
+      "Una sola matriz es suficiente para resolver todos los problemas de la empresa turística.",
+      "Las matrices sustituyen por completo la necesidad de capacitar al personal de atención.",
+      "Las puntuaciones altas en matrices garantizan subsidios gubernamentales inmediatos."
+    ],
+    "respuesta_correcta": "Las herramientas son complementarias: MEFE/MEFI ordenan factores, FODA genera cruces, BCG analiza cartera, Ansoff marca el crecimiento y MPC contrasta rivales.",
+    "explicacion": "Cada matriz responde a una pregunta distinta; su integración evita que queden como ejercicios aislados sin aplicación directiva."
+  }
+]

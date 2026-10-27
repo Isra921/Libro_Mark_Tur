@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué define la estrategia del plan de marketing frente a una táctica operativa?",
+    "opciones": [
+      "La estrategia marca la dirección general (a quién dirigirse, qué valor ofrecer y cómo competir); la táctica concreta las acciones específicas.",
+      "La estrategia la define el recepcionista y la táctica el director general.",
+      "La estrategia solo dura un día y la táctica dura cinco años.",
+      "Son términos idénticos que pueden usarse indistintamente."
+    ],
+    "respuesta_correcta": "La estrategia marca la dirección general (a quién dirigirse, qué valor ofrecer y cómo competir); la táctica concreta las acciones específicas.",
+    "explicacion": "La estrategia es el rumbo estratégico; las tácticas son los pasos concretos con responsables, fechas y métricas."
+  },
+  {
+    "pregunta": "¿Qué analiza el modelo de brechas de calidad en el servicio (Gap Model) según OpenStax (2023a)?",
+    "opciones": [
+      "Las discrepancias entre las expectativas del visitante y los estándares, la prestación operativa y las promesas publicitarias de la empresa.",
+      "La diferencia de altitud geográfica entre el punto de origen y el destino turístico.",
+      "La brecha salarial entre hombres y mujeres en el sector de la aviación.",
+      "La distancia en kilómetros entre el hotel y el aeropuerto más cercano."
+    ],
+    "respuesta_correcta": "Las discrepancias entre las expectativas del visitante y los estándares, la prestación operativa y las promesas publicitarias de la empresa.",
+    "explicacion": "El modelo de brechas audita dónde se fractura la experiencia del cliente para aplicar mejora continua."
+  },
+  {
+    "pregunta": "En la mejora continua de producto para el hotel boutique, ¿cuál es el ciclo metodológico recomendado?",
+    "opciones": [
+      "Diagnosticar fallas reales (ej. quejas por ruido), introducir un cambio medible, evaluar su efecto y estandarizarlo o corregirlo.",
+      "Añadir servicios de lujo sin resolver problemas básicos de las habitaciones.",
+      "Pintar la fachada cada semana sin consultar a los huéspedes.",
+      "Eliminar el servicio de limpieza para recortar costos variables."
+    ],
+    "respuesta_correcta": "Diagnosticar fallas reales (ej. quejas por ruido), introducir un cambio medible, evaluar su efecto y estandarizarlo o corregirlo.",
+    "explicacion": "Resolver fallas básicas de descanso es prioritario antes de incorporar servicios costosos que no impactan la satisfacción."
+  },
+  {
+    "pregunta": "¿Qué variables debe sopesar una política de precios turística según OpenStax (2023b)?",
+    "opciones": [
+      "Objetivos comerciales, comportamiento de la demanda, costos de operación, entorno competitivo y valor percibido por el cliente.",
+      "Únicamente el precio que cobre el hotel más antiguo de la ciudad.",
+      "El salario mínimo general vigente dividido entre los días del año.",
+      "El costo de impresión de los folletos promocionales."
+    ],
+    "respuesta_correcta": "Objetivos comerciales, comportamiento de la demanda, costos de operación, entorno competitivo y valor percibido por el cliente.",
+    "explicacion": "Fijar precios exige equilibrio entre viabilidad de costos, posicionamiento competitivo y disposición al pago del viajero."
+  },
+  {
+    "pregunta": "¿Por qué un paquete de dos noches con desayuno artesanal puede resultar más conveniente que una tarifa con descuento simple?",
+    "opciones": [
+      "Porque eleva el valor percibido por el huésped y protege el margen de contribución unitario sin abaratar la marca.",
+      "Porque la ley obliga a incluir desayunos en todos los hoteles de México.",
+      "Porque los desayunos reducen automáticamente los impuestos hoteleros.",
+      "Porque las agencias de viajes exigen que los paquetes duren mínimo un mes."
+    ],
+    "respuesta_correcta": "Porque eleva el valor percibido por el huésped y protege el margen de contribución unitario sin abaratar la marca.",
+    "explicacion": "Empaquetar servicios complementarios ofrece ventajas perceptibles al cliente sin desatar una guerra de precios."
+  },
+  {
+    "pregunta": "¿En qué consiste una prueba A/B en la mejora continua de la promoción según OpenStax (2023c)?",
+    "opciones": [
+      "Probar dos mensajes o creatividades publicitarias con públicos comparables durante el mismo periodo para medir cuál genera más conversiones.",
+      "Cambiar el precio, el logotipo y el público meta al mismo tiempo en una sola campaña.",
+      "Publicar el mismo anuncio dos veces en el mismo periódico matutino.",
+      "Alternar el color del uniforme del personal en días pares e impares."
+    ],
+    "respuesta_correcta": "Probar dos mensajes o creatividades publicitarias con públicos comparables durante el mismo periodo para medir cuál genera más conversiones.",
+    "explicacion": "Mantener constantes las demás variables permite aislar con precisión el impacto del mensaje en las consultas calificadas."
+  },
+  {
+    "pregunta": "¿Qué riesgo metodológico ocurre si se modifican simultáneamente el precio, el público y el anuncio publicitario?",
+    "opciones": [
+      "Resulta imposible identificar cuál de los factores produjo el incremento o decremento en los resultados comerciales.",
+      "Se duplican automáticamente los costos fiscales de la empresa.",
+      "El servidor web colapsa por exceso de datos incompatibles.",
+      "Las plataformas de búsqueda cancelan las cuentas publicitarias."
+    ],
+    "respuesta_correcta": "Resulta imposible identificar cuál de los factores produjo el incremento o decremento en los resultados comerciales.",
+    "explicacion": "Para aprender de un experimento comercial, las variables deben aislarse y evaluarse de forma controlada."
+  },
+  {
+    "pregunta": "¿Qué aspecto técnico del canal de plaza (distribución) es crítico auditar en el motor de reservas del hotel?",
+    "opciones": [
+      "Que funcione con fluidez y velocidad en teléfonos móviles, muestre inventario real y desglose con claridad el precio total.",
+      "Que tenga animaciones pesadas y música de fondo automática obligatoria.",
+      "Que exija crear una cuenta con contraseña de 20 caracteres antes de ver tarifas.",
+      "Que solo acepte cheques certificados de bancos internacionales."
+    ],
+    "respuesta_correcta": "Que funcione con fluidez y velocidad en teléfonos móviles, muestre inventario real y desglose con claridad el precio total.",
+    "explicacion": "La fricción en pantallas móviles y la falta de transparencia en cargos finales provocan la mayoría de los abandonos de compra."
+  },
+  {
+    "pregunta": "¿Por qué la venta directa suele aportar mayor margen de contribución que una agencia online (OTA)?",
+    "opciones": [
+      "Porque la venta directa ahorra las comisiones de intermediación del 15% al 22% que cobran las plataformas terceras.",
+      "Porque los clientes directos pagan el triple de la tarifa regular.",
+      "Porque en venta directa no se pagan costos de electricidad ni sueldos.",
+      "Porque las OTAs están obligadas a transferir sus comisiones al gobierno."
+    ],
+    "respuesta_correcta": "Porque la venta directa ahorra las comisiones de intermediación del 15% al 22% que cobran las plataformas terceras.",
+    "explicacion": "Aunque la venta directa asume costos de captación propios, evita la elevada comisión porcentual de las OTAs."
+  },
+  {
+    "pregunta": "¿Cuál es el propósito central de coordinar las 4P bajo un mismo plan estratégico?",
+    "opciones": [
+      "Garantizar que producto, precio, promoción y plaza sostengan de forma coherente la misma propuesta de valor y posicionamiento.",
+      "Evitar que el departamento de finanzas gaste dinero en salarios.",
+      "Cumplir con una formalidad estética exigida por las asociaciones hoteleras.",
+      "Lograr que todos los hoteles del país tengan la misma tarifa y menú."
+    ],
+    "respuesta_correcta": "Garantizar que producto, precio, promoción y plaza sostengan de forma coherente la misma propuesta de valor y posicionamiento.",
+    "explicacion": "Una mezcla descoordinada confunde al consumidor y destruye la eficacia comercial de la empresa."
+  }
+]

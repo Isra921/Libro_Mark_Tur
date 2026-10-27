@@ -1,0 +1,83 @@
+{
+  "id": "unidad-05",
+  "numero": 5,
+  "titulo": "Presupuesto, ruta crítica, evaluación y control del plan de marketing",
+  "descripcion": "Evalúa el plan de mercadotecnia con base en la ruta crítica y mecanismos de control.",
+  "lema": "Asignando recursos, ordenando tiempos y evaluando el desempeño comercial.",
+  "duracion_horas": 16,
+
+  "introduccion": [
+    "La elaboración de un plan de marketing no concluye cuando se eligen estrategias de producto, precio, distribución y promoción. Para que las decisiones se conviertan en resultados, es indispensable asignar recursos, ordenar las actividades en el tiempo, medir su desempeño y comunicar los hallazgos.",
+    "En particular, las empresas turísticas trabajan con servicios cuya demanda varía por temporada, acontecimientos locales, capacidad disponible y comportamiento del visitante; por ello, la planificación necesita ser flexible y verificable. Esta unidad aborda el presupuesto comercial, el método de la ruta crítica (CPM), los mecanismos de evaluación mediante KPIs y la elaboración del reporte ejecutivo de resultados."
+  ],
+
+  "video": {
+    "titulo": "Video introductorio: Presupuesto, ruta crítica y control",
+    "url": "https://www.youtube-nocookie.com/embed/TY7s8suBuVc"
+  },
+
+  "recorrido": "Revisa los componentes de planeación financiera, secuenciación de proyectos, evaluación de KPIs y formulación de reportes ejecutivos, concluyendo con el simulador interactivo de gestión comercial.",
+
+  "temas": [
+    {
+      "numero": "5.1",
+      "nombre": "Presupuesto",
+      "sintesis": "Métodos de asignación (porcentaje de ventas, objetivos y tareas, disponibilidad), desglose de recursos y comprobación de rentabilidad.",
+      "url": "unidades/unidad-05/temas/tema-05-01.html",
+      "icono": "fa-coins",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.1",
+        "url": "unidades/unidad-05/actividades/actividad-5-1.html"
+      }
+    },
+    {
+      "numero": "5.2",
+      "nombre": "Ruta crítica",
+      "sintesis": "Método CPM en proyectos turísticos, red de dependencias, cálculo de pases hacia adelante y hacia atrás, y holgura total.",
+      "url": "unidades/unidad-05/temas/tema-05-01.html",
+      "icono": "fa-diagram-project",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.2",
+        "url": "unidades/unidad-05/actividades/actividad-5-2.html"
+      }
+    },
+    {
+      "numero": "5.3",
+      "nombre": "Medidas y mecanismos de evaluación y control del plan de marketing",
+      "sintesis": "Diferencias entre medición, evaluación y control; KPI del embudo turístico, tableros de control y medidas correctivas.",
+      "url": "unidades/unidad-05/temas/tema-05-01.html",
+      "icono": "fa-chart-line",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.3",
+        "url": "unidades/unidad-05/actividades/actividad-5-3.html"
+      }
+    },
+    {
+      "numero": "5.4",
+      "nombre": "Reporte ejecutivo",
+      "sintesis": "Estructura ejecutiva gerencial, síntesis de hallazgos, contraste meta-resultado y toma de decisiones comerciales.",
+      "url": "unidades/unidad-05/temas/tema-05-01.html",
+      "icono": "fa-file-lines",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.4",
+        "url": "unidades/unidad-05/actividades/actividad-5-4.html"
+      }
+    }
+  ],
+
+  "actividad_final": {
+    "nombre": "Simulador de Presupuesto, Ruta Crítica (CPM) y Tablero de Control: Caso Ecoturismo",
+    "descripcion": "Modela el presupuesto por objetivos y tareas, calcula la ruta crítica de lanzamiento y analiza desviaciones de KPIs en un tablero gerencial.",
+    "url": "unidades/unidad-05/actividades/actividad-final.html"
+  },
+
+  "objetivo": "Evaluar el plan de mercadotecnia con base en la ruta crítica y mecanismos de control para optimizar la toma de decisiones gerenciales en turismo.",
+
+  "competencias": [
+    "Evalúa el plan de mercadotecnia con base en la ruta crítica."
+  ],
+
+  "material_apoyo": [
+    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-05/referencias.html" }
+  ]
+}

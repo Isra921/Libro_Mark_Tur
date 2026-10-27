@@ -82,11 +82,20 @@
     /** Introducción completa. Se desvanece al hacer scroll (ver iniciarDesvanecimientoIntro). */
     function introduccion(unidad) {
         const parrafos = UI.lista(unidad.introduccion);
-        if (!parrafos.length) return '';
+        const video = (unidad.video && unidad.video.url) ? `
+            <div class="u-intro__video" style="margin-top: 1.75rem;">
+                <div class="u-video-responsive" style="position: relative; width: 100%; max-width: 820px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-md, 12px); box-shadow: 0 10px 28px rgba(0,0,0,0.4); border: 1px solid var(--border-color, rgba(255,255,255,0.15)); background: #000;">
+                    <iframe src="${UI.esc(unidad.video.url)}" title="${UI.esc(unidad.video.titulo || 'Video introductorio')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                </div>
+                ${unidad.video.titulo ? `<p style="text-align: center; margin-top: 0.65rem; font-size: 0.88rem; color: var(--text-muted); font-weight: 500;"><i class="fas fa-play-circle" style="color: var(--primary); margin-right: 6px;"></i> ${UI.esc(unidad.video.titulo)}</p>` : ''}
+            </div>` : '';
+
+        if (!parrafos.length && !video) return '';
         return `
             <section class="u-intro" id="introduccion" aria-label="Introducción">
                 <p class="u-eyebrow">Introducción</p>
                 ${parrafos.map(p => `<p class="u-intro__text">${UI.esc(p)}</p>`).join('')}
+                ${video}
             </section>`;
     }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -8,26 +8,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <link rel="stylesheet" href="../../../assets/css/variables.css">
-  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
   <link rel="stylesheet" href="../../../assets/css/unidades-base.css?v=20260930">
-  <link rel="stylesheet" href="../../../assets/css/tema.css">
+  <link rel="stylesheet" href="../../../assets/css/tema.css?v=20261002b">
 
   <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
 </head>
 
 <body class="u-body" data-root="../../../" data-unidad="unidad-01" data-tema="1.4">
 
-  <header class="site-nav">
-    <a class="brand" href="../index.html">EST · Marketing<small>Unidad 1: Encuadre empresarial</small></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
-      <span class="u-sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
-    </button>
-    <nav id="main-navigation" aria-label="Navegación principal">
-      <a href="../index.html"><i class="fas fa-book" aria-hidden="true"></i> Unidad 1</a>
-      <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
-    </nav>
-  </header>
+  <header class="site-nav" data-componente="navegacion"></header>
 
   <main class="u-page">
 
@@ -58,9 +48,12 @@
 
         <div class="t-prose">
 
+          <!-- Video del tema: se arma desde referencias.json (campo "video" de la referencia) -->
+          <section class="t-video" id="video-tema" data-toc="Video del tema" data-referencia="salas-ramirez-2026a" hidden></section>
+
           <section id="oferta-turistica" data-toc="1.4.1 La oferta turística">
             <h2><span class="t-section__num">1.4.1</span>La oferta turística</h2>
-            <p>La oferta turística es el conjunto de bienes y servicios que se ofrecen en el mercado para satisfacer la demanda de los visitantes. Está integrada por cinco componentes principales:</p>
+            <p>La oferta turística es el conjunto de bienes y servicios que se ofrecen en el mercado para satisfacer la demanda de los visitantes. Está integrada por cinco componentes principales <span class="t-cita" data-citas="naciones-unidas-2010 onu-turismo-2024"></span>:</p>
             <ul>
               <li><strong>Recursos turísticos:</strong> atractivos naturales, culturales, históricos y artísticos que motivan el desplazamiento.</li>
               <li><strong>Infraestructura:</strong> redes de carreteras, aeropuertos, puertos, telecomunicaciones y servicios públicos básicos.</li>
@@ -81,7 +74,7 @@
 
           <section id="demanda-turistica" data-toc="1.4.2 La demanda turística">
             <h2><span class="t-section__num">1.4.2</span>La demanda turística</h2>
-            <p>La demanda turística es el conjunto de personas que viajan o desean viajar para satisfacer necesidades de descanso, recreación, cultura, negocios u otros motivos personales. Se caracteriza por:</p>
+            <p>La demanda turística es el conjunto de personas que viajan o desean viajar para satisfacer necesidades de descanso, recreación, cultura, negocios u otros motivos personales. Se caracteriza por <span class="t-cita" data-citas="naciones-unidas-2010"></span>:</p>
             <ul>
               <li><strong>Motivaciones diversas:</strong> esparcimiento, turismo cultural, aventura, salud y bienestar, negocios y reuniones familiares.</li>
               <li><strong>Sensibilidad al precio:</strong> elasticidad variable según el nivel socioeconómico y el perfil del viajero.</li>
@@ -115,7 +108,7 @@
 
           <section id="equilibrio-mercado" data-toc="1.4.4 Equilibrio entre oferta y demanda">
             <h2><span class="t-section__num">1.4.4</span>Equilibrio entre oferta y demanda</h2>
-            <p>El equilibrio de mercado se alcanza cuando la capacidad instalada coincide con el volumen de demanda real. En el turismo este equilibrio es sumamente complejo de mantener debido a que:</p>
+            <p>El equilibrio de mercado se alcanza cuando la capacidad instalada coincide con el volumen de demanda real. En el turismo este equilibrio es sumamente complejo de mantener debido a que <span class="t-cita" data-citas="onu-turismo-2024"></span>:</p>
             <ul>
               <li>La oferta es rígida a corto plazo (capacidad instalada fija).</li>
               <li>La demanda es volátil y sujeta a oscilaciones abruptas.</li>
@@ -131,6 +124,16 @@
               <li><strong>Alianzas colaborativas:</strong> trabajo conjunto entre hoteleros, restauranteros y transportistas para comercializar el destino como un todo.</li>
               <li><strong>Comunicación estratégica:</strong> campañas promocionales dirigidas con atractivos y beneficios específicos para temporadas valle.</li>
             </ol>
+
+            <figure class="t-figure" data-ampliable data-fuentes="olmos-2023 martin-2023">
+              <figcaption>Equilibrio entre la oferta y la demanda turística</figcaption>
+              <div class="t-figure__media">
+                <img src="../img/1.4.4.jpeg" alt="Infografía del análisis de la oferta y la demanda en el turismo, con una balanza que representa el equilibrio entre ambas y sus resultados: equilibrio de mercado, toma de decisiones y desarrollo sustentable." loading="lazy">
+              </div>
+              <template class="t-figure__info">
+                <p>La balanza central representa el equilibrio de mercado: la capacidad que ofrece el destino frente al volumen de visitantes que realmente llega. Herramientas como el <em>yield management</em>, la diversificación de mercados y los paquetes ayudan a nivelarla. Un análisis bien hecho lleva a los tres resultados de la imagen: equilibrio de mercado, mejor toma de decisiones y desarrollo sustentable.</p>
+              </template>
+            </figure>
           </section>
 
           <section id="ejercicio-resuelto-4" data-toc="1.4.5 Ejercicio resuelto: Pueblo Mágico">
@@ -159,9 +162,9 @@
 
             <p><strong>2. Demanda de alojamiento:</strong></p>
             <ul>
-              <li>\(60,000 \text{ turistas} \times 2 \text{ noches} = 120,000 \text{ pernoctaciones al año}\).</li>
-              <li>Dividido entre 365 días del año: \(120,000 / 365 \approx 329\) habitaciones ocupadas por noche en promedio.</li>
-              <li>En términos teóricos anuales representaría \(329 / 500 = 65.8\%\) de ocupación, pero la tasa real registrada es del 55%, lo que evidencia días con muy escasa afluencia.</li>
+              <li>60,000 turistas × 2 noches = 120,000 pernoctaciones al año.</li>
+              <li>Dividido entre 365 días del año: 120,000 ÷ 365 ≈ 329 habitaciones ocupadas por noche en promedio.</li>
+              <li>En términos teóricos anuales representaría 329 ÷ 500 = 65.8% de ocupación, pero la tasa real registrada es del 55%, lo que evidencia días con muy escasa afluencia.</li>
             </ul>
 
             <p><strong>3. Diagnóstico del equilibrio:</strong></p>
@@ -187,7 +190,7 @@
         <ol class="t-toc__list" id="temaTabla"></ol>
         <div class="t-refs">
           <p class="t-refs__title">Referencias del tema</p>
-          <a href="../referencias.html">Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="../../../referencias.html" data-enlace-referencias>Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </aside>
     </div>
@@ -195,15 +198,18 @@
 
   <footer class="u-footer">
     <div class="u-footer__inner">
-      <p>Marketing · Unidad 1: Encuadre empresarial · Escuela Superior de Turismo (EST - IPN)</p>
-      <p>Desarrollado con fines educativos · © 2026</p>
+      <p><a href="https://isra921.github.io/Unidad_Mark_Turismo/index.html">Recurso Didáctico Digital. Unidad I Plan de Marketing</a> por <strong>Dr. Roberto Patiño Abuela, Dr. Edgardo Adrián Franco Martínez y D. en E. Israel Salas Ramírez</strong>. Licencia bajo <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a> <span class="u-footer-icons"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="ND" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /></span></p>
+      <p>Fecha de elaboración: Septiembre 2026</p>
     </div>
   </footer>
 
-  <script src="../../../assets/js/nav-global.js"></script>
   <script src="../../../assets/js/data-manager.js?v=20260930"></script>
+  <script src="../../../assets/js/componentes.js"></script>
   <script src="../../../assets/js/unidades-ui.js?v=20260930"></script>
   <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+  <script src="../../../assets/js/visor-figuras.js"></script>
 </body>
 
 </html>
+
+

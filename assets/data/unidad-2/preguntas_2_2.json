@@ -1,267 +1,112 @@
 [
   {
-    "id": 1,
-    "type": "opcion_multiple",
-    "question": "Qu principio rige la organizacin y procesamiento de informacin en una cola?",
-    "options": [
-      "FIFO (el primero en entrar es el primero en salir)",
-      "LIFO (el ltimo en entrar es el primero en salir)",
-      "Prioridad asignada de forma aleatoria"
+    "pregunta": "Según ONU Turismo, ¿qué integra un producto turístico?",
+    "opciones": [
+      "Una combinación de componentes tangibles e intangibles (recursos, servicios y actividades) que produce una experiencia para el visitante.",
+      "Únicamente un recurso natural o monumento histórico aislado sin requerir prestación de servicios.",
+      "Exclusivamente el boleto físico de transporte contratado por el pasajero.",
+      "Un contrato bancario para diferir pagos en agencias de viajes."
     ],
-    "answer": "FIFO (el primero en entrar es el primero en salir)"
+    "respuesta_correcta": "Una combinación de componentes tangibles e intangibles (recursos, servicios y actividades) que produce una experiencia para el visitante.",
+    "explicacion": "Un atractivo por sí solo no es producto turístico; requiere organización, acceso, información y prestación efectiva."
   },
   {
-    "id": 2,
-    "type": "opcion_multiple",
-    "question": "Cmo se le llama al extremo de la cola por donde salen o se eliminan los elementos?",
-    "options": [
-      "Front (salida)",
-      "Rear (entrada)",
-      "Top (cima)"
+    "pregunta": "¿Cuáles son las cuatro características distintivas de los servicios turísticos según Gomez Albrecht et al. (2023)?",
+    "opciones": [
+      "Intangibilidad, variabilidad, inseparabilidad (producción-consumo simultáneos) y caducidad.",
+      "Tangibilidad, durabilidad, almacenamiento en inventario y homogeneidad absoluta.",
+      "Rigidez, estandarización técnica, permanencia temporal e intercambiabilidad.",
+      "Gratuidad, universalidad, accesibilidad irrestricta y neutralidad comercial."
     ],
-    "answer": "Front (salida)"
+    "respuesta_correcta": "Intangibilidad, variabilidad, inseparabilidad (producción-consumo simultáneos) y caducidad.",
+    "explicacion": "Los servicios no se pueden tocar previamente, varían con el personal, se consumen al producirse y expiran si no se venden."
   },
   {
-    "id": 3,
-    "type": "opcion_multiple",
-    "question": "Cmo se le denomina al extremo de la cola por donde ingresan los nuevos elementos?",
-    "options": [
-      "Rear (entrada o final)",
-      "Front (salida)",
-      "Base"
+    "pregunta": "En el caso Rutas del Centro, si los costos fijos mensuales son $24,000, el precio $1,200 y el costo variable $720, ¿cuál es el punto de equilibrio?",
+    "opciones": [
+      "50 pasajeros mensuales",
+      "65 pasajeros mensuales",
+      "100 pasajeros mensuales",
+      "33 pasajeros mensuales"
     ],
-    "answer": "Rear (entrada o final)"
+    "respuesta_correcta": "50 pasajeros mensuales",
+    "explicacion": "Margen de contribución = $1,200 - $720 = $480. Punto de equilibrio = $24,000 / $480 = 50 pasajeros mensuales."
   },
   {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "Cul es la operacin bsica utilizada para insertar un elemento en una cola?",
-    "options": [
-      "enqueue",
-      "dequeue",
-      "push"
+    "pregunta": "¿Cuál es la diferencia aritmética entre recargo (markup) y margen sobre ventas?",
+    "opciones": [
+      "El recargo se calcula sumando un porcentaje sobre el costo; el margen expresa la ganancia como porcentaje del precio de venta final.",
+      "El recargo siempre se aplica a los impuestos y el margen a los costos variables.",
+      "Son exactamente el mismo concepto expresado con distinto nombre contable.",
+      "El margen sobre ventas siempre produce precios inferiores al costo variable."
     ],
-    "answer": "enqueue"
+    "respuesta_correcta": "El recargo se calcula sumando un porcentaje sobre el costo; el margen expresa la ganancia como porcentaje del precio de venta final.",
+    "explicacion": "Sobre un costo de $900, un recargo del 25% da $1,125; para obtener un margen del 25% sobre venta, el precio es $900 / 0.75 = $1,200."
   },
   {
-    "id": 5,
-    "type": "opcion_multiple",
-    "question": "Cul es la operacin bsica empleada para eliminar un elemento de una cola?",
-    "options": [
-      "dequeue",
-      "enqueue",
-      "pop"
+    "pregunta": "Si Rutas del Centro aplica una rebaja de precio del 10% (de $1,200 a $1,080) manteniendo los costos fijos en $24,000 y costo variable en $720, ¿cuántos pasajeros necesita para el punto de equilibrio?",
+    "opciones": [
+      "67 pasajeros mensuales",
+      "50 pasajeros mensuales",
+      "55 pasajeros mensuales",
+      "80 pasajeros mensuales"
     ],
-    "answer": "dequeue"
+    "respuesta_correcta": "67 pasajeros mensuales",
+    "explicacion": "Nuevo margen de contribución = $1,080 - $720 = $360. Nuevo equilibrio = $24,000 / $360 = 66.67, redondeado a 67 pasajeros (+34% de volumen)."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "En la implementacin esttica de una cola, qu limitacin se presenta cuando alcanza su capacidad mxima?",
-    "options": [
-      "Desbordamiento (overflow)",
-      "Subdesbordamiento",
-      "Colisin"
+    "pregunta": "¿Qué define la American Marketing Association sobre el posicionamiento de una marca?",
+    "opciones": [
+      "El lugar distintivo que se busca ocupar en la mente del consumidor objetivo frente a las alternativas de los competidores.",
+      "El eslogan publicitario que aparece en los uniformes del personal de recepción.",
+      "La ubicación física geográfica de la oficina matriz de la empresa.",
+      "El número total de seguidores que posee la marca en redes sociales."
     ],
-    "answer": "Desbordamiento (overflow)"
+    "respuesta_correcta": "El lugar distintivo que se busca ocupar en la mente del consumidor objetivo frente a las alternativas de los competidores.",
+    "explicacion": "El posicionamiento exige elegir atributos que el comprador valore y que la organización demuestre operativamente."
   },
   {
-    "id": 7,
-    "type": "opcion_multiple",
-    "question": "En qu variante de cola el elemento que sale primero depende de su nivel de importancia y no de su orden de llegada?",
-    "options": [
-      "Tema provisional de prioridad",
-      "Tema provisional circular simple",
-      "Tema provisional de prioridad"
+    "pregunta": "¿Qué representa un mapa perceptual en mercadotecnia turística?",
+    "opciones": [
+      "Un diagrama bidimensional que ubica ofertas turísticas según la percepción real de los consumidores en dimensiones clave de elección.",
+      "Un plano topográfico del destino con rutas de senderismo y curvas de nivel.",
+      "Un organigrama jerárquico del personal de ventas y operaciones.",
+      "Un mapa geográfico con la ubicación física de los hoteles de 5 estrellas."
     ],
-    "answer": "Tema provisional de prioridad"
+    "respuesta_correcta": "Un diagrama bidimensional que ubica ofertas turísticas según la percepción real de los consumidores en dimensiones clave de elección.",
+    "explicacion": "El mapa perceptual sintetiza cómo el mercado percibe a los rivales; no debe basarse solo en la opinión del propio vendedor."
   },
   {
-    "id": 8,
-    "type": "opcion_multiple",
-    "question": "Qu estructura interna suele usarse en colas de prioridad para acceder rpidamente al elemento prioritario?",
-    "options": [
-      "Montculos (heaps)",
-      "Tablas hash",
-      "Listas doblemente enlazadas"
+    "pregunta": "¿Cuáles son las tres capas del producto turístico propuestas en el caso Rutas del Centro?",
+    "opciones": [
+      "Beneficio buscado, servicios contratados y apoyos que reducen la incertidumbre de la experiencia.",
+      "Boleto físico, folleto publicitario y factura electrónica.",
+      "Autobús, habitación y menú de degustación.",
+      "Página web, red social y anuncio en radio."
     ],
-    "answer": "Montculos (heaps)"
+    "respuesta_correcta": "Beneficio buscado, servicios contratados y apoyos que reducen la incertidumbre de la experiencia.",
+    "explicacion": "El producto reúne lo que el cliente busca vivir, los servicios formales incluidos y los apoyos de orientación y confianza."
   },
   {
-    "id": 9,
-    "type": "opcion_multiple",
-    "question": "Cuando una cola lineal se implementa de forma eficiente, cul suele ser la organizaci?n de enqueue y dequeue?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n)"
+    "pregunta": "En la comunicación integral de marketing, ¿por qué es indispensable coordinar anuncios, página web y atención en mostrador?",
+    "opciones": [
+      "Para evitar contradicciones entre la promesa comercial publicada y lo que el personal ofrece o cobra en ventanilla.",
+      "Porque la ley obliga a usar las mismas frases literales en todos los canales.",
+      "Para reducir el costo de los servidores y el consumo de ancho de banda.",
+      "Porque los medios impresos no admiten logotipos institucionales."
     ],
-    "answer": "O(1)"
+    "respuesta_correcta": "Para evitar contradicciones entre la promesa comercial publicada y lo que el personal ofrece o cobra en ventanilla.",
+    "explicacion": "La integración garantiza que las condiciones pactadas en publicidad sean respetadas en la prestación operativa."
   },
   {
-    "id": 10,
-    "type": "verdadero_falso",
-    "statement": "El principio FIFO garantiza que los elementos se procesen en el mismo orden en que llegaron.",
-    "answer": true
-  },
-  {
-    "id": 11,
-    "type": "verdadero_falso",
-    "statement": "Eliminar un elemento de una cola vaca se conoce como subdesbordamiento.",
-    "answer": true
-  },
-  {
-    "id": 12,
-    "type": "verdadero_falso",
-    "statement": "En una cola de prioridad, el orden de llegada siempre determina quin sale primero.",
-    "answer": false
-  },
-  {
-    "id": 13,
-    "type": "verdadero_falso",
-    "statement": "Una aplicacin comn de las colas en sistemas operativos es la gestin de procesos que esperan el CPU.",
-    "answer": true
-  },
-  {
-    "id": 14,
-    "type": "verdadero_falso",
-    "statement": "La implementacin esttica de una cola, si no reutiliza los espacios liberados al inicio, puede desperdiciar memoria.",
-    "answer": true
-  },
-  {
-    "id": 15,
-    "type": "opcion_multiple",
-    "question": "Cul es un ejemplo clsico del uso de colas en el manejo de estructuras de entrada/salida?",
-    "options": [
-      "Los trabajos de impresin enviados a una impresora",
-      "El deshacer de un editor de texto",
-      "La evaluacin de expresiones aritmticas"
+    "pregunta": "Si una campaña publicitaria cuesta $6,000 MXN y genera 20 clientes nuevos que compran un lugar con contribución unitaria de $480, ¿cuál es el costo de adquisición (CAC) por cliente?",
+    "opciones": [
+      "$300 MXN por cliente",
+      "$480 MXN por cliente",
+      "$180 MXN por cliente",
+      "$600 MXN por cliente"
     ],
-    "answer": "Los trabajos de impresin enviados a una impresora"
-  },
-  {
-    "id": 16,
-    "type": "completar_oracion",
-    "question": "Una cola sigue el principio _____, en el que el primer elemento en entrar es el primero en _____.",
-    "wordBank": [
-      "FIFO",
-      "salir",
-      "LIFO",
-      "entrar",
-      "prioridad"
-    ],
-    "answer": [
-      "FIFO",
-      "salir"
-    ]
-  },
-  {
-    "id": 17,
-    "type": "completar_oracion",
-    "question": "El elemento se inserta por el extremo llamado _____, y se elimina por el extremo llamado _____.",
-    "wordBank": [
-      "rear",
-      "front",
-      "top",
-      "base",
-      "cima"
-    ],
-    "answer": [
-      "rear",
-      "front"
-    ]
-  },
-  {
-    "id": 18,
-    "type": "completar_oracion",
-    "question": "La operacin _____ agrega un elemento al final de la cola, mientras que _____ retira el elemento ms antiguo.",
-    "wordBank": [
-      "enqueue",
-      "dequeue",
-      "push",
-      "pop",
-      "top"
-    ],
-    "answer": [
-      "enqueue",
-      "dequeue"
-    ]
-  },
-  {
-    "id": 19,
-    "type": "completar_oracion",
-    "question": "Cuando la capacidad mxima de una cola esttica se alcanza, ocurre un _____; si se intenta eliminar de una cola vaca, ocurre un _____.",
-    "wordBank": [
-      "desbordamiento",
-      "subdesbordamiento",
-      "colisin",
-      "desplazamiento"
-    ],
-    "answer": [
-      "desbordamiento",
-      "subdesbordamiento"
-    ]
-  },
-  {
-    "id": 20,
-    "type": "completar_oracion",
-    "question": "Las colas se utilizan en los sistemas operativos para la gestin de _____ que esperan el _____.",
-    "wordBank": [
-      "procesos",
-      "CPU",
-      "archivos",
-      "disco duro",
-      "monitor"
-    ],
-    "answer": [
-      "procesos",
-      "CPU"
-    ]
-  },
-  {
-    "id": 21,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "Una cola",
-      "organiza sus elementos",
-      "bajo el principio FIFO."
-    ],
-    "answer": [
-      "Una cola",
-      "organiza sus elementos",
-      "bajo el principio FIFO."
-    ]
-  },
-  {
-    "id": 22,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "El elemento nuevo",
-      "se agrega por el extremo rear",
-      "mediante la operacin enqueue."
-    ],
-    "answer": [
-      "El elemento nuevo",
-      "se agrega por el extremo rear",
-      "mediante la operacin enqueue."
-    ]
-  },
-  {
-    "id": 23,
-    "type": "ordenar_oracion",
-    "question": "",
-    "segments": [
-      "Las colas de prioridad",
-      "no dependen del orden de llegada,",
-      "sino del nivel de importancia de cada elemento."
-    ],
-    "answer": [
-      "Las colas de prioridad",
-      "no dependen del orden de llegada,",
-      "sino del nivel de importancia de cada elemento."
-    ]
+    "respuesta_correcta": "$300 MXN por cliente",
+    "explicacion": "CAC = Inversión / Clientes adquiridos = $6,000 / 20 = $300 MXN. Tras cubrir la captación, cada cliente aporta $180 netos ($480 - $300) a los costos fijos."
   }
 ]
-

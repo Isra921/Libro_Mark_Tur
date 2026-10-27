@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué cuatro elementos indispensables debe especificar toda táctica operativa en un plan de marketing?",
+    "opciones": [
+      "Qué se hará con exactitud, quién será el responsable, en qué plazo se ejecutará y con qué indicador verificable se revisará.",
+      "El nombre del cliente, su firma notarial, su número de pasaporte y su seguro médico.",
+      "El saldo de la cuenta de cheques, el tipo de cambio del euro y la tasa de interés bancario.",
+      "El eslogan, el logotipo, la tipografía y el tamaño de la tarjeta de presentación."
+    ],
+    "respuesta_correcta": "Qué se hará con exactitud, quién será el responsable, en qué plazo se ejecutará y con qué indicador verificable se revisará.",
+    "explicacion": "Estos cuatro componentes garantizan rendición de cuentas, seguimiento temporal y medición objetiva de resultados."
+  },
+  {
+    "pregunta": "En la matriz de tácticas del hotel boutique, ¿cuál es el indicador para evaluar la táctica de 'Mejorar la experiencia de descanso'?",
+    "opciones": [
+      "Número de quejas por ruido por cada 100 estancias registradas",
+      "Costo por clic en anuncios de Google",
+      "Número de 'me gusta' en fotografías de habitaciones",
+      "Tasa de conversión en pasarelas de pago"
+    ],
+    "respuesta_correcta": "Número de quejas por ruido por cada 100 estancias registradas",
+    "explicacion": "La métrica mide directamente la efectividad de las medidas de aislamiento acústico y asignación de habitaciones."
+  },
+  {
+    "pregunta": "¿Qué indicador mide el éxito de la táctica de probar un paquete de dos noches entre semana con desayuno?",
+    "opciones": [
+      "Margen de contribución neto generado por reserva",
+      "Número de platos servidos en el restaurante",
+      "Tiempo de navegación en la página de inicio",
+      "Comisiones pagadas a plataformas extranjeras"
+    ],
+    "respuesta_correcta": "Margen de contribución neto generado por reserva",
+    "explicacion": "El indicador evalúa si el paquete genera un excedente financiero positivo tras cubrir costos variables e inclusiones."
+  },
+  {
+    "pregunta": "¿Cuál es el indicador asignado para la táctica de crear dos anuncios de prueba con fotos reales (A/B testing)?",
+    "opciones": [
+      "Costo por consulta calificada recibida",
+      "Número de visualizaciones de video sin interacción",
+      "Premio de diseño en festivales de publicidad",
+      "Cantidad de folletos impresos en imprenta"
+    ],
+    "respuesta_correcta": "Costo por consulta calificada recibida",
+    "explicacion": "Mide la eficiencia económica con la que el mensaje capta prospectos con verdadera intención de compra."
+  },
+  {
+    "pregunta": "Para la táctica de 'Facilitar la compra directa reduciendo pasos del formulario web', ¿qué métrica se utiliza?",
+    "opciones": [
+      "Tasa de reservas completadas entre inicios de proceso de reserva",
+      "Horas trabajadas por el programador web",
+      "Resolución en píxeles del banner principal",
+      "Cantidad de campos de texto del formulario"
+    ],
+    "respuesta_correcta": "Tasa de reservas completadas entre inicios de proceso de reserva",
+    "explicacion": "Evalúa la reducción de la fricción digital al medir cuántos usuarios que inician el carrito concluyen el pago exitosamente."
+  },
+  {
+    "pregunta": "¿Cómo se mide el resultado de la táctica de promoción conjunta con un operador local de recorridos culturales?",
+    "opciones": [
+      "Número de reservas directas identificadas con el código exclusivo del aliado",
+      "Cantidad de autobuses estacionados frente al hotel",
+      "Menciones en periódicos de circulación nacional",
+      "Descuento otorgado por la gasolinera local"
+    ],
+    "respuesta_correcta": "Número de reservas directas identificadas con el código exclusivo del aliado",
+    "explicacion": "El código de cortesía permite rastrear y atribuir con certeza qué reservas provinieron de la alianza simbiótica."
+  },
+  {
+    "pregunta": "¿Cuál es el área responsable y el plazo para la táctica de simplificación del formulario web de reservas?",
+    "opciones": [
+      "Reservaciones y proveedor web (Semanas 1 a 2)",
+      "Operaciones de mantenimiento (Semanas 6 a 8)",
+      "Dirección de recursos humanos (Semana 12)",
+      "Departamento de compras de insumos (Semana 10)"
+    ],
+    "respuesta_correcta": "Reservaciones y proveedor web (Semanas 1 a 2)",
+    "explicacion": "Optimizar el canal directo debe hacerse al inicio (semanas 1 y 2) antes de encender las campañas publicitarias."
+  },
+  {
+    "pregunta": "¿Por qué las tácticas operativas de producto deben verificarse con recepción antes de activar los anuncios?",
+    "opciones": [
+      "Para asegurar que las habitaciones silenciosas y los desayunos prometidos estén disponibles y el personal maneje la misma información.",
+      "Porque recepción debe autorizar los presupuestos publicitarios de la empresa.",
+      "Para que los recepcionistas firmen los contratos de pauta digital.",
+      "Porque la ley mercantil exige que recepción redacte los textos de los anuncios."
+    ],
+    "respuesta_correcta": "Para asegurar que las habitaciones silenciosas y los desayunos prometidos estén disponibles y el personal maneje la misma información.",
+    "explicacion": "Una campaña publicitaria fracasa si el personal de primera línea desconoce las ofertas o si el servicio no está listo."
+  },
+  {
+    "pregunta": "En la trazabilidad estratégica, ¿cuál es la secuencia lógica correcta?",
+    "opciones": [
+      "Hallazgo de mercado → Justificación estratégica → Desglose en tácticas → Indicadores de control y ajuste.",
+      "Gasto publicitario → Selección de tácticas → Redacción de la visión → Búsqueda de clientes.",
+      "Fijación de metas numéricas → Contratación de personal → Elección de marca → Diagnóstico de mercado.",
+      "Diseño de logotipos → Venta de paquetes → Encuesta de satisfacción → Definición de producto."
+    ],
+    "respuesta_correcta": "Hallazgo de mercado → Justificación estratégica → Desglose en tácticas → Indicadores de control y ajuste.",
+    "explicacion": "La trazabilidad asegura que cada peso gastado en tácticas responda a una necesidad diagnosticada del mercado."
+  },
+  {
+    "pregunta": "Si las consultas aumentan pero las reservas no se cierran, ¿qué debe revisarse primero antes de incrementar el gasto publicitario?",
+    "opciones": [
+      "Precios totales finales, tiempos de respuesta del equipo y funcionamiento técnico de la pasarela de pagos.",
+      "Aumentar al triple el presupuesto en anuncios de redes sociales.",
+      "Cambiar el nombre del hotel y registrar una nueva razón social.",
+      "Despedir al fotógrafo que tomó las imágenes de las habitaciones."
+    ],
+    "respuesta_correcta": "Precios totales finales, tiempos de respuesta del equipo y funcionamiento técnico de la pasarela de pagos.",
+    "explicacion": "Invertir más en captación cuando el proceso de atención o pago está fallando solo incrementa el desperdicio comercial."
+  }
+]

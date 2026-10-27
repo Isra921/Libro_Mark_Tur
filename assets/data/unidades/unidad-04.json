@@ -1,0 +1,94 @@
+{
+  "id": "unidad-04",
+  "numero": 4,
+  "titulo": "Selección de estrategias y aplicación de tácticas del plan",
+  "descripcion": "Formula estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados.",
+  "lema": "Coordinando la promesa comercial con la experiencia real del visitante.",
+  "duracion_horas": 14,
+
+  "introduccion": [
+    "La selección de estrategias convierte el conocimiento del mercado en decisiones sobre qué ofrecer, a quién dirigirse y cómo competir. Las tácticas llevan esas decisiones a actividades concretas. En turismo, ambas deben coordinar la promesa publicitaria con la experiencia que realmente recibe el visitante.",
+    "Esta unidad explica cómo la investigación de mercados orienta la mezcla de mercadotecnia, la comunicación integral y el plan de medios, estableciendo metas verificables y asignación eficiente de recursos promocionales para productos y servicios turísticos."
+  ],
+
+  "video": {
+    "titulo": "Video introductorio: Selección de estrategias y aplicación de tácticas del plan",
+    "url": "https://www.youtube-nocookie.com/embed/TY7s8suBuVc"
+  },
+
+  "recorrido": "Recorre los cinco temas de la unidad: desde la investigación de mercados y la mejora continua de las 4P, pasando por las tácticas operativas y los enfoques de comunicación integral (CIM), hasta la formulación y evaluación del plan de medios.",
+
+  "temas": [
+    {
+      "numero": "4.1",
+      "nombre": "Investigación de mercados",
+      "sintesis": "Proceso metodológico, fuentes primarias y secundarias, técnicas cualitativas y cuantitativas aplicadas a empresas turísticas.",
+      "url": "unidades/unidad-04/temas/tema-04-01.html",
+      "icono": "fa-magnifying-glass",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.1",
+        "url": "unidades/unidad-04/actividades/actividad-4-1.html"
+      }
+    },
+    {
+      "numero": "4.2",
+      "nombre": "Formulación e implementación de estrategias del Plan de Marketing",
+      "sintesis": "Dirección estratégica y mejora continua de producto (brechas de calidad), precio, promoción y plaza en servicios turísticos.",
+      "url": "unidades/unidad-04/temas/tema-04-02.html",
+      "icono": "fa-bullseye",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.2",
+        "url": "unidades/unidad-04/actividades/actividad-4-2.html"
+      }
+    },
+    {
+      "numero": "4.3",
+      "nombre": "Aplicación de tácticas para cada estrategia del Plan de Marketing",
+      "sintesis": "Estructuración de tácticas operativas: qué hacer, responsable, plazos, indicadores de desempeño y criterios de ajuste.",
+      "url": "unidades/unidad-04/temas/tema-04-03.html",
+      "icono": "fa-list-check",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.3",
+        "url": "unidades/unidad-04/actividades/actividad-4-3.html"
+      }
+    },
+    {
+      "numero": "4.4",
+      "nombre": "Comunicación integral del marketing",
+      "sintesis": "CIM, medios digitales vs analógicos, criterios de selección y enfoques: marketing de contacto, inbound, simbiótico y social.",
+      "url": "unidades/unidad-04/temas/tema-04-04.html",
+      "icono": "fa-comments",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.4",
+        "url": "unidades/unidad-04/actividades/actividad-4-4.html"
+      }
+    },
+    {
+      "numero": "4.5",
+      "nombre": "Plan de medios",
+      "sintesis": "Diseño de objetivos de comunicación y comerciales, calendario, presupuesto asignado y cálculo del costo por reserva.",
+      "url": "unidades/unidad-04/temas/tema-04-05.html",
+      "icono": "fa-calendar-days",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.5",
+        "url": "unidades/unidad-04/actividades/actividad-4-5.html"
+      }
+    }
+  ],
+
+  "actividad_final": {
+    "nombre": "Simulador de Tácticas de Marketing, CIM y Plan de Medios: Caso Hotel Boutique",
+    "descripcion": "Diseña tácticas 4P, selecciona medios digitales y analógicos, y optimiza el presupuesto de medios para un hotel boutique turístico.",
+    "url": "unidades/unidad-04/actividades/actividad-final.html"
+  },
+
+  "objetivo": "Formular estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados para el desarrollo competitivo de empresas turísticas.",
+
+  "competencias": [
+    "Formula estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados."
+  ],
+
+  "material_apoyo": [
+    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-04/referencias.html" }
+  ]
+}

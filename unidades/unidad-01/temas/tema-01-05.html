@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -8,26 +8,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <link rel="stylesheet" href="../../../assets/css/variables.css">
-  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
   <link rel="stylesheet" href="../../../assets/css/unidades-base.css?v=20260930">
-  <link rel="stylesheet" href="../../../assets/css/tema.css">
+  <link rel="stylesheet" href="../../../assets/css/tema.css?v=20261002b">
 
   <link rel="icon" type="image/jpeg" href="../../../assets/img/EST.jpeg">
 </head>
 
 <body class="u-body" data-root="../../../" data-unidad="unidad-01" data-tema="1.5">
 
-  <header class="site-nav">
-    <a class="brand" href="../index.html">EST · Marketing<small>Unidad 1: Encuadre empresarial</small></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
-      <span class="u-sr-only">Abrir navegación</span><i class="fas fa-bars" aria-hidden="true"></i>
-    </button>
-    <nav id="main-navigation" aria-label="Navegación principal">
-      <a href="../index.html"><i class="fas fa-book" aria-hidden="true"></i> Unidad 1</a>
-      <a href="../referencias.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencias</a>
-    </nav>
-  </header>
+  <header class="site-nav" data-componente="navegacion"></header>
 
   <main class="u-page">
 
@@ -62,11 +52,22 @@
             <h2><span class="t-section__num">1.5.1</span>¿Qué es el enfoque industrial?</h2>
             <p>El enfoque industrial del turismo propone analizar el fenómeno turístico como una verdadera industria; es decir, como un conjunto articulado de actividades productivas interconectadas que generan valor económico, social y cultural. No se circunscribe exclusivamente a los hoteles y a las agencias de viajes, sino que abarca el transporte, la agroindustria de alimentos, la construcción, la artesanía, el entretenimiento, la tecnología, los servicios financieros, la salud y la educación.</p>
             <p>Este enfoque nos permite comprender que el turismo conforma una cadena productiva viva: como en toda cadena, la debilidad o falla de un solo eslabón compromete la calidad y la percepción de la experiencia global.</p>
+
+            <figure class="t-figure" data-ampliable data-fuentes="naciones-unidas-2010">
+              <figcaption>El enfoque industrial del turismo</figcaption>
+              <div class="t-figure__media">
+                <img src="../img/1.5.1.jpeg" alt="Infografía del enfoque industrial del turismo: un destino de playa con avión, autobús, hotel y restaurante, y cuatro sectores (transporte, alojamiento, alimentación y servicios turísticos) que generan empleo, inversión y desarrollo económico." loading="lazy">
+              </div>
+              <template class="t-figure__info">
+                <p>La infografía reúne cuatro sectores básicos de la industria turística y lo que producen juntos: empleo, inversión y desarrollo económico.</p>
+                <p>Son solo una parte de la cadena: en el subtema 1.5.2 la industria se desglosa en diez sectores interdependientes, y en 1.5.3 se explica cómo cada eslabón agrega valor a la experiencia del visitante.</p>
+              </template>
+            </figure>
           </section>
 
           <section id="componentes-industria" data-toc="1.5.2 Componentes de la industria turística">
             <h2><span class="t-section__num">1.5.2</span>Componentes de la industria turística</h2>
-            <p>La estructura de la industria turística se conforma por diez sectores interdependientes:</p>
+            <p>La estructura de la industria turística se conforma por diez sectores interdependientes <span class="t-cita" data-citas="naciones-unidas-2010"></span>:</p>
             <ul>
               <li><strong>Sector de alojamiento:</strong> hoteles, moteles, hostales, casas rurales, campings, villas y plataformas de alquiler vacacional.</li>
               <li><strong>Sector de alimentos y bebidas:</strong> restaurantes de autor, cafeterías, bares tradicionales, servicios de banquetes y food trucks gastronómicos.</li>
@@ -83,7 +84,7 @@
 
           <section id="cadena-valor" data-toc="1.5.3 Cadena de valor del turismo">
             <h2><span class="t-section__num">1.5.3</span>La cadena de valor del turismo</h2>
-            <p>La cadena de valor describe el proceso secuencial mediante el cual se genera valor agregado para el visitante:</p>
+            <p>La cadena de valor describe el proceso secuencial mediante el cual se genera valor agregado para el visitante <span class="t-cita" data-citas="kotler-2022-mkt5"></span>:</p>
             <ul>
               <li><strong>Actividades primarias:</strong> los servicios directamente involucrados en la experiencia del cliente (hospedaje, transporte de conexión, oferta gastronómica, tours y entretenimiento en destino).</li>
               <li><strong>Actividades de apoyo:</strong> la infraestructura operativa transversal (gestión del talento humano, desarrollo e innovación tecnológica, compras y abastecimiento sustentable).</li>
@@ -101,6 +102,17 @@
           <section id="cluster-turistico" data-toc="1.5.4 El clúster turístico">
             <h2><span class="t-section__num">1.5.4</span>El clúster turístico</h2>
             <p>Un clúster turístico es una concentración geográfica de empresas e instituciones conexas que compiten en el mercado pero al mismo tiempo cooperan activamente para fortalecer el destino común. Ejemplos destacados incluyen el clúster de Cancún, el de la Riviera Maya, el de San Miguel de Allende o el de San Carlos de Bariloche.</p>
+
+            <figure class="t-figure" data-ampliable data-fuentes="kotler-2022-mkt5 onu-turismo-2024">
+              <figcaption>El clúster turístico</figcaption>
+              <div class="t-figure__media">
+                <img src="../img/1.5.4.jpeg" alt="Infografía del clúster turístico: el destino turístico al centro, conectado con empresas turísticas, proveedores, gobierno, universidades y comunidad local; abajo, colaboración, innovación y competitividad." loading="lazy">
+              </div>
+              <template class="t-figure__info">
+                <p>La infografía presenta el clúster como una red de actores alrededor del destino: empresas turísticas, proveedores, gobierno, universidades y comunidad local.</p>
+                <p>Lo que distingue a un clúster es que sus integrantes compiten y cooperan al mismo tiempo. Sus ventajas y riesgos se detallan a continuación, y el ejercicio resuelto 5 (subtema 1.5.7) muestra cómo diseñar uno.</p>
+              </template>
+            </figure>
 
             <h3>Ventajas del clúster:</h3>
             <ul>
@@ -122,7 +134,7 @@
 
           <section id="turismo-sistema" data-toc="1.5.5 Turismo como sistema">
             <h2><span class="t-section__num">1.5.5</span>Turismo como sistema</h2>
-            <p>Desde la teoría general de sistemas, el turismo es un sistema abierto, complejo y dinámico compuesto por cuatro elementos estructurales:</p>
+            <p>Desde la teoría general de sistemas, el turismo es un sistema abierto, complejo y dinámico compuesto por cuatro elementos estructurales <span class="t-cita" data-citas="naciones-unidas-2010"></span>:</p>
             <ol>
               <li><strong>Entradas (Inputs):</strong> recursos naturales, patrimonio histórico, capital financiero, infraestructura y talento humano.</li>
               <li><strong>Procesos:</strong> planificación estratégica, desarrollo de productos, operaciones hoteleras y esfuerzos de comercialización.</li>
@@ -134,7 +146,7 @@
 
           <section id="enfoque-industrial-marketing" data-toc="1.5.6 Aplicación al marketing">
             <h2><span class="t-section__num">1.5.6</span>El enfoque industrial aplicado al marketing</h2>
-            <p>Aplicar el enfoque industrial a las estrategias de marketing significa transformar la visión tradicional de venta:</p>
+            <p>Aplicar el enfoque industrial a las estrategias de marketing significa transformar la visión tradicional de venta <span class="t-cita" data-citas="kotler-2022-mkt5 onu-turismo-2024"></span>:</p>
             <ul>
               <li><strong>Pensar en red:</strong> dejar de vender un servicio aislado para promover una experiencia integral de destino.</li>
               <li><strong>Generar alianzas estratégicas:</strong> crear sinergias comerciales entre hotelería, gastronomía, turoperadores y comunidades.</li>
@@ -233,7 +245,7 @@
         <ol class="t-toc__list" id="temaTabla"></ol>
         <div class="t-refs">
           <p class="t-refs__title">Referencias del tema</p>
-          <a href="../referencias.html">Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="../../../referencias.html" data-enlace-referencias>Ver lista completa <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </aside>
     </div>
@@ -241,15 +253,18 @@
 
   <footer class="u-footer">
     <div class="u-footer__inner">
-      <p>Marketing · Unidad 1: Encuadre empresarial · Escuela Superior de Turismo (EST - IPN)</p>
-      <p>Desarrollado con fines educativos · © 2026</p>
+      <p><a href="https://isra921.github.io/Unidad_Mark_Turismo/index.html">Recurso Didáctico Digital. Unidad I Plan de Marketing</a> por <strong>Dr. Roberto Patiño Abuela, Dr. Edgardo Adrián Franco Martínez y D. en E. Israel Salas Ramírez</strong>. Licencia bajo <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a> <span class="u-footer-icons"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="ND" width="14" height="14" style="width:14px;height:14px;max-width:14px;max-height:14px;vertical-align:middle;margin:0 1px;" /></span></p>
+      <p>Fecha de elaboración: Septiembre 2026</p>
     </div>
   </footer>
 
-  <script src="../../../assets/js/nav-global.js"></script>
   <script src="../../../assets/js/data-manager.js?v=20260930"></script>
+  <script src="../../../assets/js/componentes.js"></script>
   <script src="../../../assets/js/unidades-ui.js?v=20260930"></script>
   <script src="../../../assets/js/paginas/tema-plantilla.js"></script>
+  <script src="../../../assets/js/visor-figuras.js"></script>
 </body>
 
 </html>
+
+

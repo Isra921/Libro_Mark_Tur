@@ -1,0 +1,528 @@
+{
+  "titulo": "Glosario de términos",
+  "boton_cerrar": "Cerrar ventana",
+  "textos": {
+    "buscador_etiqueta": "Buscar en el glosario",
+    "buscador_placeholder": "Escribe un término o una palabra de su definición…",
+    "contador_total": "{total} términos",
+    "contador_filtrado": "{visibles} de {total} términos",
+    "sin_resultados": "No hay términos que coincidan con «{busqueda}»."
+  },
+  "unidades": [
+    {
+      "id": "unidad-01",
+      "pestana": "Unidad 1",
+      "titulo": "Unidad 1: Encuadre empresarial",
+      "terminos": [
+        {
+          "termino": "Agencia de viajes",
+          "definicion": "Empresa intermediaria y prestadora que organiza, asesora o comercializa servicios y paquetes turísticos."
+        },
+        {
+          "termino": "Análisis FODA",
+          "definicion": "Herramienta diagnóstica que relaciona las fortalezas y debilidades internas con las oportunidades y amenazas externas."
+        },
+        {
+          "termino": "Cadena de valor turística",
+          "definicion": "Conjunto articulado de actividades, empresas y actores que interactúan para diseñar, producir y entregar la experiencia del visitante."
+        },
+        {
+          "termino": "Clúster turístico",
+          "definicion": "Concentración geográfica e institucional de prestadores de servicios, proveedores y entidades públicas vinculadas al turismo para elevar la competitividad."
+        },
+        {
+          "termino": "Demanda turística",
+          "definicion": "Conjunto de personas que viajan o tienen la intención de viajar para satisfacer necesidades de ocio, cultura o negocios mediante bienes y servicios turísticos."
+        },
+        {
+          "termino": "Destino turístico",
+          "definicion": "Espacio geográfico delimitado que integra atractivos, infraestructura, conectividad y servicios de hospitalidad para la estancia de visitantes."
+        },
+        {
+          "termino": "Encuadre metodológico",
+          "definicion": "Criterios técnicos y definiciones estadísticas normalizadas (como las de la OMT) para clasificar y comparar fenómenos turísticos."
+        },
+        {
+          "termino": "Estacionalidad",
+          "definicion": "Fluctuación periódica de la afluencia turística a lo largo del año, generando temporadas altas con saturación y temporadas bajas con capacidad ociosa."
+        },
+        {
+          "termino": "Evidencia física",
+          "definicion": "Componentes tangibles del servicio (instalaciones, decoración, limpieza, uniformes) que comunican calidad y reducen la incertidumbre del viajero."
+        },
+        {
+          "termino": "Excursionista",
+          "definicion": "Visitante del día que realiza un desplazamiento fuera de su entorno habitual sin pernoctar en el lugar visitado."
+        },
+        {
+          "termino": "Gasto turístico",
+          "definicion": "Desembolso monetario efectuado por un visitante o en su beneficio para consumo durante su desplazamiento y estancia en el destino."
+        },
+        {
+          "termino": "Heterogeneidad",
+          "definicion": "Variabilidad intrínseca en la prestación de servicios turísticos derivada de la interacción humana directa entre el personal y el cliente."
+        },
+        {
+          "termino": "Indicador de desempeño",
+          "definicion": "Métrica cuantificable utilizada para dar seguimiento y evaluar el grado de cumplimiento de los objetivos estratégicos."
+        },
+        {
+          "termino": "Intangibilidad",
+          "definicion": "Propiedad de los servicios turísticos que impide apreciarlos sensorialmente o probarlos antes de su compra y consumo."
+        },
+        {
+          "termino": "Marketing turístico",
+          "definicion": "Proceso gerencial y analítico para identificar deseos y motivaciones del viajero y satisfacerlos mediante experiencias turísticas viables y sostenibles."
+        },
+        {
+          "termino": "Mercado meta",
+          "definicion": "Segmento específico de consumidores hacia el cual una organización turística orienta prioritariamente su oferta y esfuerzos de comunicación."
+        },
+        {
+          "termino": "Mezcla de marketing",
+          "definicion": "Conjunto articulado de variables controlables (Producto, Precio, Plaza, Promoción, Personas, Procesos y Evidencia física) para influir en el mercado."
+        },
+        {
+          "termino": "Misión",
+          "definicion": "Declaración formal del propósito fundamental, razón de ser y propuesta central de valor de una empresa turística."
+        },
+        {
+          "termino": "Objetivos SMART",
+          "definicion": "Metas formuladas con criterios de especificidad, medición, alcanzabilidad, relevancia y acotamiento temporal."
+        },
+        {
+          "termino": "Oferta turística",
+          "definicion": "Totalidad de recursos naturales, patrimonio cultural, bienes, equipamiento e infraestructura puestos a disposición de los visitantes en el mercado."
+        },
+        {
+          "termino": "Pernoctación",
+          "definicion": "Cada noche que un viajero pasa alojado en un establecimiento turístico colectivo o privado dentro del destino."
+        },
+        {
+          "termino": "Plan de marketing",
+          "definicion": "Instrumento estratégico por escrito que establece el diagnóstico, objetivos, estrategias, tácticas operativas, presupuesto y mecanismos de control."
+        },
+        {
+          "termino": "Posicionamiento",
+          "definicion": "Lugar distintivo y favorable que una marca, producto o destino turístico ocupa en la mente del consumidor respecto de la competencia."
+        },
+        {
+          "termino": "Segmentación turística",
+          "definicion": "División del mercado total en grupos homogéneos de viajeros con base en características demográficas, geográficas, psicográficas o conductuales."
+        },
+        {
+          "termino": "Turista",
+          "definicion": "Visitante que permanece al menos una noche en un alojamiento colectivo o privado en el destino visitado."
+        },
+        {
+          "termino": "Visitante",
+          "definicion": "Toda persona que se desplaza a un lugar fuera de su entorno habitual por menos de doce meses con propósitos distintos al empleo en el destino."
+        },
+        {
+          "termino": "Visión",
+          "definicion": "Proyección a largo plazo del estado deseado y la posición competitiva que la empresa turística aspira alcanzar."
+        },
+        {
+          "termino": "Yield management",
+          "definicion": "Técnica de gestión de ingresos que ajusta dinámicamente precios y asignación de inventarios según el comportamiento previsto de la demanda."
+        }
+      ]
+    },
+    {
+      "id": "unidad-02",
+      "pestana": "Unidad 2",
+      "titulo": "Unidad 2: Perfil del consumidor y mezcla de mercadotecnia",
+      "terminos": [
+        {
+          "termino": "Branding",
+          "definicion": "Proceso estratégico de creación, gestión y desarrollo de la identidad, personalidad y asociaciones de valor de una marca turística."
+        },
+        {
+          "termino": "Buyer persona",
+          "definicion": "Representación semificticia del cliente ideal basada en investigación real sobre motivaciones, hábitos de viaje, presupuesto y barreras de compra."
+        },
+        {
+          "termino": "Caducidad del servicio",
+          "definicion": "Condición perecedera de los servicios turísticos: la capacidad no utilizada (habitaciones o asientos vacíos) no puede almacenarse para venta futura."
+        },
+        {
+          "termino": "Canal directo",
+          "definicion": "Vía de comercialización donde el prestador turístico vende directamente al viajero sin intermediarios, como en su propio sitio web o taquilla."
+        },
+        {
+          "termino": "Canal indirecto",
+          "definicion": "Distribución que involucra a intermediarios como agencias minoristas, mayoristas o agencias de viajes en línea (OTA) a cambio de comisiones."
+        },
+        {
+          "termino": "Comercio electrónico turístico",
+          "definicion": "Plataformas digitales que permiten la consulta, reserva, cobro y confirmación inmediata de inventarios turísticos en tiempo real."
+        },
+        {
+          "termino": "Costo variable unitario",
+          "definicion": "Gasto directamente atribuible a cada pasajero o cliente atendido (entradas, alimentos, comisiones por procesamiento o guías asignados)."
+        },
+        {
+          "termino": "Costos fijos",
+          "definicion": "Obligaciones económicas que la empresa turística debe cubrir independientemente del volumen de clientes atendidos en el periodo."
+        },
+        {
+          "termino": "Inseparabilidad",
+          "definicion": "Simultaneidad entre la producción y el consumo del servicio turístico, donde el visitante participa directamente en la prestación."
+        },
+        {
+          "termino": "Mapa perceptual",
+          "definicion": "Gráfico bidimensional que representa cómo ubican los consumidores a diversas ofertas turísticas frente a dos atributos clave de decisión."
+        },
+        {
+          "termino": "Margen de contribución",
+          "definicion": "Diferencia entre el precio de venta unitario y el costo variable por cliente, destinada a cubrir costos fijos y generar beneficios."
+        },
+        {
+          "termino": "Nicho de mercado",
+          "definicion": "Subgrupo especializado del mercado con necesidades muy particulares (como recorridos culturales patrimoniales para parejas)."
+        },
+        {
+          "termino": "Precio de venta",
+          "definicion": "Expresión monetaria del valor intercambiado por una experiencia turística que debe cubrir costos y sostener la viabilidad comercial."
+        },
+        {
+          "termino": "Producto turístico",
+          "definicion": "Combinación integrada de elementos tangibles e intangibles (recursos, servicios, hospitalidad y actividades) que configuran la experiencia del viajero."
+        },
+        {
+          "termino": "Pronóstico de ventas",
+          "definicion": "Estimación fundamentada del volumen de ventas y clientes que la empresa espera registrar en un periodo futuro bajo condiciones definidas."
+        },
+        {
+          "termino": "Punto de equilibrio",
+          "definicion": "Nivel de operación comercial donde los ingresos totales igualan a los costos totales (fijos y variables), sin pérdidas ni utilidades."
+        },
+        {
+          "termino": "Recargo sobre costo (Markup)",
+          "definicion": "Porcentaje añadido sobre el costo total unitario para fijar el precio, diferenciándose del margen de ganancia sobre ventas."
+        },
+        {
+          "termino": "Segmentación conductual",
+          "definicion": "Clasificación de los viajeros según su frecuencia de viaje, lealtad de marca, beneficios buscados, momento de compra y gasto medio."
+        },
+        {
+          "termino": "Segmentación psicográfica",
+          "definicion": "Agrupación de consumidores con base en estilos de vida, valores, intereses culturales, motivaciones y actitudes hacia los viajes."
+        },
+        {
+          "termino": "Variabilidad del servicio",
+          "definicion": "Diferencia de calidad en la prestación de un servicio turístico según quién lo entregue, cuándo, dónde y cómo se interactúe con el cliente."
+        },
+        {
+          "termino": "Visitante del día",
+          "definicion": "Denominación técnica de la OMT para el viajero que realiza desplazamientos sin efectuar pernoctación en el destino."
+        }
+      ]
+    },
+    {
+      "id": "unidad-03",
+      "pestana": "Unidad 3",
+      "titulo": "Unidad 3: Elaboración e implementación de estrategias",
+      "terminos": [
+        {
+          "termino": "Análisis PESTEL",
+          "definicion": "Herramienta que analiza el macroentorno externo en seis dimensiones: política, económica, sociocultural, tecnológica, ambiental y legal."
+        },
+        {
+          "termino": "Capacidad estratégica",
+          "definicion": "Habilidad de la organización para coordinar recursos humanos, operativos y técnicos en la ejecución exitosa de una propuesta de valor."
+        },
+        {
+          "termino": "Cinco fuerzas de Porter",
+          "definicion": "Modelo que evalúa la rivalidad entre competidores, amenaza de nuevos entrantes, productos sustitutos y poder de negociación de clientes y proveedores."
+        },
+        {
+          "termino": "Cuota de mercado relativa",
+          "definicion": "Razón entre la participación de mercado de la empresa y la cuota del competidor líder en la misma categoría turística."
+        },
+        {
+          "termino": "Desarrollo de mercados",
+          "definicion": "Estrategia de Ansoff que consiste en comercializar productos turísticos existentes en nuevas zonas geográficas o segmentos de clientes."
+        },
+        {
+          "termino": "Desarrollo de productos",
+          "definicion": "Estrategia de crecimiento consistente en crear nuevos itinerarios, servicios o experiencias para el mercado actual de clientes."
+        },
+        {
+          "termino": "Diversificación",
+          "definicion": "Estrategia de crecimiento que introduce productos nuevos en mercados desconocidos para la empresa, asumiendo mayor nivel de riesgo."
+        },
+        {
+          "termino": "Enfoque VRIO",
+          "definicion": "Marco que evalúa si un recurso o capacidad interna es Valioso, Raro, difícil de Imitar y está Organizado para explotar una ventaja sostenible."
+        },
+        {
+          "termino": "Estrategias DA",
+          "definicion": "Líneas de acción defensivas del cruce TOWS orientadas a reducir debilidades internas y eludir amenazas del entorno."
+        },
+        {
+          "termino": "Estrategias DO",
+          "definicion": "Estrategias de reorientación diseñadas para superar debilidades internas aprovechando oportunidades externas identificadas."
+        },
+        {
+          "termino": "Estrategias FA",
+          "definicion": "Estrategias reactivas que utilizan las fortalezas internas de la empresa para mitigar o neutralizar amenazas externas."
+        },
+        {
+          "termino": "Estrategias FO",
+          "definicion": "Estrategias ofensivas que aprovechan las fortalezas internas clave para capitalizar las mejores oportunidades del mercado."
+        },
+        {
+          "termino": "Factor crítico de éxito",
+          "definicion": "Elemento operativo o comercial determinante para que una empresa del sector turístico alcance una ventaja competitiva sostenible."
+        },
+        {
+          "termino": "Matriz BCG",
+          "definicion": "Matriz de cartera desarrollada por Boston Consulting Group que clasifica unidades de negocio según crecimiento de mercado y participación relativa."
+        },
+        {
+          "termino": "Matriz de Ansoff",
+          "definicion": "Marco producto-mercado que distingue cuatro rutas de crecimiento: penetración, desarrollo de productos, desarrollo de mercados y diversificación."
+        },
+        {
+          "termino": "Matriz del Perfil Competitivo (MPC)",
+          "definicion": "Herramienta que califica y compara a la empresa frente a sus rivales prioritarios con base en factores críticos de éxito ponderados."
+        },
+        {
+          "termino": "Matriz MEFE",
+          "definicion": "Matriz de Evaluación de Factores Externos que sintetiza oportunidades y amenazas, ponderando la eficacia de la respuesta de la empresa."
+        },
+        {
+          "termino": "Matriz MEFI",
+          "definicion": "Matriz de Evaluación de Factores Internos que sintetiza fortalezas y debilidades operativas, asignando calificaciones de 1 a 4 puntos."
+        },
+        {
+          "termino": "Matriz TOWS",
+          "definicion": "Metodología sistemática de cruce de factores internos y externos propuesta por Heinz Weihrich para generar alternativas estratégicas."
+        },
+        {
+          "termino": "Penetración de mercado",
+          "definicion": "Estrategia orientada a incrementar las ventas de productos actuales en el mercado existente mediante mejor conversión y recomendación."
+        },
+        {
+          "termino": "Producto estrella",
+          "definicion": "Línea turística con alta participación en un mercado de alto crecimiento que requiere inversión continua para sostener su liderazgo."
+        },
+        {
+          "termino": "Producto interrogante",
+          "definicion": "Oferta con baja participación en un mercado en rápido crecimiento que exige evaluar pruebas cautelosas antes de comprometer más recursos."
+        },
+        {
+          "termino": "Producto perro",
+          "definicion": "Línea de servicio con baja participación en un mercado de lento crecimiento que genera bajo flujo y puede requerir reestructuración."
+        },
+        {
+          "termino": "Producto vaca de efectivo",
+          "definicion": "Línea consolidada con alta participación en un mercado maduro de bajo crecimiento que genera excedentes de efectivo con poca reinversión."
+        },
+        {
+          "termino": "Recurso estratégico",
+          "definicion": "Activo tangible o intangible controlado por la organización (personal certificado, alianzas exclusivas, marcas) que sustenta la operación."
+        },
+        {
+          "termino": "Sustituto turístico",
+          "definicion": "Actividad de ocio o entretenimiento que satisface la misma necesidad recreativa mediante una modalidad de servicio diferente."
+        }
+      ]
+    },
+    {
+      "id": "unidad-04",
+      "pestana": "Unidad 4",
+      "titulo": "Unidad 4: Estrategias, tácticas y plan de medios",
+      "terminos": [
+        {
+          "termino": "Atribución publicitaria",
+          "definicion": "Regla o modelo analítico que asigna el valor de una reserva confirmada a los distintos puntos de contacto promocionales del cliente."
+        },
+        {
+          "termino": "Búsqueda pagada (SEM)",
+          "definicion": "Publicidad en motores de búsqueda que posiciona anuncios cuando los usuarios consultan términos vinculados con la oferta turística."
+        },
+        {
+          "termino": "Comunicación Integral de Marketing (CIM)",
+          "definicion": "Coordinación sinérgica de todos los canales y mensajes para transmitir una propuesta de valor coherente en todos los puntos de contacto."
+        },
+        {
+          "termino": "Costo por adquisición (CPA)",
+          "definicion": "Métrica que divide la inversión total de marketing realizada entre el número neto de clientes o reservas efectivamente adquiridas."
+        },
+        {
+          "termino": "Costo por consulta calificada",
+          "definicion": "Indicador que mide el gasto promocional necesario para generar una solicitud de cotización o reserva con datos de contacto verificables."
+        },
+        {
+          "termino": "Datos primarios",
+          "definicion": "Información recabada directamente por la empresa para responder a un problema específico (entrevistas, encuestas, pruebas piloto)."
+        },
+        {
+          "termino": "Datos secundarios",
+          "definicion": "Información previamente recopilada por fuentes gubernamentales, académicas u organismos internacionales como DataTur o la OMT."
+        },
+        {
+          "termino": "Inbound marketing",
+          "definicion": "Estrategia que atrae a los viajeros mediante contenidos útiles y pertinentes en lugar de interrumpirlos con publicidad invasiva."
+        },
+        {
+          "termino": "Investigación de mercados",
+          "definicion": "Proceso sistemático de diseño, obtención, análisis y comunicación de datos relevantes para sustentar decisiones comerciales en turismo."
+        },
+        {
+          "termino": "Marketing de contacto",
+          "definicion": "Interacción personalizada y directa con prospectos o clientes para resolver dudas, cotizar servicios y cerrar reservas."
+        },
+        {
+          "termino": "Marketing de contenidos",
+          "definicion": "Creación y difusión de artículos, guías y recursos de interés que educan al viajero y construyen confianza previa a la compra."
+        },
+        {
+          "termino": "Marketing simbiótico (Symbiotic marketing)",
+          "definicion": "Alianza estratégica entre organizaciones independientes que combinan recursos y capacidades para obtener beneficios mutuos."
+        },
+        {
+          "termino": "Marketing social",
+          "definicion": "Aplicación de técnicas de marketing orientadas a promover cambios de comportamiento que beneficien el bienestar comunitario y ambiental."
+        },
+        {
+          "termino": "Medios analógicos",
+          "definicion": "Canales de comunicación tradicionales (folletos impresos, módulos informativos, radio, publicidad exterior) de impacto local."
+        },
+        {
+          "termino": "Medios digitales",
+          "definicion": "Canales interactivos en línea (sitio web, motores de búsqueda, redes sociales, correo electrónico) con medición y segmentación precisa."
+        },
+        {
+          "termino": "Mezcla de promoción",
+          "definicion": "Combinación coordinada de publicidad, relaciones públicas, venta personal, promoción de ventas y marketing directo."
+        },
+        {
+          "termino": "Modelo de brechas de calidad",
+          "definicion": "Marco conceptual que identifica discrepancias entre expectativas del cliente, especificaciones del servicio y la entrega real."
+        },
+        {
+          "termino": "Plan de medios",
+          "definicion": "Documento operativo que planifica dónde, cuándo, con qué frecuencia y con qué presupuesto se difundirán los mensajes promocionales."
+        },
+        {
+          "termino": "Propuesta de valor",
+          "definicion": "Conjunto específico de beneficios diferenciales que una empresa turística promete entregar a su segmento de clientes."
+        },
+        {
+          "termino": "Táctica de marketing",
+          "definicion": "Acción específica y programada que define qué se hará, quién será el responsable, en qué plazo y con qué indicador se evaluará."
+        }
+      ]
+    },
+    {
+      "id": "unidad-05",
+      "pestana": "Unidad 5",
+      "titulo": "Unidad 5: Presupuesto, ruta crítica y control",
+      "terminos": [
+        {
+          "termino": "Actividad predecesora",
+          "definicion": "Tarea que debe completarse obligatoriamente antes de que pueda iniciarse la siguiente actividad en la red de un proyecto."
+        },
+        {
+          "termino": "Control de marketing",
+          "definicion": "Proceso de revisión periódica de desviaciones entre metas y resultados para aplicar acciones correctivas oportunas."
+        },
+        {
+          "termino": "Costo por reserva",
+          "definicion": "Gasto total devengado en la campaña dividido entre el número de reservas turísticas efectivamente concretadas."
+        },
+        {
+          "termino": "Desviación de desempeño",
+          "definicion": "Diferencia cuantitativa o cualitativa observada entre el valor real obtenido y la meta fijada en el plan de marketing."
+        },
+        {
+          "termino": "Diagrama de Gantt",
+          "definicion": "Representación visual en barras cronológicas que ilustra el calendario y duración de las actividades del plan de lanzamiento."
+        },
+        {
+          "termino": "Embudo de conversión",
+          "definicion": "Modelo que describe las etapas por las que pasa el visitante: conocimiento, consideración, reserva, prestación y posventa."
+        },
+        {
+          "termino": "Evaluación del plan",
+          "definicion": "Contraste riguroso entre resultados registrados y metas establecidas para explicar las causas de los logros o desfases observados."
+        },
+        {
+          "termino": "Fin tardío (FTr)",
+          "definicion": "Momento más tardío en que una tarea de la red puede concluir sin postergar la fecha de finalización total del proyecto."
+        },
+        {
+          "termino": "Fin temprano (FT)",
+          "definicion": "Momento más pronto en que una tarea puede terminar si todas sus predecesoras inician en su tiempo más temprano posible."
+        },
+        {
+          "termino": "Holgura total",
+          "definicion": "Tiempo que una actividad puede demorarse sin alterar el plazo final de entrega del proyecto (calculada como ITr - IT o FTr - FT)."
+        },
+        {
+          "termino": "Indicador clave de desempeño (KPI)",
+          "definicion": "Métrica fundamental vinculada con metas estratégicas del negocio para medir la eficacia y eficiencia de las acciones de marketing."
+        },
+        {
+          "termino": "Inicio tardío (ITr)",
+          "definicion": "Momento límite en que una actividad debe comenzar para no atrasar la fecha de culminación calculada para el proyecto."
+        },
+        {
+          "termino": "Inicio temprano (IT)",
+          "definicion": "Momento más próximo en que puede iniciar una tarea una vez concluidas satisfactoriamente todas sus predecesoras."
+        },
+        {
+          "termino": "Medición de resultados",
+          "definicion": "Recolección sistemática de datos numéricos verificables de sesiones, consultas, conversiones y calificaciones de satisfacción."
+        },
+        {
+          "termino": "Método CPM (Critical Path Method)",
+          "definicion": "Técnica de modelado de proyectos que determina la secuencia de actividades dependientes que rige la duración mínima total."
+        },
+        {
+          "termino": "Método de disponibilidad",
+          "definicion": "Procedimiento presupuestal que asigna recursos comerciales a partir del dinero remanente que la empresa puede permitirse gastar."
+        },
+        {
+          "termino": "Método de objetivos y tareas",
+          "definicion": "Enfoque presupuestal que calcula los costos específicos de cada una de las actividades necesarias para alcanzar metas explícitas."
+        },
+        {
+          "termino": "Método de porcentaje de ventas",
+          "definicion": "Asignación presupuestal que calcula los fondos promocionales como una proporción fija de los ingresos históricos o proyectados."
+        },
+        {
+          "termino": "Pase hacia adelante",
+          "definicion": "Cálculo en la red CPM que avanza desde el inicio del proyecto determinando los inicios y fines tempranos de cada tarea."
+        },
+        {
+          "termino": "Pase hacia atrás",
+          "definicion": "Cálculo en la red CPM que retrocede desde el hito final determinando los inicios y fines tardíos y las holguras de las tareas."
+        },
+        {
+          "termino": "Presupuesto de marketing",
+          "definicion": "Estimación organizada de recursos financieros asignados a cada acción comercial durante un horizonte temporal determinado."
+        },
+        {
+          "termino": "Reporte ejecutivo",
+          "definicion": "Documento de síntesis directiva que presenta de forma concisa el desempeño del plan, desviaciones y decisiones estratégicas."
+        },
+        {
+          "termino": "Reserva de contingencia",
+          "definicion": "Porcentaje presupuestal precautorio (usualmente 10%) destinado a mitigar variaciones imprevistas de costos o ajustes operativos."
+        },
+        {
+          "termino": "Ruta crítica",
+          "definicion": "Secuencia de tareas interdependientes con holgura cero cuya duración agregada determina la duración mínima del proyecto."
+        },
+        {
+          "termino": "Tasa de reserva web",
+          "definicion": "Proporción porcentual calculada dividiendo las reservas confirmadas en línea entre las sesiones o visitas calificadas recibidas."
+        }
+      ]
+    }
+  ]
+}

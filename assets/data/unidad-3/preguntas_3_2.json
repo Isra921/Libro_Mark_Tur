@@ -1,282 +1,112 @@
 [
   {
-    "id": 1,
-    "type": "opcion_multiple",
-    "question": "Qu estructura de datos es idnea para almacenar los vrtices que faltan por procesar en una Bsqueda en Amplitud (BEA)?",
-    "options": ["Una cola", "Una pila", "Una lista doblemente enlazada"],
-    "answer": "Una cola"
-  },
-  {
-    "id": 2,
-    "type": "opcion_multiple",
-    "question": "Cul es la organizaci?n temporal y espacial de la Bsqueda en Profundidad (DFS) implementada con una lista de adyacencia?",
-    "options": ["O(V + E)", "O(V^2)", "O(n^2)"],
-    "answer": "O(V + E)"
-  },
-  {
-    "id": 3,
-    "type": "opcion_multiple",
-    "question": "Qu estructura de datos es idnea para almacenar los vrtices en espera dado que se va regresando por los niveles del grafo en la Bsqueda en Profundidad (BEP)?",
-    "options": ["Una pila", "Una cola", "Un arreglo bidimensional"],
-    "answer": "Una pila"
-  },
-  {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "En un grafo ponderado representado con matriz de adyacencia, qu valor se asigna por convencin si no existe adyacencia entre dos vrtices?",
-    "options": [
-      "Un valor muy grande",
-      "El nmero cero",
-      "Un valor infinito negativo"
+    "pregunta": "¿Qué sintetizan respectivamente la Matriz MEFE y la Matriz MEFI según Fred R. David (2011)?",
+    "opciones": [
+      "La MEFE sintetiza oportunidades y amenazas externas; la MEFI resume fortalezas y debilidades internas de la empresa.",
+      "La MEFE evalúa exclusivamente finanzas y la MEFI campañas publicitarias.",
+      "La MEFE analiza competidores internacionales y la MEFI competidores locales.",
+      "Son matrices equivalentes que utilizan los mismos factores sin distinción."
     ],
-    "answer": "Un valor muy grande"
+    "respuesta_correcta": "La MEFE sintetiza oportunidades y amenazas externas; la MEFI resume fortalezas y debilidades internas de la empresa.",
+    "explicacion": "MEFE evalúa la eficacia de respuesta al entorno externo y MEFI audita las capacidades y deficiencias internas."
   },
   {
-    "id": 5,
-    "type": "opcion_multiple",
-    "question": "En qu concepto matemtico se fundamenta el algoritmo de Dijkstra para calcular rutas ptimas?",
-    "options": [
-      "El principio de optimalidad",
-      "La heurstica A estrella (A*)",
-      "La organizaci?n espacial dispersa"
+    "pregunta": "En ambas matrices (MEFE y MEFI), ¿cuál es la regla metodológica sobre los pesos asignados a los factores?",
+    "opciones": [
+      "Cada peso va de 0.0 (sin importancia) a 1.0 (muy importante) y la suma total de todos los pesos debe ser obligatoriamente 1.00.",
+      "Los pesos pueden sumar cualquier cifra siempre que los factores sean más de diez.",
+      "Todos los factores deben tener exactamente el mismo peso aritmético.",
+      "Los factores externos tienen pesos positivos y los internos pesos negativos."
     ],
-    "answer": "El principio de optimalidad"
+    "respuesta_correcta": "Cada peso va de 0.0 (sin importancia) a 1.0 (muy importante) y la suma total de todos los pesos debe ser obligatoriamente 1.00.",
+    "explicacion": "Los pesos indican la importancia relativa del factor para el éxito en la industria turística y suman 1.00."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "Qu propiedad obligatoria presenta la matriz de adyacencia que representa a un grafo no dirigido?",
-    "options": [
-      "Es una matriz simtrica",
-      "Es una matriz asimtrica",
-      "Es un vector unidimensional bidireccional"
+    "pregunta": "¿Qué escala de calificación de 1 a 4 se utiliza en la Matriz MEFE y qué representa el punto medio de 2.5?",
+    "opciones": [
+      "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior. El 2.5 indica la respuesta promedio del sector.",
+      "1: fortaleza mayor, 2: fortaleza menor, 3: debilidad menor, 4: debilidad mayor. El 2.5 indica equilibrio de mercado.",
+      "1: pésimo, 2: regular, 3: bueno, 4: excelente. El 2.5 indica que la empresa quebrará en 6 meses.",
+      "1: riesgo mínimo, 2: riesgo medio, 3: riesgo alto, 4: riesgo crítico. El 2.5 es la meta mínima."
     ],
-    "answer": "Es una matriz simtrica"
+    "respuesta_correcta": "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior. El 2.5 indica la respuesta promedio del sector.",
+    "explicacion": "En la MEFE la calificación mide la respuesta de la empresa ante el factor externo, con 2.5 como referencia neutra."
   },
   {
-    "id": 7,
-    "type": "opcion_multiple",
-    "question": "Para un grafo que presenta una estructura escasa (con pocos arcos en comparacin con sus vrtices), qu organizaci?n temporal tiene la implementacin simple del algoritmo de Dijkstra con matrices de adyacencia?",
-    "options": ["O(n^2)", "O(V + E)", "O(log n)"],
-    "answer": "O(n^2)"
-  },
-  {
-    "id": 8,
-    "type": "completar_oracion",
-    "question": "Un grafo es _____ cuando existe un camino entre un par de vrtices, y no lo es si no existe ese camino.",
-    "wordBank": ["conexo", "acclico", "dirigido"],
-    "answer": ["conexo"]
-  },
-  {
-    "id": 9,
-    "type": "completar_oracion",
-    "question": "Si las aristas de un grafo tienen un costo o un peso asociado, entonces el grafo se denomina _____.",
-    "wordBank": ["ponderado", "simtrico", "binario"],
-    "answer": ["ponderado"]
-  },
-  {
-    "id": 10,
-    "type": "completar_oracion",
-    "question": "Para representar un grafo simple en una matriz de adyacencia, se dice que la matriz es _____, donde el uno representa conexin y el cero que no hay arista.",
-    "wordBank": ["binaria", "escasa", "dinmica"],
-    "answer": ["binaria"]
-  },
-  {
-    "id": 11,
-    "type": "completar_oracion",
-    "question": "El algoritmo de _____ permite hallar el camino de costo mnimo desde un nodo inicial a todos los otros nodos del grafo.",
-    "wordBank": ["Dijkstra", "Floyd-Warshall", "A estrella"],
-    "answer": ["Dijkstra"]
-  },
-  {
-    "id": 12,
-    "type": "completar_oracion",
-    "question": "En un grafo de tipo _____, no existe ningn ciclo entre los vrtices.",
-    "wordBank": ["acclico", "ponderado", "conexo"],
-    "answer": ["acclico"]
-  },
-  {
-    "id": 13,
-    "type": "completar_oracion",
-    "question": "La _____ de adyacencia es ms eficiente en memoria y tiempo para representar grafos dispersos porque solo reserva memoria para aristas existentes.",
-    "wordBank": ["lista", "matriz", "cola"],
-    "answer": ["lista"]
-  },
-  {
-    "id": 14,
-    "type": "completar_oracion",
-    "question": "En la Bsqueda en _____, se explora el primer vrtice adjunto que se presente en cada nivel, dejando los restantes pendientes para exploracin futura.",
-    "wordBank": ["profundidad", "amplitud", "anchura"],
-    "answer": ["profundidad"]
-  },
-  {
-    "id": 15,
-    "type": "verdadero_falso",
-    "statement": "Una matriz de adyacencia es ms eficiente para grafos densos y cuando se necesita verificar rpidamente la existencia de aristas.",
-    "answer": true
-  },
-  {
-    "id": 16,
-    "type": "verdadero_falso",
-    "statement": "La organizaci?n espacial de la Bsqueda en Amplitud implementada mediante una matriz de adyacencia es O(V+E).",
-    "answer": false
-  },
-  {
-    "id": 17,
-    "type": "verdadero_falso",
-    "statement": "El algoritmo de Dijkstra muestra una alta eficiencia y optimizacin de rendimiento cuando el grafo presenta una estructura escasa con pocos arcos.",
-    "answer": true
-  },
-  {
-    "id": 18,
-    "type": "verdadero_falso",
-    "statement": "En redes P2P donde los nodos tienen la misma importancia y la conexin es bidireccional, es idneo modelarlas utilizando un grafo no dirigido.",
-    "answer": true
-  },
-  {
-    "id": 19,
-    "type": "verdadero_falso",
-    "statement": "Una desventaja de la representacin por listas de adyacencia es que el nmero de vrtices del grafo no puede cambiar en tiempo de ejecucin.",
-    "answer": false
-  },
-  {
-    "id": 20,
-    "type": "verdadero_falso",
-    "statement": "La longitud de un camino en un grafo ponderado est determinada por el conteo total de vrtices que lo componen, ignorando sus pesos.",
-    "answer": false
-  },
-  {
-    "id": 21,
-    "type": "verdadero_falso",
-    "statement": "El recorrido DFS (Bsqueda en Profundidad) y el BFS (Bsqueda en Amplitud) comparten exactamente la misma organizaci?n temporal y espacial en sus respectivas representaciones.",
-    "answer": true
-  },
-  {
-    "id": 22,
-    "type": "ordenar_oracion",
-    "segments": [
-      "y un conjunto de aristas",
-      "que est representada por",
-      "Un grafo es una estructura de datos no lineal",
-      "que conectan los vrtices.",
-      "un conjunto de vrtices o nodos"
+    "pregunta": "¿Qué escala de calificación de 1 a 4 aplica la Matriz MEFI?",
+    "opciones": [
+      "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
+      "1: respuesta deficiente, 2: promedio, 3: superior al promedio, 4: superior.",
+      "1: amenaza mayor, 2: amenaza menor, 3: oportunidad menor, 4: oportunidad mayor.",
+      "1: costo muy bajo, 2: costo bajo, 3: costo alto, 4: costo crítico."
     ],
-    "answer": [
-      "Un grafo es una estructura de datos no lineal",
-      "que est representada por",
-      "un conjunto de vrtices o nodos",
-      "y un conjunto de aristas",
-      "que conectan los vrtices."
-    ]
+    "respuesta_correcta": "1: debilidad mayor, 2: debilidad menor, 3: fortaleza menor, 4: fortaleza mayor.",
+    "explicacion": "En la MEFI las calificaciones caracterizan la fuerza o debilidad interna, no la respuesta al entorno."
   },
   {
-    "id": 23,
-    "type": "ordenar_oracion",
-    "segments": [
-      "cuando se utiliza para modelar",
-      "grafos con estructura dispersa.",
-      "una lista de adyacencia es ms eficiente",
-      "La representacin del grafo mediante",
-      "en memoria y tiempo"
+    "pregunta": "¿Puede una amenaza externa en la MEFE recibir una calificación de 4?",
+    "opciones": [
+      "Sí, si la empresa cuenta con una respuesta estratégica y operativa extraordinariamente sólida ante dicha amenaza.",
+      "No, las amenazas solo pueden recibir calificaciones de 1 o 2.",
+      "No, la escala de la MEFE solo admite números impares.",
+      "Solo si el competidor líder renuncia a esa cuota de mercado."
     ],
-    "answer": [
-      "La representacin del grafo mediante",
-      "una lista de adyacencia es ms eficiente",
-      "en memoria y tiempo",
-      "cuando se utiliza para modelar",
-      "grafos con estructura dispersa."
-    ]
+    "respuesta_correcta": "Sí, si la empresa cuenta con una respuesta estratégica y operativa extraordinariamente sólida ante dicha amenaza.",
+    "explicacion": "La MEFE evalúa la respuesta de la empresa: una respuesta sobresaliente ante una amenaza amerita calificación 4."
   },
   {
-    "id": 24,
-    "type": "ordenar_oracion",
-    "segments": [
-      "se recorre en un solo sentido.",
-      "de un nodo a otro",
-      "En un grafo dirigido,",
-      "lo que significa que un camino",
-      "las aristas tienen una direccin,"
+    "pregunta": "En el caso didáctico de Rutas del Centro, la MEFE arrojó un puntaje total ponderado de 2.35. ¿Cuál es su interpretación correcta?",
+    "opciones": [
+      "La respuesta global de la empresa ante el entorno deja espacio para mejorar y se sitúa ligeramente por debajo del promedio (2.50).",
+      "La empresa tiene un 23.5% de probabilidad de tener éxito en el destino.",
+      "El entorno turístico es 76.5% desfavorable para la operadora.",
+      "La empresa debe cerrar operaciones de inmediato por insolvencia."
     ],
-    "answer": [
-      "En un grafo dirigido,",
-      "las aristas tienen una direccin,",
-      "lo que significa que un camino",
-      "de un nodo a otro",
-      "se recorre en un solo sentido."
-    ]
+    "respuesta_correcta": "La respuesta global de la empresa ante el entorno deja espacio para mejorar y se sitúa ligeramente por debajo del promedio (2.50).",
+    "explicacion": "El total ponderado de 2.35 frente al 2.50 de referencia refleja que la operadora no está aprovechando con solidez las oportunidades ni mitigando amenazas."
   },
   {
-    "id": 25,
-    "type": "ordenar_oracion",
-    "segments": [
-      "El algoritmo de Dijkstra halla",
-      "basndose en el principio de optimalidad.",
-      "el camino de costo mnimo",
-      "a todos los otros nodos",
-      "desde un nodo inicial"
+    "pregunta": "En la MEFI de Rutas del Centro, el total es exactamente 2.50. Aunque coincide con el promedio, ¿qué debilidad crítica interna destaca con calificación 1 (debilidad mayor)?",
+    "opciones": [
+      "D1: Procesos de reserva manuales con confirmación tardía (aporta solo 0.20 ponderado con peso 0.20).",
+      "F1: Guías con conocimiento local especializado.",
+      "D2: Liquidez limitada para contingencias.",
+      "F2: Acuerdos operativos con anfitriones."
     ],
-    "answer": [
-      "El algoritmo de Dijkstra halla",
-      "el camino de costo mnimo",
-      "desde un nodo inicial",
-      "a todos los otros nodos",
-      "basndose en el principio de optimalidad."
-    ]
+    "respuesta_correcta": "D1: Procesos de reserva manuales con confirmación tardía (aporta solo 0.20 ponderado con peso 0.20).",
+    "explicacion": "La reserva manual con demoras de 12 horas impide convertir el interés en ventas efectivas, representando una debilidad mayor."
   },
   {
-    "id": 26,
-    "type": "ordenar_oracion",
-    "segments": [
-      "es cuadrtica en funcin de los vrtices.",
-      "La organizaci?n temporal y espacial",
-      "una matriz de adyacencia",
-      "cuando se implementa utilizando",
-      "de la Bsqueda en Profundidad"
+    "pregunta": "Si mediante un sistema web de reservas la debilidad D1 de Rutas del Centro pasa de calificación 1 a 2, ¿cuál es el nuevo total ponderado de la MEFI (peso 0.20)?",
+    "opciones": [
+      "Sube de 2.50 a 2.70",
+      "Baja a 2.30",
+      "Permanece en 2.50",
+      "Se incrementa a 3.50"
     ],
-    "answer": [
-      "La organizaci?n temporal y espacial",
-      "de la Bsqueda en Profundidad",
-      "cuando se implementa utilizando",
-      "una matriz de adyacencia",
-      "es cuadrtica en funcin de los vrtices."
-    ]
+    "respuesta_correcta": "Sube de 2.50 a 2.70",
+    "explicacion": "Variación: 0.20 * (2 - 1) = +0.20. Nuevo puntaje MEFI = 2.50 + 0.20 = 2.70."
   },
   {
-    "id": 27,
-    "type": "ordenar_oracion",
-    "segments": [
-      "La Bsqueda en Amplitud",
-      "utilizando una cola para almacenar",
-      "por procesar en el grafo.",
-      "los vrtices que an faltan",
-      "explora todas las aristas adyacentes"
+    "pregunta": "¿Por qué nunca deben sumarse las puntuaciones totales de la MEFE y la MEFI para obtener una 'calificación única'?",
+    "opciones": [
+      "Porque miden dimensiones completamente distintas: la MEFE evalúa la respuesta al macroentorno y la MEFI califica recursos internos.",
+      "Porque las fórmulas matemáticas de Prentice Hall impiden promediar matrices.",
+      "Porque la Secretaría de Turismo prohíbe calificaciones mayores a 5 puntos.",
+      "Porque la suma alteraría los pagos de impuestos de la empresa."
     ],
-    "answer": [
-      "La Bsqueda en Amplitud",
-      "explora todas las aristas adyacentes",
-      "utilizando una cola para almacenar",
-      "los vrtices que an faltan",
-      "por procesar en el grafo."
-    ]
+    "respuesta_correcta": "Porque miden dimensiones completamente distintas: la MEFE evalúa la respuesta al macroentorno y la MEFI califica recursos internos.",
+    "explicacion": "Sumar ambas matrices generaría un número carente de significado conceptual al mezclar entorno y capacidades."
   },
   {
-    "id": 28,
-    "type": "ordenar_oracion",
-    "segments": [
-      "aseguran que dicha matriz",
-      "que representa a un grafo no dirigido,",
-      "En la matriz de adyacencia",
-      "cuente con la propiedad de ser simtrica.",
-      "las conexiones bidireccionales"
+    "pregunta": "¿Qué criterio metodológico se recomienda al redactar factores en ambas matrices?",
+    "opciones": [
+      "Conservar una justificación documentada por cada peso y calificación y evitar duplicar el mismo problema con distinta redacción.",
+      "Asignar la calificación máxima de 4 a todos los factores positivos para motivar al personal.",
+      "Incluir al menos 50 factores en cada matriz sin importar la disponibilidad de datos.",
+      "Calificar únicamente los aspectos que no generen debate interno."
     ],
-    "answer": [
-      "En la matriz de adyacencia",
-      "que representa a un grafo no dirigido,",
-      "las conexiones bidireccionales",
-      "aseguran que dicha matriz",
-      "cuente con la propiedad de ser simtrica."
-    ]
+    "respuesta_correcta": "Conservar una justificación documentada por cada peso y calificación y evitar duplicar el mismo problema con distinta redacción.",
+    "explicacion": "La transparencia y el registro de la evidencia respaldan la validez de los resultados matriciales."
   }
 ]
-
-

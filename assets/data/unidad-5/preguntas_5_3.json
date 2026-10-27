@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Cuáles son las diferencias conceptuales entre medición, evaluación y control según Albrecht et al. (2023)?",
+    "opciones": [
+      "Medición recolecta datos objetivos; evaluación contrasta datos con metas explicando causas; control establece decisiones correctivas.",
+      "Medición es para finanzas; evaluación para mercadotecnia; control para el sindicato de trabajadores.",
+      "Medición es verbal; evaluación escrita; control judicial.",
+      "Son sinónimos intercambiables en auditoría de empresas."
+    ],
+    "respuesta_correcta": "Medición recolecta datos objetivos; evaluación contrasta datos con metas explicando causas; control establece decisiones correctivas.",
+    "explicacion": "La medición aporta el dato, la evaluación explica la desviación y el control aplica la acción correctiva."
+  },
+  {
+    "pregunta": "En el caso didáctico ecoturístico, la meta era de 80 reservas y se alcanzaron 68 al cierre. ¿Cuál fue el porcentaje de cumplimiento?",
+    "opciones": [
+      "85% de cumplimiento (68 / 80)",
+      "100% de cumplimiento",
+      "68% de cumplimiento",
+      "115% de cumplimiento"
+    ],
+    "respuesta_correcta": "85% de cumplimiento (68 / 80)",
+    "explicacion": "Cumplimiento = 68 reservas logradas / 80 meta = 0.85 (85%)."
+  },
+  {
+    "pregunta": "El presupuesto de $37,400 MXN se gastó al 100%, pero se lograron 68 reservas en lugar de 80. ¿Cuál fue el costo real por reserva frente a la meta máxima de $470?",
+    "opciones": [
+      "$550 MXN por reserva (37,400 / 68), superando el límite previsto de eficiencia",
+      "$470 MXN por reserva",
+      "$350 MXN por reserva",
+      "$600 MXN por reserva"
+    ],
+    "respuesta_correcta": "$550 MXN por reserva (37,400 / 68), superando el límite previsto de eficiencia",
+    "explicacion": "Costo unitario real = $37,400 / 68 = $550 MXN. Aunque no se excedió el presupuesto global, la captación fue menos eficiente de lo planeado."
+  },
+  {
+    "pregunta": "La satisfacción del visitante alcanzó 4.6 sobre 5.0 (meta: ≥ 4.5). ¿Qué conclusión directiva arroja contrastar este dato con el costo por reserva?",
+    "opciones": [
+      "La experiencia del recorrido es sólida y excelente; el problema de ineficiencia se ubica en el proceso de captación y conversión digital.",
+      "El producto turístico debe cancelarse inmediatamente.",
+      "Se debe bajar el precio a la mitad para mejorar la satisfacción.",
+      "Los guías del parque deben ser reemplazados."
+    ],
+    "respuesta_correcta": "La experiencia del recorrido es sólida y excelente; el problema de ineficiencia se ubica en el proceso de captación y conversión digital.",
+    "explicacion": "Una alta satisfacción prueba que el servicio es apreciado; las correcciones deben enfocarse en la conversión web y la precisión de anuncios."
+  },
+  {
+    "pregunta": "Si la tasa de reserva web fue de 3.2% (meta: 4.0%) sobre 2,000 visitas, ¿cuántas reservas provinieron de la página en línea?",
+    "opciones": [
+      "64 reservas en línea (las 4 restantes se cerraron por atención telefónica)",
+      "80 reservas",
+      "100 reservas",
+      "20 reservas"
+    ],
+    "respuesta_correcta": "64 reservas en línea (las 4 restantes se cerraron por atención telefónica)",
+    "explicacion": "2,000 visitas * 0.032 = 64 reservas web. Las 4 reservas restantes para completar las 68 provinieron de atención directa."
+  },
+  {
+    "pregunta": "¿Qué información clave debe reunir un tablero de control (dashboard) semanal de marketing turístico?",
+    "opciones": [
+      "Presupuesto autorizado vs gasto real, prospectos (leads), reservas confirmadas, tasa de conversión, cancelaciones y satisfacción.",
+      "El menú de la cafetería de empleados y el inventario de papelería.",
+      "Las cotizaciones de pasajes aéreos para las vacaciones del personal.",
+      "La lista de cumpleaños de los clientes del último lustro."
+    ],
+    "respuesta_correcta": "Presupuesto autorizado vs gasto real, prospectos (leads), reservas confirmadas, tasa de conversión, cancelaciones y satisfacción.",
+    "explicacion": "El tablero integra métricas del embudo completo para detectar desviaciones a tiempo y aplicar medidas correctivas."
+  },
+  {
+    "pregunta": "¿Qué es un 'umbral de acción' en los mecanismos de control de marketing?",
+    "opciones": [
+      "Un valor límite preestablecido (ej. conversión < 3.5% en dos semanas consecutivas) que activa automáticamente una revisión técnica del proceso.",
+      "La puerta de entrada a la oficina del director de mercadotecnia.",
+      "El límite máximo de personas que caben en el autobús del recorrido.",
+      "El momento en que se apagan las luces del parque ecológico."
+    ],
+    "respuesta_correcta": "Un valor límite preestablecido (ej. conversión < 3.5% en dos semanas consecutivas) que activa automáticamente una revisión técnica del proceso.",
+    "explicacion": "Los umbrales evitan discusiones subjetivas y gatillan auditorías operativas en cuanto un indicador clave se desvía."
+  },
+  {
+    "pregunta": "¿Por qué es crucial no atribuir automáticamente todas las ventas de una empresa a un solo anuncio digital?",
+    "opciones": [
+      "Porque los clientes suelen interactuar con múltiples puntos de contacto (redes, recomendaciones boca a boca, notas de prensa y búsqueda) antes de comprar.",
+      "Porque las plataformas de internet tienen prohibido reportar ventas en pesos mexicanos.",
+      "Porque la ley mercantil exige repartir los ingresos en partes iguales entre los empleados.",
+      "Porque los anuncios digitales solo generan visitas y nunca ventas reales."
+    ],
+    "respuesta_correcta": "Porque los clientes suelen interactuar con múltiples puntos de contacto (redes, recomendaciones boca a boca, notas de prensa y búsqueda) antes de comprar.",
+    "explicacion": "Un modelo de atribución riguroso evalúa el trayecto completo del cliente (customer journey) para no sobreestimar canales específicos."
+  },
+  {
+    "pregunta": "¿Cuál es el ciclo continuo de mejora en el control de marketing?",
+    "opciones": [
+      "Fijar la meta → Medir con datos consistentes → Explicar la desviación → Acordar una acción correctiva → Asignar responsable → Volver a medir.",
+      "Gastar el presupuesto → Esperar un año → Despedir colaboradores → Diseñar un nuevo logotipo.",
+      "Fijar tarifas altas → Rechazar clientes difíciles → Ocultar quejas → Solicitar subsidios.",
+      "Comprar publicidad → Cancelar el servicio → Celebrar el alcance de visitas en redes."
+    ],
+    "respuesta_correcta": "Fijar la meta → Medir con datos consistentes → Explicar la desviación → Acordar una acción correctiva → Asignar responsable → Volver a medir.",
+    "explicacion": "El control es un proceso circular de aprendizaje que transforma las desviaciones en correcciones operativas trazables."
+  },
+  {
+    "pregunta": "¿Por qué la efectividad del marketing turístico no debe juzgarse exclusivamente por el volumen de ventas brutas?",
+    "opciones": [
+      "Porque también debe considerar la satisfacción vivencial del visitante, la rentabilidad neta y la fidelidad entre lo anunciado y lo entregado.",
+      "Porque las ventas brutas nunca pagan comisiones bancarias.",
+      "Porque los turistas satisfechos no vuelven a viajar al mismo destino.",
+      "Porque los volúmenes altos están penalizados por la Secretaría de Hacienda."
+    ],
+    "respuesta_correcta": "Porque también debe considerar la satisfacción vivencial del visitante, la rentabilidad neta y la fidelidad entre lo anunciado y lo entregado.",
+    "explicacion": "Un plan de marketing responsable cuida la sustentabilidad del prestador y la reputación del destino, no solo la venta a corto plazo."
+  }
+]

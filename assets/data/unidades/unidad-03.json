@@ -1,24 +1,30 @@
 {
   "id": "unidad-03",
   "numero": 3,
-  "titulo": "Recursos Digitales No Lineales",
-  "descripcion": "Analizar y programar recursos digitales no lineales a partir de sus aplicaciones, organización y representaciones, permitiendo diseñar soluciones para problemas más complejos.",
-  "lema": "[Línea que sitúa la unidad dentro del curso y anticipa el producto de aprendizaje.]",
-  "duracion_horas": 27,
+  "titulo": "Elaboración e implementación de estrategias",
+  "descripcion": "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno.",
+  "lema": "Transformando el análisis del entorno en decisiones comprobables y ventajas competitivas.",
+  "duracion_horas": 16,
 
   "introduccion": [
-    "[Primer párrafo de la introducción: contexto del tema, por qué importa en el ejercicio profesional y qué preguntas guía resolverá el estudiante.]",
-    "[Segundo párrafo: cómo se relaciona con la unidad anterior y qué conocimientos previos conviene repasar.]"
+    "La elaboración de estrategias vincula el diagnóstico de una empresa con decisiones sobre dónde competir, qué capacidades desarrollar y cómo asignar recursos. En turismo, estas decisiones deben considerar tanto las necesidades del visitante como las condiciones de operación del destino.",
+    "Una matriz ayuda a ordenar información, pero su resultado solo es defendible cuando los factores, datos y criterios pueden explicarse. A través del análisis del entorno, la MEFE, MEFI, FODA/TOWS, BCG, Ansoff y la Matriz del Perfil Competitivo, esta unidad demuestra cómo estructurar decisiones comprobables para mejorar la competitividad turística."
   ],
 
-  "recorrido": "[Descripción del recorrido: en qué orden conviene leer los temas y qué actividad los cierra.]",
+  "video": {
+    "titulo": "Video introductorio: Elaboración e implementación de estrategias",
+    "url": "https://www.youtube-nocookie.com/embed/o4HujQwFBWw"
+  },
+
+  "recorrido": "Analiza las herramientas de diagnóstico estratégico y su aplicación práctica, completando las actividades formativas por matriz y el simulador de decisiones estratégicas.",
 
   "temas": [
     {
       "numero": "3.1",
-      "nombre": "Árboles binarios",
-      "sintesis": "[Síntesis del tema en una línea: qué se explica y con qué recurso se apoya.]",
+      "nombre": "Análisis del entorno (Interno y Externo)",
+      "sintesis": "Recursos y capacidades, VRIO, cadena de valor turística, PESTEL y modelo de las cinco fuerzas de Porter.",
       "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-magnifying-glass-chart",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.1",
         "url": "unidades/unidad-03/actividades/actividad-3-1.html"
@@ -26,36 +32,74 @@
     },
     {
       "numero": "3.2",
-      "nombre": "Tema provisional",
-      "sintesis": "[Síntesis del tema en una línea: qué se explica y con qué recurso se apoya.]",
-      "url": "",
+      "nombre": "Matriz de Evaluación de Factores Externos (MEFE) y Factores Internos (MEFI)",
+      "sintesis": "Metodología de ponderación, escalas de respuesta y evaluación diagnóstica de la posición estratégica.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-table-cells",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.2",
         "url": "unidades/unidad-03/actividades/actividad-3-2.html"
+      }
+    },
+    {
+      "numero": "3.3",
+      "nombre": "Matriz de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA)",
+      "sintesis": "Formulación sistemática de cruces estratégicos TOWS: estrategias FO, DO, FA y DA.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-arrows-split-up-and-left",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.3",
+        "url": "unidades/unidad-03/actividades/actividad-3-3.html"
+      }
+    },
+    {
+      "numero": "3.4",
+      "nombre": "Matriz de Boston Consulting Group (BCG)",
+      "sintesis": "Crecimiento del mercado, participación relativa y gestión de cartera de productos turísticos.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-chart-pie",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.4",
+        "url": "unidades/unidad-03/actividades/actividad-3-4.html"
+      }
+    },
+    {
+      "numero": "3.5",
+      "nombre": "Matriz Producto/Mercado o Vector de Crecimiento (ANSOFF)",
+      "sintesis": "Vías de expansión: penetración de mercado, desarrollo de productos, desarrollo de mercados y diversificación.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-up-right-and-down-left-from-center",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.5",
+        "url": "unidades/unidad-03/actividades/actividad-3-5.html"
+      }
+    },
+    {
+      "numero": "3.6",
+      "nombre": "Matriz del Perfil Competitivo (MPC) e Integración Estratégica",
+      "sintesis": "Factores críticos de éxito, benchmarking frente a rivales directos e implementación en 90 días.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "icono": "fa-trophy",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.6",
+        "url": "unidades/unidad-03/actividades/actividad-3-6.html"
       }
     }
   ],
 
   "actividad_final": {
-    "nombre": "Actividad final de la Unidad III",
-    "descripcion": "Cierra la unidad integrando todos sus temas en un solo producto.",
+    "nombre": "Simulador de Matrices Estratégicas y Competitividad: Caso Rutas del Centro",
+    "descripcion": "Aplica diagnósticos MEFE, MEFI, cruces TOWS, cartera BCG, Ansoff y perfil competitivo MPC para la toma de decisiones estratégicas.",
     "url": "unidades/unidad-03/actividades/actividad-final.html"
   },
 
-  "objetivo": "[Verbo en infinitivo + objeto de conocimiento + condición y finalidad del aprendizaje.]",
+  "objetivo": "Elaborar matrices estratégicas a partir de su clasificación y análisis del entorno para definir la postura competitiva de empresas turísticas.",
 
   "competencias": [
-    "[Competencia 1 redactada en términos observables.]",
-    "[Competencia 2 redactada en términos observables.]",
-    "[Competencia 3 redactada en términos observables.]"
+    "Elabora matrices estratégicas a partir de su clasificación y análisis del entorno."
   ],
 
-  "video": {
-    "titulo": "Video de introducción a la Unidad III",
-    "url": "https://www.youtube.com/embed/kwnGrdaixaw"
-  },
-
   "material_apoyo": [
-    { "nombre": "Referencias de la unidad", "url": "unidades/unidad-03/referencias.html" }
+    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-03/referencias.html" }
   ]
 }

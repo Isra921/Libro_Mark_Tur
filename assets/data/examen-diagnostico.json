@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es el propósito primordial de la mercadotecnia en el ámbito turístico?",
+    "opciones": [
+      "Identificar y satisfacer las necesidades y deseos de los visitantes generando experiencias memorables y rentabilidad sostenible.",
+      "Vender boletos de avión y paquetes con descuento sin importar la capacidad de carga del destino.",
+      "Publicar exclusivamente contenido publicitario masivo en redes sociales.",
+      "Administrar únicamente los registros contables y el inventario físico de las empresas."
+    ],
+    "respuesta_correcta": "Identificar y satisfacer las necesidades y deseos de los visitantes generando experiencias memorables y rentabilidad sostenible.",
+    "explicacion": "El marketing turístico busca la creación de valor y satisfacción para el viajero de manera sostenible y económicamente viable."
+  },
+  {
+    "id": 2,
+    "pregunta": "De acuerdo con la OMT, ¿cuál es la diferencia técnica fundamental entre un turista y un excursionista?",
+    "opciones": [
+      "El turista pernocta al menos una noche en el destino, mientras que el excursionista es un visitante del día que no pernocta.",
+      "El turista viaja por motivos de trabajo y el excursionista solo por motivos de salud o descanso.",
+      "El turista realiza viajes internacionales y el excursionista únicamente viajes domésticos.",
+      "El turista no realiza ningún gasto en el destino, a diferencia del excursionista."
+    ],
+    "respuesta_correcta": "El turista pernocta al menos una noche en el destino, mientras que el excursionista es un visitante del día que no pernocta.",
+    "explicacion": "La pernoctación (estancia mínima de una noche) es el criterio definitorio internacional establecido por ONU Turismo."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuáles son los componentes tradicionales de la mezcla de mercadotecnia (las 4P) complementadas en servicios por las 7P?",
+    "opciones": [
+      "Producto, Precio, Plaza, Promoción, Personas, Procesos y Evidencia física.",
+      "Planificación, Presupuesto, Producción, Propaganda, Patrocinio, Personal y Ponderación.",
+      "Pernoctación, Pasaje, Paquete, Posicionamiento, Plataforma, Proveedores y Pauta.",
+      "Políticas, Protocolos, Procedimientos, Proyecciones, Plazos, Puntos de venta y Presupuestos."
+    ],
+    "respuesta_correcta": "Producto, Precio, Plaza, Promoción, Personas, Procesos y Evidencia física.",
+    "explicacion": "En marketing de servicios turísticos, a las 4P de Kotler se añaden las 3P de Booms y Bitner: Personas, Procesos y Evidencia física (Physical Evidence)."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué característica de los servicios turísticos explica por qué una habitación de hotel no vendida hoy no puede guardarse para venderse mañana?",
+    "opciones": [
+      "Caducidad o perecibilidad.",
+      "Tangibilidad permanente.",
+      "Homogeneidad estandarizada.",
+      "Elasticidad unitaria de la oferta."
+    ],
+    "respuesta_correcta": "Caducidad o perecibilidad.",
+    "explicacion": "La capacidad de servicio no utilizada se pierde de forma irrecuperable al vencer el tiempo de prestación."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué define a la segmentación de mercados turísticos?",
+    "opciones": [
+      "El proceso de dividir un mercado heterogéneo en grupos homogéneos con necesidades, motivaciones o comportamientos de compra semejantes.",
+      "La fijación del precio más bajo posible para atraer a todos los habitantes de una ciudad.",
+      "La concentración de todas las inversiones en un solo medio de comunicación digital.",
+      "El registro contable de las compras efectuadas por proveedores extranjeros."
+    ],
+    "respuesta_correcta": "El proceso de dividir un mercado heterogéneo en grupos homogéneos con necesidades, motivaciones o comportamientos de compra semejantes.",
+    "explicacion": "La segmentación permite diseñar propuestas de valor diferenciadas para públicos prioritarios específicos."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué concepto describe el lugar que una marca o destino ocupa en la mente del consumidor en relación con las ofertas competidoras?",
+    "opciones": [
+      "Posicionamiento.",
+      "Distribución indirecta.",
+      "Margen de contribución.",
+      "Cadena de custodia."
+    ],
+    "respuesta_correcta": "Posicionamiento.",
+    "explicacion": "El posicionamiento es la percepción diferencial que la marca construye y sostiene en la mente del viajero."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es la función del punto de equilibrio en el análisis financiero de un producto turístico?",
+    "opciones": [
+      "Determinar el nivel de ventas (pasajeros o noches) necesario para cubrir exactamente los costos fijos y variables sin pérdida ni ganancia.",
+      "Fijar el porcentaje de descuento obligatorio para agencias mayoristas.",
+      "Calcular la derrama económica total de un destino en temporada alta.",
+      "Medir el número máximo de turistas que soporta un ecosistema sin degradarse."
+    ],
+    "respuesta_correcta": "Determinar el nivel de ventas (pasajeros o noches) necesario para cubrir exactamente los costos fijos y variables sin pérdida ni ganancia.",
+    "explicacion": "El punto de equilibrio indica el volumen mínimo de operación para que la empresa empiece a generar beneficios."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué distingue a un canal de distribución directo de uno indirecto en turismo?",
+    "opciones": [
+      "En el canal directo la empresa vende directamente al cliente sin intermediarios; en el indirecto intervienen agencias u OTAs.",
+      "En el canal directo solo se aceptan pagos en efectivo y en el indirecto únicamente transferencias bancarias.",
+      "El canal directo opera exclusivamente de forma física y el indirecto únicamente en internet.",
+      "El canal directo requiere el pago de comisiones del 25% a plataformas mayoristas."
+    ],
+    "respuesta_correcta": "En el canal directo la empresa vende directamente al cliente sin intermediarios; en el indirecto intervienen agencias u OTAs.",
+    "explicacion": "La venta directa no involucra intermediarios comerciales, mientras que la indirecta utiliza canales terceros a cambio de comisiones."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué fenómeno característico del turismo produce valles de baja demanda y picos de saturación a lo largo del año?",
+    "opciones": [
+      "Estacionalidad.",
+      "Inseparabilidad operativa.",
+      "Rigidez presupuestal.",
+      "Yield management pasivo."
+    ],
+    "respuesta_correcta": "Estacionalidad.",
+    "explicacion": "La estacionalidad está vinculada a factores climáticos, periodos vacacionales escolares y eventos periódicos."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué es un plan de marketing?",
+    "opciones": [
+      "Un documento estructurado que diagnostica la situación, establece objetivos y define estrategias, tácticas, presupuestos y mecanismos de control.",
+      "Un folleto publicitario impreso para repartir en ferias y exposiciones turísticas.",
+      "Un contrato formal entre prestadores de servicios hoteleros y líneas aéreas.",
+      "Una lista de tarifas y comisiones enviada semestralmente a las agencias de viajes."
+    ],
+    "respuesta_correcta": "Un documento estructurado que diagnostica la situación, establece objetivos y define estrategias, tácticas, presupuestos y mecanismos de control.",
+    "explicacion": "El plan de marketing es la guía rectora de las decisiones comerciales de la empresa para un periodo determinado."
+  }
+]

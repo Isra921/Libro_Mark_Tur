@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué es el presupuesto de marketing turístico según Albrecht et al. (2023)?",
+    "opciones": [
+      "Una estimación organizada de dinero y recursos necesarios para ejecutar las acciones comerciales durante un periodo definido, vinculando costos con metas.",
+      "Una factura consolidada de los gastos efectuados durante el año anterior.",
+      "El dinero disponible en la cuenta bancaria personal del gerente general.",
+      "Un subsidio federal no reintegrable destinado a destinos de playa."
+    ],
+    "respuesta_correcta": "Una estimación organizada de dinero y recursos necesarios para ejecutar las acciones comerciales durante un periodo definido, vinculando costos con metas.",
+    "explicacion": "El presupuesto no es solo una cifra total; expresa prioridades, responsables, calendarios de desembolso y resultados comerciales previstos."
+  },
+  {
+    "pregunta": "¿En qué consiste el método de 'objetivos y tareas' para la asignación presupuestal?",
+    "opciones": [
+      "Calcula detalladamente cuánto cuestan las actividades y recursos específicos indispensables para alcanzar metas comerciales explícitas.",
+      "Asigna un porcentaje fijo de las ventas del año anterior sin importar las metas futuras.",
+      "Destina únicamente el dinero remanente que sobra después de pagar todos los gastos.",
+      "Copia exactamente el presupuesto de la empresa competidora más cercana."
+    ],
+    "respuesta_correcta": "Calcula detalladamente cuánto cuestan las actividades y recursos específicos indispensables para alcanzar metas comerciales explícitas.",
+    "explicacion": "Es el método más sólido y trazable, pues vincula directamente cada actividad comercial con su costo y meta específica."
+  },
+  {
+    "pregunta": "En el caso didáctico de la campaña ecoturística, el subtotal de actividades suma $34,000 MXN. ¿A cuánto asciende el presupuesto total con una contingencia del 10%?",
+    "opciones": [
+      "$37,400 MXN ($34,000 + $3,400 de contingencia)",
+      "$34,000 MXN",
+      "$40,000 MXN",
+      "$50,000 MXN"
+    ],
+    "respuesta_correcta": "$37,400 MXN ($34,000 + $3,400 de contingencia)",
+    "explicacion": "La reserva de contingencia del 10% ($3,400) eleva el presupuesto total autorizado a $37,400 MXN para absorber imprevistos."
+  },
+  {
+    "pregunta": "Si los ingresos por reserva en el recorrido ecoturístico son $1,250 y el costo variable de servicio es $650, ¿cuál es el margen de contribución unitario?",
+    "opciones": [
+      "$600 MXN por reserva",
+      "$650 MXN por reserva",
+      "$1,250 MXN por reserva",
+      "$350 MXN por reserva"
+    ],
+    "respuesta_correcta": "$600 MXN por reserva",
+    "explicacion": "Margen de contribución = Precio ($1,250) - Costo variable operativo ($650) = $600 MXN por cada reserva."
+  },
+  {
+    "pregunta": "Para cubrir exclusivamente los $37,400 MXN del presupuesto de marketing con un margen unitario de $600, ¿cuántas reservas mínimas se requieren?",
+    "opciones": [
+      "63 reservas (37,400 / 600 = 62.33, redondeado hacia arriba)",
+      "80 reservas",
+      "50 reservas",
+      "100 reservas"
+    ],
+    "respuesta_correcta": "63 reservas (37,400 / 600 = 62.33, redondeado hacia arriba)",
+    "explicacion": "Se necesitan al menos 63 reservas para pagar la inversión publicitaria; las reservas adicionales aportan a costos fijos y utilidad."
+  },
+  {
+    "pregunta": "¿Por qué el cálculo anterior de 63 reservas NO equivale al punto de equilibrio total de la empresa turística?",
+    "opciones": [
+      "Porque solo cubre el gasto publicitario de marketing y no incluye costos fijos del negocio, depreciaciones, rentas ni impuestos.",
+      "Porque la Secretaría de Turismo prohíbe calcular puntos de equilibrio en ecoturismo.",
+      "Porque las reservas de naturaleza no generan margen de contribución.",
+      "Porque el cálculo excluye a los viajeros nacionales."
+    ],
+    "respuesta_correcta": "Porque solo cubre el gasto publicitario de marketing y no incluye costos fijos del negocio, depreciaciones, rentas ni impuestos.",
+    "explicacion": "Es un umbral de cobertura publicitaria; el equilibrio integral de la empresa exige incorporar la totalidad de los costos fijos corporativos."
+  },
+  {
+    "pregunta": "¿Qué riesgo presenta el método presupuestal de 'porcentaje de ventas' en épocas de baja estacionalidad?",
+    "opciones": [
+      "Reduce el presupuesto publicitario justo cuando la empresa necesita promocionarse con mayor fuerza para revertir la caída de demanda.",
+      "Obliga a contratar el doble de personal en las oficinas de ventas.",
+      "Genera excedentes financieros que no pueden gastarse por ley.",
+      "Elimina automáticamente los impuestos locales al hospedaje."
+    ],
+    "respuesta_correcta": "Reduce el presupuesto publicitario justo cuando la empresa necesita promocionarse con mayor fuerza para revertir la caída de demanda.",
+    "explicacion": "Al vincular el gasto a ventas declinantes, el método de porcentaje agudiza las caídas en temporadas difíciles."
+  },
+  {
+    "pregunta": "¿Por qué es crucial verificar la capacidad operativa de atención antes de aprobar un presupuesto de promoción agresivo?",
+    "opciones": [
+      "Porque generar una demanda que supere la capacidad de guías, transporte o alojamiento provocará sobreventas y deterioro de reputación.",
+      "Porque los bancos multan a las empresas que aumentan sus ventas más de un 10%.",
+      "Porque el presupuesto de marketing debe ser siempre inferior al sueldo del chofer.",
+      "Porque las redes sociales suspenden las cuentas con más de 100 cotizaciones."
+    ],
+    "respuesta_correcta": "Porque generar una demanda que supere la capacidad de guías, transporte o alojamiento provocará sobreventas y deterioro de reputación.",
+    "explicacion": "En turismo, la promesa comercial debe coincidir con la capacidad real instalada de prestación de servicio."
+  },
+  {
+    "pregunta": "¿Qué conceptos deben desglosarse en cada partida del presupuesto de marketing?",
+    "opciones": [
+      "Finalidad u objetivo de la tarea, cantidad, costo unitario, costo total, área responsable y fecha programada de pago.",
+      "Únicamente el nombre de la agencia de publicidad contratada.",
+      "El balance general histórico de los últimos diez años.",
+      "El pronóstico meteorológico del día de lanzamiento."
+    ],
+    "respuesta_correcta": "Finalidad u objetivo de la tarea, cantidad, costo unitario, costo total, área responsable y fecha programada de pago.",
+    "explicacion": "La trazabilidad presupuestal exige saber qué se compra, quién responde por ello y en qué momento se liquida."
+  },
+  {
+    "pregunta": "¿Cuál es la función de una reserva de contingencia (10%) en el presupuesto de marketing?",
+    "opciones": [
+      "Absorber variaciones de precios en medios, imprevistos de producción o ajustes de calendario autorizados por la dirección.",
+      "Pagar bonos discrecionales sin comprobantes fiscales.",
+      "Gastar dinero excedente en fiestas de aniversario de la empresa.",
+      "Subsidiar las tarifas de los clientes VIP."
+    ],
+    "respuesta_correcta": "Absorber variaciones de precios en medios, imprevistos de producción o ajustes de calendario autorizados por la dirección.",
+    "explicacion": "La reserva ofrece flexibilidad controlada ante desviaciones operativas sin necesidad de alterar el presupuesto base."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué organiza de manera estructurada el plan de medios según OpenStax (2023e)?",
+    "opciones": [
+      "Dónde, cuándo, con qué frecuencia y con qué recursos presupuestales se difundirán los mensajes promocionales de la empresa.",
+      "La agenda personal de entrevistas del director de relaciones públicas.",
+      "El inventario técnico de micrófonos y cámaras de televisión del destino.",
+      "El pago de nómina de los empleados del departamento de contabilidad."
+    ],
+    "respuesta_correcta": "Dónde, cuándo, con qué frecuencia y con qué recursos presupuestales se difundirán los mensajes promocionales de la empresa.",
+    "explicacion": "El plan de medios traduce las metas de comunicación en un calendario y presupuesto de pauta asignado por canal."
+  },
+  {
+    "pregunta": "¿Por qué es crucial diferenciar un objetivo de comunicación de un objetivo comercial?",
+    "opciones": [
+      "Porque el medio publicitario controla el alcance y las consultas, pero la venta final depende también de tarifas, servicio y disponibilidad.",
+      "Porque los objetivos de comunicación se miden en pesos y los comerciales en visitas.",
+      "Porque los objetivos comerciales solo se aplican a empresas de manufactura.",
+      "Porque la ley de publicidad sanciona los planes con más de dos objetivos."
+    ],
+    "respuesta_correcta": "Porque el medio publicitario controla el alcance y las consultas, pero la venta final depende también de tarifas, servicio y disponibilidad.",
+    "explicacion": "Un anuncio puede ser muy eficaz en atraer prospectos calificados, pero si el proceso de pago falla, la venta no se concreta."
+  },
+  {
+    "pregunta": "En el caso didáctico del hotel boutique, ¿cuál es la meta cuantitativa comercial del plan de medios?",
+    "opciones": [
+      "Obtener 30 reservas directas entre semana en un periodo de 8 semanas (aumento del 50% sobre la base de 20).",
+      "Conseguir un millón de visualizaciones en videos de YouTube sin importar las reservas.",
+      "Vender 100 habitaciones diarias durante un año completo.",
+      "Llenar el hotel únicamente con turistas de origen asiático."
+    ],
+    "respuesta_correcta": "Obtener 30 reservas directas entre semana en un periodo de 8 semanas (aumento del 50% sobre la base de 20).",
+    "explicacion": "Una meta SMART especifica número de reservas (30), canal (directas), periodo (entre semana) y plazo (8 semanas)."
+  },
+  {
+    "pregunta": "Con un presupuesto total autorizado de $10,000 MXN para el plan de medios, ¿cuál es la partida con mayor asignación de recursos?",
+    "opciones": [
+      "Búsqueda pagada (SEM) con $4,000 MXN (para captar intención activa de reserva)",
+      "Correo electrónico con $5,000 MXN",
+      "Material impreso con $6,000 MXN",
+      "Comisiones a agencias con $8,000 MXN"
+    ],
+    "respuesta_correcta": "Búsqueda pagada (SEM) con $4,000 MXN (para captar intención activa de reserva)",
+    "explicacion": "Se asigna 40% ($4,000 MXN) a búsqueda pagada porque capta viajeros que buscan activamente hospedaje en el destino."
+  },
+  {
+    "pregunta": "En la tabla de asignación presupuestal del plan de medios, ¿qué meta intermedia se espera alcanzar con los $4,000 MXN de búsqueda pagada?",
+    "opciones": [
+      "200 visitas calificadas a la página del paquete de dos noches",
+      "50 pernoctaciones de lujo garantizadas",
+      "1,000 seguidores en la página de Facebook",
+      "10 contratos corporativos anuales"
+    ],
+    "respuesta_correcta": "200 visitas calificadas a la página del paquete de dos noches",
+    "explicacion": "La búsqueda pagada genera tráfico directo y calificado de usuarios con alta intención de compra hacia el motor web."
+  },
+  {
+    "pregunta": "¿Por qué las 200 visitas web y las 40 consultas de redes sociales NO deben sumarse aritméticamente a las 30 reservas meta?",
+    "opciones": [
+      "Porque son metas intermedias del embudo de conversión; la meta final solo se contabiliza una vez por cada reserva confirmada y pagada.",
+      "Porque las visitas web tienen valor negativo en la contabilidad financiera.",
+      "Porque la Secretaría de Turismo prohíbe sumar números que provengan de plataformas digitales.",
+      "Porque las redes sociales cobran comisiones adicionales por cada suma efectuada."
+    ],
+    "respuesta_correcta": "Porque son metas intermedias del embudo de conversión; la meta final solo se contabiliza una vez por cada reserva confirmada y pagada.",
+    "explicacion": "Sumar visitas o clics como si fueran ventas duplicaría y distorsionaría por completo la contabilidad de clientes."
+  },
+  {
+    "pregunta": "Si se logran las 30 reservas directas con el presupuesto de $10,000 MXN, ¿cuál es el costo publicitario por reserva?",
+    "opciones": [
+      "$333.33 MXN por reserva ($10,000 / 30)",
+      "$10,000 MXN por reserva",
+      "$500.00 MXN por reserva",
+      "$150.00 MXN por reserva"
+    ],
+    "respuesta_correcta": "$333.33 MXN por reserva ($10,000 / 30)",
+    "explicacion": "El costo publicitario unitario es $10,000 / 30 = $333.33 MXN por cada reserva concretada durante la campaña."
+  },
+  {
+    "pregunta": "¿Cómo se determina si el costo de $333.33 MXN por reserva resulta económicamente viable y rentable para el hotel?",
+    "opciones": [
+      "Comparando ese costo contra el margen de contribución generado por el paquete (por ejemplo, si el margen es $800 MXN, deja $466.67 netos).",
+      "Verificando que sea menor al costo de la energía eléctrica del edificio.",
+      "Comprobando que el director del hotel esté de acuerdo con la cifra.",
+      "Verificando que coincida exactamente con la inflación del mes anterior."
+    ],
+    "respuesta_correcta": "Comparando ese costo contra el margen de contribución generado por el paquete (por ejemplo, si el margen es $800 MXN, deja $466.67 netos).",
+    "explicacion": "Si el margen unitario supera al costo publicitario por reserva, la campaña genera excedentes netos para la empresa."
+  },
+  {
+    "pregunta": "¿Qué fenómeno analítico debe vigilarse para no sobreestimar el impacto de las campañas digitales?",
+    "opciones": [
+      "El problema de la atribución: cuando dos plataformas distintas (ej. Facebook y Google Ads) se adjudican simultáneamente la misma reserva.",
+      "La depreciación fiscal de las computadoras del hotel.",
+      "La caducidad de las fotografías guardadas en el disco duro.",
+      "El aumento de la velocidad de lectura de los visitantes."
+    ],
+    "respuesta_correcta": "El problema de la atribución: cuando dos plataformas distintas (ej. Facebook y Google Ads) se adjudican simultáneamente la misma reserva.",
+    "explicacion": "Un cliente que interactúa con varios canales puede ser contabilizado dos veces si no se establece un modelo de atribución claro."
+  },
+  {
+    "pregunta": "¿Cuál es la conclusión principal de la Unidad 4 respecto a la selección de estrategias y tácticas en turismo?",
+    "opciones": [
+      "Conecta información diagnóstica, decisiones y ejecución: una estrategia responde al mercado, las tácticas tienen responsables y el plan fija metas auditables.",
+      "El plan de marketing solo debe preocuparse por gastar todo el presupuesto asignado sin medir resultados.",
+      "Los hoteles boutique no necesitan plan de medios si cuentan con buena reputación oral.",
+      "La comunicación turística debe prometer servicios imposibles para captar clientes rápidamente."
+    ],
+    "respuesta_correcta": "Conecta información diagnóstica, decisiones y ejecución: una estrategia responde al mercado, las tácticas tienen responsables y el plan fija metas auditables.",
+    "explicacion": "El aprendizaje continuo en marketing exige auditar reservas logradas, satisfacción del visitante y el margen para sostener el negocio."
+  }
+]

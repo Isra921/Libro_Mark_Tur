@@ -1,0 +1,308 @@
+{
+  "titulo": "Actividades de Aprendizaje",
+  "boton_cerrar": "Cerrar ventana",
+  "secciones": [
+    {
+      "id": "unidad-01",
+      "pestana": "Unidad 1",
+      "titulo": "Unidad 1: Encuadre empresarial",
+      "descripcion": "Fundamentos de la planeación estratégica en turismo, encuadre metodológico de la OMT, tipología de empresas, oferta-demanda y enfoque industrial.",
+      "nota": "Actividades formativas con retroalimentación inmediata y simulador integrador final.",
+      "items": [
+        {
+          "tag": "Tema 1.1",
+          "titulo": "Actividad 1.1: Fundamentos de Plan de Marketing",
+          "descripcion": "Estructura, justificación y aplicación estratégica de las 7P en servicios turísticos.",
+          "icono": "fa-clipboard-list",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-1.html"
+        },
+        {
+          "tag": "Tema 1.2",
+          "titulo": "Actividad 1.2: Notas y directrices de la OMT",
+          "descripcion": "Conceptos, normalización estadística y directrices metodológicas de la Organización Mundial del Turismo.",
+          "icono": "fa-globe",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-2.html"
+        },
+        {
+          "tag": "Tema 1.3",
+          "titulo": "Actividad 1.3: Empresa turística",
+          "descripcion": "Clasificación de organizaciones turísticas, características de servicios y filosofía empresarial.",
+          "icono": "fa-hotel",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-3.html"
+        },
+        {
+          "tag": "Tema 1.4",
+          "titulo": "Actividad 1.4: Análisis de la oferta y la demanda",
+          "descripcion": "Componentes de la oferta, elasticidad de la demanda y gestión del equilibrio estacional.",
+          "icono": "fa-chart-line",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-4.html"
+        },
+        {
+          "tag": "Tema 1.5",
+          "titulo": "Actividad 1.5: El enfoque industrial del turismo",
+          "descripcion": "Clústeres regionales, cadenas de valor articuladas y desarrollo sistémico del sector.",
+          "icono": "fa-network-wired",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-01/actividades/actividad-1-5.html"
+        },
+        {
+          "tag": "Simulador Integrador",
+          "destacada": true,
+          "titulo": "Simulador Estratégico: Caso Valle Sereno",
+          "descripcion": "Modela decisiones para resolver problemas de estacionalidad, oferta y articulación de clúster turístico.",
+          "icono": "fa-sliders",
+          "reactivos": "Simulación interactiva",
+          "tiempo": "25 min",
+          "url": "unidades/unidad-01/actividades/actividad-final.html"
+        }
+      ]
+    },
+    {
+      "id": "unidad-02",
+      "pestana": "Unidad 2",
+      "titulo": "Unidad 2: Perfil del consumidor y mezcla de mercadotecnia",
+      "descripcion": "Segmentación, buyer persona, características del servicio, fijación de precios, punto de equilibrio y pronósticos de ventas.",
+      "nota": "Aplica modelos cuantitativos y cualitativos para evaluar la viabilidad comercial.",
+      "items": [
+        {
+          "tag": "Tema 2.1",
+          "titulo": "Actividad 2.1: Segmentación y perfil del consumidor",
+          "descripcion": "Variables geográficas, demográficas, psicográficas y conductuales; diseño de buyer personas.",
+          "icono": "fa-user-tag",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-02/actividades/actividad-2-1.html"
+        },
+        {
+          "tag": "Tema 2.2",
+          "titulo": "Actividad 2.2: Elementos de la mezcla de mercadotecnia",
+          "descripcion": "Capas del producto turístico, caducidad, punto de equilibrio, recargo vs margen y posicionamiento.",
+          "icono": "fa-bullseye",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-02/actividades/actividad-2-2.html"
+        },
+        {
+          "tag": "Tema 2.3",
+          "titulo": "Actividad 2.3: Pronósticos de ventas y canales",
+          "descripcion": "Estacionalidad turística, escenarios de demanda, canales directos vs indirectos y comisiones.",
+          "icono": "fa-chart-pie",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-02/actividades/actividad-2-3.html"
+        },
+        {
+          "tag": "Simulador Integrador",
+          "destacada": true,
+          "titulo": "Simulador de Precios y Punto de Equilibrio: Rutas del Centro",
+          "descripcion": "Calcula el equilibrio financiero, prueba variaciones de precios y pondera canales comerciales directos e indirectos.",
+          "icono": "fa-calculator",
+          "reactivos": "Simulador en 4 etapas",
+          "tiempo": "25 min",
+          "url": "unidades/unidad-02/actividades/actividad-final.html"
+        }
+      ]
+    },
+    {
+      "id": "unidad-03",
+      "pestana": "Unidad 3",
+      "titulo": "Unidad 3: Elaboración e implementación de estrategias",
+      "descripcion": "Diagnóstico estratégico interno y externo, matrices MEFE, MEFI, cruces TOWS/FODA, cartera BCG, Ansoff y perfil competitivo MPC.",
+      "nota": "Domina la formulación matricial y la priorización de decisiones operativas.",
+      "items": [
+        {
+          "tag": "Tema 3.1",
+          "titulo": "Actividad 3.1: Análisis del entorno interno y externo",
+          "descripcion": "Recursos y capacidades, VRIO, cadena de valor, macroentorno PESTEL y cinco fuerzas competitivas.",
+          "icono": "fa-magnifying-glass-chart",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-1.html"
+        },
+        {
+          "tag": "Tema 3.2",
+          "titulo": "Actividad 3.2: Matrices MEFE y MEFI",
+          "descripcion": "Ponderación de factores críticos, escalas de respuesta y evaluación de la posición competitiva.",
+          "icono": "fa-table-cells",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-2.html"
+        },
+        {
+          "tag": "Tema 3.3",
+          "titulo": "Actividad 3.3: Matriz FODA y cruces estratégicos",
+          "descripcion": "Formulación de estrategias FO, DO, FA y DA para resolver brechas operativas.",
+          "icono": "fa-arrows-split-up-and-left",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-3.html"
+        },
+        {
+          "tag": "Tema 3.4",
+          "titulo": "Actividad 3.4: Matriz de Boston Consulting Group (BCG)",
+          "descripcion": "Tasa de crecimiento, participación relativa y clasificación de líneas turísticas: estrellas, vacas, interrogantes y perros.",
+          "icono": "fa-chart-pie",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-4.html"
+        },
+        {
+          "tag": "Tema 3.5",
+          "titulo": "Actividad 3.5: Matriz de Crecimiento de Ansoff",
+          "descripcion": "Penetración de mercado, desarrollo de productos, desarrollo de mercados y diversificación turística.",
+          "icono": "fa-up-right-and-down-left-from-center",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-5.html"
+        },
+        {
+          "tag": "Tema 3.6",
+          "titulo": "Actividad 3.6: Matriz del Perfil Competitivo (MPC)",
+          "descripcion": "Comparación frente a rivales directos mediante factores críticos de éxito e implementación en 90 días.",
+          "icono": "fa-trophy",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-03/actividades/actividad-3-6.html"
+        },
+        {
+          "tag": "Simulador Integrador",
+          "destacada": true,
+          "titulo": "Simulador de Matrices Estratégicas: Rutas del Centro",
+          "descripcion": "Modela el diagnóstico MEFE/MEFI, formula cruces TOWS, gestiona la cartera BCG y calibra la MPC frente a competidores.",
+          "icono": "fa-cubes",
+          "reactivos": "Simulador en 4 etapas",
+          "tiempo": "30 min",
+          "url": "unidades/unidad-03/actividades/actividad-final.html"
+        }
+      ]
+    },
+    {
+      "id": "unidad-04",
+      "pestana": "Unidad 4",
+      "titulo": "Unidad 4: Estrategias, tácticas y plan de medios",
+      "descripcion": "Investigación de mercados, mejora continua 4P, estructuración de tácticas con indicadores, CIM y diseño del plan de medios.",
+      "nota": "Coordinación entre la promesa publicitaria y la experiencia real entregada al visitante.",
+      "items": [
+        {
+          "tag": "Tema 4.1",
+          "titulo": "Actividad 4.1: Investigación de mercados en turismo",
+          "descripcion": "Proceso metodológico, fuentes primarias vs secundarias y diagnóstico de barreras de reserva.",
+          "icono": "fa-magnifying-glass",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-04/actividades/actividad-4-1.html"
+        },
+        {
+          "tag": "Tema 4.2",
+          "titulo": "Actividad 4.2: Mejora continua de la mezcla de marketing",
+          "descripcion": "Modelo de brechas de calidad, políticas de precio, coordinación promocional y canales de plaza.",
+          "icono": "fa-bullseye",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-04/actividades/actividad-4-2.html"
+        },
+        {
+          "tag": "Tema 4.3",
+          "titulo": "Actividad 4.3: Aplicación de tácticas e indicadores",
+          "descripcion": "Estructuración de tácticas: acción concreta, responsable, calendario, KPIs y criterios de corrección.",
+          "icono": "fa-list-check",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-04/actividades/actividad-4-3.html"
+        },
+        {
+          "tag": "Tema 4.4",
+          "titulo": "Actividad 4.4: Comunicación integral y nuevos enfoques",
+          "descripcion": "Medios digitales vs analógicos, marketing de contacto, inbound, simbiótico y social.",
+          "icono": "fa-comments",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-04/actividades/actividad-4-4.html"
+        },
+        {
+          "tag": "Tema 4.5",
+          "titulo": "Actividad 4.5: Formulación del plan de medios",
+          "descripcion": "Objetivos de comunicación vs comerciales, metas numéricas, asignación presupuestal y costo por reserva.",
+          "icono": "fa-calendar-days",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-04/actividades/actividad-4-5.html"
+        },
+        {
+          "tag": "Simulador Integrador",
+          "destacada": true,
+          "titulo": "Simulador de Tácticas y Plan de Medios: Hotel Boutique",
+          "descripcion": "Diagnostica causas de abandono, asigna tácticas 4P con KPIs, diseña el mix CIM y evalúa la rentabilidad del plan de medios.",
+          "icono": "fa-bullhorn",
+          "reactivos": "Simulador en 4 etapas",
+          "tiempo": "25 min",
+          "url": "unidades/unidad-04/actividades/actividad-final.html"
+        }
+      ]
+    },
+    {
+      "id": "unidad-05",
+      "pestana": "Unidad 5",
+      "titulo": "Unidad 5: Presupuesto, ruta crítica y control",
+      "descripcion": "Métodos de asignación presupuestal, cálculo de la ruta crítica (CPM), KPIs del embudo turístico y reporte ejecutivo.",
+      "nota": "Control gerencial, trazabilidad de datos y acciones correctivas ante desviaciones.",
+      "items": [
+        {
+          "tag": "Tema 5.1",
+          "titulo": "Actividad 5.1: Presupuesto de marketing turístico",
+          "descripcion": "Método de porcentaje de ventas, objetivos y tareas, disponibilidad y reservas de contingencia.",
+          "icono": "fa-coins",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-05/actividades/actividad-5-1.html"
+        },
+        {
+          "tag": "Tema 5.2",
+          "titulo": "Actividad 5.2: Ruta crítica (Método CPM)",
+          "descripcion": "Red de actividades, pase hacia adelante, pase hacia atrás, holgura total y dependencias de proyecto.",
+          "icono": "fa-diagram-project",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-05/actividades/actividad-5-2.html"
+        },
+        {
+          "tag": "Tema 5.3",
+          "titulo": "Actividad 5.3: Mecanismos de evaluación y control",
+          "descripcion": "Diferencias entre medición, evaluación y control; KPIs clave, tableros de control y umbrales de acción.",
+          "icono": "fa-chart-line",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-05/actividades/actividad-5-3.html"
+        },
+        {
+          "tag": "Tema 5.4",
+          "titulo": "Actividad 5.4: Elaboración del reporte ejecutivo",
+          "descripcion": "Presentación ejecutiva, análisis de desviaciones, contrastes meta-resultado y toma de decisiones.",
+          "icono": "fa-file-lines",
+          "reactivos": "10 reactivos",
+          "tiempo": "10 min",
+          "url": "unidades/unidad-05/actividades/actividad-5-4.html"
+        },
+        {
+          "tag": "Simulador Integrador",
+          "destacada": true,
+          "titulo": "Simulador de Ruta Crítica y Control Gerencial: Ecoturismo",
+          "descripcion": "Modela el presupuesto de lanzamiento, calcula holguras de la ruta crítica CPM e interpreta desviaciones en un tablero de control.",
+          "icono": "fa-gauge-high",
+          "reactivos": "Simulador en 4 etapas",
+          "tiempo": "25 min",
+          "url": "unidades/unidad-05/actividades/actividad-final.html"
+        }
+      ]
+    }
+  ]
+}

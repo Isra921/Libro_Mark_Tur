@@ -1,0 +1,112 @@
+[
+  {
+    "pregunta": "¿Qué dos dimensiones combina la matriz de Ansoff (1957) para estructurar las vías de crecimiento empresarial?",
+    "opciones": [
+      "Productos (actuales vs nuevos) y Mercados (actuales vs nuevos)",
+      "Precios (altos vs bajos) y Canales (directos vs indirectos)",
+      "Costos fijos y Costos variables",
+      "Nacionales y Extranjeros"
+    ],
+    "respuesta_correcta": "Productos (actuales vs nuevos) y Mercados (actuales vs nuevos)",
+    "explicacion": "Ansoff cruza productos existentes o nuevos con mercados existentes o nuevos, distinguiendo cuatro vías de expansión."
+  },
+  {
+    "pregunta": "¿En qué consiste la estrategia de penetración de mercado en turismo?",
+    "opciones": [
+      "Vender más del producto actual a los clientes del mercado actual mediante mejor conversión, recomendaciones y fidelización.",
+      "Lanzar un crucero marítimo en el Caribe para jubilados europeos.",
+      "Abrir una franquicia de restaurantes en un país extranjero.",
+      "Subir los precios un 200% para convertir la oferta en ultra exclusiva."
+    ],
+    "respuesta_correcta": "Vender más del producto actual a los clientes del mercado actual mediante mejor conversión, recomendaciones y fidelización.",
+    "explicacion": "La penetración busca captar mayor cuota del segmento habitual con el producto ya dominado, optimizando la compra y recompra."
+  },
+  {
+    "pregunta": "¿Cómo aplicaría Rutas del Centro el desarrollo de mercados?",
+    "opciones": [
+      "Ofreciendo su recorrido cultural existente a visitantes procedentes de otras ciudades o al segmento corporativo institucional.",
+      "Diseñando un taller nocturno de artesanías para sus clientes de siempre.",
+      "Comprando una agencia mayorista en Europa.",
+      "Reduciendo a la mitad las horas de duración del itinerario."
+    ],
+    "respuesta_correcta": "Ofreciendo su recorrido cultural existente a visitantes procedentes de otras ciudades o al segmento corporativo institucional.",
+    "explicacion": "El desarrollo de mercados mantiene el producto consolidado pero lo comercializa ante nuevos segmentos o zonas geográficas."
+  },
+  {
+    "pregunta": "¿En qué consiste el desarrollo de productos según la matriz de Ansoff?",
+    "opciones": [
+      "Crear itinerarios, experiencias o servicios nuevos para ofrecerlos al mercado de clientes que la empresa ya atiende.",
+      "Aumentar el gasto en pauta en Facebook para los mismos recorridos de siempre.",
+      "Vender la empresa a un consorcio hotelero multinacional.",
+      "Cambiar únicamente el color del logotipo corporativo."
+    ],
+    "respuesta_correcta": "Crear itinerarios, experiencias o servicios nuevos para ofrecerlos al mercado de clientes que la empresa ya atiende.",
+    "explicacion": "Desarrollar productos implica diseñar nuevas ofertas (como un taller gastronómico o tour nocturno) para el público habitual."
+  },
+  {
+    "pregunta": "¿Por qué la diversificación representa la vía de mayor riesgo estratégico en Ansoff?",
+    "opciones": [
+      "Porque combina un producto nuevo con un mercado completamente nuevo, exigiendo capacidades operativas no dominadas.",
+      "Porque la ley mercantil prohíbe operar más de dos giros comerciales a la vez.",
+      "Porque los clientes actuales rechazan automáticamente cualquier innovación de la empresa.",
+      "Porque los bancos no otorgan créditos a proyectos diversificados."
+    ],
+    "respuesta_correcta": "Porque combina un producto nuevo con un mercado completamente nuevo, exigiendo capacidades operativas no dominadas.",
+    "explicacion": "La diversificación aleja a la organización de sus fortalezas y clientes conocidos, requiriendo validación integral."
+  },
+  {
+    "pregunta": "En Rutas del Centro, ¿qué ejemplo ilustra una estrategia de diversificación pura?",
+    "opciones": [
+      "Organizar retiros empresariales de integración (servicio nuevo) para corporativos foráneos que nunca han sido sus clientes (mercado nuevo).",
+      "Ofrecer un descuento del 10% a los clientes que repiten el recorrido cultural.",
+      "Vender el recorrido cultural de fin de semana en idioma inglés.",
+      "Imprimir folletos informativos en papel reciclado."
+    ],
+    "respuesta_correcta": "Organizar retiros empresariales de integración (servicio nuevo) para corporativos foráneos que nunca han sido sus clientes (mercado nuevo).",
+    "explicacion": "Combinar servicios corporativos no operados previamente con clientes B2B que no conoce constituye diversificación."
+  },
+  {
+    "pregunta": "Al diseñar un nuevo producto para clientes actuales, ¿qué riesgo comercial de canibalización debe evaluarse?",
+    "opciones": [
+      "Que las ventas del nuevo recorrido sustituyan ventas del recorrido anterior sin generar un crecimiento neto positivo de clientes.",
+      "Que los anfitriones locales se nieguen a cobrar por sus servicios.",
+      "Que la Secretaría de Turismo prohíba recorridos de más de cuatro horas.",
+      "Que la tarifa tenga que expresarse obligatoriamente en dólares."
+    ],
+    "respuesta_correcta": "Que las ventas del nuevo recorrido sustituyan ventas del recorrido anterior sin generar un crecimiento neto positivo de clientes.",
+    "explicacion": "Si el nuevo tour solo traslada clientes del producto anterior, la empresa asume costos de diseño sin elevar su contribución neta."
+  },
+  {
+    "pregunta": "Considerando las debilidades de reserva (D1) y liquidez (D2) de Rutas del Centro, ¿qué vía de Ansoff recomienda priorizar el diagnóstico conjunto?",
+    "opciones": [
+      "Penetración de mercado (corregir la reserva web y optimizar la conversión con el público actual).",
+      "Diversificación internacional inmediata en varios países.",
+      "Desarrollo masivo de 10 productos simultáneos sin probarlos.",
+      "Desinversión total y venta de activos."
+    ],
+    "respuesta_correcta": "Penetración de mercado (corregir la reserva web y optimizar la conversión con el público actual).",
+    "explicacion": "Con recursos limitados y fallas en reservas, consolidar y rentabilizar el mercado actual es la vía de menor riesgo y mayor retorno inmediato."
+  },
+  {
+    "pregunta": "¿Qué debe definirse con claridad para delimitar si un producto es 'nuevo' en turismo?",
+    "opciones": [
+      "Si es nuevo respecto a las capacidades y oferta propia de la empresa, aunque ya exista en el destino ofrecido por otros.",
+      "Si el atractivo turístico tiene menos de un año de haber sido descubierto.",
+      "Si el guía asignado es recién egresado de la licenciatura.",
+      "Si el vehículo cuenta con placas de transporte de turismo federal."
+    ],
+    "respuesta_correcta": "Si es nuevo respecto a las capacidades y oferta propia de la empresa, aunque ya exista en el destino ofrecido por otros.",
+    "explicacion": "Un producto puede ser nuevo para la operadora aunque otros competidores ya lo operen en el destino."
+  },
+  {
+    "pregunta": "¿Por qué bajar precios antes de comprobar los obstáculos de reserva no es una buena penetración de mercado?",
+    "opciones": [
+      "Porque si el obstáculo es desconfianza o demora en confirmación, abaratar la tarifa reduce el margen sin resolver el problema de fondo.",
+      "Porque la penetración de mercado solo permite subir precios.",
+      "Porque la elasticidad de la demanda cultural siempre es igual a cero.",
+      "Porque las agencias de viajes intermediarias lo impiden por contrato."
+    ],
+    "respuesta_correcta": "Porque si el obstáculo es desconfianza o demora en confirmación, abaratar la tarifa reduce el margen sin resolver el problema de fondo.",
+    "explicacion": "Bajar precios erosiona la rentabilidad si la causa real de abandono es un proceso de reserva deficiente o falta de información."
+  }
+]
