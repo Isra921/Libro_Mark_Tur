@@ -388,3 +388,10 @@ a.r-meta-tag:hover { color: var(--primary); border-color: color-mix(in srgb, var
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Pantallas estrechas: las URLs largas no deben ensanchar la página ---------- */
+.r-card,
+.r-card__body { min-width: 0; }
+
+.r-card__citation,
+.r-citation { overflow-wrap: anywhere; }
