@@ -403,7 +403,7 @@
   box-shadow: var(--u-shadow);
 }
 
-/* "Antes de empezar": bloque oscuro destacado */
+/* "Antes de empezar": bloque destacado al inicio de la actividad */
 .a-side-card--dark {
   background: linear-gradient(135deg, var(--bg-hero), var(--footer-bg));
   border-color: color-mix(in srgb, var(--accent) 25%, transparent);
@@ -414,6 +414,80 @@
 
 .a-side-text { margin: 0 0 12px; font-size: .88rem; line-height: 1.6; color: var(--text-soft); }
 .a-side-link { display: inline-flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 600; }
+
+.a-card--antes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 18px 24px;
+}
+
+.a-card--antes .a-antes__content {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.a-card--antes .a-side-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--accent);
+}
+
+.a-card--antes .a-side-title i {
+  font-size: .95rem;
+}
+
+.a-card--antes .a-side-text {
+  margin: 0;
+  font-size: .92rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+}
+
+.a-card--antes .a-side-link {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .9rem;
+  transition: all .2s ease;
+  white-space: nowrap;
+}
+
+.a-card--antes .a-side-link:hover {
+  background: var(--accent);
+  color: var(--bg-main);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+@media (max-width: 640px) {
+  .a-card--antes {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px 18px;
+  }
+  .a-card--antes .a-side-link {
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
 
 .a-side-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
 .a-side-list + .a-side-list {
