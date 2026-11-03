@@ -123,21 +123,39 @@
         contenedor.replaceChildren(marca, botonMenu, menu);
     }
 
-    /** Comportamiento de la barra (visibilidad y menú móvil). */
+    /** Comportamiento de la barra (visibilidad inteligente al scroll y menu movil). */
     function activarComportamiento(siteNav) {
         const navToggle = siteNav.querySelector('.nav-toggle');
-        const mainNavigation = siteNav.querySelector(`#${ID_MENU}`);
-        const consultaMovil = window.matchMedia(CONFIG.consultaMovil);
+        const mainNavigation = siteNav.querySelector('#' + ID_MENU);
         let pointerAtTop = false;
+        let ultimoScrollY = Math.max(0, window.scrollY);
 
         function updateNavigation() {
-            const atTop = window.scrollY <= CONFIG.scrollSuperior;
+            const scrollY = Math.max(0, window.scrollY);
+            const atTop = scrollY <= CONFIG.scrollSuperior;
             const isFocused = siteNav.contains(document.activeElement);
             const isOpen = mainNavigation && mainNavigation.classList.contains('is-open');
+            const delta = scrollY - ultimoScrollY;
+            const scrollingUp = delta < -4;
+            const scrollingDown = delta > 4;
 
-            const visible = consultaMovil.matches || atTop || pointerAtTop || isFocused || isOpen;
+            let visible;
+            if (isOpen || isFocused) {
+                visible = true;
+            } else if (atTop) {
+                visible = true;
+            } else if (scrollingDown) {
+                visible = false;
+                pointerAtTop = false;
+            } else if (scrollingUp || pointerAtTop) {
+                visible = true;
+            } else {
+                visible = !siteNav.classList.contains('is-hidden');
+            }
+
             siteNav.classList.toggle('is-hidden', !visible);
             siteNav.classList.toggle('is-at-top', atTop);
+            ultimoScrollY = scrollY;
         }
 
         document.addEventListener('mousemove', e => {
@@ -155,7 +173,11 @@
         });
 
         window.addEventListener('scroll', () => {
-            pointerAtTop = false;
+            const scrollY = Math.max(0, window.scrollY);
+            if (mainNavigation && mainNavigation.classList.contains('is-open') && scrollY > ultimoScrollY + 12) {
+                mainNavigation.classList.remove('is-open');
+                if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
+            }
             updateNavigation();
         }, { passive: true });
 
@@ -175,6 +197,25 @@
                 mainNavigation.classList.remove('is-open');
                 navToggle.setAttribute('aria-expanded', 'false');
                 updateNavigation();
+            });
+
+            // Cerrar menu al hacer clic fuera de la barra
+            document.addEventListener('click', e => {
+                if (mainNavigation.classList.contains('is-open') && !siteNav.contains(e.target)) {
+                    mainNavigation.classList.remove('is-open');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                    updateNavigation();
+                }
+            });
+
+            // Cerrar menu al presionar Escape
+            document.addEventListener('keydown', e => {
+                if (e.key === 'Escape' && mainNavigation.classList.contains('is-open')) {
+                    mainNavigation.classList.remove('is-open');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                    navToggle.focus();
+                    updateNavigation();
+                }
             });
         }
 

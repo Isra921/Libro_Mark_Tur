@@ -106,12 +106,11 @@ a:hover {
 }
 
 .site-nav.is-hidden {
-  transform: translate(-50%, -135%);
-  opacity: 0;
-  pointer-events: none;
+  transform: translate(-50%, -150%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
-.site-nav:hover,
 .site-nav:focus-within,
 .site-nav.is-at-top {
   transform: translate(-50%, 0);
@@ -238,10 +237,16 @@ body.pagina-inicio .site-nav .brand-logo {
   .site-nav {
     width: calc(100% - 24px);
     top: 8px;
-    padding: 10px 16px;
+    padding: 8px 14px;
+    min-height: 52px;
     border-radius: 18px;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
+  }
+  .site-nav.is-hidden {
+    transform: translate(-50%, -150%) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
   .site-nav .brand {
     flex: 1 1 auto;
