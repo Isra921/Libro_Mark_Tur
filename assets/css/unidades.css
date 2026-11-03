@@ -41,7 +41,7 @@
 /* ---------- Rejilla ---------- */
 .u-units {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: var(--u-gap);
 }
 
@@ -146,5 +146,8 @@
 }
 
 @media (max-width: 600px) {
-  .u-unit-card { padding: 22px 20px; }
+  .u-units { grid-template-columns: 1fr; }
+  .u-unit-card { padding: 20px 16px; }
+  .u-page-head { gap: 16px; margin-bottom: 24px; }
+  .u-page-head h1 { font-size: clamp(1.6rem, 6vw, 2.2rem); }
 }

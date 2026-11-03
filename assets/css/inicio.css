@@ -1899,122 +1899,46 @@ button.modal-subsection:hover { background: var(--surface-hover); color: var(--t
 .creator-info p { margin: 5px 0; font-size: .84rem; line-height: 1.5; }
 .collaborator-grid { gap: 12px; }
 
-@media (max-width: 760px) {
-    .site-nav {
-        left: 0;
-        width: 100%;
-        padding: 10px 16px;
-        transform: translateY(0);
-    }
-    .site-nav.is-hidden { transform: translateY(-105%); }
-    .nav-toggle {
-        display: block;
-        position: absolute;
-        top: 12px;
-        right: 16px;
-        width: 38px;
-        height: 34px;
-        border: 1px solid var(--border-color);
-        border-radius: 8px;
-        background: transparent;
-        color: var(--text-light);
-        cursor: pointer;
-    }
-    .site-nav nav {
-        display: none;
-        padding-top: 10px;
-    }
-    .site-nav nav.is-open { display: flex; }
-    .site-nav nav a { padding: 8px 0; }
-    .hero-section { margin-top: 72px; padding-top: 24px; }
-    .hero-institutional {
-        grid-template-columns: 72px minmax(0, 1fr) 72px;
-        gap: 14px;
-    }
-    .hero-institutional > img { height: 74px; }
-    .hero-title-lockup .institutional-line { white-space: normal; }
-    .hero-title-lockup h1 { font-size: clamp(1.9rem, 7.8vw, 3.2rem); }
+/* ==========================================================================
+   PORTADA Y COMPONENTES PRINCIPALES (RESPONSIVO MOVIL Y ESCRITORIO)
+   ========================================================================== */
+
+/* Contenedor principal de la pagina */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-@media (max-width: 500px) {
-    .site-nav { min-height: 58px; }
-    .site-nav nav { justify-content: space-around; }
-    .hero-section { margin-top: 64px; }
-    .hero-institutional {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "ipn escom" "title title";
-        gap: 14px;
-    }
-    .hero-institutional > img:first-child { grid-area: ipn; }
-    .hero-institutional > img:last-child { grid-area: escom; }
-    .hero-title-lockup { grid-area: title; }
-    .hero-institutional > img { height: 62px; }
-    .quick-links { grid-template-columns: 1fr; }
-    .welcome-content { max-height: 300px; }
+/* Hero Section (Escritorio) */
+.hero-section {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr) 180px;
+    column-gap: 24px;
+    row-gap: 16px;
+    align-items: center;
+    margin-top: 88px;
+    padding: clamp(24px, 4vw, 36px) clamp(16px, 3.5vw, 40px);
+    background:
+        radial-gradient(circle at 8% 20%, color-mix(in srgb, var(--primary) 12%, transparent) 0 2px, transparent 3px),
+        radial-gradient(circle at 92% 72%, color-mix(in srgb, var(--accent) 12%, transparent) 0 2px, transparent 3px),
+        var(--bg-deep);
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--shadow-color) 30%, transparent);
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
 }
 
-
-
-/* Consolidación de la corrección del inicio. */
-.site-nav {
-    top: 12px; left: 50%; width: min(calc(100% - 48px), 1184px);
-    border-radius: 24px; background: var(--bg-section);
-    transform: translate(-50%, 0); transition: transform .18s ease, opacity .18s ease;
+.hero-emblem {
+    display: block;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
 }
-.site-nav.is-hidden { transform: translate(-50%, -130%); opacity: 0; pointer-events: none; }
-.site-nav:focus-within { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }
-.hero-section { margin-top: 88px; }
-.hero-institutional { grid-template-columns: 140px minmax(0, 1fr) 140px; gap: 24px; }
-.hero-title-lockup { container-type: inline-size; }
-.hero-title-lockup h1 { font-size: clamp(1rem, 7.8cqi, 3.4rem); letter-spacing: -.035em; }
-.hero-subject { white-space: nowrap; }
-.hero-title-lockup .institutional-line { white-space: normal; }
-.hero-institutional > img { object-fit: contain; justify-self: center; }
-.hero-institutional > img:first-child { height: 154px; }
-.hero-institutional > img:last-child { height: 116px; }
-.welcome-section { grid-template-columns: 1fr 1fr; gap: 32px; }
-.welcome-content { max-height: 470px; padding: 12px 18px 12px 0; mask-image: linear-gradient(transparent, var(--shadow-color) 12px, var(--shadow-color) calc(100% - 12px), transparent); -webkit-mask-image: linear-gradient(transparent, var(--shadow-color) 12px, var(--shadow-color) calc(100% - 12px), transparent); }
-.welcome-content p:last-child { margin-bottom: 0; }
-.material-panel { border-radius: 24px; }
-.quick-link { min-height: 92px; padding: 16px; font-size: 1rem; align-items: center; gap: 12px; }
-.quick-link i { font-size: 1.25rem; flex-shrink: 0; }
-.modal-content { padding: 0; overflow: hidden; }
-.modal-content > .modal-body { max-height: min(82vh, 720px); overflow-y: auto; padding: 50px 24px 24px; }
-.modal-close-btn { top: 8px; right: 10px; z-index: 5; width: 36px; height: 36px; border-radius: 50%; background: var(--bg-deep); color: var(--text-light); }
-.modal-subsection-nav, .activity-subsections { position: sticky; top: 0; z-index: 3; padding: 10px 0; padding-right: 32px; background: var(--bg-main); }
-.modal-subsection.active { background: var(--surface); }
-.creator-block { align-items: center; gap: 20px; }
-.creator-block img { width: 100px; height: 100px; flex-shrink: 0; }
-.creator-info p { font-size: .95rem; }
-.collaborator-card { padding: 16px; border: 1px solid var(--border-color); border-radius: 18px; }
-.collaborator-card img { width: 96px; height: 96px; object-fit: cover; }
-.collaborator-info { min-width: 0; overflow-wrap: anywhere; }
-[hidden] { display: none !important; }
-a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
-@media (max-width: 1000px) {
-    .hero-institutional { grid-template-columns: 100px minmax(0, 1fr) 100px; gap: 16px; }
-    .welcome-section { grid-template-columns: 1fr; }
-}
-@media (max-width: 760px) {
-    .site-nav { left: 50%; width: calc(100% - 24px); top: 8px; transform: translate(-50%, 0); padding-right: 64px; }
-    .site-nav.is-hidden, .site-nav:focus-within { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }
-    .hero-institutional { grid-template-columns: 72px minmax(0, 1fr) 72px; gap: 12px; }
-    .hero-institutional > img:first-child { height: 90px; }
-    .hero-institutional > img:last-child { height: 70px; }
-}
-@media (max-width: 500px) {
-    .hero-institutional { grid-template-columns: 1fr 1fr; }
-    .hero-institutional > img:first-child { height: 82px; }
-    .hero-institutional > img:last-child { height: 64px; }
-    .material-panel { padding: 20px; }
-}
-@media (prefers-reduced-motion: reduce) { .site-nav, .quick-link { transition: none; } }
 
-.quick-link small { margin-top: 5px; font-size: .8rem; line-height: 1.45; }
-
-/* Alineación del hero y sistema compartido de ventanas del inicio. */
-.hero-section { display: grid; grid-template-columns: 180px minmax(0, 1fr) 180px; column-gap: 24px; align-items: center; }
-.hero-emblem { display: block; object-fit: contain; justify-self: center; align-self: center; max-width: 100%; }
 .hero-emblem-ipn {
     grid-column: 1;
     grid-row: 1 / 3;
@@ -2022,6 +1946,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
     height: 240px;
     filter: brightness(0) invert(1) drop-shadow(0 4px 14px rgba(0, 0, 0, 0.45));
 }
+
 .hero-emblem-est, .hero-emblem-escom {
     grid-column: 3;
     grid-row: 1 / 3;
@@ -2030,19 +1955,28 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
     object-fit: contain;
     background: transparent;
 }
-.hero-institutional { display: block; grid-column: 2; grid-row: 1; width: 100%; margin-bottom: 12px; }
-.hero-content { grid-column: 2; grid-row: 2; min-width: 0; }
-.hero-copy { width: 100%; }
 
-/* ==========================================================================
-   JERARQUÍA VISUAL DEL ENCABEZADO INSTITUCIONAL (EST-IPN)
-   1. Instituto Politécnico Nacional (Mayor tamaño, 1 sola línea)
-   2. Escuela Superior de Turismo (Tamaño menor que IPN, 1 sola línea)
-   3. Marketing en Turismo (El menor tamaño de los tres, hasta 2 líneas)
-   ========================================================================== */
+.hero-institutional {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.hero-content {
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 0;
+}
+
+.hero-copy {
+    width: 100%;
+    text-align: center;
+}
+
+/* Jerarquia institucional (IPN > EST > Materia) */
 .hero-title-lockup {
-    --hero-title-base: clamp(0.70rem, 1.2vw, 1.05rem);
-    container-type: inline-size;
     min-width: 0;
     width: 100%;
     text-align: center;
@@ -2050,86 +1984,596 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px s
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: clamp(8px, 1.2vw, 14px);
+    gap: clamp(6px, 1.2vw, 12px);
     margin: 0 auto;
 }
 
 .hero-title-ipn {
     display: block !important;
-    font-size: min(calc(var(--hero-title-base) * 3.2), 6.6cqi) !important;
+    font-size: clamp(1.35rem, 2.6vw, 2.45rem) !important;
     font-weight: 800 !important;
     color: var(--text-light, #ffffff) !important;
     letter-spacing: -0.02em !important;
     line-height: 1.15 !important;
-    white-space: nowrap !important;
-    overflow-wrap: normal !important;
     text-align: center !important;
     margin: 0 !important;
+    text-wrap: balance;
+    overflow-wrap: break-word !important;
 }
 
 .hero-title-est, .hero-title-escom {
     display: block !important;
-    font-size: min(calc(var(--hero-title-base) * 2.4), 5.0cqi) !important;
+    font-size: clamp(1.05rem, 2.0vw, 1.85rem) !important;
     font-weight: 700 !important;
     color: var(--text-light, #ffffff) !important;
     letter-spacing: -0.01em !important;
     line-height: 1.15 !important;
-    white-space: nowrap !important;
-    overflow-wrap: normal !important;
     text-align: center !important;
     margin: 0 !important;
+    text-wrap: balance;
+    overflow-wrap: break-word !important;
 }
 
 .hero-title-materia,
 .hero-title-lockup h1 {
     display: block !important;
-    font-size: min(calc(var(--hero-title-base) * 1.8), 3.8cqi) !important;
+    font-size: clamp(0.95rem, 1.6vw, 1.45rem) !important;
     font-weight: 600 !important;
     color: var(--primary, #34d399) !important;
     letter-spacing: 0.01em !important;
     line-height: 1.25 !important;
-    white-space: normal !important;
-    overflow-wrap: normal !important;
     text-align: center !important;
     max-width: 90% !important;
     margin: 0 !important;
+    text-wrap: balance;
+    overflow-wrap: break-word !important;
 }
 
-.welcome-section { align-items: center; }
-.welcome-content p { text-align: justify; hyphens: auto; }
-.material-panel { align-self: center; min-width: 0; }
-#modal-container .modal-content { display: flex; flex-direction: column; height: min(82vh, 720px); }
-#modal-container .modal-content > .modal-body { padding: 0; flex: 1; min-height: 0; overflow: hidden; max-height: none; }
-#modal-container .modal-section.active { display: flex; flex-direction: column; height: 100%; min-height: 0; }
-.section-modal-header { flex-shrink: 0; padding: 20px 60px 18px 24px; border-bottom: 1px solid var(--border-color); }
-.section-modal-header h3 { margin: 0; font-size: 1.4rem; text-align: left; }
-.section-modal-scroll { overflow-y: auto; min-height: 0; padding: 24px; flex: 1; }
-#modal-container .modal-subsection-nav, #modal-container .activity-subsections { position: static; flex-shrink: 0; display: flex; flex-wrap: wrap; gap: 0; margin: 0; padding: 0; background: color-mix(in srgb, var(--bg-hero) 48%, transparent); border-bottom: 1px solid var(--border-color); }
-#modal-container .modal-subsection, #glosarioModal .tab-btn { flex: 1; text-align: center; padding: 14px; margin: 0; border: 0; border-bottom: 3px solid transparent; border-radius: 0; font-size: 1rem; font-weight: 600; background: transparent; color: var(--accent); }
-#modal-container .modal-subsection.active, #glosarioModal .tab-btn.active { background: var(--primary); border-bottom-color: var(--primary); color: var(--text-light); }
-#modal-container .modal-subsection:hover, #glosarioModal .tab-btn:hover { background: var(--surface-hover); color: var(--text-light); }
-#modal-container .modal-close-btn, #glosarioModal .modal-close { position: absolute; top: 14px; right: 16px; width: 36px; height: 36px; padding: 0; display: grid; place-items: center; border: none; border-radius: 50%; background: color-mix(in srgb, var(--white) 10%, transparent); color: var(--text-light); font-size: 1.2rem; cursor: pointer; z-index: 5; transform: none; }
-#modal-container .modal-close-btn:hover, #glosarioModal .modal-close:hover { background: var(--surface-hover); transform: none; }
-#glosarioModal .modal-container { position: relative; }
-#glosarioModal .modal-header { padding: 20px 60px 18px 24px; flex-shrink: 0; }
-#glosarioModal .modal-tabs { flex-shrink: 0; }
-#modal-actividades .video-list a { display: flex; align-items: center; gap: 12px; width: 100%; color: var(--text-light); text-decoration: none; }
-#modal-actividades .video-list i { color: var(--icon-teal); font-size: 1.25rem; }
+.hero-description {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-soft);
+    margin: 14px auto 0;
+    max-width: 620px;
+    text-wrap: pretty;
+}
+
+/* Acciones principales */
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.cta-button,
+.secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-radius: 999px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.cta-button {
+    background: linear-gradient(135deg, var(--accent), var(--primary));
+    color: var(--footer-bg);
+    font-weight: 700;
+    box-shadow: 0 8px 20px color-mix(in srgb, var(--shadow-color) 25%, transparent);
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px color-mix(in srgb, var(--shadow-color) 35%, transparent);
+}
+
+.secondary-button {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--border-color);
+    font-weight: 600;
+}
+.secondary-button:hover {
+    border-color: var(--primary);
+    color: var(--text-light);
+    transform: translateY(-2px);
+}
+
+/* Estadisticas del curso */
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 26px auto 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--border-color);
+    max-width: 640px;
+}
+
+.hero-stats span {
+    color: var(--text-muted-light);
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.hero-stats strong {
+    display: block;
+    color: var(--text-light);
+    font-size: 1.35rem;
+    letter-spacing: 0;
+}
+
+/* Seccion de Bienvenida y Material */
+.welcome-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+
+.welcome-copy {
+    min-width: 0;
+}
+
+.welcome-copy h2 {
+    font-size: 1.75rem;
+    margin: 0 0 16px;
+    color: var(--text-light);
+}
+
+.welcome-content {
+    position: relative;
+    max-height: 470px;
+    overflow-y: auto;
+    padding: 4px 18px 4px 0;
+    mask-image: linear-gradient(transparent, var(--shadow-color) 12px, var(--shadow-color) calc(100% - 12px), transparent);
+    -webkit-mask-image: linear-gradient(transparent, var(--shadow-color) 12px, var(--shadow-color) calc(100% - 12px), transparent);
+}
+
+.welcome-content p {
+    margin: 0 0 14px;
+    color: var(--text-soft);
+    line-height: 1.7;
+    text-align: justify;
+    hyphens: auto;
+}
+.welcome-content p:last-child { margin-bottom: 0; }
+.welcome-content strong { color: var(--accent); }
+
+.material-panel {
+    background:
+        linear-gradient(135deg, color-mix(in srgb, var(--primary) 8%, transparent), transparent 55%),
+        color-mix(in srgb, var(--surface) 28%, transparent);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 24px;
+    min-width: 0;
+}
+
+.material-panel h3 {
+    margin: 0 0 18px;
+    font-size: 1.35rem;
+    color: var(--text-light);
+}
+
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.quick-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 86px;
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    color: var(--text-light);
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    font: inherit;
+}
+.quick-link:hover {
+    background: var(--surface-hover);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+.quick-link i {
+    font-size: 1.25rem;
+    color: var(--primary);
+    width: 22px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.quick-link span {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.quick-link small {
+    display: block;
+    color: var(--text-muted-light);
+    font-size: 0.78rem;
+    font-weight: 400;
+    line-height: 1.35;
+    margin-top: 4px;
+}
+
+/* Llamado a la accion final */
+.cta-section {
+    padding-top: 8px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* Modales */
+.modal-content {
+    background: var(--surface);
+    color: var(--text-light);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px color-mix(in srgb, var(--shadow-color) 70%, transparent);
+    max-width: 90vw;
+    width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+#modal-container .modal-content {
+    display: flex;
+    flex-direction: column;
+    height: min(84vh, 740px);
+}
+#modal-container .modal-content > .modal-body {
+    padding: 0;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    max-height: none;
+}
+#modal-container .modal-section.active {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+}
+.section-modal-header {
+    flex-shrink: 0;
+    padding: 20px 60px 18px 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+.section-modal-header h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    text-align: left;
+}
+.section-modal-scroll {
+    overflow-y: auto;
+    min-height: 0;
+    padding: 24px;
+    flex: 1;
+}
+#modal-container .modal-subsection-nav,
+#modal-container .activity-subsections {
+    position: static;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    background: color-mix(in srgb, var(--bg-hero) 48%, transparent);
+    border-bottom: 1px solid var(--border-color);
+}
+#modal-container .modal-subsection,
+#glosarioModal .tab-btn {
+    flex: 1;
+    text-align: center;
+    padding: 14px;
+    margin: 0;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    background: transparent;
+    color: var(--accent);
+    cursor: pointer;
+}
+#modal-container .modal-subsection.active,
+#glosarioModal .tab-btn.active {
+    background: var(--primary);
+    border-bottom-color: var(--primary);
+    color: var(--text-light);
+}
+#modal-container .modal-subsection:hover,
+#glosarioModal .tab-btn:hover {
+    background: var(--surface-hover);
+    color: var(--text-light);
+}
+#modal-container .modal-close-btn,
+#glosarioModal .modal-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--white) 10%, transparent);
+    color: var(--text-light);
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 5;
+    transition: background 0.2s ease;
+}
+#modal-container .modal-close-btn:hover,
+#glosarioModal .modal-close:hover {
+    background: var(--danger);
+}
+
+.creator-block { display: flex; align-items: center; gap: 20px; }
+.creator-block img { width: 100px; height: 100px; flex-shrink: 0; border-radius: 50%; }
+.creator-info p { font-size: .95rem; }
+.collaborator-card { padding: 16px; border: 1px solid var(--border-color); border-radius: 18px; }
+.collaborator-card img { width: 96px; height: 96px; object-fit: cover; border-radius: 50%; }
+.collaborator-info { min-width: 0; overflow-wrap: anywhere; }
+[hidden] { display: none !important; }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+
+/* ==========================================================================
+   ADAPTACIONES RESPONSIVAS PARA TABLETS Y MOVILES
+   ========================================================================== */
 @media (max-width: 1100px) {
-    .hero-section { grid-template-columns: 140px minmax(0, 1fr) 140px; gap: 16px; }
-    .hero-emblem-ipn { height: 210px; width: 140px; }
-    .hero-emblem-est, .hero-emblem-escom { height: 140px; width: 140px; }
-}
-@media (max-width: 760px) {
-    .hero-section { grid-template-columns: 1fr 1fr; }
-    .hero-emblem-ipn { grid-column: 1; grid-row: 1; height: 120px; width: 120px; }
-    .hero-emblem-est, .hero-emblem-escom { grid-column: 2; grid-row: 1; height: 90px; width: 120px; }
-    .hero-institutional { grid-column: 1 / -1; grid-row: 2; }
-    .hero-content { grid-column: 1 / -1; grid-row: 3; }
-    .hero-title-lockup { --hero-title-base: clamp(0.58rem, 2.0vw, 0.88rem); gap: 6px; }
-    .section-modal-scroll { padding: 18px; }
+    .hero-section {
+        grid-template-columns: 130px minmax(0, 1fr) 130px;
+        gap: 16px;
+    }
+    .hero-emblem-ipn { height: 180px; width: 130px; }
+    .hero-emblem-est, .hero-emblem-escom { height: 130px; width: 130px; }
 }
 
+@media (max-width: 850px) {
+    .hero-section {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 16px;
+        column-gap: 16px;
+        padding: 24px 16px 28px;
+        margin-top: 76px;
+    }
+    .hero-emblem-ipn {
+        grid-column: 1;
+        grid-row: 1;
+        max-height: 76px;
+        width: auto;
+        max-width: 110px;
+        object-fit: contain;
+    }
+    .hero-emblem-est, .hero-emblem-escom {
+        grid-column: 2;
+        grid-row: 1;
+        max-height: 64px;
+        width: auto;
+        max-width: 110px;
+        object-fit: contain;
+    }
+    .hero-institutional {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin-bottom: 4px;
+    }
+    .hero-content {
+        grid-column: 1 / -1;
+        grid-row: 3;
+    }
+    .hero-title-lockup {
+        gap: 6px;
+    }
+    .hero-title-ipn {
+        font-size: clamp(1.2rem, 5.2vw, 1.85rem) !important;
+        white-space: normal !important;
+    }
+    .hero-title-est, .hero-title-escom {
+        font-size: clamp(1rem, 4.2vw, 1.45rem) !important;
+        white-space: normal !important;
+    }
+    .hero-title-materia,
+    .hero-title-lockup h1 {
+        font-size: clamp(0.95rem, 3.8vw, 1.35rem) !important;
+        max-width: 100% !important;
+        white-space: normal !important;
+    }
+    .hero-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin: 14px auto 0;
+    }
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        align-items: stretch;
+        margin-top: 20px;
+    }
+    .cta-button, .secondary-button {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        min-height: 48px;
+    }
+    .hero-stats {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px 10px !important;
+        width: 100% !important;
+        margin: 20px auto 0 !important;
+        padding-top: 16px !important;
+    }
+    .hero-stats span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 8px 6px;
+        background: color-mix(in srgb, var(--surface) 35%, transparent);
+        border: 1px solid color-mix(in srgb, var(--border-color) 60%, transparent);
+        border-radius: 12px;
+        font-size: 0.72rem;
+        letter-spacing: 0.04em;
+    }
+    .hero-stats strong {
+        font-size: 1.35rem;
+        margin-bottom: 2px;
+    }
+    .welcome-section {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding-top: 18px;
+    }
+    .welcome-content {
+        max-height: none !important;
+        overflow: visible !important;
+        mask-image: none !important;
+        -webkit-mask-image: none !important;
+        padding-right: 0 !important;
+    }
+    .welcome-content p {
+        text-align: left !important;
+        font-size: 0.96rem;
+        line-height: 1.65;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+    .hero-section {
+        padding: 20px 12px 24px;
+        margin-top: 72px;
+    }
+    .hero-emblem-ipn {
+        max-height: 58px;
+        max-width: 85px;
+    }
+    .hero-emblem-est, .hero-emblem-escom {
+        max-height: 50px;
+        max-width: 85px;
+    }
+    .material-panel {
+        padding: 18px 14px;
+        border-radius: 18px;
+    }
+    .material-panel h3 {
+        font-size: 1.2rem;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    .quick-links {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
+    .quick-link {
+        min-height: auto !important;
+        padding: 14px 16px !important;
+        gap: 14px !important;
+        border-radius: 14px !important;
+        width: 100% !important;
+    }
+    .quick-link i {
+        font-size: 1.25rem !important;
+        width: 22px !important;
+    }
+    .quick-link span {
+        font-size: 0.95rem !important;
+    }
+    .quick-link small {
+        font-size: 0.78rem !important;
+        margin-top: 3px !important;
+    }
+    .cta-section {
+        padding: 16px 0 24px;
+        text-align: center;
+    }
+    .cta-section .cta-button {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        font-size: 0.95rem;
+        padding: 14px 18px;
+    }
+    .modal-overlay {
+        padding: 8px;
+    }
+    #modal-container .modal-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 94vh !important;
+        max-height: 94vh !important;
+        border-radius: 16px !important;
+    }
+    .section-modal-header {
+        padding: 14px 50px 14px 14px !important;
+    }
+    .section-modal-header h3 {
+        font-size: 1.15rem !important;
+    }
+    .section-modal-scroll {
+        padding: 14px !important;
+    }
+    .modal-close-btn {
+        top: 10px !important;
+        right: 10px !important;
+        width: 36px !important;
+        height: 36px !important;
+    }
+    #modal-container .modal-subsection-nav,
+    #modal-container .activity-subsections {
+        overflow-x: auto !important;
+        flex-wrap: nowrap !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding: 0 6px !important;
+    }
+    #modal-container .modal-subsection,
+    #glosarioModal .tab-btn {
+        flex: 0 0 auto !important;
+        white-space: nowrap !important;
+        padding: 10px 12px !important;
+        font-size: 0.85rem !important;
+    }
+    .diagnostic-panel {
+        padding: 12px !important;
+    }
+    .diagnostic-fields {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
+    .diagnostic-actions .cta-button,
+    .diagnostic-actions .secondary-button {
+        width: 100% !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-nav, .quick-link, .cta-button, .secondary-button {
+        transition: none !important;
+    }
+}
 /* --- ESTILOS DEL EXAMEN DIAGNÓSTICO --- */
 .diagnostic-notice {
     margin-bottom: 1.5rem;

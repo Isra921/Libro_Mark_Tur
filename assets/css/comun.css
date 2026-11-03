@@ -41,3 +41,21 @@ html {
 .site-nav .nav-toggle {
   color: var(--text-light);
 }
+
+/* Optimizacion de logos en navegacion movil */
+@media (max-width: 600px) {
+  .brand-logo--est, .brand-logo--esit {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .brand-logo--ipn {
+    height: 36px !important;
+    width: auto !important;
+  }
+  .site-nav .brand .brand-title {
+    font-size: 0.78rem;
+  }
+  .site-nav .brand .brand-sub {
+    font-size: 0.58rem;
+  }
+}

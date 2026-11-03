@@ -12,6 +12,7 @@
 html {
   color-scheme: dark;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -20,6 +21,9 @@ body {
   color: var(--text-light);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 0;
 }
 
 img {
@@ -237,9 +241,10 @@ body.pagina-inicio .site-nav .brand-logo {
     padding: 10px 16px;
     border-radius: 18px;
     flex-wrap: wrap;
+    gap: 12px;
   }
   .site-nav .brand {
-    flex: 1 1 0;
+    flex: 1 1 auto;
     min-width: 0;
   }
   .site-nav .nav-toggle {
@@ -249,19 +254,34 @@ body.pagina-inicio .site-nav .brand-logo {
     flex-shrink: 0;
     min-width: 44px;
     min-height: 44px;
+    cursor: pointer;
   }
   .site-nav nav {
     display: none;
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+    align-items: stretch;
+    gap: 6px;
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 12px;
     border-top: 1px solid var(--border-color);
+    max-height: calc(85vh - 70px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .site-nav nav.is-open {
     display: flex;
+  }
+  .site-nav nav a {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 0.88rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  .site-nav nav a:hover,
+  .site-nav nav a:focus {
+    background: var(--surface-hover);
   }
 }
 

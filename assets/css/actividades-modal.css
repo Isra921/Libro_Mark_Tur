@@ -20,7 +20,7 @@
 
 .act-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 16px;
   margin-bottom: 20px;
 }
@@ -170,5 +170,14 @@
 @media (max-width: 680px) {
   .act-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .act-grid {
+    grid-template-columns: 1fr;
+  }
+  .act-card {
+    padding: 16px;
   }
 }
