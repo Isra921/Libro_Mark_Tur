@@ -111,6 +111,10 @@
           "definicion": "División del mercado total en grupos homogéneos de viajeros con base en características demográficas, geográficas, psicográficas o conductuales."
         },
         {
+          "termino": "Turismo",
+          "definicion": "Actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual, por un periodo inferior a un año, con fines de ocio, negocios u otros motivos."
+        },
+        {
           "termino": "Turista",
           "definicion": "Visitante que permanece al menos una noche en un alojamiento colectivo o privado en el destino visitado."
         },
