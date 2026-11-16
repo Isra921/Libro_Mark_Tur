@@ -1,112 +1,112 @@
 [
   {
-    "pregunta": "¿Qué define la estrategia del plan de marketing frente a una táctica operativa?",
+    "pregunta": "¿Qué define la estrategia del plan de marketing según OpenStax (2023h)?",
     "opciones": [
-      "La estrategia marca la dirección general (a quién dirigirse, qué valor ofrecer y cómo competir); la táctica concreta las acciones específicas.",
-      "La estrategia la define el recepcionista y la táctica el director general.",
-      "La estrategia solo dura un día y la táctica dura cinco años.",
-      "Son términos idénticos que pueden usarse indistintamente."
+      "Una dirección: segmento prioritario, propuesta de valor y forma de competir.",
+      "Una tarea operativa aislada como publicar un anuncio en redes sociales.",
+      "Un reglamento interno de horarios y turnos del personal hotelero.",
+      "Un listado contable de facturas y comprobantes de compras operativas."
     ],
-    "respuesta_correcta": "La estrategia marca la dirección general (a quién dirigirse, qué valor ofrecer y cómo competir); la táctica concreta las acciones específicas.",
-    "explicacion": "La estrategia es el rumbo estratégico; las tácticas son los pasos concretos con responsables, fechas y métricas."
+    "respuesta_correcta": "Una dirección: segmento prioritario, propuesta de valor y forma de competir.",
+    "explicacion": "La estrategia marca el rumbo conectando diagnóstico con objetivos, propuesta de valor y coordinación de las 4P."
   },
   {
-    "pregunta": "¿Qué analiza el modelo de brechas de calidad en el servicio (Gap Model) según OpenStax (2023a)?",
+    "pregunta": "¿Qué exige la implementación de una estrategia comercial?",
     "opciones": [
-      "Las discrepancias entre las expectativas del visitante y los estándares, la prestación operativa y las promesas publicitarias de la empresa.",
-      "La diferencia de altitud geográfica entre el punto de origen y el destino turístico.",
-      "La brecha salarial entre hombres y mujeres en el sector de la aviación.",
-      "La distancia en kilómetros entre el hotel y el aeropuerto más cercano."
+      "Responsables, recursos, calendario y coordinación operativa.",
+      "Únicamente el diseño gráfico de logotipos y folletos publicitarios.",
+      "Prescindir de metas cuantitativas para mantener flexibilidad total.",
+      "Aprobar gastos promocionales sin definir quién ejecutará cada actividad."
     ],
-    "respuesta_correcta": "Las discrepancias entre las expectativas del visitante y los estándares, la prestación operativa y las promesas publicitarias de la empresa.",
-    "explicacion": "El modelo de brechas audita dónde se fractura la experiencia del cliente para aplicar mejora continua."
+    "respuesta_correcta": "Responsables, recursos, calendario y coordinación operativa.",
+    "explicacion": "Llevar la estrategia a la realidad requiere asignar responsables, recursos, fechas precisas y articulación operativa."
   },
   {
-    "pregunta": "En la mejora continua de producto para el hotel boutique, ¿cuál es el ciclo metodológico recomendado?",
+    "pregunta": "¿Qué criterios conviene valorar para seleccionar alternativas estratégicas?",
     "opciones": [
-      "Diagnosticar fallas reales (ej. quejas por ruido), introducir un cambio medible, evaluar su efecto y estandarizarlo o corregirlo.",
-      "Añadir servicios de lujo sin resolver problemas básicos de las habitaciones.",
-      "Pintar la fachada cada semana sin consultar a los huéspedes.",
-      "Eliminar el servicio de limpieza para recortar costos variables."
+      "Su relación con el problema detectado, beneficio esperado, costo, capacidad de ejecución y riesgo.",
+      "Únicamente la preferencia personal del gerente sin considerar el presupuesto.",
+      "Exclusivamente el costo más bajo independientemente de si resuelve el problema.",
+      "Copiar la publicidad de competidores sin evaluar la capacidad propia."
     ],
-    "respuesta_correcta": "Diagnosticar fallas reales (ej. quejas por ruido), introducir un cambio medible, evaluar su efecto y estandarizarlo o corregirlo.",
-    "explicacion": "Resolver fallas básicas de descanso es prioritario antes de incorporar servicios costosos que no impactan la satisfacción."
+    "respuesta_correcta": "Su relación con el problema detectado, beneficio esperado, costo, capacidad de ejecución y riesgo.",
+    "explicacion": "Las alternativas deben sopesar relación con el problema, beneficio, costo, viabilidad de ejecución y riesgos."
   },
   {
-    "pregunta": "¿Qué variables debe sopesar una política de precios turística según OpenStax (2023b)?",
+    "pregunta": "¿En qué consiste el modelo de brechas de calidad en la mejora continua de producto (OpenStax, 2023a)?",
     "opciones": [
-      "Objetivos comerciales, comportamiento de la demanda, costos de operación, entorno competitivo y valor percibido por el cliente.",
-      "Únicamente el precio que cobre el hotel más antiguo de la ciudad.",
-      "El salario mínimo general vigente dividido entre los días del año.",
-      "El costo de impresión de los folletos promocionales."
+      "En revisar fallas en el conocimiento de expectativas, los estándares, la prestación y las promesas de comunicación.",
+      "En medir exclusivamente los tiempos de limpieza de las habitaciones hoteleras.",
+      "En comparar los precios de habitaciones con el promedio del destino.",
+      "En auditar si el logotipo corporativo cumple con las normas de diseño gráfico."
     ],
-    "respuesta_correcta": "Objetivos comerciales, comportamiento de la demanda, costos de operación, entorno competitivo y valor percibido por el cliente.",
-    "explicacion": "Fijar precios exige equilibrio entre viabilidad de costos, posicionamiento competitivo y disposición al pago del viajero."
+    "respuesta_correcta": "En revisar fallas en el conocimiento de expectativas, los estándares, la prestación y las promesas de comunicación.",
+    "explicacion": "El modelo de brechas identifica dónde se produce la discrepancia entre lo que espera el visitante y lo que recibe."
   },
   {
-    "pregunta": "¿Por qué un paquete de dos noches con desayuno artesanal puede resultar más conveniente que una tarifa con descuento simple?",
+    "pregunta": "¿Cuál es el ciclo propuesto para la mejora continua del producto turístico?",
     "opciones": [
-      "Porque eleva el valor percibido por el huésped y protege el margen de contribución unitario sin abaratar la marca.",
-      "Porque la ley obliga a incluir desayunos en todos los hoteles de México.",
-      "Porque los desayunos reducen automáticamente los impuestos hoteleros.",
-      "Porque las agencias de viajes exigen que los paquetes duren mínimo un mes."
+      "Diagnosticar, introducir un cambio, medir su efecto y conservarlo o corregirlo.",
+      "Añadir nuevos servicios continuamente sin medir la satisfacción de los huéspedes.",
+      "Bajar los precios cada vez que se detecte una queja de servicio.",
+      "Cambiar el menú del restaurante cada semana sin consultar a los comensales."
     ],
-    "respuesta_correcta": "Porque eleva el valor percibido por el huésped y protege el margen de contribución unitario sin abaratar la marca.",
-    "explicacion": "Empaquetar servicios complementarios ofrece ventajas perceptibles al cliente sin desatar una guerra de precios."
+    "respuesta_correcta": "Diagnosticar, introducir un cambio, medir su efecto y conservarlo o corregirlo.",
+    "explicacion": "Añadir servicios sin resolver fallas básicas aumenta costos sin mejorar la experiencia del visitante."
   },
   {
-    "pregunta": "¿En qué consiste una prueba A/B en la mejora continua de la promoción según OpenStax (2023c)?",
+    "pregunta": "¿Qué elementos considera la política de precios según OpenStax (2023b)?",
     "opciones": [
-      "Probar dos mensajes o creatividades publicitarias con públicos comparables durante el mismo periodo para medir cuál genera más conversiones.",
-      "Cambiar el precio, el logotipo y el público meta al mismo tiempo en una sola campaña.",
-      "Publicar el mismo anuncio dos veces en el mismo periódico matutino.",
-      "Alternar el color del uniforme del personal en días pares e impares."
+      "Objetivos, demanda, costos, entorno competitivo y valor percibido.",
+      "Únicamente el costo de los insumos sin considerar a los competidores.",
+      "Exclusivamente la intuición del área de ventas en cada temporada.",
+      "Solo las comisiones que cobran las agencias de viajes intermediarias."
     ],
-    "respuesta_correcta": "Probar dos mensajes o creatividades publicitarias con públicos comparables durante el mismo periodo para medir cuál genera más conversiones.",
-    "explicacion": "Mantener constantes las demás variables permite aislar con precisión el impacto del mensaje en las consultas calificadas."
+    "respuesta_correcta": "Objetivos, demanda, costos, entorno competitivo y valor percibido.",
+    "explicacion": "El precio debe articular objetivos, demanda, costos, competencia y valor percibido, manteniendo coherencia con el posicionamiento."
   },
   {
-    "pregunta": "¿Qué riesgo metodológico ocurre si se modifican simultáneamente el precio, el público y el anuncio publicitario?",
+    "pregunta": "En la mejora de precios del hotel boutique, ¿por qué un mayor volumen de ventas puede ser poco conveniente?",
     "opciones": [
-      "Resulta imposible identificar cuál de los factores produjo el incremento o decremento en los resultados comerciales.",
-      "Se duplican automáticamente los costos fiscales de la empresa.",
-      "El servidor web colapsa por exceso de datos incompatibles.",
-      "Las plataformas de búsqueda cancelan las cuentas publicitarias."
+      "Porque si el margen de contribución se reduce demasiado, la sostenibilidad económica del servicio se compromete.",
+      "Porque los hoteles nunca deben tener más de diez habitaciones ocupadas.",
+      "Porque los huéspedes que pagan menos siempre exigen más servicios.",
+      "Porque el volumen de ventas no influye en los ingresos totales del negocio."
     ],
-    "respuesta_correcta": "Resulta imposible identificar cuál de los factores produjo el incremento o decremento en los resultados comerciales.",
-    "explicacion": "Para aprender de un experimento comercial, las variables deben aislarse y evaluarse de forma controlada."
+    "respuesta_correcta": "Porque si el margen de contribución se reduce demasiado, la sostenibilidad económica del servicio se compromete.",
+    "explicacion": "Vender más habitaciones con tarifas castigadas puede deteriorar el margen neto y no cubrir los costos variables."
   },
   {
-    "pregunta": "¿Qué aspecto técnico del canal de plaza (distribución) es crítico auditar en el motor de reservas del hotel?",
+    "pregunta": "¿Qué herramientas puede combinar la mezcla de promoción según OpenStax (2023c)?",
     "opciones": [
-      "Que funcione con fluidez y velocidad en teléfonos móviles, muestre inventario real y desglose con claridad el precio total.",
-      "Que tenga animaciones pesadas y música de fondo automática obligatoria.",
-      "Que exija crear una cuenta con contraseña de 20 caracteres antes de ver tarifas.",
-      "Que solo acepte cheques certificados de bancos internacionales."
+      "Publicidad, relaciones públicas, venta personal, promoción de ventas y marketing directo.",
+      "Únicamente volantes impresos y anuncios en periódicos locales.",
+      "Exclusivamente descuentos directos en el mostrador del establecimiento.",
+      "Solo el diseño del sitio web sin difusión ni atención personalizada."
     ],
-    "respuesta_correcta": "Que funcione con fluidez y velocidad en teléfonos móviles, muestre inventario real y desglose con claridad el precio total.",
-    "explicacion": "La fricción en pantallas móviles y la falta de transparencia en cargos finales provocan la mayoría de los abandonos de compra."
+    "respuesta_correcta": "Publicidad, relaciones públicas, venta personal, promoción de ventas y marketing directo.",
+    "explicacion": "La mezcla promocional coordina estas cinco herramientas para evitar mensajes contradictorios ante el público."
   },
   {
-    "pregunta": "¿Por qué la venta directa suele aportar mayor margen de contribución que una agencia online (OTA)?",
+    "pregunta": "¿Qué riesgo ocurre si se modifican simultáneamente el precio, el público y la pieza publicitaria en una prueba de promoción?",
     "opciones": [
-      "Porque la venta directa ahorra las comisiones de intermediación del 15% al 22% que cobran las plataformas terceras.",
-      "Porque los clientes directos pagan el triple de la tarifa regular.",
-      "Porque en venta directa no se pagan costos de electricidad ni sueldos.",
-      "Porque las OTAs están obligadas a transferir sus comisiones al gobierno."
+      "Sería difícil identificar qué factor produjo el resultado.",
+      "La campaña resultaría siempre gratuita para la empresa hotelera.",
+      "El motor de reservas aumentaría su velocidad de carga automáticamente.",
+      "Los competidores tendrían que retirar su publicidad de inmediato."
     ],
-    "respuesta_correcta": "Porque la venta directa ahorra las comisiones de intermediación del 15% al 22% que cobran las plataformas terceras.",
-    "explicacion": "Aunque la venta directa asume costos de captación propios, evita la elevada comisión porcentual de las OTAs."
+    "respuesta_correcta": "Sería difícil identificar qué factor produjo el resultado.",
+    "explicacion": "Para aislar causas y efectos, conviene probar dos mensajes sobre la misma oferta con públicos y periodos comparables."
   },
   {
-    "pregunta": "¿Cuál es el propósito central de coordinar las 4P bajo un mismo plan estratégico?",
+    "pregunta": "En la mejora continua de la plaza (canales de distribución), ¿qué aspecto clave debe revisarse en el motor de reservas?",
     "opciones": [
-      "Garantizar que producto, precio, promoción y plaza sostengan de forma coherente la misma propuesta de valor y posicionamiento.",
-      "Evitar que el departamento de finanzas gaste dinero en salarios.",
-      "Cumplir con una formalidad estética exigida por las asociaciones hoteleras.",
-      "Lograr que todos los hoteles del país tengan la misma tarifa y menú."
+      "Si funciona en teléfono, muestra disponibilidad correcta y explica el precio total.",
+      "Si incluye animaciones de video pesadas en la página de inicio.",
+      "Si oculta los impuestos para mostrar una tarifa artificialmente baja.",
+      "Si exige registrarse con múltiples contraseñas antes de ver habitaciones."
     ],
-    "respuesta_correcta": "Garantizar que producto, precio, promoción y plaza sostengan de forma coherente la misma propuesta de valor y posicionamiento.",
-    "explicacion": "Una mezcla descoordinada confunde al consumidor y destruye la eficacia comercial de la empresa."
+    "respuesta_correcta": "Si funciona en teléfono, muestra disponibilidad correcta y explica el precio total.",
+    "explicacion": "El canal directo debe funcionar con fluidez en dispositivos móviles, reflejar inventario real y transparentar el costo total."
   }
 ]

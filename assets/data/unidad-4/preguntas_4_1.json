@@ -2,111 +2,111 @@
   {
     "pregunta": "¿Qué es la investigación de mercados según OpenStax (2023i)?",
     "opciones": [
-      "Un proceso organizado para obtener y analizar información útil para tomar una decisión comercial fundamentada.",
+      "Un proceso organizado para obtener y analizar información útil para una decisión comercial.",
       "Una campaña publicitaria masiva en medios impresos y digitales.",
-      "Un trámite fiscal obligatorio para registrar tarifas hoteleras.",
-      "Una auditoría contable de los egresos de combustible del último año."
+      "Un trámite fiscal obligatorio para registrar tarifas de hospedaje.",
+      "Una auditoría contable de los egresos operativos del último año."
     ],
-    "respuesta_correcta": "Un proceso organizado para obtener y analizar información útil para tomar una decisión comercial fundamentada.",
-    "explicacion": "Parte de un problema concreto, formula objetivos, diseña la recolección de datos y comunica hallazgos para orientar decisiones."
+    "respuesta_correcta": "Un proceso organizado para obtener y analizar información útil para una decisión comercial.",
+    "explicacion": "Parte de un problema definido, establece objetivos, diseña la obtención de datos y comunica hallazgos para orientar decisiones."
   },
   {
-    "pregunta": "¿Qué diferencia existe entre fuentes secundarias y fuentes primarias en la investigación de mercados turística?",
+    "pregunta": "¿Qué fuentes de información puede aprovechar la investigación de mercados?",
     "opciones": [
-      "Las secundarias son datos preexistentes recopilados por terceros (OMT, DataTur); las primarias se recaban ex profeso mediante encuestas o entrevistas.",
-      "Las secundarias se obtienen en internet y las primarias en bibliotecas físicas.",
-      "Las secundarias son gratuitas y las primarias siempre son confidenciales.",
-      "No existe diferencia; ambos términos aluden a las opiniones de redes sociales."
+      "Información secundaria ya existente y datos primarios obtenidos mediante encuestas, entrevistas, observación o experimentos.",
+      "Únicamente bases de datos privadas compradas a intermediarios comerciales.",
+      "Exclusivamente comentarios en redes sociales sin verificar su procedencia.",
+      "Registros contables internos sin consultar a los visitantes ni al mercado."
     ],
-    "respuesta_correcta": "Las secundarias son datos preexistentes recopilados por terceros (OMT, DataTur); las primarias se recaban ex profeso mediante encuestas o entrevistas.",
-    "explicacion": "Las fuentes secundarias ahorran tiempo para contextualizar, mientras que las primarias resuelven dudas directas de la empresa."
+    "respuesta_correcta": "Información secundaria ya existente y datos primarios obtenidos mediante encuestas, entrevistas, observación o experimentos.",
+    "explicacion": "Puede combinar información secundaria previa con datos primarios recolectados mediante encuestas, entrevistas, observación o experimentos."
   },
   {
-    "pregunta": "En el caso didáctico del hotel boutique de 20 habitaciones, ¿cuál es el objetivo comercial planteado?",
+    "pregunta": "En el caso didáctico del hotel boutique de 20 habitaciones, ¿cuál es el objetivo planteado?",
     "opciones": [
-      "Aumentar las reservas directas en días laborables (de domingo a jueves).",
-      "Construir 50 habitaciones nuevas con alberca olímpica.",
-      "Vender la propiedad a una cadena multinacional de resorts.",
-      "Eliminar por completo el servicio de desayuno artesanal."
+      "Aumentar las reservas directas de domingo a jueves.",
+      "Construir 50 habitaciones nuevas con áreas de alberca.",
+      "Vender la propiedad a una cadena hotelera multinacional.",
+      "Eliminar el servicio de desayuno artesanal para ahorrar costos."
     ],
-    "respuesta_correcta": "Aumentar las reservas directas en días laborables (de domingo a jueves).",
-    "explicacion": "El hotel busca resolver su desocupación estacional entre semana promoviendo reservas directas."
+    "respuesta_correcta": "Aumentar las reservas directas de domingo a jueves.",
+    "explicacion": "El caso hipotético plantea aumentar las reservas directas entre semana (de domingo a jueves) antes de anunciar descuentos."
   },
   {
-    "pregunta": "Si los prospectos que abandonan el proceso de reserva en el hotel boutique lo hacen por incertidumbre sobre el estacionamiento, ¿cuál es la acción correcta?",
+    "pregunta": "Si las personas abandonan la reserva en el hotel boutique por incertidumbre sobre el estacionamiento, ¿cuál es la respuesta adecuada?",
     "opciones": [
-      "Garantizar y aclarar el servicio de estacionamiento y facilitar la reserva, en lugar de bajar el precio.",
-      "Aplicar de inmediato un 50% de descuento en la tarifa de hospedaje.",
-      "Eliminar el estacionamiento para reducir los costos fijos.",
-      "Dejar de publicar la dirección del hotel en Google Maps."
+      "Aclarar ese servicio y facilitar la reserva, ya que bajar el precio no resolvería necesariamente la causa.",
+      "Aplicar de inmediato un descuento masivo en la tarifa de hospedaje.",
+      "Eliminar el estacionamiento para reducir los costos de mantenimiento.",
+      "Dejar de publicar información sobre la ubicación del establecimiento."
     ],
-    "respuesta_correcta": "Garantizar y aclarar el servicio de estacionamiento y facilitar la reserva, en lugar de bajar el precio.",
-    "explicacion": "Bajar el precio no resuelve la causa real de desconfianza del viajero y solo deteriora el margen de ganancia."
+    "respuesta_correcta": "Aclarar ese servicio y facilitar la reserva, ya que bajar el precio no resolvería necesariamente la causa.",
+    "explicacion": "Si el problema es la falta de claridad en el estacionamiento, bajar el precio no resuelve la causa real de la duda del viajero."
   },
   {
-    "pregunta": "¿Por qué una muestra obtenida únicamente de seguidores en redes sociales no representa automáticamente a todos los viajeros?",
+    "pregunta": "¿Por qué una muestra de seguidores de redes sociales no representa automáticamente a todos los viajeros?",
     "opciones": [
-      "Porque presenta un sesgo de selección hacia personas ya familiarizadas con la marca o con perfiles demográficos específicos.",
-      "Porque los seguidores de redes sociales nunca viajan en días de semana.",
-      "Porque la ley mexicana prohíbe realizar encuestas en plataformas digitales.",
-      "Porque las redes sociales no permiten procesar más de diez respuestas."
+      "Porque puede orientar una prueba inicial, pero no refleja la diversidad de todo el mercado viajero.",
+      "Porque los seguidores de redes sociales nunca realizan reservas de hospedaje.",
+      "Porque los datos de redes sociales siempre están prohibidos en la investigación.",
+      "Porque solo las agencias de viaje tradicionales representan a los consumidores."
     ],
-    "respuesta_correcta": "Porque presenta un sesgo de selección hacia personas ya familiarizadas con la marca o con perfiles demográficos específicos.",
-    "explicacion": "Los seguidores tienen mayor afinidad que el público general; extrapolar sus respuestas a todo el mercado genera sesgos."
+    "respuesta_correcta": "Porque puede orientar una prueba inicial, pero no refleja la diversidad de todo el mercado viajero.",
+    "explicacion": "Una muestra de redes orienta pruebas iniciales, pero se deben comunicar sus límites y pedir solo datos necesarios."
   },
   {
-    "pregunta": "¿Qué técnica de investigación es más idónea para explorar a profundidad las emociones, percepciones y motivos subjetivos de un viajero?",
+    "pregunta": "¿Qué relación debe existir entre la técnica de investigación y la pregunta planteada?",
     "opciones": [
-      "Una entrevista en profundidad o grupo de enfoque cualitativo",
-      "Una encuesta telefónica con respuestas cerradas de sí/no",
-      "Un censo poblacional del INEGI",
-      "Una prueba de laboratorio químico"
+      "La técnica debe corresponder a la pregunta: una entrevista explora motivos, mientras una encuesta describe respuestas de una muestra.",
+      "Debe aplicarse siempre la misma técnica sin importar el tipo de decisión comercial.",
+      "Las encuestas solo sirven para quejas y las entrevistas para definir tarifas.",
+      "La técnica depende únicamente del presupuesto disponible, no de la pregunta planteada."
     ],
-    "respuesta_correcta": "Una entrevista en profundidad o grupo de enfoque cualitativo",
-    "explicacion": "Las técnicas cualitativas permiten explorar vivencias y razonamientos que una encuesta estructurada no capta a fondo."
+    "respuesta_correcta": "La técnica debe corresponder a la pregunta: una entrevista explora motivos, mientras una encuesta describe respuestas de una muestra.",
+    "explicacion": "La técnica debe corresponder a la pregunta planteada para asegurar la calidad de la información obtenida."
   },
   {
-    "pregunta": "¿Qué información clave aportan las métricas de cancelación desglosadas por canal de venta en hotelería?",
+    "pregunta": "¿Qué aspectos permite estudiar la investigación de mercados en una empresa turística?",
     "opciones": [
-      "Permiten identificar qué canales generan reservas volátiles o especulativas y cuáles aportan huéspedes firmes.",
-      "El saldo bancario de los directivos de las agencias de viajes.",
-      "La velocidad de conexión de los servidores del hotel.",
-      "El pronóstico meteorológico para los próximos tres meses."
+      "Motivaciones de viaje, presupuesto, preferencias de alojamiento, medios de consulta y obstáculos para reservar.",
+      "Únicamente los aspectos fiscales e impuestos aplicables al hospedaje.",
+      "Solamente las tarifas de la competencia sin considerar al consumidor.",
+      "Exclusivamente las publicaciones y tendencias visuales de redes sociales."
     ],
-    "respuesta_correcta": "Permiten identificar qué canales generan reservas volátiles o especulativas y cuáles aportan huéspedes firmes.",
-    "explicacion": "Ciertas plataformas intermediarias presentan altas tasas de cancelación que distorsionan la ocupación real."
+    "respuesta_correcta": "Motivaciones de viaje, presupuesto, preferencias de alojamiento, medios de consulta y obstáculos para reservar.",
+    "explicacion": "Permite estudiar motivaciones de viaje, presupuesto, preferencias, medios de consulta y obstáculos que frenan la reserva."
   },
   {
-    "pregunta": "¿Cuál es el primer paso indispensable en cualquier plan de investigación de mercados exitoso?",
+    "pregunta": "¿De qué depende la calidad de la investigación de mercados según OpenStax (2023i)?",
     "opciones": [
-      "Definir con absoluta claridad el problema u oportunidad comercial que se busca resolver",
-      "Imprimir mil cuestionarios en papel",
-      "Comprar software publicitario costoso",
-      "Contratar encuestadores de campo"
+      "De cómo se selecciona a los participantes y cómo se redactan las preguntas.",
+      "Del número de páginas del reporte final y los gráficos decorativos.",
+      "De contratar siempre consultoras internacionales de alto costo.",
+      "De la cantidad de folletos impresos distribuidos en módulos turísticos."
     ],
-    "respuesta_correcta": "Definir con absoluta claridad el problema u oportunidad comercial que se busca resolver",
-    "explicacion": "Sin un problema bien delimitado, los datos recabados no orientarán decisiones gerenciales útiles."
+    "respuesta_correcta": "De cómo se selecciona a los participantes y cómo se redactan las preguntas.",
+    "explicacion": "La calidad de los datos depende directamente del rigor al seleccionar a los participantes y de la redacción de las preguntas."
   },
   {
-    "pregunta": "¿Qué principio ético rige la solicitud de datos personales a prospectos en investigaciones comerciales turísticas?",
+    "pregunta": "¿Qué principio debe seguirse al solicitar información a los participantes de un estudio?",
     "opciones": [
-      "Solicitar únicamente los datos estrictamente necesarios y comunicar con transparencia el propósito y confidencialidad.",
-      "Exigir estados de cuenta bancarios antes de responder la encuesta.",
-      "Vender las bases de correos electrónicos a empresas de publicidad externa.",
-      "Ocultar el nombre del hotel para evitar reclamos legales."
+      "Comunicar los límites de la muestra y solicitar únicamente los datos necesarios para la investigación.",
+      "Recopilar toda la información personal posible sin informar su uso.",
+      "Ocultar los propósitos del estudio para que las respuestas no se alteren.",
+      "Exigir pagos o depósitos a los participantes antes de contestar el cuestionario."
     ],
-    "respuesta_correcta": "Solicitar únicamente los datos estrictamente necesarios y comunicar con transparencia el propósito y confidencialidad.",
-    "explicacion": "La ética y normatividad de privacidad exigen proteger la información del usuario y evitar preguntas invasivas innecesarias."
+    "respuesta_correcta": "Comunicar los límites de la muestra y solicitar únicamente los datos necesarios para la investigación.",
+    "explicacion": "Es un principio ético y metodológico comunicar los límites muestrales y pedir solo los datos indispensables."
   },
   {
-    "pregunta": "¿Qué aspecto del comportamiento de compra debe investigarse para diseñar promociones efectivas entre semana?",
+    "pregunta": "Antes de anunciar descuentos de tarifas, ¿qué acciones previas de investigación se recomiendan para el hotel boutique?",
     "opciones": [
-      "La flexibilidad de horarios del segmento y su anticipación promedio de reserva.",
-      "El número de automóviles que posee el huésped en su domicilio.",
-      "La marca de su teléfono celular y su proveedor de telefonía.",
-      "El tipo de combustible que consume su vehículo particular."
+      "Revisar ocupación y cancelaciones por canal, entrevistar a huéspedes y preguntar a quienes abandonaron la reserva.",
+      "Lanzar de inmediato una campaña de anuncios pagados con rebajas de temporada.",
+      "Reducir el personal de recepción y limitar el horario de atención telefónica.",
+      "Aumentar el precio de las habitaciones para filtrar visitantes poco rentables."
     ],
-    "respuesta_correcta": "La flexibilidad de horarios del segmento y su anticipación promedio de reserva.",
-    "explicacion": "Conocer la flexibilidad horaria y la ventana de anticipación permite pautar ofertas en el momento oportuno de compra."
+    "respuesta_correcta": "Revisar ocupación y cancelaciones por canal, entrevistar a huéspedes y preguntar a quienes abandonaron la reserva.",
+    "explicacion": "Diagnosticar ocupación, cancelaciones y motivos de abandono permite identificar la causa real antes de bajar precios."
   }
 ]

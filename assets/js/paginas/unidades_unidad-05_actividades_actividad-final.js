@@ -1,6 +1,7 @@
 // ==========================================================================
-// SIMULADOR UNIDAD 5 · RUTA CRÍTICA Y CONTROL GERENCIAL
-// Senda Los Pinos · EST - IPN
+// SIMULADOR UNIDAD 5 · RUTA CRÍTICA (CPM) Y CONTROL GERENCIAL
+// Campaña Ecoturística (Recorridos de Naturaleza) · EST - IPN
+// Basado fielmente en el documento oficial de la Unidad 5
 // ==========================================================================
 
 let u5Module = 'cpm';
@@ -20,117 +21,161 @@ function setU5Module(mod) {
     if (mod === 'cpm') {
         btnCpm?.classList.add('active');
         panel.innerHTML = `
-            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#34d399;"><i class="fas fa-diagram-project"></i> Red de Actividades del Método CPM</h4>
+            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#34d399;"><i class="fas fa-diagram-project"></i> Tabla 2. Red de actividades hipotética (Método CPM)</h4>
             <div style="overflow-x:auto;">
                 <table style="width:100%; font-size:0.85rem; border-collapse:collapse; color:#fff;">
                     <thead>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.2); text-align:left;">
+                            <th style="padding:0.4rem;">Clave</th>
                             <th style="padding:0.4rem;">Actividad</th>
-                            <th style="padding:0.4rem;">Descripción</th>
-                            <th style="padding:0.4rem;">Precedencia</th>
-                            <th style="padding:0.4rem;">Duración</th>
-                            <th style="padding:0.4rem;">Holgura</th>
-                            <th style="padding:0.4rem;">Estado</th>
+                            <th style="padding:0.4rem;">Días</th>
+                            <th style="padding:0.4rem;">Predecesora</th>
+                            <th style="padding:0.4rem;">Holgura total</th>
+                            <th style="padding:0.4rem;">Estado CPM</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.06); background:rgba(239, 68, 68, 0.1);">
                             <td style="padding:0.4rem; font-weight:700; color:#f87171;">A</td>
-                            <td>Permisos y plan de capacidad de carga</td>
-                            <td>-</td>
-                            <td>4 semanas</td>
-                            <td style="color:#f87171; font-weight:700;">0 sem</td>
+                            <td>Estudio breve de visitantes</td>
+                            <td>3 días</td>
+                            <td>—</td>
+                            <td style="color:#f87171; font-weight:700;">0 días</td>
                             <td><span style="color:#f87171; font-size:0.75rem; font-weight:700;">CRÍTICA</span></td>
                         </tr>
-                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
-                            <td style="padding:0.4rem; font-weight:700;">B</td>
-                            <td>Diseño de experiencias con comunidades</td>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06); background:rgba(239, 68, 68, 0.1);">
+                            <td style="padding:0.4rem; font-weight:700; color:#f87171;">B</td>
+                            <td>Propuesta de valor y oferta</td>
+                            <td>2 días</td>
                             <td>A</td>
-                            <td>3 semanas</td>
-                            <td style="color:#34d399; font-weight:700;">2 sem</td>
-                            <td><span style="color:#34d399; font-size:0.75rem;">Flexible</span></td>
+                            <td style="color:#f87171; font-weight:700;">0 días</td>
+                            <td><span style="color:#f87171; font-size:0.75rem; font-weight:700;">CRÍTICA</span></td>
                         </tr>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.06); background:rgba(239, 68, 68, 0.1);">
                             <td style="padding:0.4rem; font-weight:700; color:#f87171;">C</td>
-                            <td>Adecuación física de senderos y señalética</td>
-                            <td>A</td>
-                            <td>5 semanas</td>
-                            <td style="color:#f87171; font-weight:700;">0 sem</td>
+                            <td>Fotografía y página de reservas</td>
+                            <td>4 días</td>
+                            <td>B</td>
+                            <td style="color:#f87171; font-weight:700;">0 días</td>
                             <td><span style="color:#f87171; font-size:0.75rem; font-weight:700;">CRÍTICA</span></td>
                         </tr>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
                             <td style="padding:0.4rem; font-weight:700;">D</td>
-                            <td>Desarrollo web y motor de reservas</td>
+                            <td>Acuerdos con prestadores</td>
+                            <td>3 días</td>
                             <td>B</td>
-                            <td>4 semanas</td>
-                            <td style="color:#34d399; font-weight:700;">2 sem</td>
-                            <td><span style="color:#34d399; font-size:0.75rem;">Flexible</span></td>
+                            <td style="color:#34d399; font-weight:700;">1 día</td>
+                            <td><span style="color:#34d399; font-size:0.75rem;">Con holgura (13 días)</span></td>
                         </tr>
                         <tr style="border-bottom:1px solid rgba(255,255,255,0.06); background:rgba(239, 68, 68, 0.1);">
                             <td style="padding:0.4rem; font-weight:700; color:#f87171;">E</td>
-                            <td>Campaña de prelanzamiento en medios</td>
-                            <td>C, D</td>
-                            <td>3 semanas</td>
-                            <td style="color:#f87171; font-weight:700;">0 sem</td>
+                            <td>Validación y lanzamiento</td>
+                            <td>2 días</td>
+                            <td>C y D</td>
+                            <td style="color:#f87171; font-weight:700;">0 días</td>
                             <td><span style="color:#f87171; font-size:0.75rem; font-weight:700;">CRÍTICA</span></td>
                         </tr>
                         <tr style="background:rgba(239, 68, 68, 0.1);">
                             <td style="padding:0.4rem; font-weight:700; color:#f87171;">F</td>
-                            <td>Capacitación y simulacro operativo</td>
+                            <td>Monitoreo inicial de campaña</td>
+                            <td>3 días</td>
                             <td>E</td>
-                            <td>2 semanas</td>
-                            <td style="color:#f87171; font-weight:700;">0 sem</td>
+                            <td style="color:#f87171; font-weight:700;">0 días</td>
                             <td><span style="color:#f87171; font-size:0.75rem; font-weight:700;">CRÍTICA</span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p style="margin:0.75rem 0 0; font-size:0.8rem; color:var(--text-muted);">
-                * Duración total del proyecto: <strong>14 semanas inamovibles</strong> (Ruta Crítica: A [4] + C [5] + E [3] + F [2]). Cualquier retraso en A, C, E o F posterga la inauguración.
+            <p style="margin:0.75rem 0 0; font-size:0.8rem; color:#94a3b8;">
+                <i class="fas fa-info-circle"></i> <strong>Ruta Crítica Oficial:</strong> A → B → C → E → F = 3 + 2 + 4 + 2 + 3 = <strong>14 días laborales</strong>. La alternativa A–B–D–E–F suma 13 días (la tarea D cuenta con 1 día de holgura total).
             </p>
         `;
-        logToConsole('[VISTA] Red CPM cargada. Ruta crítica identificada con holgura cero en 4 actividades.', 'info');
     } else if (mod === 'kpi') {
         btnKpi?.classList.add('active');
         panel.innerHTML = `
-            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#38bdf8;"><i class="fas fa-chart-line"></i> Tablero de Control de KPIs · Monitoreo Mensual</h4>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1rem;">
-                <div style="background:rgba(255,255,255,0.03); padding:0.75rem; border-radius:8px; border-left:4px solid #f59e0b;">
-                    <span style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Ocupación Temporada Alta</span>
-                    <p style="margin:0.25rem 0 0; font-size:1.1rem; font-weight:800; color:#fff;">Real: 62% <small style="color:var(--text-muted);">(Meta: 75%)</small></p>
-                    <span style="display:inline-block; margin-top:0.35rem; font-size:0.75rem; font-weight:700; color:#f59e0b;"><i class="fas fa-circle-exclamation"></i> Ámbar (-13%) · Lanzar 3x2 entre semana</span>
-                </div>
-
-                <div style="background:rgba(255,255,255,0.03); padding:0.75rem; border-radius:8px; border-left:4px solid #ef4444;">
-                    <span style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Costo Adquisición (CAC)</span>
-                    <p style="margin:0.25rem 0 0; font-size:1.1rem; font-weight:800; color:#fff;">Real: $490 <small style="color:var(--text-muted);">(Meta: $350 MXN)</small></p>
-                    <span style="display:inline-block; margin-top:0.35rem; font-size:0.75rem; font-weight:700; color:#ef4444;"><i class="fas fa-circle-xmark"></i> Rojo (+40%) · Pausar keywords caras</span>
-                </div>
-
-                <div style="background:rgba(255,255,255,0.03); padding:0.75rem; border-radius:8px; border-left:4px solid #10b981;">
-                    <span style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase;">Satisfacción Visitante (CSAT)</span>
-                    <p style="margin:0.25rem 0 0; font-size:1.1rem; font-weight:800; color:#fff;">Real: 94% <small style="color:var(--text-muted);">(Meta: 90%)</small></p>
-                    <span style="display:inline-block; margin-top:0.35rem; font-size:0.75rem; font-weight:700; color:#10b981;"><i class="fas fa-circle-check"></i> Verde (+4%) · Servicio consolidado</span>
-                </div>
+            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#38bdf8;"><i class="fas fa-chart-line"></i> Tabla 3. Resultados ficticios al cierre de la campaña</h4>
+            <div style="overflow-x:auto;">
+                <table style="width:100%; font-size:0.85rem; border-collapse:collapse; color:#fff;">
+                    <thead>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.2); text-align:left;">
+                            <th style="padding:0.4rem;">Indicador</th>
+                            <th style="padding:0.4rem;">Meta hipotética</th>
+                            <th style="padding:0.4rem;">Resultado</th>
+                            <th style="padding:0.4rem;">Semáforo</th>
+                            <th style="padding:0.4rem;">Interpretación oficial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
+                            <td style="padding:0.4rem; font-weight:700;">Reservas totales</td>
+                            <td>80</td>
+                            <td style="font-weight:700; color:#fbbf24;">68</td>
+                            <td><span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#fbbf24;"></span></td>
+                            <td>Se alcanzó 85% de la meta</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
+                            <td style="padding:0.4rem; font-weight:700;">Tasa de reserva web</td>
+                            <td>4.0%</td>
+                            <td style="font-weight:700; color:#fbbf24;">3.2%</td>
+                            <td><span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#fbbf24;"></span></td>
+                            <td>Revisar página y oferta (64 web + 4 teléfono sobre 2,000 sesiones)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
+                            <td style="padding:0.4rem; font-weight:700;">Costo por reserva</td>
+                            <td>$470 máximo</td>
+                            <td style="font-weight:700; color:#f87171;">$550</td>
+                            <td><span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#f87171;"></span></td>
+                            <td>Supera el límite previsto ($37,400 ÷ 68 = $550 MXN)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);">
+                            <td style="padding:0.4rem; font-weight:700;">Satisfacción del visitante</td>
+                            <td>≥ 4.5/5</td>
+                            <td style="font-weight:700; color:#34d399;">4.6/5</td>
+                            <td><span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#34d399;"></span></td>
+                            <td>Experiencia favorable (supera la meta)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:0.4rem; font-weight:700;">Presupuesto utilizado</td>
+                            <td>≤ $37,400</td>
+                            <td style="font-weight:700; color:#34d399;">$37,400</td>
+                            <td><span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#34d399;"></span></td>
+                            <td>Gasto dentro del límite aprobado</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         `;
-        logToConsole('[VISTA] Tablero de Control de KPIs activo. 1 semáforo verde, 1 ámbar y 1 alerta roja en CAC.', 'warning');
-    } else {
+    } else if (mod === 'presupuesto') {
         btnPres?.classList.add('active');
         panel.innerHTML = `
-            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#f59e0b;"><i class="fas fa-coins"></i> Presupuesto por Objetivos y Tareas ($215,000 MXN)</h4>
-            <ul style="margin:0; padding-left:1.2rem; font-size:0.85rem; color:var(--text-muted); line-height:1.7;">
-                <li><strong>Estudio de capacidad y permisos ambientales:</strong> $35,000 MXN (16.3%)</li>
-                <li><strong>Adecuación física de senderos y señalética ecológica:</strong> $65,000 MXN (30.2%)</li>
-                <li><strong>Desarrollo del motor de reserva web y pagos en línea:</strong> $40,000 MXN (18.6%)</li>
-                <li><strong>Campaña digital de prelanzamiento y relaciones públicas:</strong> $55,000 MXN (25.6%)</li>
-                <li><strong>Fondo de Contingencia Gerencial (10% de salvaguarda):</strong> $20,000 MXN (9.3%)</li>
-            </ul>
-            <p style="margin:0.75rem 0 0; font-size:0.85rem; font-weight:700; color:#34d399;">
-                Inversión Total Justificada: $215,000 MXN con retorno esperado de 3.2x sobre ingresos brutos de temporada.
+            <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:#fbbf24;"><i class="fas fa-coins"></i> Tabla 1. Presupuesto de marketing hipotético</h4>
+            <div style="overflow-x:auto;">
+                <table style="width:100%; font-size:0.85rem; border-collapse:collapse; color:#fff;">
+                    <thead>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.2); text-align:left;">
+                            <th style="padding:0.4rem;">Concepto</th>
+                            <th style="padding:0.4rem;">Finalidad</th>
+                            <th style="padding:0.4rem; text-align:right;">Importe (MXN)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Investigación de mercado</td><td>Definir público y mensajes</td><td style="text-align:right;">$3,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Fotografía y diseño</td><td>Crear materiales promocionales</td><td style="text-align:right;">$6,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Página de reservas</td><td>Captar solicitudes y pagos</td><td style="text-align:right;">$4,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Publicidad en redes</td><td>Promoción segmentada</td><td style="text-align:right;">$12,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Alianzas y colaboraciones</td><td>Difusión con actores locales</td><td style="text-align:right;">$5,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Correo y seguimiento</td><td>Atención y recordatorios</td><td style="text-align:right;">$2,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.06);"><td>Medición e informes</td><td>Evaluar resultados</td><td style="text-align:right;">$2,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.1); font-weight:700;"><td>Subtotal</td><td>Suma de actividades</td><td style="text-align:right;">$34,000</td></tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.1); color:#fbbf24;"><td>Contingencia (10%)</td><td>Reserva para ajustes</td><td style="text-align:right;">$3,400</td></tr>
+                        <tr style="font-weight:800; color:#34d399; font-size:0.95rem;"><td>TOTAL</td><td>Presupuesto autorizado</td><td style="text-align:right;">$37,400</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="margin:0.75rem 0 0; font-size:0.8rem; color:#94a3b8;">
+                <i class="fas fa-calculator"></i> <strong>Comprobación Financiera:</strong> 80 reservas a $1,250 = $100,000 MXN. Costo variable unitario = $650 MXN → Margen de contribución unitario = $600 MXN. Se requieren al menos 63 reservas (37,400 ÷ 600) para costear el presupuesto publicitario.
             </p>
         `;
-        logToConsole('[VISTA] Desglose presupuestal cargado. Fondo de contingencia del 10% asignado correctamente.', 'info');
     }
 }
 
@@ -144,8 +189,7 @@ function simularAuditoriaU5() {
     if (statusBadge) statusBadge.classList.add('transmitting');
     if (statusText) statusText.textContent = 'Ejecutando auditoría y cálculo de ruta crítica...';
 
-    logToConsole('
->>> AUDITORÍA OPERATIVA Y CONTROL DE PROYECTO', 'header');
+    logToConsole('>>> AUDITORÍA OPERATIVA Y CONTROL DE PROYECTO (UNIDAD 5)', 'header');
 
     setTimeout(() => {
         logToConsole('[FASE 1] Verificando holguras del método CPM (Pases hacia adelante y hacia atrás)...', 'info');
@@ -156,19 +200,19 @@ function simularAuditoriaU5() {
     }, 400);
 
     setTimeout(() => {
-        logToConsole('[FASE 2] Evaluando variaciones de KPIs del tablero de mando frente a metas financieras...', 'warning');
+        logToConsole('[FASE 2] Contrastando KPIs del tablero semanal frente a metas autorizadas...', 'warning');
         if (packetEl) {
             packetEl.className = 'channel-packet active-left';
             packetEl.textContent = 'KPI';
         }
-    }, 1200);
+    }, 1100);
 
     setTimeout(() => {
-        logToConsole('[DICTAMEN CPM] Rama crítica A-C-E-F avanza dentro de los plazos sin desviaciones.', 'success');
-        logToConsole('[GESTIÓN DE HOLGURAS] La rama B-D absorbió con éxito la demora bancaria sin mover la inauguración.', 'success');
-        logToConsole('[ACCIÓN CORRECTIVA ACTIVADA] Campaña digital reestructurada: CAC desciende de $490 a $335 retornando a semáforo verde.', 'success');
-        logToConsole('[REPORTE FINAL] Dictamen gerencial aprobado para presentación al Consejo Directivo.
-', 'header');
+        logToConsole('[DICTAMEN CPM] Ruta crítica A–B–C–E–F = 14 días laborales sin retrasos.', 'success');
+        logToConsole('[HOLGURA EVALUADA] Actividad D cuenta con 1 día de holgura total respecto a la red.', 'info');
+        logToConsole('[DESVIACIÓN DETECTADA] Cumplimiento de reservas: 85% (68 de 80) elevó el costo por reserva a $550 MXN (meta: $470).', 'warning');
+        logToConsole('[CALIDAD PROBADA] Satisfacción del visitante: 4.6/5 puntos (meta: ≥ 4.5). Experiencia favorable.', 'success');
+        logToConsole('[RECOMENDACIÓN EJECUTIVA] Mantener atributos de satisfacción del recorrido y revisar usabilidad y proceso digital de reservas antes de incrementar publicidad.', 'header');
 
         if (packetEl) {
             packetEl.className = 'channel-packet';

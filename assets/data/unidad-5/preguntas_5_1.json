@@ -1,112 +1,112 @@
 [
   {
-    "pregunta": "¿Qué es el presupuesto de marketing turístico según Albrecht et al. (2023)?",
+    "pregunta": "¿Qué es el presupuesto de marketing según Albrecht et al. (2023)?",
     "opciones": [
-      "Una estimación organizada de dinero y recursos necesarios para ejecutar las acciones comerciales durante un periodo definido, vinculando costos con metas.",
-      "Una factura consolidada de los gastos efectuados durante el año anterior.",
-      "El dinero disponible en la cuenta bancaria personal del gerente general.",
-      "Un subsidio federal no reintegrable destinado a destinos de playa."
+      "Una estimación organizada del dinero y los recursos necesarios para ejecutar las acciones comerciales durante un periodo determinado.",
+      "Un estado de cuenta bancario que registra únicamente los pagos vencidos a proveedores.",
+      "Una factura global emitida por las agencias de publicidad al finalizar el año fiscal.",
+      "Un balance general de todos los activos fijos de las empresas hoteleras."
     ],
-    "respuesta_correcta": "Una estimación organizada de dinero y recursos necesarios para ejecutar las acciones comerciales durante un periodo definido, vinculando costos con metas.",
-    "explicacion": "El presupuesto no es solo una cifra total; expresa prioridades, responsables, calendarios de desembolso y resultados comerciales previstos."
+    "respuesta_correcta": "Una estimación organizada del dinero y los recursos necesarios para ejecutar las acciones comerciales durante un periodo determinado.",
+    "explicacion": "Relaciona cada actividad con su costo y permite comprobar si el alcance del plan es viable."
   },
   {
-    "pregunta": "¿En qué consiste el método de 'objetivos y tareas' para la asignación presupuestal?",
+    "pregunta": "¿Por qué el presupuesto de marketing no debe entenderse solo como una cifra total?",
     "opciones": [
-      "Calcula detalladamente cuánto cuestan las actividades y recursos específicos indispensables para alcanzar metas comerciales explícitas.",
-      "Asigna un porcentaje fijo de las ventas del año anterior sin importar las metas futuras.",
-      "Destina únicamente el dinero remanente que sobra después de pagar todos los gastos.",
-      "Copia exactamente el presupuesto de la empresa competidora más cercana."
+      "Porque expresa prioridades, responsables, fechas de desembolso y resultados esperados.",
+      "Porque las cifras monetarias cambian a diario según la inflación oficial.",
+      "Porque los directores generales nunca revisan los montos desglosados.",
+      "Porque solo sirve para deducir impuestos al concluir las actividades."
     ],
-    "respuesta_correcta": "Calcula detalladamente cuánto cuestan las actividades y recursos específicos indispensables para alcanzar metas comerciales explícitas.",
-    "explicacion": "Es el método más sólido y trazable, pues vincula directamente cada actividad comercial con su costo y meta específica."
+    "respuesta_correcta": "Porque expresa prioridades, responsables, fechas de desembolso y resultados esperados.",
+    "explicacion": "Un buen presupuesto ayuda a evitar gastos improvisados y compara lo previsto con lo realmente utilizado."
   },
   {
-    "pregunta": "En el caso didáctico de la campaña ecoturística, el subtotal de actividades suma $34,000 MXN. ¿A cuánto asciende el presupuesto total con una contingencia del 10%?",
+    "pregunta": "¿Cuáles son los cuatro elementos que debe contener un presupuesto de marketing?",
     "opciones": [
-      "$37,400 MXN ($34,000 + $3,400 de contingencia)",
+      "Objetivos y horizonte temporal, actividades y recursos, costos y responsables, y control y contingencias.",
+      "Misión, visión corporativa, organigrama de puestos y reglamento laboral.",
+      "Logotipo, paleta de colores, tipografías y especificaciones de diseño.",
+      "Contratos de trabajo, recibos de nómina, pólizas de seguro y declaraciones de impuestos."
+    ],
+    "respuesta_correcta": "Objetivos y horizonte temporal, actividades y recursos, costos y responsables, y control y contingencias.",
+    "explicacion": "El documento detalla estos cuatro componentes para garantizar orden, viabilidad y capacidad de respuesta."
+  },
+  {
+    "pregunta": "En turismo, ¿por qué presupuestar también implica verificar la capacidad de atención?",
+    "opciones": [
+      "Porque una promoción puede generar muchas solicitudes, pero ser inconveniente si transportistas, guías o alojamiento no pueden satisfacerlas.",
+      "Porque las leyes turísticas prohíben que los hoteles reciban más de veinte reservas al día.",
+      "Porque los prestadores de servicios turísticos nunca cobran comisiones por su trabajo.",
+      "Porque la capacidad de atención es ilimitada cuando se utilizan plataformas digitales."
+    ],
+    "respuesta_correcta": "Porque una promoción puede generar muchas solicitudes, pero ser inconveniente si transportistas, guías o alojamiento no pueden satisfacerlas.",
+    "explicacion": "El gasto promocional debe coordinarse con la capacidad operativa real para evitar saturación y mal servicio."
+  },
+  {
+    "pregunta": "¿En qué consiste el método de presupuesto por objetivos y tareas?",
+    "opciones": [
+      "Calcula cuánto cuestan las actividades necesarias para alcanzar metas explícitas, favoreciendo la trazabilidad entre metas, acciones y gasto.",
+      "Destina un porcentaje fijo de las ventas del año anterior sin definir nuevas actividades.",
+      "Asigna simplemente el dinero sobrante después de cubrir los costos de nómina y operación.",
+      "Copia el presupuesto exacto que anuncia la principal empresa competidora del destino."
+    ],
+    "respuesta_correcta": "Calcula cuánto cuestan las actividades necesarias para alcanzar metas explícitas, favoreciendo la trazabilidad entre metas, acciones y gasto.",
+    "explicacion": "Este método fundamenta el gasto en las tareas indispensables para lograr cada meta, aunque exige supuestos realistas."
+  },
+  {
+    "pregunta": "En el ejemplo didáctico del producto ecoturístico, ¿a cuánto asciende el subtotal de actividades antes de la contingencia?",
+    "opciones": [
       "$34,000 MXN",
-      "$40,000 MXN",
-      "$50,000 MXN"
+      "$37,400 MXN",
+      "$12,000 MXN",
+      "$100,000 MXN"
     ],
-    "respuesta_correcta": "$37,400 MXN ($34,000 + $3,400 de contingencia)",
-    "explicacion": "La reserva de contingencia del 10% ($3,400) eleva el presupuesto total autorizado a $37,400 MXN para absorber imprevistos."
+    "respuesta_correcta": "$34,000 MXN",
+    "explicacion": "La suma de las 7 actividades promocionales da un subtotal de $34,000 MXN."
   },
   {
-    "pregunta": "Si los ingresos por reserva en el recorrido ecoturístico son $1,250 y el costo variable de servicio es $650, ¿cuál es el margen de contribución unitario?",
+    "pregunta": "¿Cuánto representa el monto de contingencia (10%) y cuál es el presupuesto total autorizado en el ejemplo ecoturístico?",
     "opciones": [
-      "$600 MXN por reserva",
-      "$650 MXN por reserva",
-      "$1,250 MXN por reserva",
-      "$350 MXN por reserva"
+      "$3,400 MXN de contingencia, sumando un total autorizado de $37,400 MXN.",
+      "$3,000 MXN de contingencia, sumando un total autorizado de $33,000 MXN.",
+      "$5,000 MXN de contingencia, sumando un total autorizado de $39,000 MXN.",
+      "$10,000 MXN de contingencia, sumando un total autorizado de $44,000 MXN."
     ],
-    "respuesta_correcta": "$600 MXN por reserva",
-    "explicacion": "Margen de contribución = Precio ($1,250) - Costo variable operativo ($650) = $600 MXN por cada reserva."
+    "respuesta_correcta": "$3,400 MXN de contingencia, sumando un total autorizado de $37,400 MXN.",
+    "explicacion": "El 10% de contingencia ($3,400 MXN) sobre el subtotal ($34,000 MXN) integra el total autorizado de $37,400 MXN."
   },
   {
-    "pregunta": "Para cubrir exclusivamente los $37,400 MXN del presupuesto de marketing con un margen unitario de $600, ¿cuántas reservas mínimas se requieren?",
+    "pregunta": "Si se proyectan 80 reservas a $1,250 MXN cada una, ¿cuál es el ingreso estimado y el margen de contribución con un costo variable de $650 MXN?",
     "opciones": [
-      "63 reservas (37,400 / 600 = 62.33, redondeado hacia arriba)",
-      "80 reservas",
-      "50 reservas",
-      "100 reservas"
+      "Ingresos estimados de $100,000 MXN y margen de contribución unitario de $600 MXN ($1,250 - $650).",
+      "Ingresos estimados de $80,000 MXN y margen de contribución unitario de $400 MXN.",
+      "Ingresos estimados de $125,000 MXN y margen de contribución unitario de $850 MXN.",
+      "Ingresos estimados de $50,000 MXN y margen de contribución unitario de $250 MXN."
     ],
-    "respuesta_correcta": "63 reservas (37,400 / 600 = 62.33, redondeado hacia arriba)",
-    "explicacion": "Se necesitan al menos 63 reservas para pagar la inversión publicitaria; las reservas adicionales aportan a costos fijos y utilidad."
+    "respuesta_correcta": "Ingresos estimados de $100,000 MXN y margen de contribución unitario de $600 MXN ($1,250 - $650).",
+    "explicacion": "80 reservas x $1,250 = $100,000 MXN. Margen unitario: $1,250 - $650 = $600 MXN por reserva."
   },
   {
-    "pregunta": "¿Por qué el cálculo anterior de 63 reservas NO equivale al punto de equilibrio total de la empresa turística?",
+    "pregunta": "¿Cuántas reservas mínimas se requerirían para cubrir únicamente los $37,400 MXN del presupuesto de marketing con ese margen de $600 MXN?",
     "opciones": [
-      "Porque solo cubre el gasto publicitario de marketing y no incluye costos fijos del negocio, depreciaciones, rentas ni impuestos.",
-      "Porque la Secretaría de Turismo prohíbe calcular puntos de equilibrio en ecoturismo.",
-      "Porque las reservas de naturaleza no generan margen de contribución.",
-      "Porque el cálculo excluye a los viajeros nacionales."
+      "Al menos 63 reservas (37,400 ÷ 600 = 62.33, redondeado hacia arriba).",
+      "Exactamente 80 reservas.",
+      "Al menos 50 reservas.",
+      "30 reservas directas."
     ],
-    "respuesta_correcta": "Porque solo cubre el gasto publicitario de marketing y no incluye costos fijos del negocio, depreciaciones, rentas ni impuestos.",
-    "explicacion": "Es un umbral de cobertura publicitaria; el equilibrio integral de la empresa exige incorporar la totalidad de los costos fijos corporativos."
+    "respuesta_correcta": "Al menos 63 reservas (37,400 ÷ 600 = 62.33, redondeado hacia arriba).",
+    "explicacion": "$37,400 / $600 = 62.33 reservas, por lo que se necesitan 63 reservas para costear la campaña comercial."
   },
   {
-    "pregunta": "¿Qué riesgo presenta el método presupuestal de 'porcentaje de ventas' en épocas de baja estacionalidad?",
+    "pregunta": "¿Por qué el cálculo anterior de 63 reservas no representa el punto de equilibrio total de la empresa ecoturística?",
     "opciones": [
-      "Reduce el presupuesto publicitario justo cuando la empresa necesita promocionarse con mayor fuerza para revertir la caída de demanda.",
-      "Obliga a contratar el doble de personal en las oficinas de ventas.",
-      "Genera excedentes financieros que no pueden gastarse por ley.",
-      "Elimina automáticamente los impuestos locales al hospedaje."
+      "Porque no incluye otros gastos fijos, impuestos ni inversiones generales de la empresa.",
+      "Porque el cálculo financiero de marketing es puramente teórico y no debe usarse.",
+      "Porque las reservas de ecoturismo no pagan costo variable de operación.",
+      "Porque el punto de equilibrio solo se calcula para empresas manufactureras."
     ],
-    "respuesta_correcta": "Reduce el presupuesto publicitario justo cuando la empresa necesita promocionarse con mayor fuerza para revertir la caída de demanda.",
-    "explicacion": "Al vincular el gasto a ventas declinantes, el método de porcentaje agudiza las caídas en temporadas difíciles."
-  },
-  {
-    "pregunta": "¿Por qué es crucial verificar la capacidad operativa de atención antes de aprobar un presupuesto de promoción agresivo?",
-    "opciones": [
-      "Porque generar una demanda que supere la capacidad de guías, transporte o alojamiento provocará sobreventas y deterioro de reputación.",
-      "Porque los bancos multan a las empresas que aumentan sus ventas más de un 10%.",
-      "Porque el presupuesto de marketing debe ser siempre inferior al sueldo del chofer.",
-      "Porque las redes sociales suspenden las cuentas con más de 100 cotizaciones."
-    ],
-    "respuesta_correcta": "Porque generar una demanda que supere la capacidad de guías, transporte o alojamiento provocará sobreventas y deterioro de reputación.",
-    "explicacion": "En turismo, la promesa comercial debe coincidir con la capacidad real instalada de prestación de servicio."
-  },
-  {
-    "pregunta": "¿Qué conceptos deben desglosarse en cada partida del presupuesto de marketing?",
-    "opciones": [
-      "Finalidad u objetivo de la tarea, cantidad, costo unitario, costo total, área responsable y fecha programada de pago.",
-      "Únicamente el nombre de la agencia de publicidad contratada.",
-      "El balance general histórico de los últimos diez años.",
-      "El pronóstico meteorológico del día de lanzamiento."
-    ],
-    "respuesta_correcta": "Finalidad u objetivo de la tarea, cantidad, costo unitario, costo total, área responsable y fecha programada de pago.",
-    "explicacion": "La trazabilidad presupuestal exige saber qué se compra, quién responde por ello y en qué momento se liquida."
-  },
-  {
-    "pregunta": "¿Cuál es la función de una reserva de contingencia (10%) en el presupuesto de marketing?",
-    "opciones": [
-      "Absorber variaciones de precios en medios, imprevistos de producción o ajustes de calendario autorizados por la dirección.",
-      "Pagar bonos discrecionales sin comprobantes fiscales.",
-      "Gastar dinero excedente en fiestas de aniversario de la empresa.",
-      "Subsidiar las tarifas de los clientes VIP."
-    ],
-    "respuesta_correcta": "Absorber variaciones de precios en medios, imprevistos de producción o ajustes de calendario autorizados por la dirección.",
-    "explicacion": "La reserva ofrece flexibilidad controlada ante desviaciones operativas sin necesidad de alterar el presupuesto base."
+    "respuesta_correcta": "Porque no incluye otros gastos fijos, impuestos ni inversiones generales de la empresa.",
+    "explicacion": "Cubre únicamente el presupuesto publicitario; la empresa tiene además gastos fijos, nómina e impuestos."
   }
 ]

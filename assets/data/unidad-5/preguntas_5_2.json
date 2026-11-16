@@ -1,112 +1,112 @@
 [
   {
-    "pregunta": "¿Qué es la ruta crítica (Método CPM) según Kramer & Jenkins (2006)?",
+    "pregunta": "¿Qué es la ruta crítica según Kramer y Jenkins (2006)?",
     "opciones": [
-      "La secuencia de actividades interdependientes que determina la duración mínima total del proyecto, cuyas tareas no tienen holgura de demora.",
-      "La ruta terrestre más rápida para trasladar a los turistas de la ciudad al parque natural.",
-      "El camino de evacuación en caso de incendio en las instalaciones del hotel.",
-      "La lista de quejas más graves expresadas por los clientes en redes."
+      "La secuencia de actividades dependientes que determina la duración mínima de un proyecto.",
+      "El itinerario geográfico más corto para trasladar turistas entre dos atractivos.",
+      "Un listado de quejas prioritarias presentadas por los visitantes al establecimiento.",
+      "El presupuesto máximo autorizado por los inversionistas para una campaña."
     ],
-    "respuesta_correcta": "La secuencia de actividades interdependientes que determina la duración mínima total del proyecto, cuyas tareas no tienen holgura de demora.",
-    "explicacion": "Cualquier retraso en una actividad de la ruta crítica posterga directamente la fecha final de lanzamiento de la campaña."
+    "respuesta_correcta": "La secuencia de actividades dependientes que determina la duración mínima de un proyecto.",
+    "explicacion": "En el método CPM, la ruta crítica define el tiempo mínimo indispensable para concluir el proyecto."
   },
   {
-    "pregunta": "En el proyecto didáctico de lanzamiento ecoturístico con tareas A (3 d), B (2 d), C (4 d), D (3 d), E (2 d) y F (3 d), donde C y D van en paralelo tras B, ¿cuál es la ruta crítica?",
+    "pregunta": "¿Qué característica tienen las actividades que forman parte de la ruta crítica?",
     "opciones": [
-      "Secuencia A-B-C-E-F con una duración mínima de 14 días laborales.",
-      "Secuencia A-B-D-E-F con una duración de 13 días laborales.",
-      "Secuencia A-B-F con duración de 8 días laborales.",
-      "Secuencia C-D-E con duración de 9 días laborales."
+      "No cuentan con holgura total para retrasarse sin afectar la fecha final del proyecto.",
+      "Son las tareas más económicas de todo el presupuesto comercial.",
+      "Pueden posponerse varias semanas sin alterar el calendario de lanzamiento.",
+      "Deben subcontratarse obligatoriamente con agencias externas de viajes."
     ],
-    "respuesta_correcta": "Secuencia A-B-C-E-F con una duración mínima de 14 días laborales.",
-    "explicacion": "Rama C suma 3+2+4+2+3 = 14 días. Como dura más que la rama D (13 días), determina la duración mínima del proyecto (ruta crítica)."
+    "respuesta_correcta": "No cuentan con holgura total para retrasarse sin afectar la fecha final del proyecto.",
+    "explicacion": "Tienen holgura cero: cualquier retraso en una actividad crítica aplaza directamente la fecha final del proyecto."
   },
   {
-    "pregunta": "¿Qué holgura total dispone la actividad D (Acuerdos con prestadores, 3 días) frente a la rama crítica C (Fotografía y web, 4 días)?",
+    "pregunta": "¿Cuáles son los cinco pasos del procedimiento para construir la ruta crítica?",
     "opciones": [
-      "1 día laboral de holgura total",
-      "0 días (es crítica)",
-      "4 días de holgura",
-      "14 días de holgura"
+      "1. Descomponer el proyecto, 2. Estimar duraciones, 3. Identificar dependencias, 4. Construir la red, 5. Localizar la ruta crítica y actualizarla.",
+      "1. Cotizar anuncios, 2. Contratar medios, 3. Grabar videos, 4. Publicar en redes, 5. Cobrar comisiones.",
+      "1. Diseñar el logotipo, 2. Imprimir folletos, 3. Repartir volantes, 4. Abrir la página web, 5. Cerrar la empresa.",
+      "1. Registrar la marca, 2. Pagar impuestos, 3. Obtener licencias, 4. Solicitar préstamos, 5. Auditar cuentas."
     ],
-    "respuesta_correcta": "1 día laboral de holgura total",
-    "explicacion": "La actividad D puede retrasarse 1 día laboral sin aplazar la fecha final del proyecto (14 - 13 = 1 día)."
+    "respuesta_correcta": "1. Descomponer el proyecto, 2. Estimar duraciones, 3. Identificar dependencias, 4. Construir la red, 5. Localizar la ruta crítica y actualizarla.",
+    "explicacion": "El procedimiento metodológico establece estos cinco pasos secuenciales para estructurar y resolver la red de actividades."
   },
   {
-    "pregunta": "¿Cómo se define la holgura total de una actividad en la metodología CPM?",
+    "pregunta": "En la tabla de actividades del proyecto ecoturístico, ¿qué actividad corresponde a la clave C y cuál es su duración?",
     "opciones": [
-      "La diferencia entre el inicio tardío y el inicio temprano (ITr - IT) o entre el fin tardío y el fin temprano (FTr - FT).",
-      "La suma de las duraciones de todas las actividades predecesoras.",
-      "El tiempo que el personal descansa durante el almuerzo.",
-      "El número de días hábiles que faltan para el fin de año."
+      "Fotografía y página de reservas, con una duración de 4 días (predecesora B).",
+      "Estudio breve de visitantes, con una duración de 3 días.",
+      "Acuerdos con prestadores, con una duración de 3 días.",
+      "Validación y lanzamiento, con una duración de 2 días."
     ],
-    "respuesta_correcta": "La diferencia entre el inicio tardío y el inicio temprano (ITr - IT) o entre el fin tardío y el fin temprano (FTr - FT).",
-    "explicacion": "Si la holgura es cero, la tarea es crítica para el cumplimiento de la fecha de entrega acordada."
+    "respuesta_correcta": "Fotografía y página de reservas, con una duración de 4 días (predecesora B).",
+    "explicacion": "La actividad C dura 4 días, comienza tras finalizar B y avanza en paralelo con la actividad D."
   },
   {
-    "pregunta": "¿Qué calcula el 'pase hacia adelante' en la red de actividades CPM?",
+    "pregunta": "¿Qué actividades son predecesoras inmediatas de la actividad E (Validación y lanzamiento)?",
     "opciones": [
-      "El inicio temprano (IT) y el fin temprano (FT) de cada actividad desde el inicio del proyecto hasta su conclusión.",
-      "El presupuesto final devengado por las agencias de viajes.",
-      "La fecha en que los clientes pagarán sus anticipos de reserva.",
-      "El número de cancelaciones de último momento."
+      "Las actividades C (Fotografía y reservas) y D (Acuerdos con prestadores).",
+      "Únicamente la actividad A (Estudio de visitantes).",
+      "Exclusivamente la actividad F (Monitoreo de campaña).",
+      "No tiene predecesoras y puede iniciar el primer día."
     ],
-    "respuesta_correcta": "El inicio temprano (IT) y el fin temprano (FT) de cada actividad desde el inicio del proyecto hasta su conclusión.",
-    "explicacion": "El pase hacia adelante recorre la red cronológicamente para determinar los tiempos más tempranos posibles."
+    "respuesta_correcta": "Las actividades C (Fotografía y reservas) y D (Acuerdos con prestadores).",
+    "explicacion": "La actividad E requiere que tanto C como D hayan concluido para poder validar y lanzar la campaña."
   },
   {
-    "pregunta": "¿Qué determina el 'pase hacia atrás' en la red CPM?",
+    "pregunta": "¿Cuál es la duración de la secuencia A–B–C–E–F y por qué constituye la ruta crítica?",
     "opciones": [
-      "El inicio tardío (ITr) y el fin tardío (FTr) retrocediendo desde el plazo final para obtener la holgura de cada tarea.",
-      "Los errores contables cometidos en el trimestre anterior.",
-      "El descuento retroactivo aplicable a los proveedores locales.",
-      "La fecha en que se fundó la empresa turística."
+      "Suma 14 días laborales (3 + 2 + 4 + 2 + 3) y es la ruta más larga; la alternativa A–B–D–E–F suma solo 13 días.",
+      "Suma 20 días laborales y tiene mayor costo de inversión.",
+      "Suma 10 días laborales y es la más rápida de ejecutar.",
+      "Suma 13 días laborales porque incluye los acuerdos con prestadores locales."
     ],
-    "respuesta_correcta": "El inicio tardío (ITr) y el fin tardío (FTr) retrocediendo desde el plazo final para obtener la holgura de cada tarea.",
-    "explicacion": "El pase hacia atrás parte de la fecha de término y define los límites tardíos sin comprometer el calendario."
+    "respuesta_correcta": "Suma 14 días laborales (3 + 2 + 4 + 2 + 3) y es la ruta más larga; la alternativa A–B–D–E–F suma solo 13 días.",
+    "explicacion": "La secuencia de mayor duración (14 días) determina el tiempo mínimo del proyecto; por ello es la ruta crítica."
   },
   {
-    "pregunta": "¿Cuál es la diferencia conceptual entre el diagrama de Gantt y el método de la ruta crítica (CPM)?",
+    "pregunta": "¿Cuánta holgura total tiene la actividad D (Acuerdos con prestadores) en este cronograma?",
     "opciones": [
-      "Gantt muestra barras visuales en un calendario temporal; CPM identifica las dependencias matemáticas que gobiernan la duración mínima.",
-      "Gantt solo sirve para fábricas y CPM exclusivamente para hoteles.",
-      "Gantt calcula costos en dinero y CPM calcula número de personas.",
-      "Son exactamente la misma herramienta bajo marcas comerciales distintas."
+      "1 día de holgura total.",
+      "Cero días de holgura.",
+      "3 días de holgura total.",
+      "4 días de holgura total."
     ],
-    "respuesta_correcta": "Gantt muestra barras visuales en un calendario temporal; CPM identifica las dependencias matemáticas que gobiernan la duración mínima.",
-    "explicacion": "Ambas se complementan: el CPM identifica qué tareas no pueden demorarse y el Gantt comunica el cronograma visual."
+    "respuesta_correcta": "1 día de holgura total.",
+    "explicacion": "La ruta alternativa suma 13 días frente a los 14 de la ruta crítica, otorgando a D un margen de retraso de 1 día."
   },
   {
-    "pregunta": "¿Qué ocurre si la actividad crítica C (Fotografía y web) sufre un retraso imprevisto de 2 días laborales?",
+    "pregunta": "¿Cómo se calcula formalmente la holgura total en el método CPM?",
     "opciones": [
-      "El lanzamiento de la campaña y el monitoreo se retrasan automáticamente 2 días laborales, salvo que se reduzca tiempo en E o F.",
-      "La actividad D se vuelve automáticamente dos días más rápida.",
-      "El presupuesto de la campaña se cancela de forma inmediata.",
-      "No ocurre nada porque las tareas críticas tienen holgura ilimitada."
+      "Como el inicio tardío menos el inicio temprano (ITr − IT) o fin tardío menos fin temprano (FTr − FT).",
+      "Dividiendo el presupuesto total entre el número de días del calendario.",
+      "Restando los días no laborales a la duración de cada actividad.",
+      "Sumando la duración de todas las actividades del proyecto."
     ],
-    "respuesta_correcta": "El lanzamiento de la campaña y el monitoreo se retrasan automáticamente 2 días laborales, salvo que se reduzca tiempo en E o F.",
-    "explicacion": "Al tener holgura cero, todo retraso en una tarea crítica se traslada directamente a la fecha final del proyecto."
+    "respuesta_correcta": "Como el inicio tardío menos el inicio temprano (ITr − IT) o fin tardío menos fin temprano (FTr − FT).",
+    "explicacion": "La holgura surge de la diferencia entre los tiempos tardíos y tempranos obtenidos en los pases adelante y atrás."
   },
   {
-    "pregunta": "¿Cuáles son los tres hitos clave de seguimiento temporal en una campaña de marketing turístico?",
+    "pregunta": "¿Cuál es la diferencia conceptual entre el diagrama de Gantt y la ruta crítica?",
     "opciones": [
-      "Aprobación de materiales creativos, apertura y validación del sistema de reservas, y lanzamiento de pauta publicitaria.",
-      "Pago de aguinaldos, cena de fin de año y junta de accionistas.",
-      "Cambio de horario de verano, día del trabajo e inicio de vacaciones escolares.",
-      "Llegada del primer autobús, limpieza del lobby y entrega de llaves."
+      "El diagrama de Gantt muestra visualmente actividades y fechas; la ruta crítica identifica las dependencias que gobiernan la terminación.",
+      "El diagrama de Gantt solo sirve para finanzas y la ruta crítica para diseño.",
+      "La ruta crítica es un software comercial y Gantt una fórmula matemática.",
+      "No existe diferencia; son dos términos idénticos para el mismo reporte."
     ],
-    "respuesta_correcta": "Aprobación de materiales creativos, apertura y validación del sistema de reservas, y lanzamiento de pauta publicitaria.",
-    "explicacion": "Estos tres hitos marcan los puntos de no retorno en la preparación del proyecto de marketing antes del contacto con el público."
+    "respuesta_correcta": "El diagrama de Gantt muestra visualmente actividades y fechas; la ruta crítica identifica las dependencias que gobiernan la terminación.",
+    "explicacion": "Gantt visualiza el cronograma en barras; CPM analiza dependencias lógicas y holguras de las tareas."
   },
   {
-    "pregunta": "¿Qué primer paso metodológico exige la construcción de la red CPM?",
+    "pregunta": "¿En qué hitos resulta especialmente conveniente revisar el cronograma de una campaña turística?",
     "opciones": [
-      "Descomponer el proyecto en actividades medibles y concretas, con productos entregables y responsables asignados.",
-      "Comprar un software de gestión de proyectos de última generación.",
-      "Fijar de forma arbitraria la fecha de inauguración para el próximo viernes.",
-      "Contratar un fotógrafo profesional antes de definir el producto turístico."
+      "Aprobación de materiales, apertura de reservas y lanzamiento de anuncios.",
+      "Al pagar los sueldos mensuales del personal administrativo.",
+      "Cada vez que un cliente cancela una reservación de viaje.",
+      "Únicamente al cierre del año contable de la empresa."
     ],
-    "respuesta_correcta": "Descomponer el proyecto en actividades medibles y concretas, con productos entregables y responsables asignados.",
-    "explicacion": "El proyecto debe desglosarse en tareas específicas y medibles, evitando términos vagos como 'hacer publicidad'."
+    "respuesta_correcta": "Aprobación de materiales, apertura de reservas y lanzamiento de anuncios.",
+    "explicacion": "Estos tres hitos marcan momentos de control crítico donde los retrasos impactan directamente el lanzamiento comercial."
   }
 ]

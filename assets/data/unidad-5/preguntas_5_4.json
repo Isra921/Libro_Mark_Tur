@@ -2,111 +2,111 @@
   {
     "pregunta": "¿A quién se dirige primordialmente el reporte ejecutivo del plan de marketing según Albrecht et al. (2023)?",
     "opciones": [
-      "A la alta dirección, inversionistas y responsables que deben aprobar presupuestos, evaluar desempeño o autorizar cambios estratégicos.",
-      "Al público general que consulta las redes sociales de la empresa.",
-      "A los proveedores de gasolina y mantenimiento mecánico de los vehículos.",
-      "A los estudiantes de nuevo ingreso de la preparatoria."
+      "A quienes deben aprobar recursos, evaluar el desempeño o autorizar cambios.",
+      "Exclusivamente a los diseñadores gráficos que elaboraron las imágenes promocionales.",
+      "A los turistas que visitan por primera vez el establecimiento de hospedaje.",
+      "A los competidores del destino para informarles sobre las estrategias aplicadas."
     ],
-    "respuesta_correcta": "A la alta dirección, inversionistas y responsables que deben aprobar presupuestos, evaluar desempeño o autorizar cambios estratégicos.",
-    "explicacion": "El reporte ejecutivo sintetiza decisiones estratégicas, implicaciones financieras y resultados clave para facilitar la toma de decisiones gerenciales."
+    "respuesta_correcta": "A quienes deben aprobar recursos, evaluar el desempeño o autorizar cambios.",
+    "explicacion": "El reporte ejecutivo prioriza hallazgos clave, implicaciones financieras y decisiones sobre el detalle técnico."
   },
   {
-    "pregunta": "¿Qué características debe tener la redacción y presentación de un reporte ejecutivo eficaz?",
+    "pregunta": "¿Cómo pueden abordarse 'reporte ejecutivo', 'presentación' y 'conclusiones' según la unidad (IPN, 2022)?",
     "opciones": [
-      "Brevedad, datos cuantitativos con unidades y plazos claros, tablas comparativas de meta vs resultado y recomendaciones directivas.",
-      "Un documento de 500 páginas repleto de tecnicismos informáticos y jerga legal.",
-      "Un listado informal de impresiones personales sin sustento en cifras.",
-      "Un álbum fotográfico sin análisis financiero ni mención de costos."
+      "Pueden integrarse en un solo documento o exposición con información comprobable y coherente entre sí.",
+      "Deben mantenerse como tres materias independientes que nunca deben cruzarse.",
+      "Solo pueden presentarse oralmente sin respaldo de documentos escritos.",
+      "Se presentan únicamente si la empresa turística obtuvo pérdidas económicas."
     ],
-    "respuesta_correcta": "Brevedad, datos cuantitativos con unidades y plazos claros, tablas comparativas de meta vs resultado y recomendaciones directivas.",
-    "explicacion": "La dirección requiere claridad y capacidad de síntesis para entender con rapidez el desempeño comercial y financiero."
+    "respuesta_correcta": "Pueden integrarse en un solo documento o exposición con información comprobable y coherente entre sí.",
+    "explicacion": "Aunque el programa académico los lista por separado, forman una sola narrativa integrada de rendición de cuentas."
   },
   {
-    "pregunta": "En la síntesis ejecutiva de la campaña ecoturística, ¿cuál es la principal desviación financiera reportada?",
+    "pregunta": "¿Con qué elementos debe iniciar la presentación de un plan según la sección 5.4.1?",
     "opciones": [
-      "El cumplimiento del 85% de las reservas meta (68 de 80) elevó el costo por reserva a $550 MXN (frente al máximo objetivo de $470).",
-      "La empresa quebró por gastar el triple del presupuesto autorizado.",
-      "El costo por reserva disminuyó a $100 MXN generando ganancias imprevistas.",
-      "No hubo ninguna desviación; todos los indicadores coincidieron con la meta al centavo."
+      "Con el producto turístico y la necesidad de mercado que atiende.",
+      "Con el desglose de los sueldos y salarios de los empleados de mostrador.",
+      "Con las quejas más graves expresadas por los clientes en internet.",
+      "Con una disculpa formal por los objetivos comerciales no alcanzados."
     ],
-    "respuesta_correcta": "El cumplimiento del 85% de las reservas meta (68 de 80) elevó el costo por reserva a $550 MXN (frente al máximo objetivo de $470).",
-    "explicacion": "La síntesis ejecutiva transparenta de inmediato el desfase entre las reservas alcanzadas y la eficiencia del gasto publicitario."
+    "respuesta_correcta": "Con el producto turístico y la necesidad de mercado que atiende.",
+    "explicacion": "La presentación parte del producto y la necesidad que satisface, para luego explicar objetivo, público, estrategias y KPIs."
   },
   {
-    "pregunta": "Frente a los resultados de la campaña ecoturística (satisfacción 4.6/5 pero costo por reserva $550), ¿cuál es la recomendación ejecutiva prioritaria?",
+    "pregunta": "¿Qué recursos visuales se recomiendan para facilitar la lectura del reporte ejecutivo?",
     "opciones": [
-      "Mantener los atributos de servicio que generan alta satisfacción y optimizar la usabilidad web y precisión de anuncios antes de aumentar la publicidad.",
-      "Duplicar de inmediato la inversión publicitaria en redes sociales sin cambiar la página web.",
-      "Despedir a los guías locales para reducir el costo por reserva a $400.",
-      "Aumentar el precio del boleto un 100% para cubrir la ineficiencia publicitaria."
+      "Gráficos sencillos, cifras con unidades y periodos, y tablas que contrasten meta y resultado.",
+      "Textos extensos sin subtítulos ni cifras cuantitativas verificables.",
+      "Fotografías decorativas sin relación con los indicadores comerciales.",
+      "Animaciones publicitarias complejas que sustituyan las tablas de datos."
     ],
-    "respuesta_correcta": "Mantener los atributos de servicio que generan alta satisfacción y optimizar la usabilidad web y precisión de anuncios antes de aumentar la publicidad.",
-    "explicacion": "La dirección debe corregir la fricción en la captación y conversión digital antes de incrementar el gasto publicitario."
+    "respuesta_correcta": "Gráficos sencillos, cifras con unidades y periodos, y tablas que contrasten meta y resultado.",
+    "explicacion": "La claridad visual y el contraste de metas vs resultados facilitan la toma de decisiones ágil y rigurosa."
   },
   {
-    "pregunta": "¿Por qué los componentes del plan (presupuesto, ruta crítica, evaluación y reporte) funcionan como un sistema integrado?",
+    "pregunta": "En el ejemplo de síntesis ejecutiva ecoturística, ¿cuál fue el resultado de cumplimiento de reservas y de gasto?",
     "opciones": [
-      "Porque modificar una actividad altera simultáneamente el cronograma de ruta crítica, los desembolsos de gasto y las metas de los indicadores.",
-      "Porque están registrados bajo la misma marca registrada en el Instituto Mexicano de la Propiedad Industrial.",
-      "Porque los cuatro se imprimen con la misma tinta en el departamento de contabilidad.",
-      "Porque la ley de turismo prohíbe evaluar un proyecto sin presentar los cuatro documentos el mismo día."
+      "Consiguió 68 de las 80 reservas previstas (85% de cumplimiento) y el gasto respetó el límite aprobado ($37,400 MXN).",
+      "Consiguió 80 de las 80 reservas y superó el presupuesto autorizado en un 20%.",
+      "Consiguió solo 30 reservas y devolvió el 50% del dinero asignado a la campaña.",
+      "Consiguió 100 reservas duplicando el presupuesto asignado originalmente."
     ],
-    "respuesta_correcta": "Porque modificar una actividad altera simultáneamente el cronograma de ruta crítica, los desembolsos de gasto y las metas de los indicadores.",
-    "explicacion": "Un cambio en plazos afecta costos y entregables; la planeación comercial opera como un engranaje interdependiente."
+    "respuesta_correcta": "Consiguió 68 de las 80 reservas previstas (85% de cumplimiento) y el gasto respetó el límite aprobado ($37,400 MXN).",
+    "explicacion": "Se cumplió el 85% de las reservas y el presupuesto gastado no excedió el límite aprobado de $37,400 MXN."
   },
   {
-    "pregunta": "¿Cómo debe estructurarse la presentación ejecutiva ante un comité directivo de turismo?",
+    "pregunta": "¿Qué desviación financiera se presentó en el costo por reserva de la síntesis ejecutiva?",
     "opciones": [
-      "Producto y necesidad de mercado → Objetivo y público → Estrategias y presupuesto → Ruta crítica y KPIs → Resultados, desviaciones y decisiones.",
-      "Biografía del expositor → Fotos del destino → Reseñas de comida → Lista de quejas de clientes.",
-      "Presupuesto gastado → Justificación de pérdidas → Solicitud de rescate financiero.",
-      "Historia del municipio → Leyes aplicables → Salarios del personal → Clima del fin de semana."
+      "El costo por reserva fue de $550 MXN, por encima del máximo objetivo de $470 MXN.",
+      "El costo por reserva bajó a $200 MXN, generando ahorros extraordinarios.",
+      "El costo por reserva fue de $1,250 MXN, consumiendo la totalidad del ingreso.",
+      "No existió desviación y el costo fue exactamente de $470 MXN por reserva."
     ],
-    "respuesta_correcta": "Producto y necesidad de mercado → Objetivo y público → Estrategias y presupuesto → Ruta crítica y KPIs → Resultados, desviaciones y decisiones.",
-    "explicacion": "Esta estructura conduce al evaluador desde la justificación del mercado hasta las decisiones prácticas finales."
+    "respuesta_correcta": "El costo por reserva fue de $550 MXN, por encima del máximo objetivo de $470 MXN.",
+    "explicacion": "Al lograrse 68 reservas con los mismos $37,400 MXN de presupuesto, el costo por adquisición fue de $550 MXN."
   },
   {
-    "pregunta": "¿Qué papel cumplen las conclusiones en el cierre de un plan de marketing?",
+    "pregunta": "¿Cuál fue la recomendación ejecutiva para la dirección ante los resultados del recorrido ecoturístico?",
     "opciones": [
-      "Sintetizar los aprendizajes clave, evaluar la viabilidad de sostener el producto y establecer los compromisos para el siguiente ciclo de operación.",
-      "Agradecer a los patrocinadores y despedir al equipo de trabajo.",
-      "Copiar textualmente las conclusiones del plan de marketing del año anterior.",
-      "Prohibir futuras modificaciones al producto turístico."
+      "Mantener los atributos del recorrido que generan satisfacción (4.6/5) y revisar el proceso digital de reserva antes de incrementar publicidad.",
+      "Suspender de inmediato la venta del recorrido de naturaleza y cerrar la reserva.",
+      "Duplicar el gasto publicitario en redes sociales sin revisar el motor de reservas.",
+      "Bajar la tarifa a la mitad para forzar el alcance de las 80 reservas del plan."
     ],
-    "respuesta_correcta": "Sintetizar los aprendizajes clave, evaluar la viabilidad de sostener el producto y establecer los compromisos para el siguiente ciclo de operación.",
-    "explicacion": "Las conclusiones cierran la auditoría gerencial y fijan las bases de mejora continua para el siguiente periodo comercial."
+    "respuesta_correcta": "Mantener los atributos del recorrido que generan satisfacción (4.6/5) y revisar el proceso digital de reserva antes de incrementar publicidad.",
+    "explicacion": "Dado que el producto es excelente (4.6/5), debe mejorarse la usabilidad de la web antes de invertir más en anuncios."
   },
   {
-    "pregunta": "¿Por qué un reporte ejecutivo debe incluir unidades de medida y periodos en todas sus cifras?",
+    "pregunta": "¿Por qué los cuatro componentes de la Unidad 5 (presupuesto, ruta crítica, evaluación y reporte) funcionan como un sistema?",
     "opciones": [
-      "Para evitar interpretaciones erróneas y garantizar que directores e inversionistas entiendan el alcance temporal y económico exacto del dato.",
-      "Porque las computadoras no pueden leer cifras sin signos de pesos.",
-      "Porque la tipografía del polilibro exige símbolos obligatorios.",
-      "Para alargar artificialmente la extensión del texto del informe."
+      "Porque modificar una actividad puede cambiar simultáneamente el cronograma, el gasto y los indicadores.",
+      "Porque se ejecutan siempre el mismo día a la misma hora en la empresa.",
+      "Porque están coordinados por el mismo proveedor externo de tecnología.",
+      "Porque utilizan exactamente las mismas fórmulas contables en todas las etapas."
     ],
-    "respuesta_correcta": "Para evitar interpretaciones erróneas y garantizar que directores e inversionistas entiendan el alcance temporal y económico exacto del dato.",
-    "explicacion": "Una cifra como '68' carece de sentido si no se especifica si son reservas, personas, noches o miles de pesos en el periodo evaluado."
+    "respuesta_correcta": "Porque modificar una actividad puede cambiar simultáneamente el cronograma, el gasto y los indicadores.",
+    "explicacion": "Un cambio en los tiempos de la ruta crítica impacta el momento del gasto, las fechas y los resultados medidos."
   },
   {
-    "pregunta": "Si un indicador comercial no alcanza la meta, ¿qué actitud profesional debe reflejar el reporte ejecutivo?",
+    "pregunta": "¿Por qué la efectividad en el marketing turístico no debería juzgarse solo por el volumen de ventas?",
     "opciones": [
-      "Transparencia analítica: reportar la desviación con objetividad, explicar las causas de raíz y proponer una solución correctiva viable.",
-      "Ocultar los números que no favorezcan al equipo de mercadotecnia.",
-      "Culpar a los clientes por no entender la calidad del producto.",
-      "Modificar retroactivamente las metas originales para aparentar un cumplimiento del 100%."
+      "Porque también debe considerar la satisfacción del visitante, la capacidad del prestador, la rentabilidad y la fidelidad entre lo anunciado y lo recibido.",
+      "Porque el volumen de ventas no influye en las finanzas de una empresa hotelera.",
+      "Porque las empresas turísticas tienen prohibido generar utilidades económicas.",
+      "Porque el número de visitantes es siempre idéntico en temporada alta y baja."
     ],
-    "respuesta_correcta": "Transparencia analítica: reportar la desviación con objetividad, explicar las causas de raíz y proponer una solución correctiva viable.",
-    "explicacion": "La integridad en el reporte de resultados es la base de la toma de decisiones informada y la confianza gerencial."
+    "respuesta_correcta": "Porque también debe considerar la satisfacción del visitante, la capacidad del prestador, la rentabilidad y la fidelidad entre lo anunciado y lo recibido.",
+    "explicacion": "Vender mucho saturando el servicio o con promesas engañosas destruye la rentabilidad y la reputación del destino."
   },
   {
-    "pregunta": "¿Cuál es la lección final que aporta la Unidad 5 sobre la gestión comercial del turismo?",
+    "pregunta": "¿Qué anticipa un plan de marketing turístico sólido según las conclusiones de la Unidad 5?",
     "opciones": [
-      "Un plan de marketing sólido no concluye con la creatividad de los anuncios: exige disciplina financiera, rigor en los tiempos y control constante de resultados.",
-      "La mercadotecnia turística solo consiste en tomar fotografías atractivas de paisajes.",
-      "Los proyectos turísticos nunca necesitan auditoría porque la demanda siempre es predecible.",
-      "El éxito comercial depende exclusivamente de gastar el presupuesto lo más rápido posible."
+      "Qué se medirá, cómo se obtendrán los datos y quién actuará ante cada desviación.",
+      "Cómo ocultar las fallas operativas a los inversionistas de la empresa.",
+      "Qué ofertas publicar en redes sociales para saturar la capacidad de los guías.",
+      "Cómo cobrar comisiones adicionales no declaradas a los visitantes extranjeros."
     ],
-    "respuesta_correcta": "Un plan de marketing sólido no concluye con la creatividad de los anuncios: exige disciplina financiera, rigor en los tiempos y control constante de resultados.",
-    "explicacion": "El marketing exitoso es un sistema que integra creatividad con planeación financiera, secuenciación de proyectos y control de calidad."
+    "respuesta_correcta": "Qué se medirá, cómo se obtendrán los datos y quién actuará ante cada desviación.",
+    "explicacion": "Un plan riguroso establece previamente métricas objetivas, fuentes confiables y responsabilidades de acción."
   }
 ]
