@@ -77,15 +77,15 @@
     "explicacion": "La visión es la imagen futura compartida hacia la que se orientan todos los esfuerzos de la organización."
   },
   {
-    "pregunta": "En el ejercicio resuelto del parque ecoturístico en la Selva Lacandona, ¿cuál fue uno de sus valores declarados?",
-    "opciones": [
-      "Conservación: proteger el ecosistema en todas las operaciones.",
-      "Urbanización: pavimentar la mayor cantidad de senderos posibles.",
-      "Exclusividad: prohibir el ingreso a personas de comunidades vecinas.",
-      "Velocidad: reducir a la mitad el tiempo de todos los recorridos en lancha."
+    "question": "Dentro de la filosofía empresarial turística, ¿qué representan los valores?",
+    "options": [
+      "Los principios éticos que rigen la conducta diaria de los equipos de trabajo (como respeto, integridad, innovación y sostenibilidad).",
+      "El cálculo financiero del valor presente neto de los activos de la empresa turística.",
+      "El precio de venta al público sugerido para los paquetes de viaje.",
+      "La proyección cuantitativa de las utilidades netas del próximo ejercicio fiscal."
     ],
-    "respuesta_correcta": "Conservación: proteger el ecosistema en todas las operaciones.",
-    "explicacion": "Los valores del parque incluyen conservación, comunidad, autenticidad, seguridad y educación ambiental."
+    "answer": "Los principios éticos que rigen la conducta diaria de los equipos de trabajo (como respeto, integridad, innovación y sostenibilidad).",
+    "explicacion": "Los valores empresariales son los principios y convicciones éticas fundamentales que orientan el comportamiento, decisiones y servicio de los colaboradores en la empresa turística."
   },
   {
     "pregunta": "¿Por qué el factor humano es considerado el principal activo de la empresa turística?",

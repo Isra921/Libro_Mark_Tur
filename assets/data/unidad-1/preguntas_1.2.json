@@ -66,15 +66,15 @@
     "explicacion": "Dado que el excursionista solo dispone de unas horas, el marketing debe ser de impulso, consumo ágil y fácil acceso."
   },
   {
-    "pregunta": "En el ejercicio resuelto de la playa con 30,000 turistas (4 noches, $1,200/día), ¿cuál fue el gasto total anual generado por los turistas?",
-    "opciones": [
-      "$144,000,000 de pesos.",
-      "$8,000,000 de pesos.",
-      "$36,000,000 de pesos.",
-      "$50,000,000 de pesos."
+    "question": "De acuerdo con los indicadores de medición del turismo de la OMT, ¿cómo se define el gasto turístico?",
+    "options": [
+      "Monto total monetario ejercido por los visitantes durante su desplazamiento y estadía en el destino.",
+      "Inversión pública realizada por los gobiernos locales en infraestructura de transporte.",
+      "Costo operativo fijo en que incurre un hotel para mantener sus habitaciones disponibles.",
+      "Impuesto al valor agregado que recaudan las aerolíneas internacionales."
     ],
-    "respuesta_correcta": "$144,000,000 de pesos.",
-    "explicacion": "30,000 turistas × 4 noches = 120,000 pernoctaciones; 120,000 × $1,200 = $144,000,000 pesos."
+    "answer": "Monto total monetario ejercido por los visitantes durante su desplazamiento y estadía en el destino.",
+    "explicacion": "Según la OMT, el gasto turístico mide la totalidad de las erogaciones monetarias que efectúan los visitantes para su viaje y consumo en el destino, constituyendo un indicador clave del impacto económico."
   },
   {
     "pregunta": "¿Cuál de los siguientes es uno de los cinco indicadores de medición del turismo propuestos por la OMT?",

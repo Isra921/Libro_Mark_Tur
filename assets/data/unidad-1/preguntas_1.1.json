@@ -88,15 +88,15 @@
     "explicacion": "Por la naturaleza de los servicios, el personal (personas), la consistencia operativa (procesos) y los elementos tangibles (evidencia física) son indispensables."
   },
   {
-    "pregunta": "En el ejercicio resuelto del hotel boutique en San Miguel de Allende, ¿cuál fue el objetivo establecido?",
-    "opciones": [
-      "Aumentar la ocupación en temporada baja del 40% al 60% entre mayo y septiembre del próximo año.",
-      "Construir 50 habitaciones adicionales para competir con grandes cadenas.",
-      "Cerrar las operaciones del hotel durante la temporada de lluvias.",
-      "Ofrecer descuentos masivos del 70% sin importar la devaluación de la marca."
+    "question": "¿Qué función cumple el Plan de acción dentro de la estructura de un plan de marketing turístico?",
+    "options": [
+      "Detallar quién hace qué, cuándo, cómo y con qué recursos, desplegando un cronograma con responsables y presupuestos asignados.",
+      "Resumir exclusivamente la misión y visión corporativa de la empresa turística.",
+      "Calcular únicamente los impuestos federales y estatales aplicables a los servicios turísticos.",
+      "Establecer las alianzas políticas con organismos gubernamentales internacionales."
     ],
-    "respuesta_correcta": "Aumentar la ocupación en temporada baja del 40% al 60% entre mayo y septiembre del próximo año.",
-    "explicacion": "El hotel planteó una meta SMART concreta para incrementar la ocupación en temporada valle mediante valor agregado y no guerra de precios."
+    "answer": "Detallar quién hace qué, cuándo, cómo y con qué recursos, desplegando un cronograma con responsables y presupuestos asignados.",
+    "explicacion": "En la estructura del plan de marketing turístico (apartado VIII), el plan de acción operacionaliza la estrategia detallando responsables, plazos, metodologías y recursos en un cronograma."
   },
   {
     "pregunta": "¿Cómo se define el posicionamiento en el plan de marketing turístico?",

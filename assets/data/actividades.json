@@ -7,7 +7,7 @@
       "pestana": "Unidad 1",
       "titulo": "Unidad 1: Encuadre empresarial",
       "descripcion": "Fundamentos de la planeación estratégica en turismo, encuadre metodológico de la OMT, tipología de empresas, oferta-demanda y enfoque industrial.",
-      "nota": "Actividades formativas con retroalimentación inmediata y simulador integrador final.",
+      "nota": "Actividades formativas con retroalimentación inmediata y actividad final integradora.",
       "items": [
         {
           "tag": "Tema 1.1",
@@ -55,9 +55,9 @@
           "url": "unidades/unidad-01/actividades/actividad-1-5.html"
         },
         {
-          "tag": "Simulador Integrador",
+          "tag": "Actividad final",
           "destacada": true,
-          "titulo": "Simulador Estratégico: Caso Valle Sereno",
+          "titulo": "Actividad final: Diagnóstico Estratégico Caso Valle Sereno",
           "descripcion": "Modela decisiones para resolver problemas de estacionalidad, oferta y articulación de clúster turístico.",
           "icono": "fa-sliders",
           "reactivos": "Simulación interactiva",
@@ -110,12 +110,12 @@
           "url": "unidades/unidad-02/actividades/actividad-2-4.html"
         },
         {
-          "tag": "Simulador Integrador",
+          "tag": "Actividad final",
           "destacada": true,
-          "titulo": "Simulador de Precios y Punto de Equilibrio: Rutas del Centro",
+          "titulo": "Actividad final: Precios y Punto de Equilibrio: Rutas del Centro",
           "descripcion": "Calcula el equilibrio financiero, prueba variaciones de precios y pondera canales comerciales directos e indirectos.",
           "icono": "fa-calculator",
-          "reactivos": "Simulador en 4 etapas",
+          "reactivos": "Actividad integradora en 4 retos",
           "tiempo": "25 min",
           "url": "unidades/unidad-02/actividades/actividad-final.html"
         }
@@ -183,12 +183,12 @@
           "url": "unidades/unidad-03/actividades/actividad-3-6.html"
         },
         {
-          "tag": "Simulador Integrador",
+          "tag": "Actividad final",
           "destacada": true,
-          "titulo": "Simulador de Matrices Estratégicas: Rutas del Centro",
+          "titulo": "Actividad final: Matrices Estratégicas: Rutas del Centro",
           "descripcion": "Modela el diagnóstico MEFE/MEFI, formula cruces TOWS, gestiona la cartera BCG y calibra la MPC frente a competidores.",
           "icono": "fa-cubes",
-          "reactivos": "Simulador en 4 etapas",
+          "reactivos": "Actividad integradora en 4 retos",
           "tiempo": "30 min",
           "url": "unidades/unidad-03/actividades/actividad-final.html"
         }
@@ -247,12 +247,12 @@
           "url": "unidades/unidad-04/actividades/actividad-4-5.html"
         },
         {
-          "tag": "Simulador Integrador",
+          "tag": "Actividad final",
           "destacada": true,
-          "titulo": "Simulador de Tácticas y Plan de Medios: Hotel Boutique",
+          "titulo": "Actividad final: Tácticas y Plan de Medios: Hotel Boutique",
           "descripcion": "Diagnostica causas de abandono, asigna tácticas 4P con KPIs, diseña el mix CIM y evalúa la rentabilidad del plan de medios.",
           "icono": "fa-bullhorn",
-          "reactivos": "Simulador en 4 etapas",
+          "reactivos": "Actividad integradora en 4 retos",
           "tiempo": "25 min",
           "url": "unidades/unidad-04/actividades/actividad-final.html"
         }
@@ -302,12 +302,12 @@
           "url": "unidades/unidad-05/actividades/actividad-5-4.html"
         },
         {
-          "tag": "Simulador Integrador",
+          "tag": "Actividad final",
           "destacada": true,
-          "titulo": "Simulador de Ruta Crítica y Control Gerencial: Ecoturismo",
+          "titulo": "Actividad final: Presupuesto, Ruta Crítica y Control Gerencial: Ecoturismo",
           "descripcion": "Modela el presupuesto de lanzamiento, calcula holguras de la ruta crítica CPM e interpreta desviaciones en un tablero de control.",
           "icono": "fa-gauge-high",
-          "reactivos": "Simulador en 4 etapas",
+          "reactivos": "Actividad integradora en 4 retos",
           "tiempo": "25 min",
           "url": "unidades/unidad-05/actividades/actividad-final.html"
         }

@@ -55,26 +55,26 @@
     "explicacion": "La demanda efectiva es la demanda real contabilizada en llegadas y pernoctaciones."
   },
   {
-    "pregunta": "En el ejercicio resuelto del Pueblo Mágico (15 hoteles con 500 habitaciones, 60,000 turistas con 2 noches promedio), ¿cuál fue el promedio de habitaciones requeridas por noche?",
-    "opciones": [
-      "329 habitaciones ocupadas por noche.",
-      "500 habitaciones ocupadas por noche.",
-      "100 habitaciones ocupadas por noche.",
-      "1,000 habitaciones ocupadas por noche."
+    "question": "¿Cómo se define la demanda turística potencial según el texto?",
+    "options": [
+      "Aquellos individuos con capacidad económica y tiempo libre que viajarían si se presentaran las condiciones o estímulos adecuados.",
+      "Las personas que actualmente se encuentran viajando y pernoctando en el destino.",
+      "Los viajeros que han pospuesto temporalmente su viaje por causas laborales o de fuerza mayor.",
+      "La población total de un país que no muestra ningún interés por realizar actividades recreativas."
     ],
-    "respuesta_correcta": "329 habitaciones ocupadas por noche.",
-    "explicacion": "120,000 pernoctaciones anuales divididas entre 365 días arrojan un promedio de 329 habitaciones por noche."
+    "answer": "Aquellos individuos con capacidad económica y tiempo libre que viajarían si se presentaran las condiciones o estímulos adecuados.",
+    "explicacion": "La demanda potencial está integrada por personas que reúnen los recursos y disponibilidad para viajar, pero requieren de ofertas, incentivos o condiciones propicias para concretar la visita."
   },
   {
-    "pregunta": "En el ejercicio del Pueblo Mágico, ¿por qué se concluye que no existe equilibrio de mercado?",
-    "opciones": [
-      "Porque en temporada alta hay saturación (95% de ocupación) y en temporada baja cae drásticamente al 30% con habitaciones vacías.",
-      "Porque no hay turistas extranjeros registrados en los museos.",
-      "Porque los restaurantes no abren los días lunes.",
-      "Porque la zona arqueológica no cobra boleto de entrada."
+    "question": "¿Cuál es el propósito principal de implementar estrategias de desestacionalización turística?",
+    "options": [
+      "Distribuir los flujos de visitantes a lo largo del año mediante eventos, festivales y turismo de reuniones para mitigar la baja ocupación.",
+      "Cerrar los establecimientos de hospedaje durante los meses de menor afluencia para reducir costos.",
+      "Duplicar las tarifas hoteleras durante la temporada baja para compensar las habitaciones vacías.",
+      "Restringir la entrada de excursionistas en fines de semana para evitar la saturación del destino."
     ],
-    "respuesta_correcta": "Porque en temporada alta hay saturación (95% de ocupación) y en temporada baja cae drásticamente al 30% con habitaciones vacías.",
-    "explicacion": "La alta estacionalidad provoca extremos de sobresaturación y capacidad ociosa insostenible."
+    "answer": "Distribuir los flujos de visitantes a lo largo del año mediante eventos, festivales y turismo de reuniones para mitigar la baja ocupación.",
+    "explicacion": "La desestacionalización busca suavizar los valles de demanda en temporadas bajas mediante la creación de atractivos temporales y segmentos alternativos como congresos y convenciones."
   },
   {
     "pregunta": "¿Cuál de las siguientes es una estrategia adecuada para equilibrar la demanda en temporada baja?",

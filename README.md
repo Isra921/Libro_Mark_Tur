@@ -14,14 +14,17 @@ Polilibro académico interactivo desarrollado para la **Unidad de Aprendizaje de
   - 1.3 Empresa turística
   - 1.4 Análisis de la oferta y la demanda
   - 1.5 El enfoque industrial del turismo
-  - Actividades de aprendizaje por tema y evaluación integradora interactiva.
+  - Actividades de aprendizaje por tema (10 reactivos formativos por tema).
+  - Actividad final integradora: Diagnóstico Estratégico de Marketing Turístico y Clúster Regional (laboratorio interactivo y 5 retos de decisión gerencial).
   - Acervo y referencias bibliográficas del programa oficial.
 - **Unidad 2: Identificación del perfil del consumidor y desarrollo de la mezcla de mercadotecnia**:
   - 2.1 Segmento de mercado meta y perfil del consumidor
   - 2.2 Elementos de la mezcla de mercadotecnia (producto, precio, branding y comunicación)
   - 2.3 Pronósticos de ventas para el primer año de operación
   - 2.4 Canales de distribución directos e indirectos y comercio electrónico
-  - Caso didáctico Rutas del Centro, actividades de aprendizaje por tema y referencias APA vinculadas a cada tema.
+  - Actividades de aprendizaje por tema (5 reactivos formativos por tema basados en el caso didáctico Rutas del Centro).
+  - Actividad final integradora: Fijación de Precios, Mezcla de Marketing y Punto de Equilibrio (caso Rutas del Centro y 4 retos de decisión).
+  - Referencias APA vinculadas a cada tema.
 - **Unidad 3: Elaboración e implementación de estrategias**:
   - 3.1 Análisis del entorno (interno y externo)
   - 3.2 Matriz de Evaluación de Factores Externos (MEFE) y de Factores Internos (MEFI)
@@ -29,49 +32,48 @@ Polilibro académico interactivo desarrollado para la **Unidad de Aprendizaje de
   - 3.4 Matriz BCG (Boston Consulting Group)
   - 3.5 Matriz de Ansoff
   - 3.6 Matriz del perfil competitivo (MPC)
-  - Actividades de aprendizaje por tema y simulador estratégico integral.
+  - Actividades de aprendizaje por tema (5 reactivos formativos por tema).
+  - Actividad final integradora: Matrices Estratégicas y Competitividad (laboratorio de diagnóstico matricial y 4 retos de decisión estratégica).
 - **Unidad 4: Selección de estrategias y aplicación de tácticas del plan**:
   - 4.1 Investigación de mercados
   - 4.2 Formulación e implementación de estrategias del Plan de Marketing
   - 4.3 Aplicación de tácticas para cada estrategia del Plan de Marketing
   - 4.4 Comunicación integral del marketing
   - 4.5 Plan de medios (4.5.1 Formulación y 4.5.2 Evaluación)
-  - Actividades de aprendizaje por tema (bancos de reactivos de opción múltiple con retroalimentación formativa y justificación académica).
-  - Simulador interactivo: Plan de Medios y Conversión para Hotel Boutique (presupuesto $10,000 MXN, 5 canales oficiales, meta de 30 reservas directas).
+  - Actividades de aprendizaje por tema (10 reactivos formativos por tema con retroalimentación inmediata).
+  - Actividad final integradora: Tácticas de Marketing, CIM y Plan de Medios (caso oficial Hotel Boutique de 20 habitaciones, $10,000 MXN de presupuesto en 5 canales y 4 retos de decisión).
   - Apartado centralizado de Referencias Bibliográficas con anclajes directos desde las citas en texto.
 - **Unidad 5: Presupuesto, ruta crítica, evaluación y control del plan de marketing**:
   - 5.1 Presupuesto: métodos de asignación y aplicación
   - 5.2 Ruta crítica: método CPM, dependencias, cálculo de tiempos y holguras
   - 5.3 Medidas y mecanismos de evaluación y control del plan de marketing
   - 5.4 Reporte ejecutivo: estructura gerencial y toma de decisiones
-  - Actividades de aprendizaje por tema (bancos de reactivos de opción múltiple alineados estrictamente al contenido académico).
-  - Simulador interactivo: Gestión Presupuestal y Ruta Crítica CPM (Campaña Ecoturística $37,400 MXN, 14 días laborales de duración crítica, análisis de desviaciones y reporte gerencial).
+  - Actividades de aprendizaje por tema (10 reactivos formativos por tema alineados al contenido).
+  - Actividad final integradora: Presupuesto, Ruta Crítica (CPM) y Tablero de Control (caso oficial Campaña Ecoturística $37,400 MXN, ruta crítica CPM de 14 días y 4 retos de decisión).
   - Apartado centralizado de Referencias Bibliográficas con anclajes directos desde las citas en texto.
 
 ---
 
-## 🔄 Actualización Académica de las Unidades 4 y 5
+## 🎯 Revisión Integral de Actividades y Unificación Visual
 
-Se realizó una actualización exhaustiva del contenido académico y de las actividades interactivas de las **Unidades 4 y 5**, fundamentada exclusivamente en los documentos oficiales y validados del programa:
+Se ejecutó una auditoría exhaustiva en las **24 actividades individuales de temas y las 5 actividades finales integradoras** de las cinco unidades del Polilibro:
 
-1. **Fidelidad y Rigor Académico**:
-   - Se reemplazó el contenido temático anterior por el texto íntegro de las fuentes validadas (`Unidad_4_Plan_de_marketing.docx` y `Unidad_5_Plan_Marketing.docx`), respetando títulos, subtítulos, definiciones teóricas, fórmulas, tablas metodológicas y ejemplos turísticos.
-   - No se alteró, inventó ni sintetizó información fuera de la proporcionada en las fuentes oficiales.
-2. **Revisión y Alineación de Actividades de Aprendizaje**:
-   - Se auditaron y actualizaron el 100% de los reactivos evaluativos de los temas 4.1 a 4.5 y 5.1 a 5.4 (9 bancos de preguntas en formato JSON).
-   - Todas las preguntas, opciones correctas, distractores y retroalimentaciones fueron calibradas para responderse directamente con la teoría y casos de los nuevos textos.
-3. **Simuladores y Casos Prácticos Actualizados**:
-   - **Simulador Unidad 4**: Adaptado a los parámetros oficiales del Hotel Boutique (20 habitaciones, $10,000 MXN de presupuesto distribuido en 5 canales oficiales, costo meta de $333.33 MXN por reserva directa y 3 retos dinámicos).
-   - **Simulador Unidad 5**: Adaptado a la Campaña Ecoturística oficial ($37,400 MXN autorizados con 10% de contingencia, ruta crítica CPM de 14 días laborales a través de actividades A–B–C–E–F, análisis de holguras y métricas de desempeño).
-4. **Organización y Centralización de Referencias Bibliográficas**:
-   - Se eliminaron las secciones de referencias completas al pie de los temas para concentrar la totalidad de las fuentes en `unidades/unidad-04/referencias.html` y `unidades/unidad-05/referencias.html`.
-   - Se mantuvieron las citas parentéticas en el cuerpo del texto vinculadas mediante identificadores directos (`#ref-...`) a sus respectivas tarjetas bibliográficas en formato APA.
+1. **Alineación y Coherencia Académica (100% de reactivos fundamentados)**:
+   - Se auditaron los 190 reactivos individuales de los temas 1.1 al 5.4, corrigiendo y sustituyendo las preguntas que hacían referencia a ejercicios o textos retirados (ejercicios de Unidad 1), garantizando que cada pregunta y respuesta correcta se deduzca directamente del contenido expuesto en la página respectiva.
+   - En las actividades finales de las cinco unidades, los 21 retos de decisión estratégica evalúan de forma equilibrada los conocimientos nodales de cada tema.
+2. **Unificación del Diseño Visual y Responsividad**:
+   - Se homologaron las actividades finales de las unidades 4 y 5 con la plantilla de diseño de las unidades 1, 2 y 3: estructura de encabezado unificada con badges de estado, barra superior de progreso de lectura (`reading-progress`), botón flotante para volver arriba (`scroll-to-top`), contenedor `evaluation-shell` estandarizado, rejilla responsiva `activity-grid`, y pie institucional uniforme.
+   - Se garantizó la legibilidad y accesibilidad táctil de botones y opciones en dispositivos móviles, tabletas y ordenadores de escritorio.
+3. **Denominación Uniforme: «Actividad final»**:
+   - Se sustituyó la denominación visible «Simulador» por **«Actividad final»** en todos los encabezados, títulos de página, botones, tarjetas del catálogo, modales de navegación y metadatos JSON del proyecto, preservando íntegramente las capacidades de interacción y cálculo de los casos prácticos.
+4. **Validación Funcional**:
+   - Comprobación técnica de todos los bancos de reactivos (opción múltiple, verdadero/falso, completar oración, ordenar fragmentos) con el motor `actividad-plantilla.js`, confirmando carga limpia, opciones completas, asignación de respuestas correctas, retroalimentaciones explicativas y cálculo de resultados.
 
 ---
 
 ## 🎨 Identidad Visual y Tecnologías
 
-- **Paleta de Color**: Verde botella (`#062319`) y blanco, acorde a la identidad institucional de la Escuela Superior de Turismo.
+- **Paleta de Color**: Verde botella institucional (`#062319`) y blanco, acorde a la identidad gráfica de la Escuela Superior de Turismo.
 - **Arquitectura Web**: HTML5 semántico, CSS3 con variables nativas, JavaScript modular, librerías interactivas (jsPDF, FontAwesome).
 - **Responsive**: Diseño adaptativo optimizado para dispositivos móviles, tabletas y ordenadores de escritorio.
 

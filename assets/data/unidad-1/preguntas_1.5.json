@@ -66,15 +66,15 @@
     "explicacion": "El visitante compra la vivencia total del territorio, por lo que las marcas deben integrarse en paquetes y rutas compartidas."
   },
   {
-    "pregunta": "En el ejercicio resuelto de diseño de clúster, ¿qué papel estratégico desempeña la universidad local?",
-    "opciones": [
-      "Aportar investigación de mercados aplicada, observatorios de tendencias y estudiantes en prácticas profesionales.",
-      "Cobrar cuotas de inscripción obligatorias a los turistas que visitan el mercado.",
-      "Prohibir que los jóvenes trabajen en el sector hotelero durante los fines de semana.",
-      "Encargarse del mantenimiento mecánico de las aeronaves en el aeropuerto."
+    "question": "En la cadena de valor del turismo, ¿cuál de las siguientes opciones corresponde a una actividad de apoyo?",
+    "options": [
+      "Desarrollo tecnológico, compras sustentables y gestión del talento humano.",
+      "El servicio de hospedaje y recepción de huéspedes.",
+      "La preparación y servicio de alimentos en el restaurante.",
+      "El guiado y traslado de turistas durante un recorrido."
     ],
-    "respuesta_correcta": "Aportar investigación de mercados aplicada, observatorios de tendencias y estudiantes en prácticas profesionales.",
-    "explicacion": "La academia provee capital intelectual, investigación rigurosa y formación de talento calificado."
+    "answer": "Desarrollo tecnológico, compras sustentables y gestión del talento humano.",
+    "explicacion": "Las actividades de apoyo proporcionan el soporte administrativo, tecnológico y de recursos humanos transversal para que los servicios primarios operen con excelencia."
   },
   {
     "pregunta": "¿Cuál es uno de los principales riesgos o desafíos que enfrenta un clúster turístico si no se gestiona adecuadamente?",
@@ -99,14 +99,14 @@
     "explicacion": "El margen refleja la rentabilidad y el valor percibido creado a lo largo de toda la cadena."
   },
   {
-    "pregunta": "¿Cuál es la reflexión central que resume el cierre de la unidad temática?",
-    "opciones": [
-      "El marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión.",
-      "El marketing solo consiste en gastar presupuesto en volantes impresos.",
-      "La teoría del aula es suficiente y nunca debe aplicarse en la vida real.",
-      "Las empresas turísticas deben esperar a que el gobierno les resuelva todos sus problemas comerciales."
+    "question": "¿Por qué el intercambio de mejores prácticas y conocimientos entre competidores es una ventaja dentro de un clúster turístico?",
+    "options": [
+      "Porque fomenta la innovación continua y eleva la calidad integral de la oferta del destino compartido.",
+      "Porque permite fijar precios monopólicos obligatorios para todos los prestadores de servicios.",
+      "Porque elimina por completo la necesidad de realizar publicidad individual en medios digitales.",
+      "Porque prohíbe la llegada de competidores foráneos al destino turístico."
     ],
-    "respuesta_correcta": "El marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión.",
-    "explicacion": "El cierre enfatiza conjugar la visión analítica y cuantitativa con la genuina vocación de servicio humano."
+    "answer": "Porque fomenta la innovación continua y eleva la calidad integral de la oferta del destino compartido.",
+    "explicacion": "En un clúster, la cooperación entre empresas que compiten impulsa la transferencia de conocimientos e innovación, beneficiando el posicionamiento de todo el destino."
   }
 ]

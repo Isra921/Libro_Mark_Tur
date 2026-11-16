@@ -5,19 +5,15 @@
   "descripcion": "Formula estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados.",
   "lema": "Coordinando la promesa comercial con la experiencia real del visitante.",
   "duracion_horas": 14,
-
   "introduccion": [
     "La selección de estrategias convierte el conocimiento del mercado en decisiones sobre qué ofrecer, a quién dirigirse y cómo competir. Las tácticas llevan esas decisiones a actividades concretas. En turismo, ambas deben coordinar la promesa publicitaria con la experiencia que realmente recibe el visitante.",
     "Esta investigación desarrolla los apartados 4.1 a 4.5.2 del programa de Plan de marketing de la Licenciatura en Turismo del Instituto Politécnico Nacional. Su propósito es explicar cómo la investigación de mercados orienta la mezcla de mercadotecnia, la comunicación integral y el plan de medios (Instituto Politécnico Nacional [IPN], 2022)."
   ],
-
   "video": {
     "titulo": "Video introductorio: Selección de estrategias y aplicación de tácticas del plan",
     "url": "https://www.youtube-nocookie.com/embed/TY7s8suBuVc"
   },
-
   "recorrido": "Recorre los cinco temas de la unidad: desde la investigación de mercados y la mejora continua de las 4P, pasando por las tácticas operativas y los enfoques de comunicación integral (CIM), hasta la formulación y evaluación del plan de medios.",
-
   "temas": [
     {
       "numero": "4.1",
@@ -75,20 +71,19 @@
       }
     }
   ],
-
   "actividad_final": {
-    "nombre": "Simulador de Tácticas de Marketing, CIM y Plan de Medios: Caso Hotel Boutique",
+    "nombre": "Actividad final: Tácticas de Marketing, CIM y Plan de Medios: Caso Hotel Boutique",
     "descripcion": "Diseña tácticas 4P, selecciona medios digitales y analógicos, y optimiza el presupuesto de medios para un hotel boutique turístico.",
     "url": "unidades/unidad-04/actividades/actividad-final.html"
   },
-
   "objetivo": "Formular estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados para el desarrollo competitivo de empresas turísticas.",
-
   "competencias": [
     "Formula estrategias y tácticas del plan de mercadotecnia con base en la investigación de mercados."
   ],
-
   "material_apoyo": [
-    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-04/referencias.html" }
+    {
+      "nombre": "Referencias bibliográficas de la unidad",
+      "url": "unidades/unidad-04/referencias.html"
+    }
   ]
 }

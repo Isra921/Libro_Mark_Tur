@@ -5,15 +5,12 @@
   "descripcion": "Analiza el encuadre empresarial con base en el enfoque industrial del turismo.",
   "lema": "Mirando el mundo con ojos de estratega y corazón de anfitrión.",
   "duracion_horas": 10,
-
   "introduccion": [
     "Esta es la primera unidad; los recibimos con gusto. Deseo que dejen de lado por un instante el concepto de que el marketing se refiere únicamente a la venta o la promoción. El marketing turístico es, ante todo, una manera de pensar y entender el impacto de las vivencias de los visitantes y en el lugar.",
     "Vamos a entender desde los principios de un plan de marketing aplicado en el turismo, examinaremos cómo la Organización Mundial de Turismo apoya a la empresa turística como un ente vivo que tiene sus propias particularidades, metas, filosofía y retos. Examinaremos la oferta y la demanda y su impacto en un plan de marketing y, finalmente, visualizaremos cómo el turismo se convierte en una cadena de producción y un sistema interconectado donde nada funciona de forma aislada.",
     "Por lo que les recomiendo leer con curiosidad, interrogar y reflexionar en torno al marketing turístico, en donde ello implica mirar el mundo con la perspectiva de un estratega."
   ],
-
   "recorrido": "Recorre los cinco temas en orden: desde los fundamentos del plan de marketing y el encuadre de la OMT, pasando por la empresa turística y el análisis de la oferta y la demanda, hasta el enfoque industrial del turismo y su actividad integradora final.",
-
   "temas": [
     {
       "numero": "1.1",
@@ -71,20 +68,19 @@
       }
     }
   ],
-
   "actividad_final": {
-    "nombre": "Evaluación Integradora: Diagnóstico y Estrategia de Marketing Turístico",
+    "nombre": "Actividad final: Diagnóstico Estratégico de Marketing Turístico y Clúster Regional",
     "descripcion": "Aplica e integra de forma holística los conocimientos adquiridos en los cinco temas de la unidad.",
     "url": "unidades/unidad-01/actividades/actividad-final.html"
   },
-
   "objetivo": "Analizar el encuadre empresarial y el contexto de la empresa turística con base en el enfoque industrial del turismo para el diseño estratégico de planes de marketing.",
-
   "competencias": [
     "Analiza el encuadre empresarial con base en el enfoque industrial del turismo."
   ],
-
   "material_apoyo": [
-    { "nombre": "Referencias bibliográficas de la unidad", "url": "unidades/unidad-01/referencias.html" }
+    {
+      "nombre": "Referencias bibliográficas de la unidad",
+      "url": "unidades/unidad-01/referencias.html"
+    }
   ]
 }
