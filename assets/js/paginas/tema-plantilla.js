@@ -102,7 +102,7 @@
 
     /**
      * Izquierda: tema anterior disponible (o la unidad si es el primero).
-     * Derecha: actividad del tema → siguiente tema → actividad final.
+     * Derecha: botón para la actividad del tema y botón para el siguiente tema (o actividad final).
      */
     function navegacion(unidad, tema) {
         const temas = UI.lista(unidad.temas);
@@ -118,19 +118,34 @@
                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad
                </a>`;
 
-        let destino = null;
+        const botonesDerecha = [];
+
+        // Botón para realizar la actividad formativa del tema
         if (tema.actividad && tema.actividad.url) {
-            destino = { url: tema.actividad.url, texto: `Ir a la actividad ${tema.numero}` };
-        } else if (siguiente) {
-            destino = { url: siguiente.url, texto: `Siguiente: tema ${siguiente.numero}` };
-        } else if (unidad.actividad_final && unidad.actividad_final.url) {
-            destino = { url: unidad.actividad_final.url, texto: 'Ir a la actividad final' };
+            botonesDerecha.push(
+                `<a class="u-btn t-pager__act" href="${UI.esc(DataManager.ruta(tema.actividad.url))}" title="Realizar la actividad de aprendizaje del tema ${UI.esc(tema.numero)}">
+                    <i class="fas fa-shapes" aria-hidden="true"></i> Ir a la actividad ${UI.esc(tema.numero)}
+                </a>`
+            );
         }
 
-        const derecha = destino
-            ? `<a class="u-btn u-btn--primary" href="${UI.esc(DataManager.ruta(destino.url))}">
-                   ${UI.esc(destino.texto)} <i class="fas fa-arrow-right" aria-hidden="true"></i>
-               </a>`
+        // Botón directo para avanzar al siguiente tema (sin necesidad de hacer la actividad)
+        if (siguiente) {
+            botonesDerecha.push(
+                `<a class="u-btn u-btn--primary" href="${UI.esc(DataManager.ruta(siguiente.url))}" title="${UI.esc(`${siguiente.numero} ${siguiente.nombre}`)}">
+                    Siguiente: tema ${UI.esc(siguiente.numero)} <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>`
+            );
+        } else if (unidad.actividad_final && unidad.actividad_final.url) {
+            botonesDerecha.push(
+                `<a class="u-btn u-btn--primary" href="${UI.esc(DataManager.ruta(unidad.actividad_final.url))}">
+                    Ir a la actividad final <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>`
+            );
+        }
+
+        const derecha = botonesDerecha.length
+            ? `<div class="t-pager__actions">${botonesDerecha.join('')}</div>`
             : '';
 
         return `${izquierda}${derecha}`;

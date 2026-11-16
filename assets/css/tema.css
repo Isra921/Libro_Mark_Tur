@@ -416,7 +416,45 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 .t-pager__prev i { transition: transform .3s ease; }
 .t-pager__prev:hover { color: var(--text-light); }
 .t-pager__prev:hover i { transform: translateX(-4px); }
-.t-pager .u-btn--primary { margin-left: auto; font-size: 1rem; }
+.t-pager .u-btn--primary { margin-left: 0; font-size: 1rem; }
+
+.t-pager__actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.t-pager__act {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 12px 20px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--primary) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .25s ease, background .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease;
+}
+
+.t-pager__act:hover {
+  background: color-mix(in srgb, var(--primary) 22%, var(--surface));
+  border-color: var(--primary);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--shadow-color) 16%, transparent);
+}
+
+.t-pager__act i {
+  color: var(--accent);
+}
 
 /* ---------- En esta página (derecha) ---------- */
 .t-toc__title {
@@ -483,8 +521,10 @@ a.t-index__link:hover { background: var(--primary-soft); color: var(--text-light
 }
 
 @media (max-width: 640px) {
-  .t-pager { flex-direction: column-reverse; align-items: stretch; }
-  .t-pager .u-btn--primary { margin-left: 0; }
-  .t-pager__prev { justify-content: center; }
+  .t-pager { flex-direction: column-reverse; align-items: stretch; gap: 14px; }
+  .t-pager__actions { display: flex; flex-direction: column; width: 100%; margin-left: 0; gap: 10px; }
+  .t-pager .u-btn--primary,
+  .t-pager__act { width: 100%; justify-content: center; margin-left: 0; }
+  .t-pager__prev { justify-content: center; padding: 6px 0; }
   .t-callout { padding: 16px 18px; }
 }
