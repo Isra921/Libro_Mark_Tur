@@ -95,13 +95,20 @@ const UnidadesUI = {
      * El diálogo se crea la primera vez y se reutiliza. Al cerrarlo
      * (botón, clic fuera o Esc) se detiene la reproducción.
      */
-    abrirVideo({ url, titulo = 'Video' }) {
+    abrirVideo({ url, titulo = 'Video', referencia }) {
         let dialogo = document.getElementById('videoModal');
         if (!dialogo) {
             document.body.insertAdjacentHTML('beforeend', `
                 <dialog class="u-video" id="videoModal">
                     <div class="u-video__frame">
                         <iframe allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="u-video__modal-footer" style="padding: 14px 20px; background: #062319; border-top: 1px solid rgba(255,255,255,0.12); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                        <p class="u-video__modal-title" style="margin: 0; font-weight: 700; color: #ffffff; font-size: 0.96rem;"></p>
+                        <div class="u-video__modal-source" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: rgba(3, 15, 10, 0.65); border: 1px solid rgba(197, 160, 89, 0.35); border-radius: 8px; padding: 6px 14px; font-size: 0.84rem;">
+                            <span style="color: var(--accent, #c5a059); font-weight: 700;"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencia:</span>
+                            <span class="u-video__modal-ref" style="color: #cbd5e1;"></span>
+                        </div>
                     </div>
                     <button class="u-video__close" type="button" aria-label="Cerrar video">
                         <i class="fas fa-xmark" aria-hidden="true"></i>
@@ -114,9 +121,13 @@ const UnidadesUI = {
             dialogo.addEventListener('close', () => { frameNuevo.src = ''; });
         }
         const frame = dialogo.querySelector('iframe');
+        const titleEl = dialogo.querySelector('.u-video__modal-title');
+        const refEl = dialogo.querySelector('.u-video__modal-ref');
         dialogo.setAttribute('aria-label', titulo);
         frame.title = titulo;
         frame.src = url;
+        if (titleEl) titleEl.textContent = titulo;
+        if (refEl) refEl.textContent = referencia || 'Salas Ramírez, I. (2026). YouTube.';
         dialogo.showModal();
     },
 

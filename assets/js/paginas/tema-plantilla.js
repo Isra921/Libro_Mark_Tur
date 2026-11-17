@@ -223,7 +223,8 @@
             }
             boton.addEventListener('click', () => UI.abrirVideo({
                 url,
-                titulo: boton.dataset.videoTitulo || 'Video del tema'
+                titulo: boton.dataset.videoTitulo || 'Video del tema',
+                referencia: boton.dataset.videoRef
             }));
         });
     }

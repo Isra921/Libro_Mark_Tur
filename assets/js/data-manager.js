@@ -45,7 +45,9 @@ const DataManager = {
         const promesa = (async () => {
             let respuesta;
             try {
-                respuesta = await fetch(this.ruta(rutaDesdeRaiz));
+                const separador = this.ruta(rutaDesdeRaiz).includes('?') ? '&' : '?';
+                const urlConVersion = `${this.ruta(rutaDesdeRaiz)}${separador}_t=${Date.now()}`;
+                respuesta = await fetch(urlConVersion, { cache: 'no-cache' });
             } catch (error) {
                 throw new DataError(rutaDesdeRaiz,
                     'No se pudo leer el archivo. Si abriste la página con doble clic, ábrela con un servidor local (por ejemplo, Live Server).');

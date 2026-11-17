@@ -114,20 +114,22 @@
                                 </div>
                             </div>
 
-                            <div class="control-field">
-                                <label class="control-label" for="strategySelect">Estrategia nuclear de Marketing Mix y Enfoque Industrial</label>
-                                <select class="select-input-styled" id="strategySelect" onchange="onStrategyChange()">
-                                    <option value="desestacionalizacion" selected>Estrategia A: Paquetes Entre Semana con Alianzas del Clúster (Desestacionalización)</option>
-                                    <option value="desintermediacion">Estrategia B: Campaña de Reserva Directa y Fidelización (Desintermediación OTAs)</option>
-                                    <option value="encadenamiento">Estrategia C: Integración de Productores Locales a la Cadena de Restauración y Alojamiento</option>
-                                    <option value="capacidad_carga">Estrategia D: Gestión Inteligente de Flujos y Protección de Capacidad de Carga</option>
-                                </select>
-                            </div>
+                            <div class="workbench-action-row">
+                                <div class="control-field" style="flex: 1 1 360px;">
+                                    <label class="control-label" for="strategySelect">Estrategia nuclear de Marketing Mix y Enfoque Industrial</label>
+                                    <select class="select-input-styled" id="strategySelect" onchange="onStrategyChange()">
+                                        <option value="desestacionalizacion" selected>Estrategia A: Paquetes Entre Semana con Alianzas del Clúster (Desestacionalización)</option>
+                                        <option value="desintermediacion">Estrategia B: Campaña de Reserva Directa y Fidelización (Desintermediación OTAs)</option>
+                                        <option value="encadenamiento">Estrategia C: Integración de Productores Locales a la Cadena de Restauración y Alojamiento</option>
+                                        <option value="capacidad_carga">Estrategia D: Gestión Inteligente de Flujos y Protección de Capacidad de Carga</option>
+                                    </select>
+                                </div>
 
-                            <div class="action-button-group">
-                                <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
-                                    <i class="fas fa-chart-pie"></i> Proyectar impacto estratégico
-                                </button>
+                                <div class="action-button-group">
+                                    <button type="button" class="btn-action-simulate" id="btnSimulate" onclick="simularEstrategia()">
+                                        <i class="fas fa-chart-pie"></i> Proyectar impacto estratégico
+                                    </button>
+                                </div>
                             </div>
                         </div>
 

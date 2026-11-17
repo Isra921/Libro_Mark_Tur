@@ -83,12 +83,19 @@
     function introduccion(unidad) {
         const parrafos = UI.lista(unidad.introduccion);
         const bienvenidaParrafos = UI.lista(unidad.bienvenida);
+        const refTexto = (unidad.video && unidad.video.referencia) ? unidad.video.referencia : 'Salas Ramírez, I. (2026). YouTube.';
         const video = (unidad.video && unidad.video.url) ? `
-            <div class="u-intro__video" style="margin-top: 1.75rem;">
-                <div class="u-video-responsive" style="position: relative; width: 100%; max-width: 820px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-md, 12px); box-shadow: 0 10px 28px rgba(0,0,0,0.4); border: 1px solid var(--border-color, rgba(255,255,255,0.15)); background: #000;">
+            <div class="u-intro__video" style="margin-top: 2rem; max-width: 820px; margin-left: auto; margin-right: auto;">
+                <div class="u-video-responsive" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 14px 14px 0 0; box-shadow: 0 10px 28px rgba(0,0,0,0.4); border: 1px solid var(--border-color, rgba(255,255,255,0.15)); border-bottom: none; background: #000;">
                     <iframe src="${UI.esc(unidad.video.url)}" title="${UI.esc(unidad.video.titulo || 'Video introductorio')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
                 </div>
-                ${unidad.video.titulo ? `<p style="text-align: center; margin-top: 0.65rem; font-size: 0.88rem; color: var(--text-muted); font-weight: 500;"><i class="fas fa-play-circle" style="color: var(--primary); margin-right: 6px;"></i> ${UI.esc(unidad.video.titulo)}</p>` : ''}
+                <div class="u-video__caption" style="padding: 16px 20px; background: #062319; border: 1px solid var(--border-color, rgba(255,255,255,0.15)); border-radius: 0 0 14px 14px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                    ${unidad.video.titulo ? `<p style="margin: 0; font-size: 0.98rem; font-weight: 700; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 8px;"><i class="fas fa-circle-play" style="color: var(--accent, #c5a059);"></i> ${UI.esc(unidad.video.titulo)}</p>` : ''}
+                    <div class="t-figure__source" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px 10px; background: rgba(3, 15, 10, 0.65); border: 1px solid rgba(197, 160, 89, 0.35); border-radius: 8px; padding: 8px 18px; font-size: 0.85rem;">
+                        <span class="t-figure__source-badge" style="color: var(--accent, #c5a059); font-weight: 700;"><i class="fas fa-bookmark" aria-hidden="true"></i> Referencia:</span>
+                        <span class="t-figure__source-text" style="color: #cbd5e1;">${UI.esc(refTexto)}</span>
+                    </div>
+                </div>
             </div>` : '';
 
         const bienvenidaHtml = bienvenidaParrafos.length ? `
@@ -300,7 +307,8 @@
         if (!boton) return;
         boton.addEventListener('click', () => UI.abrirVideo({
             url: unidad.video.url,
-            titulo: unidad.video.titulo || 'Video de la unidad'
+            titulo: unidad.video.titulo || 'Video de la unidad',
+            referencia: unidad.video.referencia
         }));
     }
 
