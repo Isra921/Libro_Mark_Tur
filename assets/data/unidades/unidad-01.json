@@ -6,9 +6,9 @@
   "lema": "Mirando el mundo con ojos de estratega y corazón de anfitrión.",
   "duracion_horas": 10,
   "introduccion": [
-    "Bienvenidos a esta primera unidad. Quiero que se olviden por un momento de la idea de que el marketing es solo vender o promocionar. El marketing turístico es, antes que nada, una forma de pensar. Es una disciplina que nos obliga a entender a las personas, sus deseos, sus miedos, sus presupuestos y sus sueños. Y luego, con esa comprensión, construir experiencias que dejen algo en el visitante y en el destino.",
-    "En esta unidad vamos a sentar las bases. Vamos a entender qué es un plan de marketing y por qué en turismo se vuelve casi un instrumento de supervivencia. Vamos a revisar cómo la Organización Mundial del Turismo nos da un lenguaje común para medir y comparar. Vamos a estudiar a la empresa turística como organismo vivo, con características propias, metas, filosofía y retos. Y vamos a analizar la oferta y la demanda, no como conceptos abstractos, sino como fuerzas reales que se encuentran, a veces chocan y a veces se complementan. Finalmente, veremos el turismo como industria, como cadena productiva, como sistema interconectado donde nada funciona solo.",
-    "La invitación es a que lean con curiosidad, a que cuestionen, a que piensen en ejemplos de su propia región. Porque el marketing turístico se aprende mirando el mundo con ojos de estratega y corazón de anfitrión."
+    "Esta es la primera unidad; los recibimos con gusto. Deseo que dejen de lado por un instante el concepto de que el marketing se refiere únicamente a la venta o la promoción. El marketing turístico es, ante todo, una manera de pensar y entender el impacto de las vivencias de los visitante y en el lugar.",
+    "Vamos a entender desde los principios de un plan de marketing aplicado en el turismo, examinaremos cómo la Organización Mundial de Turismo apoya a la empresa turística como un ente vivo que tiene sus propias particularidades, metas, filosofía y retos. Examinaremos la oferta y la demanda y su implanto en un plan de márquetin y finalmente, visualizaremos como el turismo se convierte en una cadena de producción y un sistema interconectado donde nada funciona de forma aislada.",
+    "Por lo que les recomiendo a leer con curiosidad, interrogar y reflexionar en torno de marketing turístico, en donde ello implica mirar el mundo con la perspectiva de un estratega."
   ],
   "recorrido": "Recorre los cinco temas en orden: desde los fundamentos del plan de marketing y el encuadre de la OMT, pasando por la empresa turística y el análisis de la oferta y la demanda, hasta el enfoque industrial del turismo y su actividad integradora final.",
   "temas": [
@@ -73,7 +73,7 @@
     "descripcion": "Aplica e integra de forma holística los conocimientos adquiridos en los cinco temas de la unidad.",
     "url": "unidades/unidad-01/actividades/actividad-final.html"
   },
-  "objetivo": "Analizar el encuadre empresarial y el contexto de la empresa turística con base en el enfoque industrial del turismo para el diseño estratégico de planes de marketing.",
+  "objetivo": "Evalúa planes de marketing de diversos productos turísticos, con base en la investigación de mercados y la mezcla de mercadotecnia.",
   "competencias": [
     "Analiza el encuadre empresarial con base en el enfoque industrial del turismo."
   ],
@@ -82,5 +82,13 @@
       "nombre": "Referencias bibliográficas de la unidad",
       "url": "unidades/unidad-01/referencias.html"
     }
+  ],
+  "bienvenida": [
+    "Es un placer acompañarlos en este recorrido por la unidad I: “Encuadre empresarial”, parte del objeto de aprendizaje digital de la unidad de aprendizaje Plan de marketing. Esta unidad es una de cinco que conforman el programa correspondiente al séptimo semestre de la licenciatura en turismo en la EST-IPN, y está diseñada para brindarles una herramienta en el ámbito turístico que es clave en su formación profesional.",
+    "¿Qué lograrán en esta unidad?",
+    "Adquirir conocimiento en la comprensión de los temas del plan de marketing y su importancia en el turismo. A través de actividades individuales y colaborativas, en donde se analizará el encuadre empresarial con base en el enfoque industrial del turismo para que con ello identifiquen las oportunidades que existen para la toma de decisiones y proponer acciones que respondan a las necesidades del mercado.",
+    "Como su facilitador(ra) estaré guiándolos en cada paso, así que atiendan a las indicaciones y no duden en consultar sus dudas.",
+    "Su entusiasmo, participación y dedicación serán claves para alcanzar los objetivos. Juntos, construiremos un espacio de aprendizaje dinámico y enriquecedor con la consulta de este material y las clases en el aula.",
+    "¡Comencemos con energía! Les deseo mucho éxito en esta unidad de aprendizaje y en el semestre."
   ]
 }

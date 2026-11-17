@@ -82,6 +82,7 @@
     /** Introducción completa. Se desvanece al hacer scroll (ver iniciarDesvanecimientoIntro). */
     function introduccion(unidad) {
         const parrafos = UI.lista(unidad.introduccion);
+        const bienvenidaParrafos = UI.lista(unidad.bienvenida);
         const video = (unidad.video && unidad.video.url) ? `
             <div class="u-intro__video" style="margin-top: 1.75rem;">
                 <div class="u-video-responsive" style="position: relative; width: 100%; max-width: 820px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-md, 12px); box-shadow: 0 10px 28px rgba(0,0,0,0.4); border: 1px solid var(--border-color, rgba(255,255,255,0.15)); background: #000;">
@@ -90,9 +91,23 @@
                 ${unidad.video.titulo ? `<p style="text-align: center; margin-top: 0.65rem; font-size: 0.88rem; color: var(--text-muted); font-weight: 500;"><i class="fas fa-play-circle" style="color: var(--primary); margin-right: 6px;"></i> ${UI.esc(unidad.video.titulo)}</p>` : ''}
             </div>` : '';
 
-        if (!parrafos.length && !video) return '';
+        const bienvenidaHtml = bienvenidaParrafos.length ? `
+            <section class="u-welcome-card" id="bienvenida-unidad" aria-label="Bienvenida a la Unidad" style="margin-bottom: 2rem; padding: 24px; border-radius: var(--radius-md, 12px); background: linear-gradient(135deg, rgba(6, 35, 25, 0.95), rgba(4, 24, 17, 0.95)); border: 1px solid var(--border-color, rgba(255, 255, 255, 0.16)); box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+                <p class="u-eyebrow" style="color: var(--accent, #c5a059); font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-hand-sparkles" aria-hidden="true"></i> Bienvenida
+                </p>
+                ${bienvenidaParrafos.map(p => {
+                    if (p.startsWith('¿') || p.startsWith('¡')) {
+                        return `<p class="u-intro__text" style="font-weight: 700; color: var(--text-light, #ffffff); margin: 14px 0 6px;">${UI.esc(p)}</p>`;
+                    }
+                    return `<p class="u-intro__text" style="margin-bottom: 10px; line-height: 1.65; color: var(--text-soft, #cbd5e1);">${UI.esc(p)}</p>`;
+                }).join('')}
+            </section>` : '';
+
+        if (!parrafos.length && !video && !bienvenidaParrafos.length) return '';
         return `
-            <section class="u-intro" id="introduccion" aria-label="Introducción">
+            ${bienvenidaHtml}
+            <section class="u-intro" id="introduccion" aria-label="Introducción de la unidad">
                 <p class="u-eyebrow">Introducción</p>
                 ${parrafos.map(p => `<p class="u-intro__text">${UI.esc(p)}</p>`).join('')}
                 ${video}
