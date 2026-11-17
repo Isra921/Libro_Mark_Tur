@@ -18,7 +18,7 @@
   "temas": [
     {
       "numero": "4.1",
-      "nombre": "Investigación de mercados",
+      "nombre": "Investigación de mercados en turismo",
       "sintesis": "Proceso metodológico, fuentes primarias y secundarias, técnicas cualitativas y cuantitativas aplicadas a empresas turísticas.",
       "url": "unidades/unidad-04/temas/tema-04-01.html",
       "icono": "fa-magnifying-glass",
@@ -40,8 +40,8 @@
     },
     {
       "numero": "4.3",
-      "nombre": "Aplicación de tácticas para cada estrategia del Plan de Marketing",
-      "sintesis": "Estructuración de tácticas operativas: qué hacer, responsable, plazos, indicadores de desempeño y criterios de ajuste.",
+      "nombre": "Selección y estructuración de tácticas del plan",
+      "sintesis": "Estructuración de tácticas operativas: qué hacer, responsable, plazos, recursos e indicadores verificables (KPIs).",
       "url": "unidades/unidad-04/temas/tema-04-03.html",
       "icono": "fa-list-check",
       "actividad": {
@@ -51,8 +51,8 @@
     },
     {
       "numero": "4.4",
-      "nombre": "Comunicación integral del marketing",
-      "sintesis": "CIM, medios digitales vs analógicos, criterios de selección y enfoques: marketing de contacto, inbound, simbiótico y social.",
+      "nombre": "Comunicación integral del marketing (CIM)",
+      "sintesis": "Coordinación sistemática de mensajes en medios digitales y analógicos, y nuevos enfoques: holístico, centrado en el cliente, omnicanal y ágil.",
       "url": "unidades/unidad-04/temas/tema-04-04.html",
       "icono": "fa-comments",
       "actividad": {
@@ -62,8 +62,8 @@
     },
     {
       "numero": "4.5",
-      "nombre": "Plan de medios",
-      "sintesis": "Diseño de objetivos de comunicación y comerciales, calendario, presupuesto asignado y cálculo del costo por reserva.",
+      "nombre": "Plan de medios y evaluación comercial",
+      "sintesis": "Objetivos de comunicación frente a comerciales, metas cuantitativas, presupuesto ilustrativo y evaluación de rentabilidad por reserva.",
       "url": "unidades/unidad-04/temas/tema-04-05.html",
       "icono": "fa-calendar-days",
       "actividad": {

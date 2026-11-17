@@ -1,0 +1,811 @@
+Bienvenida
+Marketing en Turismo (polilibro académico) ha sido creado como una herramienta con recursos educativos interactivos, innovador y formativo para las y los estudiantes de la carrera de Licenciatura en Turismo en la Escuela Superior de Turismo (EST) del Instituto Politécnico Nacional. En donde se pretende evaluar planes de marketing de diversos productos turísticos, con base en la investigación de mercados y la mezcla de mercadotecnia.
+A lo largo de este curso complementaras los fundamentos del plan de marketing turístico y sus metodológicas de la Organización Mundial del Turismo (OMT), tipología y filosofía en empresas turística. Aprenderás a construir el perfil del consumidor mediante compradoras que fijan los precios equilibrados según costos y puntos de equilibrio en donde se elaborar matrices estratégicas para diseñar planes de medios integrales con presupuestos controlados y rutas críticas (CPM).
+Por lo que cada unidad fue desarrollada con un enfoque pedagógico orientado a aprender haciendo, integrando actividades formativas por tema y simuladores interactivos de toma de decisiones que impulsan liderazgo comercial, ética profesional y sustentabilidad turística.
+¡Bienvenido a este espacio virtual de aprendizaje! Descubre el potencial del marketing y el uso de las herramientas digitales para transformar y liderar la innovación en la industria turística. 
+Introducción y Alcance de la Materia
+La unidad de aprendizaje Marketing en Turismo (Plan de marketing) aporta de manera directa al perfil de egreso de la carrera en  Licenciatura en Turismo de la Escuela Superior de Turismo del Instituto Politécnico Nacional. Desarrolla las habilidades analíticas para formular, coordinar, implementar y evaluar planes estratégicos de mercadotecnia basados en la investigación de mercados, la caracterización profunda de los consumidores y la integración de la mezcla de mercadotecnia de servicios turísticos.
+Propósito general de la unidad de aprendizaje
+Evalúa planes de marketing de diversos productos turísticos, con base en la investigación de mercados y la mezcla de mercadotecnia.
+Organización de las unidades temáticas
+Unidad I · Encuadre empresarial: Fundamentos del plan de marketing, directrices metodológicas de la OMT, características de la empresa turística, oferta y demanda, y el turismo bajo el enfoque industrial y de clústeres.
+Unidad II · Identificación del perfil del consumidor y desarrollo de la mezcla de mercadotecnia: Variables de segmentación y buyer personas, producto turístico según OMT, políticas de precio, punto de equilibrio, branding, posicionamiento y pronósticos de ventas.
+Unidad III · Elaboración e implementación de estrategias: Análisis interno y externo (PESTEL, Porter, VRIO), matrices MEFE, MEFI, cruces estratégicos TOWS/FODA, cartera BCG, Ansoff y Matriz del Perfil Competitivo (MPC).
+Unidad IV · Selección de estrategias y aplicación de tácticas del plan: Metodología de investigación de mercados, mejora continua 4P (brechas de calidad), estructuración de tácticas con indicadores, Comunicación Integral de Marketing (CIM) y diseño del plan de medios.
+Unidad V · Presupuesto, ruta crítica, evaluación y control del plan de marketing: Procedimientos presupuestales, cálculo de la red y ruta crítica (CPM), tableros de control de KPIs turísticos y reporte ejecutivo.
+Metodología y Orientación Didáctica
+El polilibro Marketing en Turismo se estructura bajo un modelo de aprendizaje activo, centrado en el estudiante y mediado por recursos digitales en la Escuela Superior de Turismo (EST - IPN).
+Estrategias didácticas formativas
+Aprendizaje basado en casos reales y contextualizados: Análisis de empresas y destinos turísticos (como San Miguel de Allende, la operadora Rutas del Centro y cooperativas de ecoturismo) para diagnosticar fallas operativas y oportunidades comerciales.
+Actividades formativas interactivas por tema: Cuestionarios dinámicos con retroalimentación inmediata orientados a consolidar conceptos clave sin presión de calificación sumativa.
+Simuladores interactivos de toma de decisiones: Laboratorios prácticos al cierre de cada unidad donde el estudiante modela variables de precio, ponderaciones matriciales, asignación de pauta publicitaria y redes de proyectos CPM, observando consecuencias directas y métricas de desempeño.
+Modalidades de trabajo recomendadas
+Estrategias de aprendizaje
+Aprendizaje basado en proyectos: Las y los estudiantes, colaboran para responder a una problemática o resolver una situación en el ámbito del plan de marketing turístico guiados por el docente.
+Aprendizaje autónomo: El o la estudiante navega de forma autogestionada por el contenido del polilibro académico, apoyándose en recursos interactivos, lecturas clave y ejemplos guiados.
+Aprendizaje basado en problemas: Las y los estudiantes resuelven problemas desafiantes y auténticos en el ámbito plan de marketing turístico; buscan soluciones de manera colaborativa y analizan y resuelven problemas reales mediante casos prácticos.
+Unidad 1
+Introducción
+Esta es la primera unidad; los recibimos con gusto. Deseo que dejen de lado por un instante el concepto de que el marketing se refiere únicamente a la venta o la promoción. El marketing turístico es, ante todo, una manera de pensar y entender el impacto de las vivencias de los visitante y en el lugar.
+Vamos a entender desde los principios de un plan de marketing aplicado en el turismo, examinaremos cómo la Organización Mundial de Turismo apoya a la empresa turística como un ente vivo que tiene sus propias particularidades, metas, filosofía y retos. Examinaremos la oferta y la demanda y su implanto en un plan de márquetin y finalmente, visualizaremos como el turismo se convierte en una cadena de producción y un sistema interconectado donde nada funciona de forma aislada.
+Por lo que les recomiendo a leer con curiosidad, interrogar y reflexionar en torno de marketing turístico, en donde ello implica mirar el mundo con la perspectiva de un estratega.
+Fundamentos del Plan de Marketing
+Es una herramienta viva que orienta los recursos, define prioridades y permite evaluar resultados en un sector donde el producto es una experiencia vivencial.
+1.1.1¿Qué es un plan de marketing?
+Documento escrito que organiza acciones y decisiones en una empresa donde se busca cumplir los objetivos trazados durante un tiempo determinado. No es un ejercicio académico ni un trámite burocrático. Es una herramienta viva que orienta el uso de recursos, define prioridades y permite evaluar resultados.
+En turismo, el plan de marketing adquiere una dimensión especial porque el producto es una experiencia. No vendemos un objeto que el cliente se lleva a casa. Vendemos un conjunto de momentos, sensaciones y recuerdos que ocurren en un lugar y un tiempo específicos. Esto significa que no podemos almacenar, no podemos posponer la venta, no podemos recuperar una noche vacía. El plan de marketing turístico debe ser, por lo tanto, más ágil, más sensible al entorno y más centrado en las personas que en los productos.
+1.1.2¿Por qué es importante planear el marketing en turismo?
+Podríamos enumerar muchas razones, pero destacan cinco razones esenciales que todo profesional del turismo debe dominar:
+Primera: porque los recursos son limitados. Ninguna empresa turística, ni siquiera una gran cadena hotelera, tiene dinero infinito para promocionarse. El plan nos ayuda a decidir dónde invertir, con quién aliarnos, qué mensajes lanzar y a quién dirigirlos.
+Segunda: porque la competencia es feroz. Un destino turístico no compite solo con destinos similares. Compite con todos los destinos del mundo que aspiran al mismo tiempo libre y al mismo bolsillo del viajero. El plan nos ayuda a diferenciarnos.
+Tercera: porque la demanda cambia. Los gustos, las modas, las tecnologías, las preocupaciones ambientales y las condiciones económicas cambian constantemente. El plan nos obliga a monitorear y adaptarnos.
+Cuarta: porque la estacionalidad nos golpea. La mayoría de los destinos turísticos tienen temporadas altas y bajas. El plan nos permite diseñar estrategias para suavizar esos valles y aprovechar mejor los picos.
+Quinta: porque la experiencia se construye con muchos actores. En turismo, el visitante no interactúa con una sola empresa. Interactúa con el transporte, el hotel, el restaurante, el guía, la tienda de artesanías, el taxista. El plan de marketing debe coordinar esa experiencia completa, aunque no todos los actores sean parte de la misma empresa.
+1.1.3 Estructura detallada de un plan de marketing turístico
+Se describen los elementos que componen un plan de marketing con ejemplos aplicados directamente al turismo:
+I. Resumen ejecutivo
+Es la primera página que lee un director general, un inversionista o un funcionario de turismo. Debe contener, en dos o tres páginas, lo esencial: cuál es la situación, cuál es la oportunidad, qué vamos a hacer, cuánto costará y qué resultados esperamos. En turismo, el resumen ejecutivo debe incluir el nombre del destino o empresa, el segmento al que se dirige, la temporada que cubre y el monto de inversión.
+II. Análisis de la situación
+Aquí respondemos a la pregunta: ¿dónde estamos? Este análisis contempla cuatro grandes dimensiones:
+Análisis externo: todo lo que no controlamos. Incluye el entorno político (estabilidad, regulaciones migratorias), económico (tipo de cambio, inflación, poder adquisitivo), social (cambios en hábitos de viaje, envejecimiento poblacional, conciencia ecológica), tecnológico (plataformas digitales, inteligencia artificial, realidad virtual), ambiental (cambio climático, desastres naturales) y legal (leyes de turismo, normativas de protección al consumidor).
+Análisis interno: todo lo que sí controlamos. Incluye nuestros recursos financieros, humanos, tecnológicos, nuestra ubicación, nuestra reputación, nuestras alianzas y nuestras capacidades operativas.
+Análisis de la competencia: identificar quiénes son nuestros competidores directos e indirectos, qué ofrecen, a qué precio, cómo se comunican, qué fortalezas y debilidades tienen.
+Análisis del consumidor: entender quién nos visita, por qué, cómo, cuándo, cuánto gasta, qué espera y de qué se queja.
+III. Análisis FODA
+El FODA es la síntesis del análisis de la situación: Fortalezas, Oportunidades, Debilidades y Amenazas. En turismo, una fortaleza puede ser la ubicación privilegiada; una debilidad, la falta de personal capacitado en idiomas; una oportunidad, una nueva ruta aérea; una amenaza, la inseguridad en la región.
+IV. Objetivos de marketing
+Todos los objetivos deben de ser específicos, medibles y alcanzables en un tiempo determinado. En turismo, los objetivos más comunes son:
+Aumentar la ocupación hotelera en un porcentaje determinado.
+Incrementar el gasto promedio por visitante.
+Diversificar los mercados emisores.
+Posicionar el destino en un segmento específico.
+Reducir la dependencia de intermediarios.
+Aumentar la tasa de retorno de visitantes.
+V. Segmentación y mercado meta
+La segmentación ayuda a clasificar el mercado dependiendo de sus y necesidades similares. considerando:
+Geográficos
+Demográficos
+Psicográficos
+Conductuales
+Una vez segmentado el mercado, seleccionamos el mercado meta: aquellos segmentos que mejor se ajustan a nuestra oferta y a nuestros objetivos.
+VI. Posicionamiento
+En turismo, el posicionamiento se construye con experiencias, con reputación, con reseñas, con recomendaciones boca a boca. Un destino puede posicionarse como "el más romántico", "el más aventurero", "el más cultural" o "el más sostenible".
+VII. Mezcla de marketing turístico (Las 7P)
+La mezcla de marketing son las herramientas que combinamos para alcanzar nuestros objetivos. A las tradicionales 4P (producto, precio, plaza y promoción), en turismo se han añadido tres fundamentales: personas, procesos y evidencia física.
+Producto: en turismo, el producto es la experiencia completa. Incluye el atractivo, el alojamiento, la gastronomía, el transporte, las actividades y los servicios complementarios. Se debe gestionar el producto central, los productos complementarios y los productos aumentados.
+Precio: es altamente sensible. Influyen la estacionalidad, la competencia, la demanda y los costos. Se pueden usar estrategias de precios diferenciados, precios psicológicos, precios de paquete o descuentos por temporada baja.
+Plaza o distribución: cómo hacemos llegar el producto al consumidor: agencias de viajes, turoperadores, plataformas digitales (OTAs), venta directa, alianzas con hoteles y oficinas de turismo.
+Promoción: la comunicación integral: publicidad, relaciones públicas, promoción de ventas, venta personal, marketing digital, redes sociales, influencers y contenido generado por usuarios (UGC).
+Personas: el personal de contacto es clave en turismo. 
+Procesos: los procedimientos que garantizan la calidad y consistencia: check-in rápido, respuesta oportuna a quejas, manejo de reservas y coordinación de tours.
+Evidencia física: que los cuartos de un hotel estén limpios, que los alimentos de un restaurant y el personal cumpla con los estándares.
+VIII. Plan de acción
+Aquí se detalla quién hace qué, cuándo, cómo y con qué recursos.  Se despliega en el cronograma todas las actividades con responsables y presupuestos asignados a llevar a cabo”.
+IX. Presupuesto
+Cuánto cuesta todo y se detalla específicamente cuanto ingresa y cuanto se gasta.
+X. Control y seguimiento
+Cómo mediremos el éxito a través de indicadores clave de rendimiento. 
+Notas metodológicas de la Organización Mundial del Turismo (OMT)
+Constituyen el estándar global que permite medir, clasificar y comparar con rigor técnico los flujos de visitantes, orientando decisiones estratégicas y de inversión en marketing.
+1.2.1¿Qué es la OMT y por qué nos importa?
+Sus notas metodológicas son documentos técnicos que establecen definiciones, clasificaciones y procedimientos para medir el turismo de manera comparable entre países.
+Para el marketing turístico, estas notas son fundamentales porque nos dan un lenguaje común. Si queremos analizar mercados, comparar destinos, medir el impacto de nuestras campañas o justificar inversiones, necesitamos hablar en los mismos términos que los demás actores del sector a nivel nacional e internacional.
+1.2.2Definiciones clave de la OMT aplicadas al marketing
+La precisión conceptual es indispensable para evitar confusiones al proyectar la demanda turística:
+Turismo 
+Visitante
+Turista
+Excursionista
+Destino turístico
+Gasto turístico
+Producto turístico
+1.2.3La importancia de las definiciones en la segmentación
+Cuando segmentamos el mercado, necesitamos saber si hablamos de turistas o de excursionistas, porque su comportamiento de consumo, impacto económico y requerimientos son radicalmente distintos.
+1.2.4La medición del turismo según la OMT
+La OMT propone medir el desempeño de la actividad turística a través de cinco indicadores clave:
+Llegadas de visitantes: número total de visitantes que arriban al destino en un periodo determinado.
+Pernoctaciones: número total de noches que los turistas pasan en los establecimientos de alojamiento del destino.
+Gasto turístico: monto total monetario ejercido por los visitantes durante su desplazamiento y estadía.
+Ingresos por turismo: volumen de ingresos generados directamente por la actividad turística en la economía local.
+Empleo turístico: número de plazas de trabajo directas e indirectas generadas y sostenidas por el sector.
+Estos indicadores son el sustento cuantitativo para evaluar la efectividad y retorno de nuestras campañas de marketing.
+Empresa turística
+La empresa turística combina recursos humanos, naturales y tecnológicos para generar experiencias. Sus rasgos distintivos de intangibilidad, inseparabilidad, caducidad y dependencia humana exigen una sólida filosofía y objetivos SMART bien definidos.
+1.3.1Características de la empresa turística
+Organización que combina recursos humanos, financieros, tecnológicos y naturales para ofrecer servicios y experiencias a los visitantes. Posee características fundamentales que la distinguen de otras industrias:
+Intangibilidad: aquello que no se puede ver y tocar ni probar
+Inseparabilidad: todo aquello que se produce en la producción y el consumo ocurren simultáneamente.
+Heterogeneidad: cada experiencia es única.
+Caducidad: los servicios turísticos no se pueden almacenar.
+Estacionalidad: la demanda turística depende según las estaciones del año, generando temporadas altas, medias y bajas.
+Dependencia externa: el turismo es altamente vulnerable dependiendo de los factores que lo pueden afectar ya sea clima, seguridad, política, economía y contingencias sanitarias.
+Alta competencia: un destino puede ser atractivo dependiendo de la competencia con otros
+Importancia del factor humano: el personal es el principal activo. La calidez y profesionalismo de un colaborador pueden transformar una experiencia ordinaria en un recuerdo inolvidable,
+clasificación de las empresas turísticas
+Las empresas turísticas se categorizan bajo diversos criterios operativos y estructurales 
+Por su función:
+Empresas de alojamiento: hoteles, moteles, hostales, casas rurales, campamentos y departamentos turísticos.
+Empresas de restauración: restaurantes, bares, cafeterías y servicios de banquetes/catering.
+Empresas de transporte: aerolíneas, líneas de autobuses, ferrocarriles, cruceros marítimos y arrendadoras de autos.
+Empresas de intermediación: agencias de viajes minoristas, turoperadores mayoristas y plataformas de reserva digital (OTAs).
+Empresas de ocio y entretenimiento: parques temáticos, museos, teatros y centros de turismo de aventura.
+Empresas de servicios complementarios: establecimientos de artesanías, casas de cambio, servicios médicos y empresas de seguros de viaje.
+Por su tamaño:
+Microempresas: menos de 10 empleados.
+Pequeñas empresas: de 10 a 49 empleados.
+Medianas empresas: de 50 a 249 empleados.
+Grandes empresas: 250 o más empleados.
+Espacio geográfico: Lugares, áreas dentro y fuera del lugar a observar ya sea dentro o fuera del país de origen.
+Naturaleza jurídica: Empresas mixtas, cooperativas y asociaciones civiles.
+1.3.3Fijación de metas y objetivos
+Las metas y los objetivos son la brújula de la organización turística. Sin ellos no existe dirección estratégica ni parámetros claros de evaluación.
+Características de los objetivos SMART:
+Específicos (Specific): claros y sin ambigüedades sobre lo que se espera lograr.
+Medibles (Measurable): cuantificables a través de indicadores concretos.
+Alcanzables (Achievable): realistas considerando los recursos y capacidades operativas.
+Relevantes (Relevant): directamente alineados con la misión y visión del negocio.
+Temporales (Time-bound): con un plazo o fecha límite de cumplimiento estipulado.
+Tipos de objetivos en la empresa turística:
+De mercado: cuota de mercado, volumen de clientes y penetración en nuevos segmentos.
+De producto: desarrollo de experiencias innovadoras y mejora continua del servicio.
+De precio: posicionamiento tarifario, margen de rentabilidad y competitividad.
+De distribución: diversificación de canales, convenios comerciales y presencia en plataformas digitales.
+De comunicación: notoriedad de marca, reputación online y posicionamiento en buscadores.
+De recursos humanos: programas de capacitación, clima laboral y retención de talento.
+Financieros: incremento en ventas brutas, utilidades netas y retorno de inversión.
+De sostenibilidad: mitigación de huella ecológica y apoyo al desarrollo socioeconómico comunitario.
+Ejemplos prácticos de objetivos formulados:
+Aumentar la ocupación hotelera anual del 65% al 75% en los próximos 12 meses.
+Incrementar el consumo promedio por comensal de $800 a $1,000 pesos durante el próximo semestre.
+Lograr que el 40% de las reservas totales ingresen a través del canal directo web en el siguiente año.
+Disminuir la huella de carbono de las excursiones en 15% en un periodo de dos años.
+Capacitar al 100% del personal de primer contacto en hospitalidad y atención al cliente en los próximos 6 meses.
+1.3.4Filosofía empresarial: misión, visión y valores
+La filosofía empresarial parte de los principios y convicciones que se establezcan y que sea lo que oriente a la empresa; representa el alma de la empresa turística y se conforma por tres pilares:
+Misión
+Hotel ecológico: "Ofrecer experiencias de descanso en armonía con la naturaleza, promoviendo cuidar los lugares que se visitan."
+Agencia aventura: "Diseñar y operar experiencias seguras y emocionantes que conecten a las personas con la naturaleza y consigo mismas."
+Restaurante turístico: "Servir platillos que celebren la cocina local, con ingredientes frescos y hospitalidad genuina."
+Visión
+"Ser el hotel ecológico referente en la región, reconocido por su sostenibilidad y autenticidad."
+"Convertirnos en la agencia de turismo de aventura líder del país con presencia en los principales destinos naturales."
+"Ser el restaurante predilecto por los viajeros que buscan la máxima autenticidad gastronómica en el destino."
+Valores
+Principios éticos que rigen la conducta diaria de los equipos
+Respeto e integridad, trabajo en equipo, innovación, responsabilidad social, excelencia y sostenibilidad.
+Análisis de la oferta y la demanda
+Comprender sus componentes y factores determinantes es indispensable para gestionar el equilibrio comercial.
+1.4.1La oferta turística
+Es lo que se ofrece en el mercado para satisfacer la demanda de los visitantes. Está integrada por cinco componentes principales:
+Recursos turísticos: atractivos naturales, culturales, históricos y artísticos que motivan el desplazamiento.
+Infraestructura: redes de carreteras, aeropuertos, puertos, telecomunicaciones y servicios públicos básicos.
+Superestructura: equipamiento especializado como hoteles, restaurantes, agencias, parques temáticos y museos.
+Servicios complementarios: servicios bancarios, cambios de divisa, seguros, asistencia médica y comercio en general.
+Capital humano: profesionales y colaboradores con formación especializada en hospitalidad y turismo.
+Características de la oferta turística:
+Rigidez: no se puede aumentar rápidamente en el corto plazo; un hotel o un aeropuerto no se construyen de un día para otro.
+Estacionalidad: su nivel de aprovechamiento varía sustancialmente de acuerdo con la época del año.
+Heterogeneidad: cada prestador de servicios entrega un producto diferenciado con estilos y niveles de calidad variables.
+Interdependencia: los prestadores se necesitan mutuamente; el hotel depende del transporte para recibir huéspedes, y el restaurante depende de los recorridos turísticos para atraer comensales.
+Localización inamovible: la oferta está anclada permanentemente a un territorio geográfico específico; el consumidor debe desplazarse hacia ella.
+1.4.2La demanda turística
+Personas que viajan con la finalidad de tener un descanso, conocer nuevas culturas, recreación, negocios u otros motivos personales. Se caracteriza por:
+Motivaciones diversas: esparcimiento, turismo cultural, aventura, salud y bienestar, negocios y reuniones familiares.
+Sensibilidad al precio: elasticidad variable según el nivel socioeconómico y el perfil del viajero.
+Estacionalidad: marcada concentración temporal durante fines de semana, puentes y periodos vacacionales.
+Flexibilidad y sustituibilidad: el turista tiene la capacidad de cambiar de destino, fechas o prestadores de servicio ante cualquier inconveniente.
+Influencia de factores externos: altamente condicionada por la economía, la percepción de seguridad, el clima y las tendencias globales.
+Tipos de demanda:
+Demanda efectiva (o real): las personas que actualmente viajan y consumen servicios turísticos.
+Demanda potencial: aquellos individuos con capacidad económica y tiempo libre que viajarían si se presentaran las condiciones o estímulos adecuados.
+Demanda diferida: personas que tienen la intención de viajar, pero han pospuesto su viaje por motivos temporales (laborales, familiares o de fuerza mayor).
+No demanda: población que carece de interés o recursos para realizar actividades turísticas.
+1.4.3Factores que afectan la demanda turística
+La fluctuación de los flujos de visitantes responde a múltiples variables del macroentorno:
+A) Económicos: nivel de ingreso disponible, paridad cambiaria, inflación y tasas de desempleo.
+B) Sociales: transformaciones demográficas, incremento del envejecimiento activo, nuevos estilos de vida y modas de viaje.
+C) Políticos: estabilidad institucional, políticas de visado y regulaciones migratorias.
+D) Tecnológicos: penetración de internet, plataformas de economía colaborativa y facilidad de reservas directas.
+E) Ambientales: impacto del cambio climático, temporales y eventos naturales extremos.
+F) Sanitarios: emergencias epidemiológicas y protocolos de bioseguridad.
+G) Psicológicos: percepción de riesgo, seguridad subjetiva y reputación del destino.
+1.4.4Equilibrio entre oferta y demanda
+El equilibrio de mercado se alcanza cuando la capacidad instalada coincide con el volumen de demanda real. En el turismo este equilibrio es sumamente complejo de mantener debido a que:
+La oferta es rígida a corto plazo (capacidad instalada fija).
+La demanda es volátil y sujeta a oscilaciones abruptas.
+La estacionalidad produce picos con saturación y valles con capacidad ociosa.
+Los factores externos alteran inesperadamente ambas variables.
+Herramientas para gestionar el equilibrio:
+Yield management (gestión de ingresos): ajuste dinámico de precios y disponibilidad conforme al comportamiento de la demanda.
+Diversificación de mercados: captación de segmentos corporativos, de eventos o de jubilados durante la temporada baja.
+Estrategias de empaquetamiento: combinación de hospedaje, alimentos y tours a precios atractivos para incentivar el flujo continuo.
+Alianzas colaborativas:  trabajo en equipo con hoteleros, restauranteros y transportistas.
+Comunicación estratégica: espacio de promoción orientadas a turistas con atractivos y beneficios.
+El enfoque industrial del turismo
+Toda empresa o cadena de valor interdependiente y un sistema dinámico donde la colaboración y el potencian la competitividad permita a los estados o pueblos participar.
+1.5.1¿Qué es el enfoque industrial?
+Conjunto articulado de actividades productivas interconectadas que generan valor económico, social y cultural. 
+Este enfoque nos permite comprender que el turismo conforma una cadena productiva viva: como en toda cadena, la debilidad o falla de un solo eslabón compromete la calidad y la percepción de la experiencia global.
+1.5.2Componentes de la industria turística
+La estructura de la industria turística se conforma por diez sectores interdependientes:
+Sector de alojamiento: hoteles, moteles, hostales, casas rurales, campings, villas y plataformas de alquiler vacacional.
+Sector de alimentos y bebidas: restaurantes de autor, cafeterías, bares tradicionales, servicios de banquetes y food trucks gastronómicos.
+Sector de transporte: aerolíneas, líneas terrestres de autobuses, ferrocarriles panorámicos, cruceros, arrendadoras de autos y transporte público urbano.
+Sector de atractivos y actividades: parques temáticos, zonas arqueológicas, museos, monumentos históricos, reservas naturales y deportes de aventura.
+Sector de intermediación: agencias de viajes minoristas, turoperadores receptivos y emisivos, plataformas de viaje en línea (OTAs) y centrales de reservas (GDS).
+Sector de servicios complementarios: instituciones bancarias, casas de cambio, pólizas de asistencia médica, comercio formal y tiendas de souvenirs.
+Sector público y gubernamental: secretarías de turismo, organismos de promoción turística, municipios y entidades normativas.
+Comunidad local: residentes anfitriones, cooperativas de artesanos, guías locales y micro emprendedores comunitarios.
+Sector educativo e investigación: universidades, escuelas de hospitalidad, centros de certificación y observatorios turísticos.
+Sector tecnológico: desarrolladores de software hotelero, aplicaciones móviles de guiado, plataformas de inteligencia artificial y soluciones de realidad virtual.
+1.5.3La cadena de valor del turismo
+La cadena de valor describe el proceso secuencial mediante el cual se genera valor agregado para el visitante:
+Actividades primarias: los servicios directamente involucrados en la experiencia del cliente (hospedaje, transporte de conexión, oferta gastronómica, tours y entretenimiento en destino).
+Actividades de apoyo: la infraestructura operativa transversal (gestión del talento humano, desarrollo e innovación tecnológica, compras y abastecimiento sustentable).
+Margen de valor: la diferencia positiva generada entre lo que el turista está dispuesto a pagar por la experiencia recibida y el costo total en que incurre la industria para producirla.
+1.5.4El clúster turístico
+Concentración geográfica de empresas que compiten en el mercado, pero al mismo tiempo cooperan activamente para fortalecer el destino común. Ejemplos destacados incluyen el clúster de Cancún, el de la Riviera Maya, el de San Miguel de Allende o el de San Carlos de Bariloche.
+Ventajas del clúster:
+Mayor eficiencia: uso compartido y optimización de recursos e infraestructura.
+Innovación y conocimiento: intercambio constante de mejores prácticas y metodologías entre competidores.
+Atracción de inversiones: mayor certidumbre y visibilidad para atraer capital privado y fondos públicos.
+Posicionamiento de marca: fortalecimiento conjunto del destino en mercados internacionales.
+Poder de negociación: mayor capacidad de gestión ante aerolíneas, proveedores y órganos legislativos.
+Desafíos y riesgos del clúster:
+Fricciones o competencia desleal interna entre prestadores.
+Conflictos por la utilización de recursos naturales o espacios públicos comunes.
+Peligro de monocultivo económico o excesiva dependencia de un único mercado emisor.
+Riesgo de sobreexplotación turística (overtourism) y pérdida de identidad cultural.
+1.5.5Turismo como sistema
+Desde la teoría general de sistemas, el turismo es un sistema abierto, complejo y dinámico compuesto por cuatro elementos estructurales:
+Entradas
+Procesos
+Salidas 
+Retroalimentación
+1.5.6 El enfoque industrial aplicado al marketing
+Permite transformar visión tradicional de venta con los siguientes puntos:
+Pensar en red: dejar de vender un servicio aislado para promover una experiencia integral de destino.
+Generar alianzas estratégicas: crear sinergias comerciales entre hotelería, gastronomía, turoperadores y comunidades.
+Diversificar la cartera: no depender de una sola temporada o de un único perfil de consumidor.
+Innovar con tecnología: adoptar modelos de digitalización, automatización de reservas y experiencias inmersivas.
+Medir el impacto holístico: evaluar el retorno económico a la par del bienestar comunitario y la preservación ecológica.
+Garantizar la sostenibilidad: asegurar la viabilidad del destino a largo plazo protegiendo sus recursos fundacionales.
+Unidad 2
+Introducción
+Una propuesta de mercadeo turístico tiene que relacionar las necesidades del turista con una experiencia que la empresa en donde se brindar y mantienen económicamente, por lo que se tiene que visualizar a quién se atenderá y como se brindaran los servicios, costos, ventajas y vías de comercializan.
+Segmento de mercado meta y perfil del consumidor
+Es cuando el mercado se clasifica en grupos con necesidades o respuestas comerciales semejantes. En donde las variables geográficas indican procedencia y ubicación.
+Este segmento organiza y selecciona las ofertas para varios grupos utilizar una oferta en general, en donde consumidor reúne características relevantes para su compra. Por lo que debe ser identificable y medible, tener suficiente importancia comercial para alcanzar las metas trazadas y tener los canales disponibles para responder de manera diferenciada a la oferta. 
+2.1.1Aplicación al perfil del visitante
+Para Rutas del Centro se propone explorar a residentes de la CDMX y su zona metropolitana, donde buscan excursiones culturales en los fines de semana. La elección inicial se justifica como hipótesis operativa: una salida cercana puede facilitar el regreso el mismo día y reducir la complejidad del alojamiento.
+Los resultados de una encuesta de conveniencia realizada entre los compañeros de clase se enfocan principalmente en los encuestados. No sería apropiado presentarlos como si fueran representativos de la totalidad de los visitantes de la ciudad. En el caso propuesto, una ficha de consumidor podría indicar interés por la historia local, la necesidad de saber los horarios precisos y la preferencia por grupos pequeños; cada uno de estos aspectos deberá ser verificado con pruebas y revisado si la compra real es contraria a lo declarado.
+Elementos de la mezcla de mercadotecnia
+Gestiona decisiones con el producto, precio, distribución y la promoción. El producto expone el beneficio ofrecido, el precio establece el intercambio económico, la distribución permite el acceso y la promoción transmite la propuesta. 
+Para ofrecer atención individualizada en Rutas del Centro, es necesario establecer el tamaño del grupo, formar al guía y reflejar esos costos en la tarifa. 
+2.2.1Producto turístico
+Producto turístico que permite visualizar los recursos, atractivos, instalaciones, servicios y actividades para producir una experiencia del visitante.
+Las recomendaciones estadísticas internacionales distinguen entre visitantes que pernoctan, denominados turistas, y visitantes del día o excursionistas. También clasifican productos y actividades característicos del turismo, como alojamiento, transporte de pasajeros, servicios culturales y agencias de viajes. 
+En el caso propuesto, los clientes de una excursión sin pernocta serían visitantes del día cuando cumplan las condiciones de desplazamiento fuera de su entorno habitual. 
+2.2.2Precio y punto de equilibrio
+Para fijar el precio, es necesario determinar las metas, calcular los costos y la demanda, analizar el ambiente competitivo y seleccionar una estrategia. 
+El equilibrio permite identificar los ingresos y costos que se deben de considerar para que con ello se tenga un equilibrio entre todo.
+2.2.3Importancia del branding y estrategias de posicionamiento
+Las estrategias permitirán gestionar la identidad y todo aquello que lo genera en donde la importancia de la marca permita obtener reconocimientos y confianza que el consumidor obtenga de los productos que el considere adquirir.
+Ahora bien, todo lo que una empresa pueda sostener permitirá que los consumidores obtengan beneficios y con ello la misma tenga mayor aceptación.
+De la misma manera el seguimiento de rutas permita que los visitantes puedan visitar y conocer los patrimonios de un lugar esto puede ser en diferentes tamaños de grupos que permita el control y seguridad de estos.
+2.2.4Estrategias de comunicación integral
+Coordina distintos medios para mantener un mensaje consistente ante el público elegido. Integrar implica que anuncios, sitio web, atención personal y confirmaciones sostengan la misma propuesta y condiciones.
+Por lo que la promoción incluye por lo general difusión, relaciones, venta y comunicación directa, entre otros recursos. Cada instrumento cumple funciones diferentes.
+El proceso de planificación debe definir audiencia, objetivos, mensaje, medios, presupuesto y evaluación.
+Pronósticos de ventas para el primer año de operación
+Estima lo que probablemente sucederá; una meta expresa lo que se desea alcanzar. En productos nuevos, la ausencia de historial obliga a recurrir a juicio estructurado, analogías, intención de compra y escenarios.
+El turismo mexicano, el monitoreo hotelero de DataTur ofrece series de ocupación, llegada de turistas y otras variables para estudiar comportamiento temporal.
+El inicio de plantear una evaluación requiere que se establezca la venta y su capacidad de calcular el valor comercial que permita obtener un control de las ventas mensuales.
+2.3.1Ejemplo anual de ventas
+Dentro del seguimiento a los paseantes en el centro de la ciudad se valora que se tenga una asistencia de 100 personas por mes en donde el costo de cada uno será de $1,200.00 que permita mantener el costo de años anteriores  para que con esto no se reduzca la cantidad de personas y se mantenga en flujo de inversión que beneficia al turismo en México.
+Los costos anuales variables y fijos suman $788,400, con una ocupación del 57.9 % y 95 pasajeros por encima del punto de equilibrio. Aunque el resultado anual es positivo, los primeros tres meses presentan pérdidas de $14,400, por lo que es necesario revisar el capital de trabajo y los plazos de cobro y pago.
+Siendo conservador, con 556 pasajeros, se puede tener una pérdida de $21,120, y si se mantuviera con 800 pasajeros, obtiene una ganancia de $96,000. Por lo que es importante revisar la distribución mensual de pasajeros para evitar la saturación y para garantizar que se den los resultados esperados.
+Canales de distribución directos e indirectos y comercio electrónico
+Una forma de garantizar que se garantice vender al consumidor sin intermediarios es tener un canal de distribución, mientras que el indirecto utiliza agentes o distribuidores, por lo que pone en riesgo que el consumidor obtenga los costos más económicos por que se involucren más personas, además de tener el riesgo de perder el control, responsabilidades y costos, independientemente del uso de internet.
+La venta directa mediante el sitio web de la operadora implica gestionar clientes, cobros y atención. La venta indirecta mediante agencias amplía el alcance y el riego hacia los clientes, en donde se genera comisiones y condiciones adicionales. Ambos canales deben compararse por su rentabilidad, calidad de los clientes y volumen de ventas.
+La venta directa genera una contribución de $480 por pasajero, mientras que la venta indirecta aporta $370, considerando una comisión del 15 %. La diferencia de $110 favorece al canal directo, bajo los supuestos establecidos en el ejercicio.
+El 60 % de ventas directas y un 40 % indirectas, permitirá que el promedio se mantenga viable para los pasajeros en un monto de $436 por pasajero y con esto se mantenga el flujo de pasajeros de 56.
+Unidad 3
+Introducción
+Nos permitirá establecer los elementos necesarios en la aplicación de estrategias en donde todos puedan competir con las mismas reglas para que al final el liente sea el más beneficiado en la visita de estos a los lugares turísticos.
+En esta unidad mostraremos el análisis interno y externos que con lleva un plan de marketing con aplicación de diferentes matrices con el fin de que se comprenda como se estructura su creación con base a la toma de decisiones, así como las rutas que son importantes para los clientes y el beneficio de utilizar operadoras que ofrecen sus servicios.
+Análisis del entorno (interno y externo)
+Para realizar un diagnóstico turístico, es de suma importancias establecer los servicios a ofrecer a que personas va dirigido, quien lo va a distribuir o vender y de acuerdo con el mercado los costos que permitan que se puedan adquirir y que sea competitivos a las necesidades de los clientes.
+Por lo que se requiere hacer un análisis para  cada elementos que se ven involucrados en donde exista fichas con su descripción, fuente de información, periodo, impacto y confiabilidad, no olvidemos que todo proceso debe de ser evaluado para que sea identificado alguna opción de oportunidad de mejora continua.
+3.1.1Entorno interno
+El análisis interno examina recursos y capacidades. Los recursos son activos disponibles, como equipo, personal y dinero; las capacidades son actividades que la organización sabe ejecutar, como coordinar proveedores o resolver incidencias. 
+En una operadora, contar con un guía no prueba por sí mismo una ventaja. Habría que observar su conocimiento, su capacidad para interpretar el patrimonio, la satisfacción de los visitantes y la posibilidad de mantener ese desempeño. Para estas empresas el uso de plataformas digitales como una página web es de suma importancia para que sus clientes puedan visitar y ver las novedades que ofrecen.
+Por lo que hay considerar dos ventajas para su funcionamiento en el flujo operativo la guías con conocimiento local y acuerdos con anfitriones, además de dos restricciones internas que son la administración manual donde se lleve el control de reservas y que exista liquidez.
+3.1.2Entorno externo
+Incluye condiciones que la empresa no controla directamente. PESTEL en donde se establece:
+1. El Macroentorno (Análisis PESTEL)
+Evalúa factores globales que afectan a todas las industrias y sobre los cuales la empresa no tiene control directo, pero debe anticipar:
+Políticos
+Económicos
+Socioculturales
+Tecnológicos
+Ecológicos (Ambientales)
+Legales
+2. El Entorno Competitivo (Las 5 Fuerzas de Porter)
+Gestiona las características de las empresa para determinar su nivel de rentabilidad y atractivo:
+Competencia
+Amenaza de nuevos entrantes
+Productos sustitutos
+Negociación de los compradores y proveedores
+Matriz de Evaluación de Factores Externos (MEFE) y Factores Internos (MEFI)
+Son herramientas clave que permite tener un diagnóstico para la administración estratégica. Ambas permiten cuantificar y evaluar el posicionamiento de una organización frente a su entorno y sus capacidades propias, de las cuales pueden competir en el mercado.
+Estructura y comparación de las matrices
+| Característica   | Matriz MEFE (Factores Externos)   | Matriz MEFI (Factores Internos)   |
+| Objeto de estudio   | El entorno macro y microeconómico.   | La estructura y funcionamiento interno de la empresa.   |
+| Elementos que evalúa   | Oportunidades y Amenazas.   | Fortalezas y Debilidades.   |
+| Suma de pesos   | Debe ser exactamente 1.0 (o 100%).   | Debe ser exactamente 1.0 (o 100%).   |
+| Rango del resultado final   | De 1.0 (deficiente) a 4.0 (excepcional), con promedio en 2.5.   | De 1.0 (muy débil) a 4.0 (muy fuerte), con promedio en 2.5.   |
+3.2.1Ejemplo de MEFE
+Es utilizada como herramienta que ayuda a diagnosticar todo aquello que se requiere como una estratégico en donde se evalué información económica, social, cultural, demográfica, ambiental, política, gubernamental, jurídica, tecnológica y competitiva de una empresa.
+3.2.2Ejemplo de MEFI
+Se utiliza para auditar la fortaleza y debilidades de una empresa. Por lo que esta herramienta es de gran utilidad en la planeación estratégica para resumir y evaluar las áreas funcionales de un negocio.
+3.2.3Criterios para interpretar ambas matrices
+Para llevar a cabo estos criterios se deben de considerar lo siguiente:
+Trazabilidad y rigor
+Análisis de sensibilidad
+Independencia de resultados
+Comparabilidad limitada
+Esto permitirá que plantees estrategias para el análisis mediante estas matrices con la evaluación de los elementos internos y externos
+Matriz de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA)
+Sirve para visualizar las fortalezas y debilidades internas de oportunidades y amenazas externas. En donde se aproveche todas las fortalezas frente a oportunidades, corregir debilidades para aprovechar oportunidades, emplear fortalezas ante amenazas y reducir la exposición cuando coinciden debilidades y amenazas.
+En esta investigación se conservan los factores de la MEFE y la MEFI para que exista continuidad entre diagnóstico y propuesta. Cambiar de factores sin explicación haría difícil saber por qué una estrategia aparece en el resultado. El cruce no implica que cualquier combinación sea pertinente: debe existir una relación causal razonable entre el problema y la acción.
+3.3.1Cruces estratégicos del caso
+La estrategia DO sería prioritaria en este caso si la empresa pierde compradores por una confirmación tardía. La solución tendría que incluir disponibilidad real, responsables de atención y conciliación del pago. Comprar una plataforma sin adaptar esos procesos no resolvería necesariamente D1. La acción FA requeriría comprobar que la alternativa conserva el contenido y valor de la experiencia prometida.
+3.3.2Valoración de los cruces
+Ahora bien, esta herramienta permite considerar dos opciones en donde cada una de estas ayudaran a obtener el resultado más exacto esto es matriz de decisión adicional que ayuda a priorizar y seleccionar qué ejecutar.
+Para llevar a la práctica la evaluación de esos cruces bajo los cinco criterios propuestos, se puede utilizar una Matriz de Priorización Ponderada que transforme esas variables cualitativas en datos comparables.
+3.4.1Ejemplo de cartera turística
+Se amplía el caso para suponer que la operadora evalúa cuatro líneas. Los porcentajes son inventados y corresponden a mercados definidos por separado. No se exige que las participaciones de las filas sumen 100 %, porque no son partes de un único mercado.
+Esto solo funcionaria para la matriz BCG (Boston Consulting Group) ya que dentro del sector turístico permite la toma de decisiones basado en todas las etiquetas correspondientes.
+Por lo que, a continuación, se establecen estrategias y estructuras que pueden ayudar:
+1. Acciones tácticas por cuadrante
+Corresponde a todo lo que con lleva al consumo de dinero
+Estrella (alta participación, alto crecimiento)
+Vaca lechera (alta participación, bajo crecimiento)
+Interrogante (baja participación, alto crecimiento)
+Perro / Recorrido genérico (baja participación, bajo crecimiento)
+2. Matriz de validación previa a la decisión
+Esto permite la clasificación de recorridos y las varias que se ven involucradas en operativas y financieras.
+| Criterio de contraste   | Pregunta clave de evaluación   | Impacto en la decisión   |
+| Contribución real   | ¿Qué margen bruto y flujo neto deja el recorrido tras cubrir sus costos directos?   | Un producto "perro" con alta rentabilidad y bajo costo fijo puede mantenerse como generador silencioso de caja.   |
+| Inversión necesaria   | ¿Cuánto capital exige escalar o sostener la operación frente a la liquidez actual?   | Una "estrella" puede volverse insostenible si el ritmo de reinversión supera la capacidad financiera de la empresa.   |
+| Restricciones del destino   | ¿Existen límites de carga, permisos ambientales, estacionalidad o falta de proveedores?   | Un mercado en crecimiento pierde atractivo si el destino impide escalar la operación de forma legal o logística.   |
+| Sinergia de portafolio   | ¿El recorrido funciona como gancho comercial o complemento de otra experiencia?   | Eliminar un recorrido de baja cuota puede reducir la venta cruzada o el atractivo general de paquetes más rentables.   |
+3. Pasos recomendados
+Para llegar a un buen final es importante considerar:
+Auditar la rentabilidad por unidad
+Identificar dependencias cruzadas
+Definir métricas de salida o escalamiento
+3.4.2Dificultad para medir el mercado
+La principal dificultad práctica consiste en medir el mercado. Comparar un recorrido cultural local con todo el turismo nacional produciría una cuota poco útil. Si no se dispone de ventas comparables de los competidores, debe reconocerse esa limitación y evitar dibujar una matriz como si las posiciones estuvieran comprobadas.
+Matriz Producto/Mercado o Vector de Crecimiento (Ansoff)
+La matriz de Ansoff relaciona productos y mercados actuales o nuevos para distinguir cuatro vías de crecimiento: penetración de mercado, desarrollo de mercados, desarrollo de productos y diversificación. El planteamiento original examina cómo la expansión modifica la combinación entre lo que una empresa ofrece y los mercados a los que atiende (Ansoff, 1957).
+Para aplicar la matriz debe definirse qué significa “nuevo” respecto de la empresa. Un itinerario puede existir en el destino y aun así ser nuevo para la operadora. Un mercado también puede cambiar por geografía, propósito del viaje o tipo de cliente. La clasificación depende del alcance fijado al inicio.
+3.5.1Aplicación de las cuatro alternativas
+Penetración de mercado
+Rutas del Centro podría vender más del recorrido cultural existente al público que ya atiende mediante mejor conversión, recomendaciones o recuperación de consultas. Antes de reducir precios, debería comprobar si el obstáculo principal es costo, información insuficiente o dificultad para reservar. La inversión puede evaluarse por clientes adicionales y contribución incremental.
+Desarrollo de mercados
+Este proceso permite que los mercados establezcan sus propios criterios de operatividad con el fin de tener una arquitectura de los productos turísticos que ofrecerán para todos los visitantes y con ello tener itinerario para ellos.
+Desarrollo de productos
+Por lo que se debe de tener un análisis detallado de todos los posibles escenarios y sus estrategias como se muestra a continuación:
+Comparativa de Estrategias
+| Dimensión   | Desarrollo de Productos (1.er párrafo)   | Diversificación (2.º párrafo)   |
+| Enfoque   | Servicio nuevo + Mercado actual.   | Servicio nuevo + Mercado nuevo.   |
+| Ejemplo   | Experiencia nocturna o taller cultural para turistas actuales.   | Retiros corporativos para empresas que no son clientes.   |
+| Riesgo principal   | Canibalización de ventas (sustitución del recorrido tradicional).   | Falta de experiencia, altos costos de entrada y validación comercial.   |
+| Factor clave de éxito   | Lograr un incremento neto en los ingresos por cliente.   | Aprovechar sinergias y recursos compartidos con la operación actual.   |
+Además de considerar los siguientes puntos clave para su análisis
+Puntos Clave del Análisis
+El impacto de la canibalización
+La diversificación y las sinergias
+Evaluación operativa
+3.5.2Lectura conjunta con las otras matrices
+Ahora bien, la forma de distinguir el estudio del caso es muy importante para tener un diagnóstico que considere todas las vertientes es por ello que el planteamiento del   FODA/DOFA y la Matriz de Ansoff. Son indispensables por lo que hay que considerar:
+1. Diagnóstico contextual (Inferencia del caso)
+Priorización lógica
+Secuencia recomendada y inmersión de mercado
+2. Alcance metodológico considerando la contingencia y la regla de variabilidad
+Ausencia de determinismo
+Escenarios alternativos
+Matriz del Perfil Competitivo (MPC)
+Ofrece una interpretación estratégica que ayude a la evaluación de sus fortalezas considerando:
+Rigor metodológico
+Claridad sobre las limitaciones
+Rigor en la recolección de datos
+Enfoque estratégico
+3.6.1Integración e implementación de estrategias
+La herramientas de planificación estratégica, vinculándolas directamente con la ejecución táctica y la medición de resultados, es por ello que se debe de considerar el análisis de las matrices y el diagnostico operativo para identificar las fortalezas principales y algunas sugerencias para optimizar su aplicación:
+Conexión entre diagnóstico y acción
+Rigor metodológico en las metas
+Enfoque en rentabilidad real
+Diagnóstico diferencial
+Dinamismo estratégico
+Ahora bien, hay que considerar una mejora en el seguimiento como son:
+Definición de criterios de éxito y umbral que no se considero
+Claridad en el concepto de "consulta suficiente"
+Responsables por frente de acción
+Unidad 4
+Introducción
+La selección de estrategias convierte el conocimiento del mercado en decisiones sobre qué ofrecer, a quién dirigirse y cómo competir. Las tácticas llevan esas decisiones a actividades concretas. En turismo, ambas deben coordinar la promesa publicitaria con la experiencia que realmente recibe el visitante.
+Esta unidad explica cómo la investigación de mercados orienta la mezcla de mercadotecnia, la comunicación integral y el plan de medios, estableciendo metas verificables y asignación eficiente de recursos promocionales para productos y servicios turísticos.
+Investigación de mercados en turismo
+La investigación de mercados es el proceso organizado para obtener y analizar información útil para tomar decisiones comerciales fundadas, vinculando el diagnóstico de motivaciones y barreras de viaje con la formulación estratégica.
+4.1.1Concepto y proceso de investigación
+La investigación de mercados es un proceso organizado y sistemático para obtener y analizar información útil para una decisión comercial. Parte siempre de un problema empresarial bien definido, establece objetivos claros, diseña el método idóneo para la obtención de datos, analiza la evidencia recolectada y comunica hallazgos accionables para la dirección turística (OpenStax, 2023i).
+En el diseño metodológico se aprovechan dos tipos principales de fuentes:
+Información secundaria: datos ya existentes recopilados por organismos públicos, asociaciones hoteleras o estudios previos (como reportes de DataTur, OMT o INEGI), que permiten contextualizar tendencias macroeconómicas y estacionalidad.
+Datos primarios: información levantada directamente en campo mediante encuestas estructuradas, entrevistas a profundidad con huéspedes, observación directa en mostradores o experimentos comerciales.
+4.1.2Aplicación en empresas turísticas
+En el sector de los viajes y la hospitalidad, la investigación de mercados permite estudiar con rigor las variables determinantes del comportamiento del consumidor:
+Motivaciones de viaje: descanso, convivencia familiar, interés cultural o experiencias de naturaleza.
+Presupuesto y sensibilidad al precio: disposición al gasto en hospedaje, alimentación, recorridos y artesanías.
+Preferencias de alojamiento y servicios: demanda de silencio, conectividad WiFi, gastronomía local o facilidades de estacionamiento.
+Medios de consulta y canales de compra: buscadores web, recomendaciones en redes sociales o agencias online (OTA).
+Obstáculos para reservar: desconfianza en pasarelas de pago, formularios extensos o falta de claridad en las inclusiones de la tarifa.
+4.1.3Ejemplo de aplicación: Caso Hotel Boutique
+Consideremos el caso didáctico de un hotel boutique de 20 habitaciones ubicado en un destino colonial, cuya gerencia se propone aumentar las reservas directas en días laborables (de domingo a jueves). Antes de apresurarse a anunciar descuentos masivos en tarifas, una investigación rigurosa realizaría los siguientes pasos:
+Revisar el historial de ocupación y el porcentaje de cancelaciones desglosado por canal (web directa, teléfono y OTAs).
+Entrevistar a huéspedes que ya se hospedan entre semana para identificar sus motivos de estancia y horarios de llegada.
+Se debe de considerar llevar a cabo una estrategia de contacto rápido dividida en recuperación directa con esto se tendrá mayor certeza en las encuestas.
+Por lo que la implementación de ella se pueden seguir los siguientes pasos:
+1. Estrategias según el perfil del usuario
+Usuarios identificados (dejaron correo o teléfono)
+Usuarios anónimos (no dejaron datos)
+2. Canales de contacto y tiempos ideales
+Es de suma importancia considerar que cada canal tiene un propósito específico, como se muestra a continuación:
+| Canal   | Momento óptimo   | Objetivo principal   | Tono recomendado   |
+| Pop-up en web   | Inmediato (al intentar salir)   | Detectar fricciones en tiempo real   | Breve, directo y sin interrumpir   |
+| WhatsApp / SMS   | 30 a 45 minutos después   | Resolver dudas rápidas y asistir   | Cercano, servicial y humano   |
+| Correo 1 (Servicio)   | 1 hora después   | Recordar la reserva y ofrecer ayuda   | Amable, enfocado en soporte   |
+| Correo 2 (Encuesta)   | 24 horas después   | Entender el motivo del abandono   | Curioso, agradecido y con incentivo   |
+4.2.1Dirección estratégica y ejecución
+Por lo que tener una estratégica y llevar a cabo dentro del sector turístico se deben de considerar:
+1. Dirección Estratégica (El Rumbo)
+Segmentación y enfoque
+Propuesta de valor
+Asignación de recursos
+2. Alineación Operativa y de Servicio
+Sincronización interdepartamental
+Diagnóstico y objetivos
+3. Táctica Operativa (La Ejecución)
+Herramientas de acción
+Coherencia de mezcla de marketing
+Esto permitirá obtener un valor mas preciso en el plan de marketing.
+4.2.2Mejora continua de producto
+El implementar el Modelo de Brechas de Calidad (Gap Model) y el ciclo de mejora continua (PHVA) en la gestión turística. Permitirá identificar todos los aspectos del plan de marketing en donde se tengan que alinear el proyecto u servicio deseado considerando:
+Naturaleza intangible y compuesta
+Auditoría mediante el Modelo de Brechas
+Priorización de atributos básicos
+4.2.3Mejora continua de precio
+Para identificar adecuadamente la administración de los ingresos dentro del hotelero se debe de considerar su rentabilidad, como se muestra a continuación:
+Comparativa estratégica: Tarifa con descuento vs. Paquete de valor añadido
+| Dimensión a evaluar   | Tarifa simple con descuento   | Paquete empaquetado (2 noches Dom-Jue + desayuno)   |
+| Objetivo comercial   | Captación rápida de volumen y ocupación en temporada baja.   | Incremento de la estancia media (LOS) y atracción de un perfil de mayor gasto.   |
+| Valor percibido   | Se asocia a una oferta económica; puede diluir el prestigio de la marca.   | Alto valor percibido; el cliente siente que recibe un beneficio exclusivo sin bajar el precio base.   |
+| Tasa de cancelación   | Suele ser más alta si no tiene restricciones, ya que el cliente sigue buscando mejores precios.   | Menor si se vincula a políticas claras (ej. tarifa semi-flexible o depósito inicial).   |
+| Impacto en costos   | Mantiene los costos variables base por habitación, pero reduce el ingreso neto por unidad.   | Aumenta el costo variable (insumos del desayuno), pero diluye los costos fijos de limpieza/check-in al asegurar dos noches.   |
+Por lo que hay que considerar Métricas clave para la evaluación, como son:
+Ingreso Neto Real (Net ADR)
+Costo Variable por Estancia
+Tasa de Cancelación Efectiva
+Margen de Contribución Remanente
+4.2.4Mejora continua de la promoción
+Es importante establecer que la aplicada dentro del sector turístico y su estructura permite tener recomendaciones para fortalecer su aplicación y llevar a la práctica, por lo que estas son:
+Fortalezas del planteamiento
+Coherencia multicanal
+Enfoque en conversión real
+Rigor metodológico (ceteris paribus)
+Por lo que para que este diseño se implemente hay que considerar:
+Definición de la variable independiente
+Criterio de significancia estadística
+Trazabilidad entre canales
+Control de contaminación de audiencia
+.
+4.2.5Mejora continua de la plaza (Distribución)
+Para establecer una estrategia de distribución y comercialización turística y se pueda llevar a cabo se debe de considerar los siguientes componentes del lugar que son:
+1. Auditoría del Motor de Reservas Web (Canal Directo)
+¿Qué se hará?:
+Optimización de velocidad y UX móvil
+Conexión de inventario en tiempo real
+Transparencia de precios
+¿Quién lo hará?
+ Especialista en Marketing Digita
+Gerente de TI
+Proveedor Reservas.
+¿Cuándo se ejecutará?
+¿Con qué indicador verificable se evaluará?:
+Tiempo de carga en móvil
+Tasa de conversión del sitio web
+Quejas de clientes y su atención.
+2. Reservas Directas vs. Intermediadas (OTAs)
+¿Qué se hará?:
+Análisis de rentabilidad neta por canal
+Estrategia de fidelización directa
+¿Quién lo hará?: 
+Director de Finanzas
+¿Cuándo se ejecutará?
+Análisis mensual de cierre de mes
+¿Con qué indicador verificable se evaluará?:
+RevPAR neto
+Porcentaje de contribución de reservas directas sobre el total de ventas 
+Tasa de cancelación comparativa
+4.3.1Estructura de una táctica operativa
+Es importante identificar el "qué queremos lograr" en un "cómo lo vamos a hacer" además de que tiene que ser medible para que con ello se pueda mejorar o en su caso aplicar otra estrategia en donde se planifique por lo que es importante considerar lo siguiente:
+Qué se hará
+Quién lo hará 
+Cuando
+Indicador de seguimiento
+Aunado a ello es importante también considerar un elemento mas que es:
+¿Con qué?
+Esto permitirá establecer los recursos
+4.3.2Matriz de tácticas para el caso Hotel Boutique
+Para este caso es importante considerar lo siguiente:
+| Estrategia   | Táctica   | Responsable   | Indicador (KPI)   |
+| 1. Incentivo al canal directo   | Ofrecer beneficio exclusivo (upgrade de habitación, crédito de F&B o late check-out) solo para reservas en la web oficial.   | Director de Marketing / Revenue Manager   | % de reservas directas vs. OTAs (lunes a jueves)   |
+| 2. Segmentación "Bleisure" / Teletrabajo   | Paquete "Remote Work" (domingo a jueves) con Wi-Fi de alta velocidad, café ilimitado y estación de trabajo ergonómica.   | Gerente General / Recepción   | Ocupación de habitaciones de domingo a miércoles   |
+| 3. Alianzas corporativas locales   | Tarifas fijas y preferenciales con empresas, clínicas o despachos cercanos para sus visitas de negocios entre semana.   | Gerente de Ventas   | Noches-habitación corporativas vendidas   |
+| 4. Marketing por correo y base de datos   | Campaña de email segmentada ofreciendo escapadas de bienestar o media semana (Wellness/Relax) con descuento especial.   | Especialista en Marketing Digital   | Tasa de conversión y uso del código promocional web   |
+4.3.3Criterios de ejecución, trazabilidad y ajuste
+Para ambos departamentos deben manejar exactamente la misma información que aparece en los anuncios publicitarios.
+La relación estratégica debe ser plenamente trazable:
+Hallazgo de investigación de mercado → Justificación estratégica → Desglose en tácticas operativas → Indicadores de control y ajuste.
+Si durante el monitoreo semanal se observa que las consultas calificadas aumentan, pero las reservas no se cierran, la empresa debe auditar de inmediato los tiempos de respuesta del equipo, el precio total final y el funcionamiento del motor de reservas antes de incrementar precipitadamente el gasto publicitario.
+Comunicación integral del marketing (CIM)
+La comunicación integral del marketing (CIM) coordina sistemáticamente mensajes y herramientas para que el público reconozca una propuesta de valor única y coherente a través de medios digitales, analógicos y nuevos enfoques relacionales.
+4.4.1Fundamentos de la Comunicación Integral del Marketing
+La Comunicación Integral del Marketing (CIM) coordina los mensajes, el tono y las herramientas de contacto para que el público reconozca una propuesta coherente y sin contradicciones. La identidad de marca, los beneficios del servicio y las condiciones comerciales deben coincidir en los anuncios de redes, el sitio web, la atención telefónica y los folletos impresos (OpenStax, 2023d).
+La adaptación a cada canal puede modificar el formato técnico o audiovisual, pero jamás debe alterar la promesa central ni los estándares pactados con el visitante.
+4.4.2Medios digitales contra medios analógicos
+Los medios digitales abarcan motores de búsqueda (Google), correo electrónico transaccional y comercial, redes sociales y páginas web con motores de reserva. Los medios analógicos o tradicionales comprenden radio, prensa especializada, publicidad exterior y folletos impresos en módulos de información.
+4.4.3Selección de medios y la era digital
+Existen dos partes fundamentales para la implementación de una estrategia de marketing digital y selección de medios aplicada a un hotel boutique. Como se muestra a continuación:
+Eficiencia en la selección de medios
+Coherencia en el recorrido digital
+Lectura crítica de las métricas
+Los puntos anteriores ayudan a que todo funcionen lo mejor posible en la difusión del plan e marketing aplicado al turismo
+.
+4.4.4Nuevos enfoques de marketing turístico
+El sector hotelero considera muy importante los siguientes aspectos a considerar:
+1. Enfoque Holístico
+Marketing interno
+Marketing integrado
+Marketing de relaciones
+Marketing de rendimiento
+2. Enfoque Centrado en el Cliente 
+Personalización a escala
+Mapeo del recorrido del cliente 
+Creación de valor y fidelización
+3. Enfoque Digital y Omnicanal
+Omnicanalidad real
+Marketing de contenidos
+Automatización e Inteligencia Artificial
+4. Enfoque Ágil
+Iteración rápida
+Toma de decisiones basada en datos
+Equipos multidisciplinarios
+Plan de medios y evaluación comercial
+El plan de medios organiza dónde, cuándo, con qué frecuencia y con qué presupuesto circulará el mensaje comercial, distinguiendo objetivos de comunicación de objetivos comerciales y auditando la rentabilidad neta por reserva obtenida.
+4.5.1Objetivos de comunicación frente a objetivos comerciales
+El plan de medios organiza con precisión los canales y recursos para maximizar el retorno de inversión publicitaria. Conecta la audiencia objetivo con el contenido del mensaje, los plazos de exhibición y los mecanismos de medición (OpenStax, 2023e).
+Donde se debe de identificar:
+Objetivo de comunicación: incrementar el conocimiento de la oferta, posicionar atributos de tranquilidad o generar consultas calificadas.
+Objetivo comercial: aumentar las reservas cerradas, la tasa de ocupación o los ingresos netos.
+4.5.2Metas cuantitativas y presupuesto ilustrativo
+Las metas deben precisar cantidad y horizonte temporal. Para el hotel boutique de 20 habitaciones se plantea como ejercicio didáctico alcanzar 30 reservas directas entre semana a lo largo de un ciclo de 8 semanas, partiendo de una línea base de 20 reservas en un periodo equivalente (aumento del 50%)
+4.5.3Evaluación de la rentabilidad del plan
+Si se alcanza la meta de 30 reservas con el presupuesto autorizado de $10,000 MXN, el costo total del plan de medios por reserva es:
+Costo publicitario por reserva = $10,000 MXN ÷ 30 reservas = $333.33 MXN por reserva
+Este indicador distribuye el gasto total entre las reservas observadas; no demuestra por sí solo que todas las 30 sean consecuencia exclusiva de la campaña.
+Además, se debe de considerar:
+Descuento de cancelaciones
+Control de atribución
+.
+Unidad 5
+Introducción
+Esta fase de ejecución y control de un plan de marketing, es muy significativa ya que la aplicación de estrategias establece un valor dentro de este aunado a ello es muy importante considerar los recursos, tiempos y métricas.
+.
+5.1.1Elementos que debe contener
+Para que esta estructura funcione como parte elemental y sea considerada una herramienta de administración debe de ser clara y ejecutable, es por ello que cada uno de sus elementos se deben de considerar que son:
+1. Objetivos y horizonte temporal
+Objetivo general
+Objetivos específicos
+Horizonte temporal
+2. Actividades y recursos
+Desglose de actividades 
+Recursos humanos
+Recursos materiales y tecnológicos
+Recursos de información
+3. Costos y responsables
+Presupuesto desglosado
+Fuentes de financiamiento
+Asignación de responsables
+4. Control y contingencias
+Indicadores clave de desempeño
+Mecanismos y frecuencia de seguimiento
+Análisis de riesgos
+Plan de contingencia
+5.1.2Métodos de asignación y aplicación
+La correspondencia crítica entre el presupuesto, promoción y capacidad operativa en el sector turístico permite establecer sus ideas principales:
+1. Equilibrio entre promoción y capacidad
+Riesgo de sobreventa
+Análisis integral
+2. Métodos principales de presupuestación
+Porcentaje de ventas
+Recursos disponibles
+Objetivos y tareas
+3. Gestión y control de la información
+Datos reales
+Alineación estratégica
+.
+5.1.3Ejemplo didáctico: campaña para un producto ecoturístico
+Para plantear un ejemplo de una campaña de marketing y presupuesto operativo para una agencia debemos de considerar los siguientes aspectos:
+1. Ficha del Producto
+Nombre de la agencia
+Producto
+Destino
+Duración
+Capacidad máxima
+Precio de venta al público
+2. Presupuesto Operativo para un grupo de 12 personas
+| Concepto   | Costo Unitario / Detalle   | Costo Total (12 personas)   |
+| Guía certificado de naturaleza   | $1,500 por día   | $1,500.00 MXN   |
+| Transporte redondo (van turística)   | $2,200 por viaje   | $2,200.00 MXN   |
+| Box lunch local y orgánico   | $120 por ración (x 12)   | $1,440.00 MXN   |
+| Acceso a la reserva / Permiso comunal   | $80 por persona (x 12)   | $960.00 MXN   |
+| Kit de seguridad y primeros auxilios   | Prorrateado por tour   | $150.00 MXN   |
+| Seguro de viajero / Gastos médicos   | $50 por persona (x 12)   | $600.00 MXN   |
+| Costos Operativos Totales   |  | $6,850.00 MXN   |
+| Costo por persona   |  | $570.83 MXN   |
+Ingreso bruto (12 personas x $1,200): $14,400.00 MXN
+Margen de contribución bruto por grupo: $14,400 - $6,850 = $7,550.00 MXN 
+3. Propuesta de Campaña de Marketing Digital
+Público Objetivo
+Nombre
+Intereses
+Necesidad
+Canales y Estrategia:
+Instagram y TikTok
+Formato
+Publicidad
+Llamado a la acción
+Meta Facebook e Instagram
+Segmentación geográfica
+Presupuesto $1,500 MXN total para la campaña
+Estrategia de Autorreferencia
+Promoción "Amigo Eco" 
+4. Cronograma de la Campaña (4 Semanas)
+Semana 1 Publicación de fotografías del lugar
+Semana 2 Anuncios 
+Semana 3 Social
+Semana 4 Cierre y operación
+5.1.4Comprobación financiera básica
+Debemos de considerar dos herramientas fundamentales para la gestión de un proyecto turístico: comprobación financiera básica (viabilidad comercial) y la ruta crítica (viabilidad operativa).
+Partiendo de:
+1. Validación matemática del ejercicio financiero
+Ingresos proyectados.
+Margen de contribución unitario
+Punto de equilibrio específico de marketing
+Remanente proyectado
+2. Conexión entre el presupuesto y la Ruta Crítica (CPM)
+Impacto de los retrasos sin holgura
+Control de gasto devengado
+Secuencia lógica de dependencias
+Estudio de mercado 
+Diseño de propuesta y acuerdos con prestadores
+Creación de materiales y configuración de reservaciones
+Publicación de campañas
+5.2.1Procedimiento para construirla
+Este proceso permite mostrar claramente todas las actividades a llevar a cabo y que son indispensables para la entrega del proyecto por lo que debes de considerar:
+Descomponer el proyecto
+Estimar duraciones
+Identificar dependencias
+Construir la red de actividades
+Localizar la ruta crítica y actualizarla
+Todo lo anterior es fundamental para llevar a buen término el desarrollo del plan correspondiente.
+5.2.2Ejemplo de secuenciación
+Debes de identificar claramente la secuencia que debe de tener el plan, así como todo aquello que lo involucra para que funcione correctamente, es por ello que chay que considerar:
+Suma la duración de cada tramo compartido
+Compara las dos ramas en paralelo
+Identifica la rama crítica
+5.2.3Cálculo de la ruta crítica y seguimiento
+En el ejemplo, la secuencia A–B–C–E–F suma 3 + 2 + 4 + 2 + 3 = 14 días laborales. La alternativa A–B–D–E–F suma 13 días, por lo que se debe de considerar:
+Ruta crítica (Actividad C)
+Holgura total (Actividad D)
+Pase hacia adelante y hacia atrás
+Cálculo de la holgura
+5.2.4Ruta crítica y diagrama de Gantt
+Este punto es de suma importancia para la administración de proyectos ya que establece los pasos específicamente para cada cosa y los tiempos a considerar como se muestra a continuación:
+1. Planificación del Cronograma: Gantt vs. Ruta Crítica
+| Herramienta   | Función Principal   | Enfoque en el Proyecto   |
+| Diagrama de Gantt   | Visualización temporal.   | Muestra las actividades en barras horizontales sobre un calendario con fechas de inicio y fin.   |
+| Ruta Crítica (CPM)   | Gestión de dependencias.   | Identifica las tareas esenciales sin margen de retraso (holgura cero) que determinan la duración total.   |
+Aplicación en campañas turísticas. Es de suma importancia estar en revisión el cronograma para evitar pérdida de tiempo y no llevar a cabo las actividades.
+2. Evaluación y Control del Plan de Marketing
+Hay que aplicar entre los procesos complementarios:
+Evaluación 
+Control 
+3. Diseño de KPI 
+Alineación estratégica
+Meta cuantificable
+Temporalidad definida
+.
+5.3.1Diferencias entre medición, evaluación y control
+La medición permite observar datos reales y considerar:
+Medición
+Evaluación
+Control
+Por lo que se deberá considerar:
+Equilibrio comercial y operativo
+Riesgo del crecimiento descontrolado
+Análisis integral (Cuantitativo + Cualitativo)
+Selección estratégica de KPI
+5.3.2Indicadores, frecuencia de revisión y decisiones
+Por lo que es muy importante considerar los indicadores, su frecuencia y decisiones como se muestra a continuación:
+| Etapa del embudo   | Indicadores clave (KPI)   | Frecuencia sugerida   | Decisiones que habilita   |
+| 1. Conocimiento   | Alcance, impresiones   | Semanal / Mensual   | Ajustar el presupuesto publicitario y los canales de difusión.   |
+| 2. Interés   | Visitas de calidad (tiempo en página, clics en tarifas)   | Semanal   | Optimizar el mensaje, las fotos y la claridad de la oferta.   |
+| 3. Reservación   | Tasa de reserva, Costo de Adquisición (CAC), Ingreso por reserva   | Semanal / Quincenal   | Modificar precios, promociones o simplificar el motor de reservas.   |
+| 4. Prestación   | Tasa de cancelación, tiempos de respuesta, incidencias   | Diaria / Semanal   | Regular el inventario para evitar sobreventas y reforzar el personal.   |
+| 5. Post-servicio   | Índice de satisfacción (NPS / encuestas), reseñas   | Mensual   | Corregir fallas operativas y ajustar las promesas de marketing.   |
+5.3.3Indicadores propuestos para la campaña de ecoturismo
+El costo por reserva es $37,400 ÷ 68 = $550. Si observamos los resultados se ven sobre los márgenes en donde la atracción resultó ser poca, por lo que la tasa web del 3.2% se calcula sobre sesiones de los usuarios que ingresaron al portal.
+5.3.4Mecanismos de control recomendados
+El boceto en la creación de un sistema que permita observar constantemente permite atender de inmediato a toda situación que se presente y se apliquen estrategias de mitigación y buscar siempre se tenga la integración de la información, por lo que es importante considerar:
+Tablero semanal
+Umbrales y medidas correctivas
+Fuentes y trazabilidad
+Control de calidad y ética
+5.4.1Presentación
+Esta es una propuesta de presentación y se debe de cumplir:
+Estructura de la Presentación Ejecutiva
+Diapositiva 1: Producto Turístico y Necesidad de Mercado
+Producto
+Necesidad de mercado
+Diapositiva 2: Objetivo General y Público Meta
+Objetivo general
+Público meta
+Diapositiva 3: Estrategias Escogidas
+Marketing digital
+Contenido visual
+Conversión directa
+Diapositiva 4: Presupuesto y Ruta Crítica
+Presupuesto total aprobado
+Ruta crítica de lanzamiento: 14 días laborales, distribuidos en:
+Días 1–4: Diseño de material creativo y configuración de la plataforma de reservas.
+Días 5–7: Pruebas técnicas y lanzamiento de campañas.
+Días 8–14: Optimización de anuncios, seguimiento de prospectos y cierre de ventas.
+Diapositiva 5: Indicadores Clave de Desempeño (KPI)
+Para esto se debe de considerar:
+| Indicador (KPI)   | Meta Establecida   | Unidad de Medida   |
+| Volumen de reservas   | 80   | Reservas confirmadas   |
+| Presupuesto ejercido   | ≤ $37,400   | Pesos / Dólares (según moneda local)   |
+| Costo por reserva (CPA)   | ≤ $470   | Costo unitario por venta   |
+| Satisfacción del cliente   | ≥ 4.5   | Puntos (escala de 1 a 5)   |
+Diapositiva 6: Resultados y Análisis de Desviaciones
+Al termino se debe de considerar la evaluación, desempeño frente a las metas:
+| Indicador (KPI)   | Meta   | Resultado Real   | Cumplimiento / Desviación   | Estatus   |
+| Reservas totales   | 80 reservas   | 68 reservas   | 85% de cumplimiento (-12 reservas)   | ⚠️ Por debajo   |
+| Presupuesto total   | $37,400   | $37,400   | 0% de desviación (en presupuesto)   | ✅ Cumplido   |
+| Costo por reserva   | $470   | $550   | +$80 por reserva (+17% de sobrecosto)   | ❌ Desviado   |
+| Satisfacción   | 4.5 / 5.0   | 4.6 / 5.0   | +0.1 puntos sobre la meta   | ✅ Superado   |
+Gráfico barras agrupadas que compare Meta vs. Resultado en volumen de reservas y costo
+Hallazgo principal
+Diapositiva 7: Decisiones Propuestas
+Conservar la propuesta de valor del recorrido
+Frenar el aumento de inversión publicitaria
+Auditar el embudo digital
+Diapositiva 8: Próximos Pasos (Plan de Acción)
+Semana 1 (Usabilidad web)
+Semana 2 (Optimización de pauta)
+Semana 3 (Atención comercial)
+Mes 2 (Nueva medición)
