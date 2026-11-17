@@ -71,7 +71,9 @@ Se ejecutó una auditoría exhaustiva en las **24 actividades individuales de te
 5. **Actualización de Inicio, Introducciones, Multimedia, Navegación y Footer Unificado**:
    - **Página de inicio y bienvenida**: Texto de bienvenida y modales de introducción/metodología homologados fielmente con el documento oficial `Bienvenida.odt` (propósito, intención educativa, unidad de competencia, orientación didáctica, modalidades individual/colaborativa y canales de comunicación).
    - **Introducciones de Unidades**: Actualización de las introducciones de las Unidades 1, 2 y 3 en sus fuentes de datos JSON con el texto literal de los documentos oficiales validados.
-   - **Restauración de referencias multimedia**: Reincorporación de fuentes, notas de elaboración propia y créditos al pie de figuras, imágenes, tablas y videos temáticos.
+   - **Restauración de referencias multimedia**: Reincorporación y reubicación de fuentes, notas de elaboración propia y créditos al pie de figuras, imágenes, tablas y videos temáticos, tanto en la vista regular como en la ventana de ampliación.
+   - **Rediseño del visor interactivo de imágenes**: Interfaz modal moderna (`.t-viewer`) con fondo de cristal esmerilado, lienzo oscuro de alta definición, controles de zoom flotantes (acercar, alejar, restablecer), navegación táctil y por teclado, y panel lateral con ficha de referencia bibliográfica.
+   - **Corrección de visibilidad de videos**: Eliminación del desvanecimiento automático por scroll en las secciones introductorias de las unidades, manteniendo los reproductores de video 100% visibles, estables y nítidos en todo momento.
    - **Botón flotante "Volver arriba" (Scroll to top)**: Despliegue global centralizado mediante `componentes.js` y `comun.css`, con activación automática a partir de 300px de scroll, icono accesible, diseño adaptativo y desplazamiento suave respetando `prefers-reduced-motion`.
    - **Footer institucional uniforme**: Estandarización del pie de página con licencia Creative Commons CC BY-NC-ND 4.0 y créditos de autoría en las 65 páginas de la plataforma.
 

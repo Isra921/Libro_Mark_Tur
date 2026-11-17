@@ -294,33 +294,12 @@
      * se desvanece antes de salir de pantalla para dejar el foco en los temas.
      */
     function iniciarDesvanecimientoIntro() {
+        // Se mantiene la visibilidad al 100% permanente para que los videos y la introducción no se desvanezcan al hacer scroll
         const intro = document.getElementById('introduccion');
         if (!intro) return;
-        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-        let pendiente = false;
-
-        const actualizar = () => {
-            pendiente = false;
-            const { top, height } = intro.getBoundingClientRect();
-            // Línea de referencia: donde empieza el contenido (debajo de la barra de navegación).
-            const referencia = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--u-nav-offset')) || REFERENCIA_POR_DEFECTO_PX;
-            const recorrido = height ? (referencia - top) / height : PROGRESO_MINIMO;
-            const progreso = Math.min(PROGRESO_MAXIMO, Math.max(PROGRESO_MINIMO, recorrido));
-
-            intro.style.opacity = String(OPACIDAD_MAXIMA - progreso);
-            intro.style.transform = `translateY(${-progreso * DESPLAZAMIENTO_INTRO_PX}px)`;
-            intro.classList.toggle('is-hidden', progreso >= PROGRESO_MAXIMO);
-        };
-
-        window.addEventListener('scroll', () => {
-            if (!pendiente) {
-                pendiente = true;
-                requestAnimationFrame(actualizar);
-            }
-        }, { passive: true });
-
-        actualizar();
+        intro.style.opacity = '1';
+        intro.style.transform = 'none';
+        intro.classList.remove('is-hidden');
     }
 
     // ---------- Arranque ----------
