@@ -59,3 +59,103 @@ html {
     font-size: 0.58rem;
   }
 }
+
+/* ==========================================================================
+   BOTÓN FLOTANTE "VOLVER ARRIBA" (Scroll to Top)
+   ========================================================================== */
+.scroll-to-top {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--primary, #062319);
+    color: var(--text-light, #ffffff);
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.22));
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    cursor: pointer;
+    z-index: 1200;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(14px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease, background-color 0.2s ease;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.scroll-to-top.show,
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.scroll-to-top:hover {
+    background-color: var(--primary-hover, #0b3d2c);
+    color: var(--text-light, #ffffff);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-to-top:focus-visible {
+    outline: 3px solid var(--accent, #c5a059);
+    outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top {
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+        font-size: 1.05rem;
+    }
+}
+
+/* ==========================================================================
+   FOOTER INSTITUCIONAL UNIFICADO
+   ========================================================================== */
+.u-footer {
+    border-top: 1px solid var(--border-color, rgba(255, 255, 255, 0.12));
+    background: var(--footer-bg, #041811);
+    color: var(--text-muted, #94a3b8);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    width: 100%;
+    margin-top: auto;
+}
+
+.u-footer__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.u-footer p {
+    margin: 0;
+    color: var(--text-muted, #94a3b8);
+}
+
+.u-footer p strong {
+    color: var(--text-light, #f8fafc);
+}
+
+.u-footer a {
+    color: var(--accent, #c5a059);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.u-footer a:hover {
+    color: var(--text-light, #ffffff);
+}

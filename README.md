@@ -68,6 +68,12 @@ Se ejecutó una auditoría exhaustiva en las **24 actividades individuales de te
    - Se sustituyó la denominación visible «Simulador» por **«Actividad final»** en todos los encabezados, títulos de página, botones, tarjetas del catálogo, modales de navegación y metadatos JSON del proyecto, preservando íntegramente las capacidades de interacción y cálculo de los casos prácticos.
 4. **Validación Funcional**:
    - Comprobación técnica de todos los bancos de reactivos (opción múltiple, verdadero/falso, completar oración, ordenar fragmentos) con el motor `actividad-plantilla.js`, confirmando carga limpia, opciones completas, asignación de respuestas correctas, retroalimentaciones explicativas y cálculo de resultados.
+5. **Actualización de Inicio, Introducciones, Multimedia, Navegación y Footer Unificado**:
+   - **Página de inicio y bienvenida**: Texto de bienvenida y modales de introducción/metodología homologados fielmente con el documento oficial `Bienvenida.odt` (propósito, intención educativa, unidad de competencia, orientación didáctica, modalidades individual/colaborativa y canales de comunicación).
+   - **Introducciones de Unidades**: Actualización de las introducciones de las Unidades 1, 2 y 3 en sus fuentes de datos JSON con el texto literal de los documentos oficiales validados.
+   - **Restauración de referencias multimedia**: Reincorporación de fuentes, notas de elaboración propia y créditos al pie de figuras, imágenes, tablas y videos temáticos.
+   - **Botón flotante "Volver arriba" (Scroll to top)**: Despliegue global centralizado mediante `componentes.js` y `comun.css`, con activación automática a partir de 300px de scroll, icono accesible, diseño adaptativo y desplazamiento suave respetando `prefers-reduced-motion`.
+   - **Footer institucional uniforme**: Estandarización del pie de página con licencia Creative Commons CC BY-NC-ND 4.0 y créditos de autoría en las 65 páginas de la plataforma.
 
 ---
 

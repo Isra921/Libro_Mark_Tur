@@ -15,7 +15,8 @@
         'autores-modal.js',     // Ventana emergente de Autores
         'glosario-modal.js',    // Ventana emergente de Glosario
         'actividades-modal.js', // Ventana emergente de Actividades
-        'plan-estudios-modal.js'// Ventana emergente de Plan de Estudios
+        'plan-estudios-modal.js',// Ventana emergente de Plan de Estudios
+        'volver-arriba.js'      // Botón flotante para volver al inicio
     ];
 
     // Versión para evitar que navegadores móviles sirvan archivos antiguos en caché
