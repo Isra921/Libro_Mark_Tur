@@ -2741,6 +2741,13 @@ footer {
                 height: 60px;
             }
             .workbench-controls {
-                grid-template-columns: 1fr;
+                padding: 16px;
+            }
+            .workbench-action-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .btn-action-simulate {
+                width: 100%;
             }
         }
